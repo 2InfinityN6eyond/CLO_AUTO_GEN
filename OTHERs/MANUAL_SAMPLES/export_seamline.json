@@ -1,0 +1,9612 @@
+{
+"FabricList" : [ {
+"FabricName" : "V1_Cut_Sew_Knit_Rib_2X2_468gsm",
+"FabricType" : "Knit",
+"FabricContent" : "95% Cotton, 5% Polyurethane",
+"strBaseColorHexCode" : "#FFFFFF",
+"FabricUUID" : "aaaYvs"
+} ],
+"GradingRuleTableList" : [  ],
+"PatternList" : [ {
+"Name" : "Pattern_47681",
+"fGrainlineAngle" : 0.0,
+"ID" : "e1KYFe",
+"strSuperImposeSide" : "None",
+"CurrentFabricUUID" : "aaaYvs",
+"IsClosed" : true,
+"InternalLineList" : [  ],
+"ButtonHeadList" : [  ],
+"ButtonHoleList" : [  ],
+"AnnotationList" : [  ],
+"NotchList" : [  ],
+"IsHalfSymmetric" : false,
+"ShapeInfo" : {
+"IsSlashed" : false,
+"LineList" : [ {
+"ID" : "wbAgxV",
+"PointList" : [ {
+"ID" : "x0cIpV",
+"PointType" : "Straight",
+"Position" : {
+"x" : -137.547,
+"y" : -690.417
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "BdL3EE",
+"PointType" : "Straight",
+"Position" : {
+"x" : -137.547,
+"y" : -641.597
+},
+"GradingRuleID" : -1
+} ]
+}, {
+"ID" : "FmLpKA",
+"PointList" : [ {
+"ID" : "BdL3EE",
+"PointType" : "Straight",
+"Position" : {
+"x" : -137.547,
+"y" : -641.597
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "JKgUBJ",
+"PointType" : "Straight",
+"Position" : {
+"x" : -210.197,
+"y" : -641.597
+},
+"GradingRuleID" : -1
+} ]
+}, {
+"ID" : "yZQlmN",
+"PointList" : [ {
+"ID" : "JKgUBJ",
+"PointType" : "Straight",
+"Position" : {
+"x" : -210.197,
+"y" : -641.597
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "ZGfGMN",
+"PointType" : "Straight",
+"Position" : {
+"x" : -210.197,
+"y" : -690.417
+},
+"GradingRuleID" : -1
+} ]
+}, {
+"ID" : "LYaVGW",
+"PointList" : [ {
+"ID" : "ZGfGMN",
+"PointType" : "Straight",
+"Position" : {
+"x" : -210.197,
+"y" : -690.417
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "x0cIpV",
+"PointType" : "Straight",
+"Position" : {
+"x" : -137.547,
+"y" : -690.417
+},
+"GradingRuleID" : -1
+} ]
+} ]
+},
+"ArrangementPointDataMap" : {
+"PointName" : "Arm_Back_4_R",
+"fOffSetX" : -0.4,
+"fOffSetY" : 0.0,
+"fAngle" : 0.0
+}
+}, {
+"Name" : "Pattern_47732",
+"fGrainlineAngle" : 0.0,
+"ID" : "dEvm91",
+"strSuperImposeSide" : "None",
+"CurrentFabricUUID" : "aaaYvs",
+"IsClosed" : true,
+"InternalLineList" : [  ],
+"ButtonHeadList" : [  ],
+"ButtonHoleList" : [  ],
+"AnnotationList" : [  ],
+"NotchList" : [  ],
+"IsHalfSymmetric" : false,
+"ShapeInfo" : {
+"IsSlashed" : false,
+"LineList" : [ {
+"ID" : "0TCTGZ",
+"PointList" : [ {
+"ID" : "Xzvtsi",
+"PointType" : "Straight",
+"Position" : {
+"x" : -137.547,
+"y" : -690.417
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "GGHzxs",
+"PointType" : "Straight",
+"Position" : {
+"x" : -64.8963,
+"y" : -690.417
+},
+"GradingRuleID" : -1
+} ]
+}, {
+"ID" : "BoV3ee",
+"PointList" : [ {
+"ID" : "GGHzxs",
+"PointType" : "Straight",
+"Position" : {
+"x" : -64.8963,
+"y" : -690.417
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "lNu07p",
+"PointType" : "Straight",
+"Position" : {
+"x" : -64.8963,
+"y" : -641.597
+},
+"GradingRuleID" : -1
+} ]
+}, {
+"ID" : "6V9YjK",
+"PointList" : [ {
+"ID" : "lNu07p",
+"PointType" : "Straight",
+"Position" : {
+"x" : -64.8963,
+"y" : -641.597
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "AVIlZl",
+"PointType" : "Straight",
+"Position" : {
+"x" : -137.547,
+"y" : -641.597
+},
+"GradingRuleID" : -1
+} ]
+}, {
+"ID" : "uDVORi",
+"PointList" : [ {
+"ID" : "AVIlZl",
+"PointType" : "Straight",
+"Position" : {
+"x" : -137.547,
+"y" : -641.597
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "Xzvtsi",
+"PointType" : "Straight",
+"Position" : {
+"x" : -137.547,
+"y" : -690.417
+},
+"GradingRuleID" : -1
+} ]
+} ]
+},
+"ArrangementPointDataMap" : {
+"PointName" : "Arm_Front_4_R",
+"fOffSetX" : 0.15,
+"fOffSetY" : 0.0,
+"fAngle" : 0.0
+}
+}, {
+"Name" : "Pattern_47783",
+"fGrainlineAngle" : 0.0,
+"ID" : "MVggsp",
+"strSuperImposeSide" : "None",
+"CurrentFabricUUID" : "aaaYvs",
+"IsClosed" : true,
+"InternalLineList" : [  ],
+"ButtonHeadList" : [  ],
+"ButtonHoleList" : [  ],
+"AnnotationList" : [  ],
+"NotchList" : [  ],
+"IsHalfSymmetric" : false,
+"ShapeInfo" : {
+"IsSlashed" : false,
+"LineList" : [ {
+"ID" : "oVBcSZ",
+"PointList" : [ {
+"ID" : "qTpif8",
+"PointType" : "Straight",
+"Position" : {
+"x" : 950.349,
+"y" : -673.54
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "n44Rsu",
+"PointType" : "Straight",
+"Position" : {
+"x" : 950.349,
+"y" : -459.055
+},
+"GradingRuleID" : -1
+} ]
+}, {
+"ID" : "oEGVhQ",
+"PointList" : [ {
+"ID" : "n44Rsu",
+"PointType" : "Straight",
+"Position" : {
+"x" : 950.349,
+"y" : -459.055
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "4dT9fp",
+"PointType" : "Bezier Curve",
+"Position" : {
+"x" : 811.292,
+"y" : -460.606
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "KN1a5z",
+"PointType" : "Bezier Curve",
+"Position" : {
+"x" : 768.328,
+"y" : -541.941
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "zVu6rJ",
+"PointType" : "Straight",
+"Position" : {
+"x" : 672.911,
+"y" : -578.439
+},
+"GradingRuleID" : -1
+} ]
+}, {
+"ID" : "Gzm0Tr",
+"PointList" : [ {
+"ID" : "zVu6rJ",
+"PointType" : "Straight",
+"Position" : {
+"x" : 672.911,
+"y" : -578.439
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "KFgFpe",
+"PointType" : "Straight",
+"Position" : {
+"x" : 758.669,
+"y" : -673.54
+},
+"GradingRuleID" : -1
+} ]
+}, {
+"ID" : "vBSpvm",
+"PointList" : [ {
+"ID" : "KFgFpe",
+"PointType" : "Straight",
+"Position" : {
+"x" : 758.669,
+"y" : -673.54
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "qTpif8",
+"PointType" : "Straight",
+"Position" : {
+"x" : 950.349,
+"y" : -673.54
+},
+"GradingRuleID" : -1
+} ]
+} ]
+},
+"ArrangementPointDataMap" : {
+"PointName" : "Arm_Back_1_R",
+"fOffSetX" : -0.4,
+"fOffSetY" : 0.3,
+"fAngle" : 0.0
+}
+}, {
+"Name" : "Pattern_48154",
+"fGrainlineAngle" : 0.0,
+"ID" : "MOzT1m",
+"strSuperImposeSide" : "None",
+"CurrentFabricUUID" : "aaaYvs",
+"IsClosed" : true,
+"InternalLineList" : [  ],
+"ButtonHeadList" : [  ],
+"ButtonHoleList" : [  ],
+"AnnotationList" : [  ],
+"NotchList" : [  ],
+"IsHalfSymmetric" : false,
+"ShapeInfo" : {
+"IsSlashed" : false,
+"LineList" : [ {
+"ID" : "qKmOva",
+"PointList" : [ {
+"ID" : "7SDVTH",
+"PointType" : "Straight",
+"Position" : {
+"x" : -412.64,
+"y" : -690.417
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "VNpQy2",
+"PointType" : "Straight",
+"Position" : {
+"x" : -222.58,
+"y" : -690.417
+},
+"GradingRuleID" : -1
+} ]
+}, {
+"ID" : "LEp9dR",
+"PointList" : [ {
+"ID" : "VNpQy2",
+"PointType" : "Straight",
+"Position" : {
+"x" : -222.58,
+"y" : -690.417
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "eDqKwO",
+"PointType" : "Straight",
+"Position" : {
+"x" : -137.547,
+"y" : -595.316
+},
+"GradingRuleID" : -1
+} ]
+}, {
+"ID" : "8EJ2H8",
+"PointList" : [ {
+"ID" : "eDqKwO",
+"PointType" : "Straight",
+"Position" : {
+"x" : -137.547,
+"y" : -595.316
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "BRa69R",
+"PointType" : "Bezier Curve",
+"Position" : {
+"x" : -229.548,
+"y" : -558.847
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "Lrmcxy",
+"PointType" : "Bezier Curve",
+"Position" : {
+"x" : -280.467,
+"y" : -475.982
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "lVupkj",
+"PointType" : "Straight",
+"Position" : {
+"x" : -412.64,
+"y" : -475.932
+},
+"GradingRuleID" : -1
+} ]
+}, {
+"ID" : "W5d7G1",
+"PointList" : [ {
+"ID" : "lVupkj",
+"PointType" : "Straight",
+"Position" : {
+"x" : -412.64,
+"y" : -475.932
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "7SDVTH",
+"PointType" : "Straight",
+"Position" : {
+"x" : -412.64,
+"y" : -690.417
+},
+"GradingRuleID" : -1
+} ]
+} ]
+},
+"ArrangementPointDataMap" : {
+"PointName" : "Arm_Front_1_R",
+"fOffSetX" : 0.15,
+"fOffSetY" : 0.3,
+"fAngle" : 0.0
+}
+}, {
+"Name" : "Pattern_48525",
+"fGrainlineAngle" : 0.0,
+"ID" : "wf2O8N",
+"strSuperImposeSide" : "None",
+"CurrentFabricUUID" : "aaaYvs",
+"IsClosed" : true,
+"InternalLineList" : [  ],
+"ButtonHeadList" : [  ],
+"ButtonHoleList" : [  ],
+"AnnotationList" : [  ],
+"NotchList" : [  ],
+"IsHalfSymmetric" : false,
+"ShapeInfo" : {
+"IsSlashed" : false,
+"LineList" : [ {
+"ID" : "T0gZ3u",
+"PointList" : [ {
+"ID" : "EAoNw6",
+"PointType" : "Straight",
+"Position" : {
+"x" : -348.744,
+"y" : -667.601
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "xTga8l",
+"PointType" : "Bezier Curve",
+"Position" : {
+"x" : -322.702,
+"y" : -667.601
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "UqyDaE",
+"PointType" : "Bezier Curve",
+"Position" : {
+"x" : -322.702,
+"y" : -667.601
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "yVtL00",
+"PointType" : "Straight",
+"Position" : {
+"x" : -296.751,
+"y" : -668.969
+},
+"GradingRuleID" : -1
+} ]
+}, {
+"ID" : "81t1pf",
+"PointList" : [ {
+"ID" : "yVtL00",
+"PointType" : "Straight",
+"Position" : {
+"x" : -296.751,
+"y" : -668.969
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "shkTUu",
+"PointType" : "Straight",
+"Position" : {
+"x" : -280.337,
+"y" : -560.136
+},
+"GradingRuleID" : -1
+} ]
+}, {
+"ID" : "ZwWyBu",
+"PointList" : [ {
+"ID" : "shkTUu",
+"PointType" : "Straight",
+"Position" : {
+"x" : -280.337,
+"y" : -560.136
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "uf1D5d",
+"PointType" : "Straight",
+"Position" : {
+"x" : -277.599,
+"y" : -670.166
+},
+"GradingRuleID" : -1
+} ]
+}, {
+"ID" : "3o2AWm",
+"PointList" : [ {
+"ID" : "uf1D5d",
+"PointType" : "Straight",
+"Position" : {
+"x" : -277.599,
+"y" : -670.166
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "ViyZ2k",
+"PointType" : "Bezier Curve",
+"Position" : {
+"x" : -260.311,
+"y" : -671.415
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "f7Zb1c",
+"PointType" : "Bezier Curve",
+"Position" : {
+"x" : -260.311,
+"y" : -671.415
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "o9kQPj",
+"PointType" : "Straight",
+"Position" : {
+"x" : -243.063,
+"y" : -673.273
+},
+"GradingRuleID" : -1
+} ]
+}, {
+"ID" : "9thqDR",
+"PointList" : [ {
+"ID" : "o9kQPj",
+"PointType" : "Straight",
+"Position" : {
+"x" : -243.063,
+"y" : -673.273
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "TK4lRM",
+"PointType" : "Straight",
+"Position" : {
+"x" : -222.022,
+"y" : -576.476
+},
+"GradingRuleID" : -1
+} ]
+}, {
+"ID" : "d8xvJd",
+"PointList" : [ {
+"ID" : "TK4lRM",
+"PointType" : "Straight",
+"Position" : {
+"x" : -222.022,
+"y" : -576.476
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "mqAETv",
+"PointType" : "Straight",
+"Position" : {
+"x" : -224.005,
+"y" : -675.514
+},
+"GradingRuleID" : -1
+} ]
+}, {
+"ID" : "BQIuve",
+"PointList" : [ {
+"ID" : "mqAETv",
+"PointType" : "Straight",
+"Position" : {
+"x" : -224.005,
+"y" : -675.514
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "h03WHS",
+"PointType" : "Bezier Curve",
+"Position" : {
+"x" : -184.469,
+"y" : -681.206
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "wrre63",
+"PointType" : "Bezier Curve",
+"Position" : {
+"x" : -184.469,
+"y" : -681.206
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "KprCxM",
+"PointType" : "Straight",
+"Position" : {
+"x" : -145.222,
+"y" : -690.417
+},
+"GradingRuleID" : -1
+} ]
+}, {
+"ID" : "HLTHXD",
+"PointList" : [ {
+"ID" : "KprCxM",
+"PointType" : "Straight",
+"Position" : {
+"x" : -145.222,
+"y" : -690.417
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "xOYtKC",
+"PointType" : "Straight",
+"Position" : {
+"x" : -137.547,
+"y" : -558.403
+},
+"GradingRuleID" : -1
+} ]
+}, {
+"ID" : "jYqbmR",
+"PointList" : [ {
+"ID" : "xOYtKC",
+"PointType" : "Straight",
+"Position" : {
+"x" : -137.547,
+"y" : -558.403
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "x87C5S",
+"PointType" : "Straight",
+"Position" : {
+"x" : -137.547,
+"y" : -552.275
+},
+"GradingRuleID" : -1
+} ]
+}, {
+"ID" : "JRnVPb",
+"PointList" : [ {
+"ID" : "x87C5S",
+"PointType" : "Straight",
+"Position" : {
+"x" : -137.547,
+"y" : -552.275
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "xMkCGj",
+"PointType" : "Bezier Curve",
+"Position" : {
+"x" : -212.413,
+"y" : -537.025
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "qBR7Hq",
+"PointType" : "Bezier Curve",
+"Position" : {
+"x" : -203.198,
+"y" : -474.124
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "R6Mk0W",
+"PointType" : "Straight",
+"Position" : {
+"x" : -196.842,
+"y" : -372.255
+},
+"GradingRuleID" : -1
+} ]
+}, {
+"ID" : "3WyLvZ",
+"PointList" : [ {
+"ID" : "R6Mk0W",
+"PointType" : "Straight",
+"Position" : {
+"x" : -196.842,
+"y" : -372.255
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "NUGhej",
+"PointType" : "Straight",
+"Position" : {
+"x" : -304.893,
+"y" : -325.562
+},
+"GradingRuleID" : -1
+} ]
+}, {
+"ID" : "ivs9HU",
+"PointList" : [ {
+"ID" : "NUGhej",
+"PointType" : "Straight",
+"Position" : {
+"x" : -304.893,
+"y" : -325.562
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "DJiHrF",
+"PointType" : "Straight",
+"Position" : {
+"x" : -342.306,
+"y" : -440.708
+},
+"GradingRuleID" : -1
+} ]
+}, {
+"ID" : "S10vVw",
+"PointList" : [ {
+"ID" : "DJiHrF",
+"PointType" : "Straight",
+"Position" : {
+"x" : -342.306,
+"y" : -440.708
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "1AZn8L",
+"PointType" : "Straight",
+"Position" : {
+"x" : -348.744,
+"y" : -440.708
+},
+"GradingRuleID" : -1
+} ]
+}, {
+"ID" : "VOaVq6",
+"PointList" : [ {
+"ID" : "1AZn8L",
+"PointType" : "Straight",
+"Position" : {
+"x" : -348.744,
+"y" : -440.708
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "EAoNw6",
+"PointType" : "Straight",
+"Position" : {
+"x" : -348.744,
+"y" : -667.601
+},
+"GradingRuleID" : -1
+} ]
+} ]
+},
+"ArrangementPointDataMap" : {
+"PointName" : "Body_Back_2_R",
+"fOffSetX" : -0.22,
+"fOffSetY" : 0.3,
+"fAngle" : 0.0
+}
+}, {
+"Name" : "Pattern_49536",
+"fGrainlineAngle" : 0.0,
+"ID" : "GlYD7g",
+"strSuperImposeSide" : "None",
+"CurrentFabricUUID" : "aaaYvs",
+"IsClosed" : true,
+"InternalLineList" : [  ],
+"ButtonHeadList" : [  ],
+"ButtonHoleList" : [  ],
+"AnnotationList" : [  ],
+"NotchList" : [  ],
+"IsHalfSymmetric" : false,
+"ShapeInfo" : {
+"IsSlashed" : false,
+"LineList" : [ {
+"ID" : "jLfTec",
+"PointList" : [ {
+"ID" : "sLHggN",
+"PointType" : "Straight",
+"Position" : {
+"x" : 502.617,
+"y" : -701.145
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "0kQxn1",
+"PointType" : "Straight",
+"Position" : {
+"x" : 502.617,
+"y" : -431.504
+},
+"GradingRuleID" : -1
+} ]
+}, {
+"ID" : "v7DFMR",
+"PointList" : [ {
+"ID" : "0kQxn1",
+"PointType" : "Straight",
+"Position" : {
+"x" : 502.617,
+"y" : -431.504
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "ru77Xw",
+"PointType" : "Straight",
+"Position" : {
+"x" : 425.312,
+"y" : -431.504
+},
+"GradingRuleID" : -1
+} ]
+}, {
+"ID" : "oaUczG",
+"PointList" : [ {
+"ID" : "ru77Xw",
+"PointType" : "Straight",
+"Position" : {
+"x" : 425.312,
+"y" : -431.504
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "nqKIsK",
+"PointType" : "Straight",
+"Position" : {
+"x" : 458.766,
+"y" : -314.835
+},
+"GradingRuleID" : -1
+} ]
+}, {
+"ID" : "zlwbYr",
+"PointList" : [ {
+"ID" : "nqKIsK",
+"PointType" : "Straight",
+"Position" : {
+"x" : 458.766,
+"y" : -314.835
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "oYgPkG",
+"PointType" : "Straight",
+"Position" : {
+"x" : 351.789,
+"y" : -361.064
+},
+"GradingRuleID" : -1
+} ]
+}, {
+"ID" : "Qhp4dR",
+"PointList" : [ {
+"ID" : "oYgPkG",
+"PointType" : "Straight",
+"Position" : {
+"x" : 351.789,
+"y" : -361.064
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "s3H2lm",
+"PointType" : "Bezier Curve",
+"Position" : {
+"x" : 360.182,
+"y" : -462.118
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "dPpaqF",
+"PointType" : "Bezier Curve",
+"Position" : {
+"x" : 370.619,
+"y" : -524.407
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "aPK11k",
+"PointType" : "Straight",
+"Position" : {
+"x" : 296.568,
+"y" : -541.084
+},
+"GradingRuleID" : -1
+} ]
+}, {
+"ID" : "vEUhgR",
+"PointList" : [ {
+"ID" : "aPK11k",
+"PointType" : "Straight",
+"Position" : {
+"x" : 296.568,
+"y" : -541.084
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "zKQkwk",
+"PointType" : "Straight",
+"Position" : {
+"x" : 294.857,
+"y" : -547.676
+},
+"GradingRuleID" : -1
+} ]
+}, {
+"ID" : "Y8vEIR",
+"PointList" : [ {
+"ID" : "zKQkwk",
+"PointType" : "Straight",
+"Position" : {
+"x" : 294.857,
+"y" : -547.676
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "OXI4FN",
+"PointType" : "Straight",
+"Position" : {
+"x" : 397.322,
+"y" : -558.403
+},
+"GradingRuleID" : -1
+} ]
+}, {
+"ID" : "nteW03",
+"PointList" : [ {
+"ID" : "OXI4FN",
+"PointType" : "Straight",
+"Position" : {
+"x" : 397.322,
+"y" : -558.403
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "LPVIJm",
+"PointType" : "Straight",
+"Position" : {
+"x" : 294.857,
+"y" : -569.131
+},
+"GradingRuleID" : -1
+} ]
+}, {
+"ID" : "NhS6bW",
+"PointList" : [ {
+"ID" : "LPVIJm",
+"PointType" : "Straight",
+"Position" : {
+"x" : 294.857,
+"y" : -569.131
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "i6DvEm",
+"PointType" : "Straight",
+"Position" : {
+"x" : 298.85,
+"y" : -701.145
+},
+"GradingRuleID" : -1
+} ]
+}, {
+"ID" : "IdLFFk",
+"PointList" : [ {
+"ID" : "i6DvEm",
+"PointType" : "Straight",
+"Position" : {
+"x" : 298.85,
+"y" : -701.145
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "oRth9c",
+"PointType" : "Straight",
+"Position" : {
+"x" : 424.239,
+"y" : -701.145
+},
+"GradingRuleID" : -1
+} ]
+}, {
+"ID" : "EcROvj",
+"PointList" : [ {
+"ID" : "oRth9c",
+"PointType" : "Straight",
+"Position" : {
+"x" : 424.239,
+"y" : -701.145
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "Qzpbdg",
+"PointType" : "Straight",
+"Position" : {
+"x" : 428.231,
+"y" : -582.399
+},
+"GradingRuleID" : -1
+} ]
+}, {
+"ID" : "UGurK0",
+"PointList" : [ {
+"ID" : "Qzpbdg",
+"PointType" : "Straight",
+"Position" : {
+"x" : 428.231,
+"y" : -582.399
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "4qWibQ",
+"PointType" : "Straight",
+"Position" : {
+"x" : 432.224,
+"y" : -701.145
+},
+"GradingRuleID" : -1
+} ]
+}, {
+"ID" : "jjoKgz",
+"PointList" : [ {
+"ID" : "4qWibQ",
+"PointType" : "Straight",
+"Position" : {
+"x" : 432.224,
+"y" : -701.145
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "sLHggN",
+"PointType" : "Straight",
+"Position" : {
+"x" : 502.617,
+"y" : -701.145
+},
+"GradingRuleID" : -1
+} ]
+} ]
+},
+"ArrangementPointDataMap" : {
+"PointName" : "Body_Front_3_R",
+"fOffSetX" : -0.48,
+"fOffSetY" : 0.2,
+"fAngle" : 0.0
+}
+}, {
+"Name" : "Pattern_49997",
+"fGrainlineAngle" : 0.0,
+"ID" : "XBTPgj",
+"strSuperImposeSide" : "None",
+"CurrentFabricUUID" : "aaaYvs",
+"IsClosed" : true,
+"InternalLineList" : [  ],
+"ButtonHeadList" : [  ],
+"ButtonHoleList" : [  ],
+"AnnotationList" : [  ],
+"NotchList" : [  ],
+"IsHalfSymmetric" : false,
+"ShapeInfo" : {
+"IsSlashed" : false,
+"LineList" : [ {
+"ID" : "4XbUbH",
+"PointList" : [ {
+"ID" : "qWFyAy",
+"PointType" : "Straight",
+"Position" : {
+"x" : -149.426,
+"y" : -650.807
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "qf8G6P",
+"PointType" : "Bezier Curve",
+"Position" : {
+"x" : -174.921,
+"y" : -658.453
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "XmwSf4",
+"PointType" : "Bezier Curve",
+"Position" : {
+"x" : -200.923,
+"y" : -664.294
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "kylr5K",
+"PointType" : "Straight",
+"Position" : {
+"x" : -227.239,
+"y" : -668.286
+},
+"GradingRuleID" : -1
+} ]
+}, {
+"ID" : "di1IXa",
+"PointList" : [ {
+"ID" : "kylr5K",
+"PointType" : "Straight",
+"Position" : {
+"x" : -227.239,
+"y" : -668.286
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "cG6tvX",
+"PointType" : "Bezier Curve",
+"Position" : {
+"x" : -238.613,
+"y" : -670.011
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "EQMRad",
+"PointType" : "Bezier Curve",
+"Position" : {
+"x" : -250.037,
+"y" : -671.39
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "itz6IZ",
+"PointType" : "Straight",
+"Position" : {
+"x" : -261.494,
+"y" : -672.42
+},
+"GradingRuleID" : -1
+} ]
+}, {
+"ID" : "03jbJt",
+"PointList" : [ {
+"ID" : "itz6IZ",
+"PointType" : "Straight",
+"Position" : {
+"x" : -261.494,
+"y" : -672.42
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "d1mEtT",
+"PointType" : "Bezier Curve",
+"Position" : {
+"x" : -278.683,
+"y" : -673.965
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "4ReAQz",
+"PointType" : "Bezier Curve",
+"Position" : {
+"x" : -295.933,
+"y" : -674.724
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "6MxstN",
+"PointType" : "Straight",
+"Position" : {
+"x" : -313.191,
+"y" : -674.696
+},
+"GradingRuleID" : -1
+} ]
+}, {
+"ID" : "7DGGFe",
+"PointList" : [ {
+"ID" : "6MxstN",
+"PointType" : "Straight",
+"Position" : {
+"x" : -313.191,
+"y" : -674.696
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "Bw6XRY",
+"PointType" : "Bezier Curve",
+"Position" : {
+"x" : -330.449,
+"y" : -674.667
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "ENXWDA",
+"PointType" : "Bezier Curve",
+"Position" : {
+"x" : -347.697,
+"y" : -673.85
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "SzwHkw",
+"PointType" : "Straight",
+"Position" : {
+"x" : -364.88,
+"y" : -672.247
+},
+"GradingRuleID" : -1
+} ]
+}, {
+"ID" : "kIwoEx",
+"PointList" : [ {
+"ID" : "SzwHkw",
+"PointType" : "Straight",
+"Position" : {
+"x" : -364.88,
+"y" : -672.247
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "EZ9m6t",
+"PointType" : "Bezier Curve",
+"Position" : {
+"x" : -376.335,
+"y" : -671.178
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "vMK3QF",
+"PointType" : "Bezier Curve",
+"Position" : {
+"x" : -387.754,
+"y" : -669.761
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "biSLJ0",
+"PointType" : "Straight",
+"Position" : {
+"x" : -399.122,
+"y" : -667.998
+},
+"GradingRuleID" : -1
+} ]
+}, {
+"ID" : "0Vyqda",
+"PointList" : [ {
+"ID" : "biSLJ0",
+"PointType" : "Straight",
+"Position" : {
+"x" : -399.122,
+"y" : -667.998
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "FjX6Pw",
+"PointType" : "Bezier Curve",
+"Position" : {
+"x" : -424.799,
+"y" : -664.015
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "29rIyC",
+"PointType" : "Bezier Curve",
+"Position" : {
+"x" : -450.171,
+"y" : -658.271
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "ghqp3X",
+"PointType" : "Straight",
+"Position" : {
+"x" : -475.06,
+"y" : -650.807
+},
+"GradingRuleID" : -1
+} ]
+}, {
+"ID" : "r1a4NF",
+"PointList" : [ {
+"ID" : "ghqp3X",
+"PointType" : "Straight",
+"Position" : {
+"x" : -475.06,
+"y" : -650.807
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "kObD5I",
+"PointType" : "Straight",
+"Position" : {
+"x" : -486.939,
+"y" : -690.417
+},
+"GradingRuleID" : -1
+} ]
+}, {
+"ID" : "3IxZ73",
+"PointList" : [ {
+"ID" : "kObD5I",
+"PointType" : "Straight",
+"Position" : {
+"x" : -486.939,
+"y" : -690.417
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "wFYvSn",
+"PointType" : "Bezier Curve",
+"Position" : {
+"x" : -372.983,
+"y" : -724.594
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "LMgdx5",
+"PointType" : "Bezier Curve",
+"Position" : {
+"x" : -251.504,
+"y" : -724.594
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "JYZjlh",
+"PointType" : "Straight",
+"Position" : {
+"x" : -137.547,
+"y" : -690.417
+},
+"GradingRuleID" : -1
+} ]
+}, {
+"ID" : "KMtLrM",
+"PointList" : [ {
+"ID" : "JYZjlh",
+"PointType" : "Straight",
+"Position" : {
+"x" : -137.547,
+"y" : -690.417
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "qWFyAy",
+"PointType" : "Straight",
+"Position" : {
+"x" : -149.426,
+"y" : -650.807
+},
+"GradingRuleID" : -1
+} ]
+} ]
+},
+"ArrangementPointDataMap" : {
+"PointName" : "Body_Back_Center_6",
+"fOffSetX" : 0.12,
+"fOffSetY" : 0.0,
+"fAngle" : 0.0
+}
+}, {
+"Name" : "Pattern_51548",
+"fGrainlineAngle" : 0.0,
+"ID" : "8uJoeb",
+"strSuperImposeSide" : "None",
+"CurrentFabricUUID" : "aaaYvs",
+"IsClosed" : true,
+"InternalLineList" : [  ],
+"ButtonHeadList" : [  ],
+"ButtonHoleList" : [  ],
+"AnnotationList" : [  ],
+"NotchList" : [  ],
+"IsHalfSymmetric" : false,
+"ShapeInfo" : {
+"IsSlashed" : false,
+"LineList" : [ {
+"ID" : "B9Y6Hc",
+"PointList" : [ {
+"ID" : "LjL6Tz",
+"PointType" : "Straight",
+"Position" : {
+"x" : -136.188,
+"y" : -649.086
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "T4VeGX",
+"PointType" : "Straight",
+"Position" : {
+"x" : -137.547,
+"y" : -690.417
+},
+"GradingRuleID" : -1
+} ]
+}, {
+"ID" : "TedwGY",
+"PointList" : [ {
+"ID" : "T4VeGX",
+"PointType" : "Straight",
+"Position" : {
+"x" : -137.547,
+"y" : -690.417
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "Ai61iI",
+"PointType" : "Bezier Curve",
+"Position" : {
+"x" : -6.17877,
+"y" : -694.735
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "4DqGGD",
+"PointType" : "Bezier Curve",
+"Position" : {
+"x" : 125.296,
+"y" : -694.735
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "vEWYEy",
+"PointType" : "Straight",
+"Position" : {
+"x" : 256.663,
+"y" : -690.417
+},
+"GradingRuleID" : -1
+} ]
+}, {
+"ID" : "54Kf6w",
+"PointList" : [ {
+"ID" : "vEWYEy",
+"PointType" : "Straight",
+"Position" : {
+"x" : 256.663,
+"y" : -690.417
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "2Waef6",
+"PointType" : "Straight",
+"Position" : {
+"x" : 255.305,
+"y" : -649.086
+},
+"GradingRuleID" : -1
+} ]
+}, {
+"ID" : "AVqpJB",
+"PointList" : [ {
+"ID" : "2Waef6",
+"PointType" : "Straight",
+"Position" : {
+"x" : 255.305,
+"y" : -649.086
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "KyVKzz",
+"PointType" : "Bezier Curve",
+"Position" : {
+"x" : 213.101,
+"y" : -650.473
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "YZnrpR",
+"PointType" : "Bezier Curve",
+"Position" : {
+"x" : 170.884,
+"y" : -651.411
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "IpcjpQ",
+"PointType" : "Straight",
+"Position" : {
+"x" : 128.66,
+"y" : -651.901
+},
+"GradingRuleID" : -1
+} ]
+}, {
+"ID" : "pr0zlC",
+"PointList" : [ {
+"ID" : "IpcjpQ",
+"PointType" : "Straight",
+"Position" : {
+"x" : 128.66,
+"y" : -651.901
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "HAqvxm",
+"PointType" : "Bezier Curve",
+"Position" : {
+"x" : 105.311,
+"y" : -652.172
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "w9Nf9D",
+"PointType" : "Bezier Curve",
+"Position" : {
+"x" : 81.9606,
+"y" : -652.305
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "YvBEAj",
+"PointType" : "Straight",
+"Position" : {
+"x" : 58.61,
+"y" : -652.302
+},
+"GradingRuleID" : -1
+} ]
+}, {
+"ID" : "8oeutL",
+"PointList" : [ {
+"ID" : "YvBEAj",
+"PointType" : "Straight",
+"Position" : {
+"x" : 58.61,
+"y" : -652.302
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "cTR3gu",
+"PointType" : "Bezier Curve",
+"Position" : {
+"x" : 35.2593,
+"y" : -652.298
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "bGuucb",
+"PointType" : "Bezier Curve",
+"Position" : {
+"x" : 11.9089,
+"y" : -652.157
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "MJXCFD",
+"PointType" : "Straight",
+"Position" : {
+"x" : -11.4401,
+"y" : -651.879
+},
+"GradingRuleID" : -1
+} ]
+}, {
+"ID" : "ECS5Gk",
+"PointList" : [ {
+"ID" : "MJXCFD",
+"PointType" : "Straight",
+"Position" : {
+"x" : -11.4401,
+"y" : -651.879
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "TyW2xX",
+"PointType" : "Bezier Curve",
+"Position" : {
+"x" : -53.0314,
+"y" : -651.383
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "bK6fiv",
+"PointType" : "Bezier Curve",
+"Position" : {
+"x" : -94.6164,
+"y" : -650.452
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "LjL6Tz",
+"PointType" : "Straight",
+"Position" : {
+"x" : -136.188,
+"y" : -649.086
+},
+"GradingRuleID" : -1
+} ]
+} ]
+},
+"ArrangementPointDataMap" : {
+"PointName" : "Body_Front_Center_6",
+"fOffSetX" : -0.38,
+"fOffSetY" : -0.1,
+"fAngle" : 0.0
+}
+}, {
+"Name" : "Pattern_54698",
+"fGrainlineAngle" : 0.0,
+"ID" : "NyIXbd",
+"strSuperImposeSide" : "None",
+"CurrentFabricUUID" : "aaaYvs",
+"IsClosed" : true,
+"InternalLineList" : [  ],
+"ButtonHeadList" : [  ],
+"ButtonHoleList" : [  ],
+"AnnotationList" : [  ],
+"NotchList" : [  ],
+"IsHalfSymmetric" : false,
+"ShapeInfo" : {
+"IsSlashed" : false,
+"LineList" : [ {
+"ID" : "Cl1ech",
+"PointList" : [ {
+"ID" : "lqVta1",
+"PointType" : "Straight",
+"Position" : {
+"x" : -210.197,
+"y" : -690.417
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "pXIYdD",
+"PointType" : "Straight",
+"Position" : {
+"x" : -137.547,
+"y" : -690.417
+},
+"GradingRuleID" : -1
+} ]
+}, {
+"ID" : "cH8uwN",
+"PointList" : [ {
+"ID" : "pXIYdD",
+"PointType" : "Straight",
+"Position" : {
+"x" : -137.547,
+"y" : -690.417
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "PxjKs8",
+"PointType" : "Straight",
+"Position" : {
+"x" : -137.547,
+"y" : -641.597
+},
+"GradingRuleID" : -1
+} ]
+}, {
+"ID" : "iRZMUN",
+"PointList" : [ {
+"ID" : "PxjKs8",
+"PointType" : "Straight",
+"Position" : {
+"x" : -137.547,
+"y" : -641.597
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "9Bn9cx",
+"PointType" : "Straight",
+"Position" : {
+"x" : -210.197,
+"y" : -641.597
+},
+"GradingRuleID" : -1
+} ]
+}, {
+"ID" : "QtGCk2",
+"PointList" : [ {
+"ID" : "9Bn9cx",
+"PointType" : "Straight",
+"Position" : {
+"x" : -210.197,
+"y" : -641.597
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "lqVta1",
+"PointType" : "Straight",
+"Position" : {
+"x" : -210.197,
+"y" : -690.417
+},
+"GradingRuleID" : -1
+} ]
+} ]
+},
+"ArrangementPointDataMap" : {
+"PointName" : "Arm_Back_4_L",
+"fOffSetX" : -0.15,
+"fOffSetY" : 0.0,
+"fAngle" : 0.0
+}
+}, {
+"Name" : "Pattern_54749",
+"fGrainlineAngle" : 0.0,
+"ID" : "nPMPK4",
+"strSuperImposeSide" : "None",
+"CurrentFabricUUID" : "aaaYvs",
+"IsClosed" : true,
+"InternalLineList" : [  ],
+"ButtonHeadList" : [  ],
+"ButtonHoleList" : [  ],
+"AnnotationList" : [  ],
+"NotchList" : [  ],
+"IsHalfSymmetric" : false,
+"ShapeInfo" : {
+"IsSlashed" : false,
+"LineList" : [ {
+"ID" : "G45U04",
+"PointList" : [ {
+"ID" : "uL5zIW",
+"PointType" : "Straight",
+"Position" : {
+"x" : -64.8963,
+"y" : -690.417
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "PaWari",
+"PointType" : "Straight",
+"Position" : {
+"x" : -64.8963,
+"y" : -641.597
+},
+"GradingRuleID" : -1
+} ]
+}, {
+"ID" : "gxSn9P",
+"PointList" : [ {
+"ID" : "PaWari",
+"PointType" : "Straight",
+"Position" : {
+"x" : -64.8963,
+"y" : -641.597
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "s8UHRf",
+"PointType" : "Straight",
+"Position" : {
+"x" : -137.547,
+"y" : -641.597
+},
+"GradingRuleID" : -1
+} ]
+}, {
+"ID" : "gnfLIL",
+"PointList" : [ {
+"ID" : "s8UHRf",
+"PointType" : "Straight",
+"Position" : {
+"x" : -137.547,
+"y" : -641.597
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "cDph6V",
+"PointType" : "Straight",
+"Position" : {
+"x" : -137.547,
+"y" : -690.417
+},
+"GradingRuleID" : -1
+} ]
+}, {
+"ID" : "nHUxPL",
+"PointList" : [ {
+"ID" : "cDph6V",
+"PointType" : "Straight",
+"Position" : {
+"x" : -137.547,
+"y" : -690.417
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "uL5zIW",
+"PointType" : "Straight",
+"Position" : {
+"x" : -64.8963,
+"y" : -690.417
+},
+"GradingRuleID" : -1
+} ]
+} ]
+},
+"ArrangementPointDataMap" : {
+"PointName" : "Arm_Front_4_L",
+"fOffSetX" : 0.4,
+"fOffSetY" : 0.0,
+"fAngle" : 0.0
+}
+}, {
+"Name" : "Pattern_53498",
+"fGrainlineAngle" : 0.0,
+"ID" : "mEAmpO",
+"strSuperImposeSide" : "None",
+"CurrentFabricUUID" : "aaaYvs",
+"IsClosed" : true,
+"InternalLineList" : [ {
+"LineList" : [ {
+"ID" : "u8jvx3",
+"PointList" : [ {
+"ID" : "bb2Yki",
+"PointType" : "Straight",
+"Position" : {
+"x" : -71.2152,
+"y" : 917.304
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "1pxJnA",
+"PointType" : "Polyline",
+"Position" : {
+"x" : -81.4098,
+"y" : 919.917
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "uhmBPY",
+"PointType" : "Polyline",
+"Position" : {
+"x" : -94.4918,
+"y" : 924.645
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "fMUMhq",
+"PointType" : "Straight",
+"Position" : {
+"x" : -106.673,
+"y" : 931.351
+},
+"GradingRuleID" : -1
+} ]
+}, {
+"ID" : "eeegcf",
+"PointList" : [ {
+"ID" : "fMUMhq",
+"PointType" : "Straight",
+"Position" : {
+"x" : -106.673,
+"y" : 931.351
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "sACmTZ",
+"PointType" : "Straight",
+"Position" : {
+"x" : -111.714,
+"y" : 935.119
+},
+"GradingRuleID" : -1
+} ]
+}, {
+"ID" : "3gNwi9",
+"PointList" : [ {
+"ID" : "sACmTZ",
+"PointType" : "Straight",
+"Position" : {
+"x" : -111.714,
+"y" : 935.119
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "wrYSrO",
+"PointType" : "Straight",
+"Position" : {
+"x" : -116.262,
+"y" : 939.246
+},
+"GradingRuleID" : -1
+} ]
+}, {
+"ID" : "yGsaCg",
+"PointList" : [ {
+"ID" : "wrYSrO",
+"PointType" : "Straight",
+"Position" : {
+"x" : -116.262,
+"y" : 939.246
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "X8l0Dr",
+"PointType" : "Straight",
+"Position" : {
+"x" : -120.325,
+"y" : 943.721
+},
+"GradingRuleID" : -1
+} ]
+}, {
+"ID" : "sjKBI0",
+"PointList" : [ {
+"ID" : "X8l0Dr",
+"PointType" : "Straight",
+"Position" : {
+"x" : -120.325,
+"y" : 943.721
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "Y9x8BO",
+"PointType" : "Straight",
+"Position" : {
+"x" : -123.915,
+"y" : 948.53
+},
+"GradingRuleID" : -1
+} ]
+}, {
+"ID" : "VcGyxf",
+"PointList" : [ {
+"ID" : "Y9x8BO",
+"PointType" : "Straight",
+"Position" : {
+"x" : -123.915,
+"y" : 948.53
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "uB1EUI",
+"PointType" : "Straight",
+"Position" : {
+"x" : -127.046,
+"y" : 953.656
+},
+"GradingRuleID" : -1
+} ]
+}, {
+"ID" : "Egzv9D",
+"PointList" : [ {
+"ID" : "uB1EUI",
+"PointType" : "Straight",
+"Position" : {
+"x" : -127.046,
+"y" : 953.656
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "tka0nN",
+"PointType" : "Polyline",
+"Position" : {
+"x" : -130.822,
+"y" : 961.617
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "ocopTh",
+"PointType" : "Polyline",
+"Position" : {
+"x" : -133.677,
+"y" : 969.956
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "c0llUA",
+"PointType" : "Polyline",
+"Position" : {
+"x" : -135.755,
+"y" : 978.521
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "wqJV3Q",
+"PointType" : "Polyline",
+"Position" : {
+"x" : -137.184,
+"y" : 987.217
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "P9d2D4",
+"PointType" : "Polyline",
+"Position" : {
+"x" : -138.09,
+"y" : 995.985
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "lWVSg9",
+"PointType" : "Polyline",
+"Position" : {
+"x" : -138.58,
+"y" : 1004.79
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "QNXWwy",
+"PointType" : "Polyline",
+"Position" : {
+"x" : -137.669,
+"y" : 1043.91
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "VdNRoB",
+"PointType" : "Polyline",
+"Position" : {
+"x" : -134.59,
+"y" : 1082.93
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "WIqwpg",
+"PointType" : "Polyline",
+"Position" : {
+"x" : -133.725,
+"y" : 1092.97
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "939m9c",
+"PointType" : "Straight",
+"Position" : {
+"x" : -132.712,
+"y" : 1104.95
+},
+"GradingRuleID" : -1
+} ]
+} ],
+"ID" : "SuIiB0",
+"ShapeType" : 1,
+"IsClosed" : false,
+"FoldData" : {
+"iAngle" : 180,
+"iStrength" : 5,
+"bRenderFolded" : false
+}
+}, {
+"LineList" : [ {
+"ID" : "Ji9MgN",
+"PointList" : [ {
+"ID" : "ppQU6D",
+"PointType" : "Straight",
+"Position" : {
+"x" : -72.6503,
+"y" : 922.833
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "29cnOy",
+"PointType" : "Bezier Curve",
+"Position" : {
+"x" : -146.702,
+"y" : 939.51
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "DAAzW3",
+"PointType" : "Bezier Curve",
+"Position" : {
+"x" : -136.265,
+"y" : 1001.8
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "zM2qcg",
+"PointType" : "Straight",
+"Position" : {
+"x" : -127.871,
+"y" : 1102.85
+},
+"GradingRuleID" : -1
+} ]
+} ],
+"ID" : "viND3H",
+"ShapeType" : 1,
+"IsClosed" : false,
+"FoldData" : {
+"iAngle" : 180,
+"iStrength" : 5,
+"bRenderFolded" : false
+}
+}, {
+"LineList" : [ {
+"ID" : "VkYgXh",
+"PointList" : [ {
+"ID" : "w1yfQx",
+"PointType" : "Straight",
+"Position" : {
+"x" : -72.3633,
+"y" : 921.727
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "Z7Gki4",
+"PointType" : "Polyline",
+"Position" : {
+"x" : -83.5487,
+"y" : 924.753
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "nvp4KS",
+"PointType" : "Polyline",
+"Position" : {
+"x" : -94.3397,
+"y" : 928.971
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "A2x0Ah",
+"PointType" : "Straight",
+"Position" : {
+"x" : -104.424,
+"y" : 934.664
+},
+"GradingRuleID" : -1
+} ]
+}, {
+"ID" : "iuOq7K",
+"PointList" : [ {
+"ID" : "A2x0Ah",
+"PointType" : "Straight",
+"Position" : {
+"x" : -104.424,
+"y" : 934.664
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "N4uihl",
+"PointType" : "Straight",
+"Position" : {
+"x" : -109.167,
+"y" : 938.209
+},
+"GradingRuleID" : -1
+} ]
+}, {
+"ID" : "x4AkuB",
+"PointList" : [ {
+"ID" : "N4uihl",
+"PointType" : "Straight",
+"Position" : {
+"x" : -109.167,
+"y" : 938.209
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "xO2jpD",
+"PointType" : "Straight",
+"Position" : {
+"x" : -113.431,
+"y" : 942.078
+},
+"GradingRuleID" : -1
+} ]
+}, {
+"ID" : "9dMkTM",
+"PointList" : [ {
+"ID" : "xO2jpD",
+"PointType" : "Straight",
+"Position" : {
+"x" : -113.431,
+"y" : 942.078
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "k75ezw",
+"PointType" : "Straight",
+"Position" : {
+"x" : -117.235,
+"y" : 946.268
+},
+"GradingRuleID" : -1
+} ]
+}, {
+"ID" : "MoAIHR",
+"PointList" : [ {
+"ID" : "k75ezw",
+"PointType" : "Straight",
+"Position" : {
+"x" : -117.235,
+"y" : 946.268
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "2izmlz",
+"PointType" : "Straight",
+"Position" : {
+"x" : -120.598,
+"y" : 950.774
+},
+"GradingRuleID" : -1
+} ]
+}, {
+"ID" : "KVuBhv",
+"PointList" : [ {
+"ID" : "2izmlz",
+"PointType" : "Straight",
+"Position" : {
+"x" : -120.598,
+"y" : 950.774
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "QJpS3r",
+"PointType" : "Straight",
+"Position" : {
+"x" : -123.541,
+"y" : 955.591
+},
+"GradingRuleID" : -1
+} ]
+}, {
+"ID" : "fIwL1h",
+"PointList" : [ {
+"ID" : "QJpS3r",
+"PointType" : "Straight",
+"Position" : {
+"x" : -123.541,
+"y" : 955.591
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "15jPgP",
+"PointType" : "Polyline",
+"Position" : {
+"x" : -127.173,
+"y" : 963.275
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "WTXCqp",
+"PointType" : "Polyline",
+"Position" : {
+"x" : -129.906,
+"y" : 971.325
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "z5h9gA",
+"PointType" : "Polyline",
+"Position" : {
+"x" : -131.888,
+"y" : 979.592
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "XATk6k",
+"PointType" : "Polyline",
+"Position" : {
+"x" : -133.249,
+"y" : 987.983
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "jr4M3y",
+"PointType" : "Polyline",
+"Position" : {
+"x" : -134.113,
+"y" : 996.441
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "NSlVyX",
+"PointType" : "Polyline",
+"Position" : {
+"x" : -134.582,
+"y" : 1004.93
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "bNeBI7",
+"PointType" : "Polyline",
+"Position" : {
+"x" : -133.666,
+"y" : 1043.82
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "EbrhGT",
+"PointType" : "Polyline",
+"Position" : {
+"x" : -130.603,
+"y" : 1082.62
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "NryBpJ",
+"PointType" : "Polyline",
+"Position" : {
+"x" : -129.739,
+"y" : 1092.63
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "qBHgQP",
+"PointType" : "Straight",
+"Position" : {
+"x" : -128.84,
+"y" : 1103.27
+},
+"GradingRuleID" : -1
+} ]
+} ],
+"ID" : "XnNSwM",
+"ShapeType" : 1,
+"IsClosed" : false,
+"FoldData" : {
+"iAngle" : 90,
+"iStrength" : 5,
+"bRenderFolded" : false
+}
+}, {
+"LineList" : [ {
+"ID" : "RjD7fD",
+"PointList" : [ {
+"ID" : "OlQGbc",
+"PointType" : "Straight",
+"Position" : {
+"x" : -72.9374,
+"y" : 923.939
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "319ti3",
+"PointType" : "Polyline",
+"Position" : {
+"x" : -83.532,
+"y" : 926.852
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "VB0WK8",
+"PointType" : "Polyline",
+"Position" : {
+"x" : -93.746,
+"y" : 930.902
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "jkVlGr",
+"PointType" : "Straight",
+"Position" : {
+"x" : -103.299,
+"y" : 936.32
+},
+"GradingRuleID" : -1
+} ]
+}, {
+"ID" : "ywwXIS",
+"PointList" : [ {
+"ID" : "jkVlGr",
+"PointType" : "Straight",
+"Position" : {
+"x" : -103.299,
+"y" : 936.32
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "E7k3iy",
+"PointType" : "Straight",
+"Position" : {
+"x" : -107.893,
+"y" : 939.754
+},
+"GradingRuleID" : -1
+} ]
+}, {
+"ID" : "abcJF4",
+"PointList" : [ {
+"ID" : "E7k3iy",
+"PointType" : "Straight",
+"Position" : {
+"x" : -107.893,
+"y" : 939.754
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "YtIbiJ",
+"PointType" : "Straight",
+"Position" : {
+"x" : -112.015,
+"y" : 943.494
+},
+"GradingRuleID" : -1
+} ]
+}, {
+"ID" : "NAHize",
+"PointList" : [ {
+"ID" : "YtIbiJ",
+"PointType" : "Straight",
+"Position" : {
+"x" : -112.015,
+"y" : 943.494
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "HLnlqA",
+"PointType" : "Straight",
+"Position" : {
+"x" : -115.69,
+"y" : 947.541
+},
+"GradingRuleID" : -1
+} ]
+}, {
+"ID" : "DxD3bt",
+"PointList" : [ {
+"ID" : "HLnlqA",
+"PointType" : "Straight",
+"Position" : {
+"x" : -115.69,
+"y" : 947.541
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "41rSQf",
+"PointType" : "Straight",
+"Position" : {
+"x" : -118.94,
+"y" : 951.895
+},
+"GradingRuleID" : -1
+} ]
+}, {
+"ID" : "8tAznt",
+"PointList" : [ {
+"ID" : "41rSQf",
+"PointType" : "Straight",
+"Position" : {
+"x" : -118.94,
+"y" : 951.895
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "XPFovs",
+"PointType" : "Straight",
+"Position" : {
+"x" : -121.789,
+"y" : 956.559
+},
+"GradingRuleID" : -1
+} ]
+}, {
+"ID" : "XH2MNJ",
+"PointList" : [ {
+"ID" : "XPFovs",
+"PointType" : "Straight",
+"Position" : {
+"x" : -121.789,
+"y" : 956.559
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "4Y0YhQ",
+"PointType" : "Polyline",
+"Position" : {
+"x" : -125.349,
+"y" : 964.104
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "nEatzK",
+"PointType" : "Polyline",
+"Position" : {
+"x" : -128.021,
+"y" : 972.01
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "7jRpuR",
+"PointType" : "Polyline",
+"Position" : {
+"x" : -129.955,
+"y" : 980.128
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "T1mnZJ",
+"PointType" : "Polyline",
+"Position" : {
+"x" : -131.282,
+"y" : 988.366
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "GrEfXM",
+"PointType" : "Polyline",
+"Position" : {
+"x" : -132.124,
+"y" : 996.669
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "CWVzFK",
+"PointType" : "Polyline",
+"Position" : {
+"x" : -132.583,
+"y" : 1005.0
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "SqX7BW",
+"PointType" : "Polyline",
+"Position" : {
+"x" : -131.667,
+"y" : 1043.74
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "3anIqq",
+"PointType" : "Polyline",
+"Position" : {
+"x" : -128.615,
+"y" : 1082.39
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "vWaVtt",
+"PointType" : "Polyline",
+"Position" : {
+"x" : -127.748,
+"y" : 1092.45
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "NnwxK1",
+"PointType" : "Straight",
+"Position" : {
+"x" : -126.903,
+"y" : 1102.44
+},
+"GradingRuleID" : -1
+} ]
+} ],
+"ID" : "zNckTM",
+"ShapeType" : 1,
+"IsClosed" : false,
+"FoldData" : {
+"iAngle" : 90,
+"iStrength" : 5,
+"bRenderFolded" : false
+}
+}, {
+"LineList" : [ {
+"ID" : "w9Q3iv",
+"PointList" : [ {
+"ID" : "njUxcw",
+"PointType" : "Straight",
+"Position" : {
+"x" : -72.0763,
+"y" : 920.622
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "HDLEAM",
+"PointType" : "Polyline",
+"Position" : {
+"x" : -83.5563,
+"y" : 923.706
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "KykVM2",
+"PointType" : "Polyline",
+"Position" : {
+"x" : -94.636,
+"y" : 928.005
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "7Y7MX2",
+"PointType" : "Straight",
+"Position" : {
+"x" : -104.986,
+"y" : 933.835
+},
+"GradingRuleID" : -1
+} ]
+}, {
+"ID" : "FlTwEQ",
+"PointList" : [ {
+"ID" : "7Y7MX2",
+"PointType" : "Straight",
+"Position" : {
+"x" : -104.986,
+"y" : 933.835
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "orQ7tm",
+"PointType" : "Straight",
+"Position" : {
+"x" : -109.803,
+"y" : 937.436
+},
+"GradingRuleID" : -1
+} ]
+}, {
+"ID" : "N3jMZg",
+"PointList" : [ {
+"ID" : "orQ7tm",
+"PointType" : "Straight",
+"Position" : {
+"x" : -109.803,
+"y" : 937.436
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "LCchbT",
+"PointType" : "Straight",
+"Position" : {
+"x" : -114.138,
+"y" : 941.37
+},
+"GradingRuleID" : -1
+} ]
+}, {
+"ID" : "30NMFO",
+"PointList" : [ {
+"ID" : "LCchbT",
+"PointType" : "Straight",
+"Position" : {
+"x" : -114.138,
+"y" : 941.37
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "sDpR0Z",
+"PointType" : "Straight",
+"Position" : {
+"x" : -118.008,
+"y" : 945.631
+},
+"GradingRuleID" : -1
+} ]
+}, {
+"ID" : "Dqdhx4",
+"PointList" : [ {
+"ID" : "sDpR0Z",
+"PointType" : "Straight",
+"Position" : {
+"x" : -118.008,
+"y" : 945.631
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "GdEW5I",
+"PointType" : "Straight",
+"Position" : {
+"x" : -121.427,
+"y" : 950.213
+},
+"GradingRuleID" : -1
+} ]
+}, {
+"ID" : "TPuHN7",
+"PointList" : [ {
+"ID" : "GdEW5I",
+"PointType" : "Straight",
+"Position" : {
+"x" : -121.427,
+"y" : 950.213
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "pw9QPI",
+"PointType" : "Straight",
+"Position" : {
+"x" : -124.417,
+"y" : 955.108
+},
+"GradingRuleID" : -1
+} ]
+}, {
+"ID" : "6mjxgm",
+"PointList" : [ {
+"ID" : "pw9QPI",
+"PointType" : "Straight",
+"Position" : {
+"x" : -124.417,
+"y" : 955.108
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "oSsObi",
+"PointType" : "Polyline",
+"Position" : {
+"x" : -128.085,
+"y" : 962.861
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "qJGVR6",
+"PointType" : "Polyline",
+"Position" : {
+"x" : -130.849,
+"y" : 970.982
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "RthRt5",
+"PointType" : "Polyline",
+"Position" : {
+"x" : -132.855,
+"y" : 979.324
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "GZoYik",
+"PointType" : "Polyline",
+"Position" : {
+"x" : -134.233,
+"y" : 987.792
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "yYvfdA",
+"PointType" : "Polyline",
+"Position" : {
+"x" : -135.107,
+"y" : 996.327
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "D1ff4V",
+"PointType" : "Polyline",
+"Position" : {
+"x" : -135.581,
+"y" : 1004.89
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "dgyt33",
+"PointType" : "Polyline",
+"Position" : {
+"x" : -134.667,
+"y" : 1043.83
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "oUjvkH",
+"PointType" : "Polyline",
+"Position" : {
+"x" : -131.601,
+"y" : 1082.68
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "2NTv3a",
+"PointType" : "Polyline",
+"Position" : {
+"x" : -130.736,
+"y" : 1092.71
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "e587yI",
+"PointType" : "Straight",
+"Position" : {
+"x" : -129.808,
+"y" : 1103.69
+},
+"GradingRuleID" : -1
+} ]
+} ],
+"ID" : "cKcXBv",
+"ShapeType" : 1,
+"IsClosed" : false,
+"FoldData" : {
+"iAngle" : 180,
+"iStrength" : 5,
+"bRenderFolded" : false
+}
+}, {
+"LineList" : [ {
+"ID" : "qlFywe",
+"PointList" : [ {
+"ID" : "phPEmL",
+"PointType" : "Straight",
+"Position" : {
+"x" : -73.2244,
+"y" : 925.045
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "LBi90X",
+"PointType" : "Polyline",
+"Position" : {
+"x" : -83.5233,
+"y" : 927.903
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "hiGDHd",
+"PointType" : "Polyline",
+"Position" : {
+"x" : -93.4494,
+"y" : 931.869
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "RDv0Wg",
+"PointType" : "Straight",
+"Position" : {
+"x" : -102.737,
+"y" : 937.148
+},
+"GradingRuleID" : -1
+} ]
+}, {
+"ID" : "fUoa5l",
+"PointList" : [ {
+"ID" : "RDv0Wg",
+"PointType" : "Straight",
+"Position" : {
+"x" : -102.737,
+"y" : 937.148
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "uR274D",
+"PointType" : "Straight",
+"Position" : {
+"x" : -107.256,
+"y" : 940.526
+},
+"GradingRuleID" : -1
+} ]
+}, {
+"ID" : "eGVacc",
+"PointList" : [ {
+"ID" : "uR274D",
+"PointType" : "Straight",
+"Position" : {
+"x" : -107.256,
+"y" : 940.526
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "eUvn8E",
+"PointType" : "Straight",
+"Position" : {
+"x" : -111.307,
+"y" : 944.202
+},
+"GradingRuleID" : -1
+} ]
+}, {
+"ID" : "6m5m7v",
+"PointList" : [ {
+"ID" : "eUvn8E",
+"PointType" : "Straight",
+"Position" : {
+"x" : -111.307,
+"y" : 944.202
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "zvEq8K",
+"PointType" : "Straight",
+"Position" : {
+"x" : -114.917,
+"y" : 948.177
+},
+"GradingRuleID" : -1
+} ]
+}, {
+"ID" : "HvdJjV",
+"PointList" : [ {
+"ID" : "zvEq8K",
+"PointType" : "Straight",
+"Position" : {
+"x" : -114.917,
+"y" : 948.177
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "mQJ8Mr",
+"PointType" : "Straight",
+"Position" : {
+"x" : -118.111,
+"y" : 952.457
+},
+"GradingRuleID" : -1
+} ]
+}, {
+"ID" : "7TAi1u",
+"PointList" : [ {
+"ID" : "mQJ8Mr",
+"PointType" : "Straight",
+"Position" : {
+"x" : -118.111,
+"y" : 952.457
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "YDQ72j",
+"PointType" : "Straight",
+"Position" : {
+"x" : -120.912,
+"y" : 957.043
+},
+"GradingRuleID" : -1
+} ]
+}, {
+"ID" : "fxJxJi",
+"PointList" : [ {
+"ID" : "YDQ72j",
+"PointType" : "Straight",
+"Position" : {
+"x" : -120.912,
+"y" : 957.043
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "4pchGO",
+"PointType" : "Polyline",
+"Position" : {
+"x" : -124.436,
+"y" : 964.518
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "4Tol6g",
+"PointType" : "Polyline",
+"Position" : {
+"x" : -127.078,
+"y" : 972.352
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "KBfFSL",
+"PointType" : "Polyline",
+"Position" : {
+"x" : -128.988,
+"y" : 980.396
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "poOsjL",
+"PointType" : "Polyline",
+"Position" : {
+"x" : -130.298,
+"y" : 988.558
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "CJGD22",
+"PointType" : "Polyline",
+"Position" : {
+"x" : -131.129,
+"y" : 996.784
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "4wIMLm",
+"PointType" : "Polyline",
+"Position" : {
+"x" : -131.583,
+"y" : 1005.04
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "n57PHo",
+"PointType" : "Polyline",
+"Position" : {
+"x" : -130.665,
+"y" : 1043.74
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "OLer3c",
+"PointType" : "Polyline",
+"Position" : {
+"x" : -127.615,
+"y" : 1082.34
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "NA3q3c",
+"PointType" : "Straight",
+"Position" : {
+"x" : -125.935,
+"y" : 1102.02
+},
+"GradingRuleID" : -1
+} ]
+} ],
+"ID" : "aKj4Fg",
+"ShapeType" : 1,
+"IsClosed" : false,
+"FoldData" : {
+"iAngle" : 180,
+"iStrength" : 5,
+"bRenderFolded" : false
+}
+}, {
+"LineList" : [ {
+"ID" : "SQ010A",
+"PointList" : [ {
+"ID" : "I0UahO",
+"PointType" : "Straight",
+"Position" : {
+"x" : -278.699,
+"y" : 895.496
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "oYRt07",
+"PointType" : "Straight",
+"Position" : {
+"x" : -71.1936,
+"y" : 917.221
+},
+"GradingRuleID" : -1
+} ]
+} ],
+"ID" : "LgXWN3",
+"ShapeType" : 1,
+"IsClosed" : false,
+"FoldData" : {
+"iAngle" : 180,
+"iStrength" : 5,
+"bRenderFolded" : false
+}
+}, {
+"LineList" : [ {
+"ID" : "p7oABv",
+"PointList" : [ {
+"ID" : "lYWASQ",
+"PointType" : "Straight",
+"Position" : {
+"x" : -70.9698,
+"y" : 893.784
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "ZyDi3W",
+"PointType" : "Straight",
+"Position" : {
+"x" : -278.699,
+"y" : 915.532
+},
+"GradingRuleID" : -1
+} ]
+} ],
+"ID" : "Q6JYLe",
+"ShapeType" : 1,
+"IsClosed" : false,
+"FoldData" : {
+"iAngle" : 180,
+"iStrength" : 5,
+"bRenderFolded" : false
+}
+}, {
+"LineList" : [ {
+"ID" : "dGwotY",
+"PointList" : [ {
+"ID" : "gE6Xfy",
+"PointType" : "Straight",
+"Position" : {
+"x" : -72.6503,
+"y" : 922.833
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "1PCNf1",
+"PointType" : "Polyline",
+"Position" : {
+"x" : -87.7891,
+"y" : 927.497
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "U4Rnrn",
+"PointType" : "Polyline",
+"Position" : {
+"x" : -92.4503,
+"y" : 929.319
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "lBywJa",
+"PointType" : "Straight",
+"Position" : {
+"x" : -94.7387,
+"y" : 930.331
+},
+"GradingRuleID" : -1
+} ]
+} ],
+"ID" : "d5lYCQ",
+"ShapeType" : 2,
+"IsClosed" : false,
+"IsLinkable" : true
+}, {
+"LineList" : [ {
+"ID" : "OPNW58",
+"PointList" : [ {
+"ID" : "VVTwaJ",
+"PointType" : "Straight",
+"Position" : {
+"x" : -94.7387,
+"y" : 930.331
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "R31wjb",
+"PointType" : "Polyline",
+"Position" : {
+"x" : -95.866,
+"y" : 930.874
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "tndMb0",
+"PointType" : "Polyline",
+"Position" : {
+"x" : -96.9911,
+"y" : 931.422
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "S5o7xP",
+"PointType" : "Straight",
+"Position" : {
+"x" : -98.3548,
+"y" : 932.148
+},
+"GradingRuleID" : -1
+} ]
+} ],
+"ID" : "89aD6r",
+"ShapeType" : 2,
+"IsClosed" : false,
+"IsLinkable" : true
+}, {
+"LineList" : [ {
+"ID" : "ewWLth",
+"PointList" : [ {
+"ID" : "I5dSWc",
+"PointType" : "Straight",
+"Position" : {
+"x" : -98.3548,
+"y" : 932.148
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "A8C8WB",
+"PointType" : "Polyline",
+"Position" : {
+"x" : -99.061,
+"y" : 932.523
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "rPiOgw",
+"PointType" : "Polyline",
+"Position" : {
+"x" : -101.085,
+"y" : 933.707
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "FOHfxN",
+"PointType" : "Straight",
+"Position" : {
+"x" : -103.766,
+"y" : 935.433
+},
+"GradingRuleID" : -1
+} ]
+} ],
+"ID" : "NSKhFq",
+"ShapeType" : 2,
+"IsClosed" : false,
+"IsLinkable" : true
+}, {
+"LineList" : [ {
+"ID" : "VudktG",
+"PointList" : [ {
+"ID" : "bgOwRi",
+"PointType" : "Straight",
+"Position" : {
+"x" : -103.766,
+"y" : 935.433
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "lr4dGk",
+"PointType" : "Polyline",
+"Position" : {
+"x" : -105.753,
+"y" : 937.119
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "SYcfIG",
+"PointType" : "Straight",
+"Position" : {
+"x" : -107.959,
+"y" : 938.554
+},
+"GradingRuleID" : -1
+} ]
+} ],
+"ID" : "qJJKVm",
+"ShapeType" : 2,
+"IsClosed" : false,
+"IsLinkable" : true
+}, {
+"LineList" : [ {
+"ID" : "hXtvYE",
+"PointList" : [ {
+"ID" : "yK4h5u",
+"PointType" : "Straight",
+"Position" : {
+"x" : -107.959,
+"y" : 938.555
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "CiJupa",
+"PointType" : "Polyline",
+"Position" : {
+"x" : -108.554,
+"y" : 939.092
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "5sxhUG",
+"PointType" : "Straight",
+"Position" : {
+"x" : -109.192,
+"y" : 939.582
+},
+"GradingRuleID" : -1
+} ]
+} ],
+"ID" : "VP5rWk",
+"ShapeType" : 2,
+"IsClosed" : false,
+"IsLinkable" : true
+}, {
+"LineList" : [ {
+"ID" : "dQ5BNy",
+"PointList" : [ {
+"ID" : "npky0S",
+"PointType" : "Straight",
+"Position" : {
+"x" : -109.192,
+"y" : 939.582
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "KLo0xA",
+"PointType" : "Polyline",
+"Position" : {
+"x" : -110.511,
+"y" : 940.826
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "iOQ0sG",
+"PointType" : "Straight",
+"Position" : {
+"x" : -111.878,
+"y" : 942.02
+},
+"GradingRuleID" : -1
+} ]
+} ],
+"ID" : "R0cdtU",
+"ShapeType" : 2,
+"IsClosed" : false,
+"IsLinkable" : true
+}, {
+"LineList" : [ {
+"ID" : "lyy0su",
+"PointList" : [ {
+"ID" : "oy6SVZ",
+"PointType" : "Straight",
+"Position" : {
+"x" : -111.878,
+"y" : 942.02
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "2mtaxN",
+"PointType" : "Polyline",
+"Position" : {
+"x" : -112.606,
+"y" : 942.806
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "6iaWll",
+"PointType" : "Straight",
+"Position" : {
+"x" : -113.399,
+"y" : 943.531
+},
+"GradingRuleID" : -1
+} ]
+} ],
+"ID" : "octx1c",
+"ShapeType" : 2,
+"IsClosed" : false,
+"IsLinkable" : true
+}, {
+"LineList" : [ {
+"ID" : "kniFE8",
+"PointList" : [ {
+"ID" : "gN7LRM",
+"PointType" : "Straight",
+"Position" : {
+"x" : -113.399,
+"y" : 943.531
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "5DvM6s",
+"PointType" : "Polyline",
+"Position" : {
+"x" : -114.649,
+"y" : 944.96
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "UnCP8m",
+"PointType" : "Straight",
+"Position" : {
+"x" : -115.952,
+"y" : 946.342
+},
+"GradingRuleID" : -1
+} ]
+} ],
+"ID" : "6hyjh9",
+"ShapeType" : 2,
+"IsClosed" : false,
+"IsLinkable" : true
+}, {
+"LineList" : [ {
+"ID" : "bMyOP3",
+"PointList" : [ {
+"ID" : "8bzWZ3",
+"PointType" : "Straight",
+"Position" : {
+"x" : -115.952,
+"y" : 946.342
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "Gke1lv",
+"PointType" : "Straight",
+"Position" : {
+"x" : -116.777,
+"y" : 947.327
+},
+"GradingRuleID" : -1
+} ]
+} ],
+"ID" : "htgVg7",
+"ShapeType" : 2,
+"IsClosed" : false,
+"IsLinkable" : true
+}, {
+"LineList" : [ {
+"ID" : "KDd7FK",
+"PointList" : [ {
+"ID" : "1QFU2z",
+"PointType" : "Straight",
+"Position" : {
+"x" : -116.777,
+"y" : 947.327
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "ViPhUd",
+"PointType" : "Polyline",
+"Position" : {
+"x" : -118.873,
+"y" : 950.058
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "sa1s5x",
+"PointType" : "Straight",
+"Position" : {
+"x" : -119.769,
+"y" : 951.335
+},
+"GradingRuleID" : -1
+} ]
+} ],
+"ID" : "2siQ4p",
+"ShapeType" : 2,
+"IsClosed" : false,
+"IsLinkable" : true
+}, {
+"LineList" : [ {
+"ID" : "1fAEn4",
+"PointList" : [ {
+"ID" : "9rDm7A",
+"PointType" : "Straight",
+"Position" : {
+"x" : -119.769,
+"y" : 951.335
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "JmhEuM",
+"PointType" : "Polyline",
+"Position" : {
+"x" : -120.286,
+"y" : 952.122
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "5ZO2B1",
+"PointType" : "Polyline",
+"Position" : {
+"x" : -120.802,
+"y" : 952.909
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "GknnLl",
+"PointType" : "Polyline",
+"Position" : {
+"x" : -121.293,
+"y" : 953.713
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "xxbkIw",
+"PointType" : "Polyline",
+"Position" : {
+"x" : -121.784,
+"y" : 954.516
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "CAhvQ9",
+"PointType" : "Polyline",
+"Position" : {
+"x" : -122.715,
+"y" : 956.154
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "TOcx5f",
+"PointType" : "Polyline",
+"Position" : {
+"x" : -124.429,
+"y" : 959.507
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "lrXM59",
+"PointType" : "Polyline",
+"Position" : {
+"x" : -125.936,
+"y" : 962.927
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "iBMfG2",
+"PointType" : "Straight",
+"Position" : {
+"x" : -127.312,
+"y" : 966.493
+},
+"GradingRuleID" : -1
+} ]
+} ],
+"ID" : "HN3oiB",
+"ShapeType" : 2,
+"IsClosed" : false,
+"IsLinkable" : true
+}, {
+"LineList" : [ {
+"ID" : "TiqDZt",
+"PointList" : [ {
+"ID" : "Unu9Fo",
+"PointType" : "Straight",
+"Position" : {
+"x" : -127.281,
+"y" : 966.413
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "3chcyq",
+"PointType" : "Polyline",
+"Position" : {
+"x" : -128.857,
+"y" : 971.317
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "ApfEqW",
+"PointType" : "Straight",
+"Position" : {
+"x" : -129.069,
+"y" : 972.051
+},
+"GradingRuleID" : -1
+} ]
+} ],
+"ID" : "Ptvj5a",
+"ShapeType" : 2,
+"IsClosed" : false,
+"IsLinkable" : true
+}, {
+"LineList" : [ {
+"ID" : "5ilt4P",
+"PointList" : [ {
+"ID" : "i2o0y0",
+"PointType" : "Straight",
+"Position" : {
+"x" : -129.069,
+"y" : 972.051
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "VwqyyP",
+"PointType" : "Polyline",
+"Position" : {
+"x" : -129.634,
+"y" : 974.171
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "WpfYZO",
+"PointType" : "Polyline",
+"Position" : {
+"x" : -130.162,
+"y" : 976.3
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "FtuzKZ",
+"PointType" : "Straight",
+"Position" : {
+"x" : -130.532,
+"y" : 977.985
+},
+"GradingRuleID" : -1
+} ]
+} ],
+"ID" : "VMXsbR",
+"ShapeType" : 2,
+"IsClosed" : false,
+"IsLinkable" : true
+}, {
+"LineList" : [ {
+"ID" : "3gQzTL",
+"PointList" : [ {
+"ID" : "Il8M1a",
+"PointType" : "Straight",
+"Position" : {
+"x" : -130.532,
+"y" : 977.985
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "l6483R",
+"PointType" : "Polyline",
+"Position" : {
+"x" : -131.406,
+"y" : 982.474
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "fRm4Qv",
+"PointType" : "Polyline",
+"Position" : {
+"x" : -132.113,
+"y" : 986.993
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "6vTGR0",
+"PointType" : "Straight",
+"Position" : {
+"x" : -132.578,
+"y" : 990.805
+},
+"GradingRuleID" : -1
+} ]
+} ],
+"ID" : "iGs8ew",
+"ShapeType" : 2,
+"IsClosed" : false,
+"IsLinkable" : true
+}, {
+"LineList" : [ {
+"ID" : "6XMzIA",
+"PointList" : [ {
+"ID" : "fchkjs",
+"PointType" : "Straight",
+"Position" : {
+"x" : -132.578,
+"y" : 990.805
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "iuFNRA",
+"PointType" : "Polyline",
+"Position" : {
+"x" : -132.957,
+"y" : 994.627
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "Wdk2SU",
+"PointType" : "Straight",
+"Position" : {
+"x" : -133.21,
+"y" : 997.805
+},
+"GradingRuleID" : -1
+} ]
+} ],
+"ID" : "JnaCAa",
+"ShapeType" : 2,
+"IsClosed" : false,
+"IsLinkable" : true
+}, {
+"LineList" : [ {
+"ID" : "WDaMiW",
+"PointList" : [ {
+"ID" : "am7nO1",
+"PointType" : "Straight",
+"Position" : {
+"x" : -133.21,
+"y" : 997.805
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "qo4f37",
+"PointType" : "Polyline",
+"Position" : {
+"x" : -133.698,
+"y" : 1008.66
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "KXFrFy",
+"PointType" : "Polyline",
+"Position" : {
+"x" : -132.886,
+"y" : 1040.2
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "isVxpH",
+"PointType" : "Straight",
+"Position" : {
+"x" : -132.692,
+"y" : 1043.23
+},
+"GradingRuleID" : -1
+} ]
+} ],
+"ID" : "th05Ne",
+"ShapeType" : 2,
+"IsClosed" : false,
+"IsLinkable" : true
+}, {
+"LineList" : [ {
+"ID" : "FVVbJU",
+"PointList" : [ {
+"ID" : "bpLsb6",
+"PointType" : "Straight",
+"Position" : {
+"x" : -132.692,
+"y" : 1043.23
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "14qIEc",
+"PointType" : "Straight",
+"Position" : {
+"x" : -132.486,
+"y" : 1046.47
+},
+"GradingRuleID" : -1
+} ]
+} ],
+"ID" : "5eKf1O",
+"ShapeType" : 2,
+"IsClosed" : false,
+"IsLinkable" : true
+}, {
+"LineList" : [ {
+"ID" : "pWIvDm",
+"PointList" : [ {
+"ID" : "bDxfPu",
+"PointType" : "Straight",
+"Position" : {
+"x" : -132.486,
+"y" : 1046.47
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "RY7Vwe",
+"PointType" : "Straight",
+"Position" : {
+"x" : -132.066,
+"y" : 1052.45
+},
+"GradingRuleID" : -1
+} ]
+} ],
+"ID" : "YMkVm8",
+"ShapeType" : 2,
+"IsClosed" : false,
+"IsLinkable" : true
+}, {
+"LineList" : [ {
+"ID" : "fwHgms",
+"PointList" : [ {
+"ID" : "Zcu4DD",
+"PointType" : "Straight",
+"Position" : {
+"x" : -132.066,
+"y" : 1052.45
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "YGkbur",
+"PointType" : "Straight",
+"Position" : {
+"x" : -131.933,
+"y" : 1054.31
+},
+"GradingRuleID" : -1
+} ]
+} ],
+"ID" : "USzR6T",
+"ShapeType" : 2,
+"IsClosed" : false,
+"IsLinkable" : true
+}, {
+"LineList" : [ {
+"ID" : "SLUAyd",
+"PointList" : [ {
+"ID" : "ECTfp1",
+"PointType" : "Straight",
+"Position" : {
+"x" : -131.952,
+"y" : 1054.08
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "YglF6J",
+"PointType" : "Straight",
+"Position" : {
+"x" : -131.251,
+"y" : 1063.05
+},
+"GradingRuleID" : -1
+} ]
+} ],
+"ID" : "S0pMp3",
+"ShapeType" : 2,
+"IsClosed" : false,
+"IsLinkable" : true
+}, {
+"LineList" : [ {
+"ID" : "N0PSI6",
+"PointList" : [ {
+"ID" : "AoQcNl",
+"PointType" : "Straight",
+"Position" : {
+"x" : -131.251,
+"y" : 1063.05
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "KJUc0B",
+"PointType" : "Straight",
+"Position" : {
+"x" : -131.19,
+"y" : 1063.8
+},
+"GradingRuleID" : -1
+} ]
+} ],
+"ID" : "Jrt9L7",
+"ShapeType" : 2,
+"IsClosed" : false,
+"IsLinkable" : true
+}, {
+"LineList" : [ {
+"ID" : "arL8JO",
+"PointList" : [ {
+"ID" : "ACVUs4",
+"PointType" : "Straight",
+"Position" : {
+"x" : -131.19,
+"y" : 1063.8
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "4RJhmZ",
+"PointType" : "Straight",
+"Position" : {
+"x" : -129.609,
+"y" : 1082.5
+},
+"GradingRuleID" : -1
+} ]
+} ],
+"ID" : "aqhm9y",
+"ShapeType" : 2,
+"IsClosed" : false,
+"IsLinkable" : true
+}, {
+"LineList" : [ {
+"ID" : "1r9upQ",
+"PointList" : [ {
+"ID" : "QZEg6P",
+"PointType" : "Straight",
+"Position" : {
+"x" : -129.609,
+"y" : 1082.5
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "XLHzvU",
+"PointType" : "Straight",
+"Position" : {
+"x" : -128.743,
+"y" : 1092.54
+},
+"GradingRuleID" : -1
+} ]
+} ],
+"ID" : "dE7P1M",
+"ShapeType" : 2,
+"IsClosed" : false,
+"IsLinkable" : true
+}, {
+"LineList" : [ {
+"ID" : "j9xzGg",
+"PointList" : [ {
+"ID" : "jVEBqW",
+"PointType" : "Straight",
+"Position" : {
+"x" : -128.743,
+"y" : 1092.54
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "AqIDRx",
+"PointType" : "Straight",
+"Position" : {
+"x" : -127.871,
+"y" : 1102.85
+},
+"GradingRuleID" : -1
+} ]
+} ],
+"ID" : "da9ur2",
+"ShapeType" : 2,
+"IsClosed" : false,
+"IsLinkable" : true
+}, {
+"LineList" : [ {
+"ID" : "SY6Bqq",
+"PointList" : [ {
+"ID" : "I0ucWf",
+"PointType" : "Straight",
+"Position" : {
+"x" : -127.871,
+"y" : 1102.85
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "DkOxKR",
+"PointType" : "Bezier Curve",
+"Position" : {
+"x" : -136.265,
+"y" : 1001.8
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "boCStu",
+"PointType" : "Bezier Curve",
+"Position" : {
+"x" : -146.702,
+"y" : 939.51
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "wgdxeT",
+"PointType" : "Straight",
+"Position" : {
+"x" : -72.6503,
+"y" : 922.833
+},
+"GradingRuleID" : -1
+} ]
+} ],
+"ID" : "m40YQh",
+"ShapeType" : 2,
+"IsClosed" : false,
+"IsLinkable" : true
+} ],
+"ButtonHeadList" : [  ],
+"ButtonHoleList" : [  ],
+"AnnotationList" : [  ],
+"NotchList" : [  ],
+"IsHalfSymmetric" : false,
+"ShapeInfo" : {
+"IsSlashed" : false,
+"LineList" : [ {
+"ID" : "Rfzev8",
+"PointList" : [ {
+"ID" : "DcYhmn",
+"PointType" : "Straight",
+"Position" : {
+"x" : -72.6503,
+"y" : 922.833
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "l0wuRf",
+"PointType" : "Straight",
+"Position" : {
+"x" : -74.0854,
+"y" : 928.363
+},
+"GradingRuleID" : -1
+} ]
+}, {
+"ID" : "vnfa7G",
+"PointList" : [ {
+"ID" : "l0wuRf",
+"PointType" : "Straight",
+"Position" : {
+"x" : -74.0854,
+"y" : 928.363
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "J7VCln",
+"PointType" : "Polyline",
+"Position" : {
+"x" : -85.4697,
+"y" : 931.777
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "9QMFPC",
+"PointType" : "Polyline",
+"Position" : {
+"x" : -96.283,
+"y" : 936.703
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "ZbYk4I",
+"PointType" : "Polyline",
+"Position" : {
+"x" : -106.061,
+"y" : 943.444
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "bsTkWy",
+"PointType" : "Polyline",
+"Position" : {
+"x" : -114.179,
+"y" : 952.104
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "Bxb1Lc",
+"PointType" : "Polyline",
+"Position" : {
+"x" : -120.221,
+"y" : 962.326
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "w0q9Gy",
+"PointType" : "Polyline",
+"Position" : {
+"x" : -124.281,
+"y" : 973.493
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "A52LfP",
+"PointType" : "Polyline",
+"Position" : {
+"x" : -126.628,
+"y" : 984.216
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "gwmA0Q",
+"PointType" : "Polyline",
+"Position" : {
+"x" : -127.983,
+"y" : 995.112
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "u5suug",
+"PointType" : "Polyline",
+"Position" : {
+"x" : -128.616,
+"y" : 1006.08
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "LwFKbv",
+"PointType" : "Polyline",
+"Position" : {
+"x" : -128.73,
+"y" : 1017.06
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "tQzl8U",
+"PointType" : "Polyline",
+"Position" : {
+"x" : -128.471,
+"y" : 1028.03
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "w0x0QQ",
+"PointType" : "Polyline",
+"Position" : {
+"x" : -127.507,
+"y" : 1046.07
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "0sDoAD",
+"PointType" : "Polyline",
+"Position" : {
+"x" : -126.152,
+"y" : 1064.08
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "CP4Zq1",
+"PointType" : "Polyline",
+"Position" : {
+"x" : -124.627,
+"y" : 1082.07
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "bZtyZn",
+"PointType" : "Straight",
+"Position" : {
+"x" : -123.03,
+"y" : 1100.76
+},
+"GradingRuleID" : -1
+} ]
+}, {
+"ID" : "28TEyC",
+"PointList" : [ {
+"ID" : "bZtyZn",
+"PointType" : "Straight",
+"Position" : {
+"x" : -123.03,
+"y" : 1100.76
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "MNhUfw",
+"PointType" : "Straight",
+"Position" : {
+"x" : -127.871,
+"y" : 1102.85
+},
+"GradingRuleID" : -1
+} ]
+}, {
+"ID" : "rIm2nM",
+"PointList" : [ {
+"ID" : "MNhUfw",
+"PointType" : "Straight",
+"Position" : {
+"x" : -127.871,
+"y" : 1102.85
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "9dwHLW",
+"PointType" : "Straight",
+"Position" : {
+"x" : -234.849,
+"y" : 1149.08
+},
+"GradingRuleID" : -1
+} ]
+}, {
+"ID" : "Uu1AlI",
+"PointList" : [ {
+"ID" : "9dwHLW",
+"PointType" : "Straight",
+"Position" : {
+"x" : -234.849,
+"y" : 1149.08
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "YQjmbl",
+"PointType" : "Straight",
+"Position" : {
+"x" : -201.394,
+"y" : 1032.41
+},
+"GradingRuleID" : -1
+} ]
+}, {
+"ID" : "4Aep1M",
+"PointList" : [ {
+"ID" : "YQjmbl",
+"PointType" : "Straight",
+"Position" : {
+"x" : -201.394,
+"y" : 1032.41
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "icF6wb",
+"PointType" : "Straight",
+"Position" : {
+"x" : -278.7,
+"y" : 1032.41
+},
+"GradingRuleID" : -1
+} ]
+}, {
+"ID" : "TSzs9Q",
+"PointList" : [ {
+"ID" : "icF6wb",
+"PointType" : "Straight",
+"Position" : {
+"x" : -278.7,
+"y" : 1032.41
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "DrgksT",
+"PointType" : "Straight",
+"Position" : {
+"x" : -278.699,
+"y" : 762.773
+},
+"GradingRuleID" : -1
+} ]
+}, {
+"ID" : "lbBDTt",
+"PointList" : [ {
+"ID" : "DrgksT",
+"PointType" : "Straight",
+"Position" : {
+"x" : -278.699,
+"y" : 762.773
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "p9pOvT",
+"PointType" : "Straight",
+"Position" : {
+"x" : -208.307,
+"y" : 762.773
+},
+"GradingRuleID" : -1
+} ]
+}, {
+"ID" : "voxvTe",
+"PointList" : [ {
+"ID" : "p9pOvT",
+"PointType" : "Straight",
+"Position" : {
+"x" : -208.307,
+"y" : 762.773
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "Fq11tk",
+"PointType" : "Straight",
+"Position" : {
+"x" : -204.314,
+"y" : 881.518
+},
+"GradingRuleID" : -1
+} ]
+}, {
+"ID" : "pyou1S",
+"PointList" : [ {
+"ID" : "Fq11tk",
+"PointType" : "Straight",
+"Position" : {
+"x" : -204.314,
+"y" : 881.518
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "KuvOcy",
+"PointType" : "Straight",
+"Position" : {
+"x" : -200.321,
+"y" : 762.773
+},
+"GradingRuleID" : -1
+} ]
+}, {
+"ID" : "vqUtHA",
+"PointList" : [ {
+"ID" : "KuvOcy",
+"PointType" : "Straight",
+"Position" : {
+"x" : -200.321,
+"y" : 762.773
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "d3H0uW",
+"PointType" : "Straight",
+"Position" : {
+"x" : -74.9322,
+"y" : 762.773
+},
+"GradingRuleID" : -1
+} ]
+}, {
+"ID" : "So3anW",
+"PointList" : [ {
+"ID" : "d3H0uW",
+"PointType" : "Straight",
+"Position" : {
+"x" : -74.9322,
+"y" : 762.773
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "5tD5kP",
+"PointType" : "Straight",
+"Position" : {
+"x" : -70.9395,
+"y" : 894.787
+},
+"GradingRuleID" : -1
+} ]
+}, {
+"ID" : "kGns78",
+"PointList" : [ {
+"ID" : "5tD5kP",
+"PointType" : "Straight",
+"Position" : {
+"x" : -70.9395,
+"y" : 894.787
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "zE62CQ",
+"PointType" : "Straight",
+"Position" : {
+"x" : -173.405,
+"y" : 905.514
+},
+"GradingRuleID" : -1
+} ]
+}, {
+"ID" : "Xxat1F",
+"PointList" : [ {
+"ID" : "zE62CQ",
+"PointType" : "Straight",
+"Position" : {
+"x" : -173.405,
+"y" : 905.514
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "P0qECC",
+"PointType" : "Straight",
+"Position" : {
+"x" : -70.9395,
+"y" : 916.242
+},
+"GradingRuleID" : -1
+} ]
+}, {
+"ID" : "OwxFl2",
+"PointList" : [ {
+"ID" : "P0qECC",
+"PointType" : "Straight",
+"Position" : {
+"x" : -70.9395,
+"y" : 916.242
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "DcYhmn",
+"PointType" : "Straight",
+"Position" : {
+"x" : -72.6503,
+"y" : 922.833
+},
+"GradingRuleID" : -1
+} ]
+} ]
+},
+"ArrangementPointDataMap" : {
+"PointName" : "Body_Front_3_L",
+"fOffSetX" : 0.27,
+"fOffSetY" : 0.2,
+"fAngle" : 0.0
+}
+}, {
+"Name" : "Pattern_52484",
+"fGrainlineAngle" : 0.0,
+"ID" : "rdQaLP",
+"strSuperImposeSide" : "None",
+"CurrentFabricUUID" : "aaaYvs",
+"IsClosed" : true,
+"InternalLineList" : [ {
+"LineList" : [ {
+"ID" : "yNYnIO",
+"PointList" : [ {
+"ID" : "Abwhb3",
+"PointType" : "Straight",
+"Position" : {
+"x" : 137.598,
+"y" : 666.687
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "9Z25pJ",
+"PointType" : "Polyline",
+"Position" : {
+"x" : 138.377,
+"y" : 654.497
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "TQ7Itn",
+"PointType" : "Polyline",
+"Position" : {
+"x" : 139.041,
+"y" : 644.364
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "t67O34",
+"PointType" : "Polyline",
+"Position" : {
+"x" : 140.937,
+"y" : 613.32
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "xUodOn",
+"PointType" : "Polyline",
+"Position" : {
+"x" : 141.87,
+"y" : 582.236
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "OEhKow",
+"PointType" : "Polyline",
+"Position" : {
+"x" : 140.12,
+"y" : 551.203
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "ICJyd3",
+"PointType" : "Polyline",
+"Position" : {
+"x" : 137.873,
+"y" : 538.508
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "L60L1W",
+"PointType" : "Polyline",
+"Position" : {
+"x" : 134.224,
+"y" : 526.146
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "h6TFrc",
+"PointType" : "Straight",
+"Position" : {
+"x" : 128.777,
+"y" : 514.47
+},
+"GradingRuleID" : -1
+} ]
+}, {
+"ID" : "WXc3XY",
+"PointList" : [ {
+"ID" : "h6TFrc",
+"PointType" : "Straight",
+"Position" : {
+"x" : 128.777,
+"y" : 514.47
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "Ay33Tz",
+"PointType" : "Straight",
+"Position" : {
+"x" : 125.522,
+"y" : 509.378
+},
+"GradingRuleID" : -1
+} ]
+}, {
+"ID" : "IvKACW",
+"PointList" : [ {
+"ID" : "Ay33Tz",
+"PointType" : "Straight",
+"Position" : {
+"x" : 125.522,
+"y" : 509.378
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "Tf3FtW",
+"PointType" : "Straight",
+"Position" : {
+"x" : 121.812,
+"y" : 504.615
+},
+"GradingRuleID" : -1
+} ]
+}, {
+"ID" : "2znkTC",
+"PointList" : [ {
+"ID" : "Tf3FtW",
+"PointType" : "Straight",
+"Position" : {
+"x" : 121.812,
+"y" : 504.615
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "Lj1kq9",
+"PointType" : "Straight",
+"Position" : {
+"x" : 117.632,
+"y" : 500.198
+},
+"GradingRuleID" : -1
+} ]
+}, {
+"ID" : "0YxYv7",
+"PointList" : [ {
+"ID" : "Lj1kq9",
+"PointType" : "Straight",
+"Position" : {
+"x" : 117.632,
+"y" : 500.198
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "sdezTf",
+"PointType" : "Straight",
+"Position" : {
+"x" : 112.972,
+"y" : 496.141
+},
+"GradingRuleID" : -1
+} ]
+}, {
+"ID" : "LpFH6g",
+"PointList" : [ {
+"ID" : "sdezTf",
+"PointType" : "Straight",
+"Position" : {
+"x" : 112.972,
+"y" : 496.141
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "MSXzA1",
+"PointType" : "Straight",
+"Position" : {
+"x" : 107.824,
+"y" : 492.455
+},
+"GradingRuleID" : -1
+} ]
+}, {
+"ID" : "ZszuM8",
+"PointList" : [ {
+"ID" : "MSXzA1",
+"PointType" : "Straight",
+"Position" : {
+"x" : 107.824,
+"y" : 492.455
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "qbkgEr",
+"PointType" : "Polyline",
+"Position" : {
+"x" : 96.9715,
+"y" : 486.621
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "xVW1mi",
+"PointType" : "Polyline",
+"Position" : {
+"x" : 85.3957,
+"y" : 482.384
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "IwcrUV",
+"PointType" : "Straight",
+"Position" : {
+"x" : 73.4272,
+"y" : 479.424
+},
+"GradingRuleID" : -1
+} ]
+} ],
+"ID" : "mwQ46R",
+"ShapeType" : 1,
+"IsClosed" : false,
+"FoldData" : {
+"iAngle" : 180,
+"iStrength" : 5,
+"bRenderFolded" : false
+}
+}, {
+"LineList" : [ {
+"ID" : "O2rue1",
+"PointList" : [ {
+"ID" : "wEN8Tg",
+"PointType" : "Straight",
+"Position" : {
+"x" : 73.4272,
+"y" : 484.56
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "oPLSze",
+"PointType" : "Bezier Curve",
+"Position" : {
+"x" : 148.293,
+"y" : 499.81
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "UV9XTy",
+"PointType" : "Bezier Curve",
+"Position" : {
+"x" : 139.079,
+"y" : 562.711
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "EMNb96",
+"PointType" : "Straight",
+"Position" : {
+"x" : 132.722,
+"y" : 664.58
+},
+"GradingRuleID" : -1
+} ]
+} ],
+"ID" : "PFoumN",
+"ShapeType" : 1,
+"IsClosed" : false,
+"FoldData" : {
+"iAngle" : 180,
+"iStrength" : 5,
+"bRenderFolded" : false
+}
+}, {
+"LineList" : [ {
+"ID" : "fYM5qy",
+"PointList" : [ {
+"ID" : "Hn7Hub",
+"PointType" : "Straight",
+"Position" : {
+"x" : 73.4272,
+"y" : 485.587
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "M6v25S",
+"PointType" : "Polyline",
+"Position" : {
+"x" : 84.2582,
+"y" : 488.31
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "9XyNf0",
+"PointType" : "Polyline",
+"Position" : {
+"x" : 94.7287,
+"y" : 492.194
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "RMXywZ",
+"PointType" : "Straight",
+"Position" : {
+"x" : 104.553,
+"y" : 497.493
+},
+"GradingRuleID" : -1
+} ]
+}, {
+"ID" : "ew0O3n",
+"PointList" : [ {
+"ID" : "RMXywZ",
+"PointType" : "Straight",
+"Position" : {
+"x" : 104.553,
+"y" : 497.493
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "ztj1dJ",
+"PointType" : "Straight",
+"Position" : {
+"x" : 109.247,
+"y" : 500.853
+},
+"GradingRuleID" : -1
+} ]
+}, {
+"ID" : "cYhz5M",
+"PointList" : [ {
+"ID" : "ztj1dJ",
+"PointType" : "Straight",
+"Position" : {
+"x" : 109.247,
+"y" : 500.853
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "LM09Jh",
+"PointType" : "Straight",
+"Position" : {
+"x" : 113.473,
+"y" : 504.532
+},
+"GradingRuleID" : -1
+} ]
+}, {
+"ID" : "qIGPDB",
+"PointList" : [ {
+"ID" : "LM09Jh",
+"PointType" : "Straight",
+"Position" : {
+"x" : 113.473,
+"y" : 504.532
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "SQvLol",
+"PointType" : "Straight",
+"Position" : {
+"x" : 117.256,
+"y" : 508.53
+},
+"GradingRuleID" : -1
+} ]
+}, {
+"ID" : "InDHuA",
+"PointList" : [ {
+"ID" : "SQvLol",
+"PointType" : "Straight",
+"Position" : {
+"x" : 117.256,
+"y" : 508.53
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "kx6jGl",
+"PointType" : "Straight",
+"Position" : {
+"x" : 120.617,
+"y" : 512.845
+},
+"GradingRuleID" : -1
+} ]
+}, {
+"ID" : "fNC9WS",
+"PointList" : [ {
+"ID" : "kx6jGl",
+"PointType" : "Straight",
+"Position" : {
+"x" : 120.617,
+"y" : 512.845
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "O0YeXU",
+"PointType" : "Straight",
+"Position" : {
+"x" : 123.58,
+"y" : 517.48
+},
+"GradingRuleID" : -1
+} ]
+}, {
+"ID" : "OdDPkQ",
+"PointList" : [ {
+"ID" : "O0YeXU",
+"PointType" : "Straight",
+"Position" : {
+"x" : 123.58,
+"y" : 517.48
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "iszGvy",
+"PointType" : "Polyline",
+"Position" : {
+"x" : 127.32,
+"y" : 524.999
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "lrBQVZ",
+"PointType" : "Polyline",
+"Position" : {
+"x" : 130.172,
+"y" : 532.9
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "DQCagh",
+"PointType" : "Polyline",
+"Position" : {
+"x" : 132.286,
+"y" : 541.03
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "4FQd7r",
+"PointType" : "Polyline",
+"Position" : {
+"x" : 133.792,
+"y" : 549.294
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "HQ0af0",
+"PointType" : "Polyline",
+"Position" : {
+"x" : 134.812,
+"y" : 557.633
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "gAn1vD",
+"PointType" : "Polyline",
+"Position" : {
+"x" : 135.446,
+"y" : 566.01
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "wnK6W3",
+"PointType" : "Polyline",
+"Position" : {
+"x" : 135.326,
+"y" : 605.013
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "GZIUru",
+"PointType" : "Polyline",
+"Position" : {
+"x" : 133.054,
+"y" : 643.965
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "k8ONUG",
+"PointType" : "Polyline",
+"Position" : {
+"x" : 132.389,
+"y" : 654.114
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "cHzfO4",
+"PointType" : "Straight",
+"Position" : {
+"x" : 131.747,
+"y" : 664.159
+},
+"GradingRuleID" : -1
+} ]
+} ],
+"ID" : "IJRnGR",
+"ShapeType" : 1,
+"IsClosed" : false,
+"FoldData" : {
+"iAngle" : 90,
+"iStrength" : 5,
+"bRenderFolded" : false
+}
+}, {
+"LineList" : [ {
+"ID" : "LfOWtv",
+"PointList" : [ {
+"ID" : "mu1EId",
+"PointType" : "Straight",
+"Position" : {
+"x" : 73.4272,
+"y" : 483.533
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "6cD9TE",
+"PointType" : "Polyline",
+"Position" : {
+"x" : 84.6375,
+"y" : 486.334
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "4kFCCr",
+"PointType" : "Polyline",
+"Position" : {
+"x" : 95.4763,
+"y" : 490.336
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "7bf9Dw",
+"PointType" : "Straight",
+"Position" : {
+"x" : 105.643,
+"y" : 495.813
+},
+"GradingRuleID" : -1
+} ]
+}, {
+"ID" : "XgWIz7",
+"PointList" : [ {
+"ID" : "7bf9Dw",
+"PointType" : "Straight",
+"Position" : {
+"x" : 105.643,
+"y" : 495.813
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "EezzhI",
+"PointType" : "Straight",
+"Position" : {
+"x" : 110.489,
+"y" : 499.283
+},
+"GradingRuleID" : -1
+} ]
+}, {
+"ID" : "4v4IZ0",
+"PointList" : [ {
+"ID" : "EezzhI",
+"PointType" : "Straight",
+"Position" : {
+"x" : 110.489,
+"y" : 499.283
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "TJQ6oW",
+"PointType" : "Straight",
+"Position" : {
+"x" : 114.86,
+"y" : 503.088
+},
+"GradingRuleID" : -1
+} ]
+}, {
+"ID" : "s7o71p",
+"PointList" : [ {
+"ID" : "TJQ6oW",
+"PointType" : "Straight",
+"Position" : {
+"x" : 114.86,
+"y" : 503.088
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "xd39bO",
+"PointType" : "Straight",
+"Position" : {
+"x" : 118.774,
+"y" : 507.225
+},
+"GradingRuleID" : -1
+} ]
+}, {
+"ID" : "UoSeFw",
+"PointList" : [ {
+"ID" : "xd39bO",
+"PointType" : "Straight",
+"Position" : {
+"x" : 118.774,
+"y" : 507.225
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "5DIJ5N",
+"PointType" : "Straight",
+"Position" : {
+"x" : 122.252,
+"y" : 511.689
+},
+"GradingRuleID" : -1
+} ]
+}, {
+"ID" : "wznNSb",
+"PointList" : [ {
+"ID" : "5DIJ5N",
+"PointType" : "Straight",
+"Position" : {
+"x" : 122.252,
+"y" : 511.689
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "xBSMo8",
+"PointType" : "Straight",
+"Position" : {
+"x" : 125.313,
+"y" : 516.476
+},
+"GradingRuleID" : -1
+} ]
+}, {
+"ID" : "KrbqsI",
+"PointList" : [ {
+"ID" : "xBSMo8",
+"PointType" : "Straight",
+"Position" : {
+"x" : 125.313,
+"y" : 516.476
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "wcV9nd",
+"PointType" : "Polyline",
+"Position" : {
+"x" : 129.127,
+"y" : 524.133
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "2YaUnO",
+"PointType" : "Polyline",
+"Position" : {
+"x" : 132.043,
+"y" : 532.177
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "i8UaeE",
+"PointType" : "Polyline",
+"Position" : {
+"x" : 134.209,
+"y" : 540.455
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "LLymIf",
+"PointType" : "Polyline",
+"Position" : {
+"x" : 135.752,
+"y" : 548.871
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "2kWp7D",
+"PointType" : "Polyline",
+"Position" : {
+"x" : 136.795,
+"y" : 557.364
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "A3BBpH",
+"PointType" : "Polyline",
+"Position" : {
+"x" : 137.443,
+"y" : 565.897
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "Hf35uf",
+"PointType" : "Polyline",
+"Position" : {
+"x" : 137.326,
+"y" : 605.054
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "BMOUn9",
+"PointType" : "Polyline",
+"Position" : {
+"x" : 135.046,
+"y" : 644.16
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "tC9zIp",
+"PointType" : "Polyline",
+"Position" : {
+"x" : 134.384,
+"y" : 654.248
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "HOUkYo",
+"PointType" : "Straight",
+"Position" : {
+"x" : 133.697,
+"y" : 665.002
+},
+"GradingRuleID" : -1
+} ]
+} ],
+"ID" : "9mSm12",
+"ShapeType" : 1,
+"IsClosed" : false,
+"FoldData" : {
+"iAngle" : 90,
+"iStrength" : 5,
+"bRenderFolded" : false
+}
+}, {
+"LineList" : [ {
+"ID" : "um1iKg",
+"PointList" : [ {
+"ID" : "s45E5k",
+"PointType" : "Straight",
+"Position" : {
+"x" : 73.4272,
+"y" : 486.614
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "mI617w",
+"PointType" : "Polyline",
+"Position" : {
+"x" : 84.0686,
+"y" : 489.298
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "NCznIe",
+"PointType" : "Polyline",
+"Position" : {
+"x" : 94.3548,
+"y" : 493.123
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "zz5lCU",
+"PointType" : "Straight",
+"Position" : {
+"x" : 104.008,
+"y" : 498.332
+},
+"GradingRuleID" : -1
+} ]
+}, {
+"ID" : "OUdBAj",
+"PointList" : [ {
+"ID" : "zz5lCU",
+"PointType" : "Straight",
+"Position" : {
+"x" : 104.008,
+"y" : 498.332
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "7qn6Wm",
+"PointType" : "Straight",
+"Position" : {
+"x" : 108.627,
+"y" : 501.639
+},
+"GradingRuleID" : -1
+} ]
+}, {
+"ID" : "zBaffJ",
+"PointList" : [ {
+"ID" : "7qn6Wm",
+"PointType" : "Straight",
+"Position" : {
+"x" : 108.627,
+"y" : 501.639
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "Rvs3o1",
+"PointType" : "Straight",
+"Position" : {
+"x" : 112.78,
+"y" : 505.255
+},
+"GradingRuleID" : -1
+} ]
+}, {
+"ID" : "R0DItj",
+"PointList" : [ {
+"ID" : "Rvs3o1",
+"PointType" : "Straight",
+"Position" : {
+"x" : 112.78,
+"y" : 505.255
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "mOhCzA",
+"PointType" : "Straight",
+"Position" : {
+"x" : 116.496,
+"y" : 509.182
+},
+"GradingRuleID" : -1
+} ]
+}, {
+"ID" : "Sufar4",
+"PointList" : [ {
+"ID" : "mOhCzA",
+"PointType" : "Straight",
+"Position" : {
+"x" : 116.496,
+"y" : 509.182
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "LIPB0G",
+"PointType" : "Straight",
+"Position" : {
+"x" : 119.8,
+"y" : 513.423
+},
+"GradingRuleID" : -1
+} ]
+}, {
+"ID" : "UdOCWO",
+"PointList" : [ {
+"ID" : "LIPB0G",
+"PointType" : "Straight",
+"Position" : {
+"x" : 119.8,
+"y" : 513.423
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "MgSiZY",
+"PointType" : "Straight",
+"Position" : {
+"x" : 122.714,
+"y" : 517.981
+},
+"GradingRuleID" : -1
+} ]
+}, {
+"ID" : "OvuWmN",
+"PointList" : [ {
+"ID" : "MgSiZY",
+"PointType" : "Straight",
+"Position" : {
+"x" : 122.714,
+"y" : 517.981
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "tOWDck",
+"PointType" : "Polyline",
+"Position" : {
+"x" : 126.416,
+"y" : 525.432
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "Jnuty2",
+"PointType" : "Polyline",
+"Position" : {
+"x" : 129.237,
+"y" : 533.262
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "OKU8w6",
+"PointType" : "Polyline",
+"Position" : {
+"x" : 131.325,
+"y" : 541.318
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "586k9H",
+"PointType" : "Polyline",
+"Position" : {
+"x" : 132.813,
+"y" : 549.506
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "NkUCDF",
+"PointType" : "Polyline",
+"Position" : {
+"x" : 133.82,
+"y" : 557.768
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "W177r4",
+"PointType" : "Polyline",
+"Position" : {
+"x" : 134.448,
+"y" : 566.067
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "qu5iYh",
+"PointType" : "Polyline",
+"Position" : {
+"x" : 134.324,
+"y" : 605.037
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "NXkH3J",
+"PointType" : "Polyline",
+"Position" : {
+"x" : 132.052,
+"y" : 643.955
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "c9wS2m",
+"PointType" : "Straight",
+"Position" : {
+"x" : 130.772,
+"y" : 663.737
+},
+"GradingRuleID" : -1
+} ]
+} ],
+"ID" : "2G5XE9",
+"ShapeType" : 1,
+"IsClosed" : false,
+"FoldData" : {
+"iAngle" : 180,
+"iStrength" : 5,
+"bRenderFolded" : false
+}
+}, {
+"LineList" : [ {
+"ID" : "tnqJbf",
+"PointList" : [ {
+"ID" : "uhPZ7Z",
+"PointType" : "Straight",
+"Position" : {
+"x" : 73.4272,
+"y" : 482.505
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "cIvG4S",
+"PointType" : "Polyline",
+"Position" : {
+"x" : 84.8271,
+"y" : 485.347
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "H8IWKM",
+"PointType" : "Polyline",
+"Position" : {
+"x" : 95.8501,
+"y" : 489.407
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "5VRCXg",
+"PointType" : "Straight",
+"Position" : {
+"x" : 106.189,
+"y" : 494.974
+},
+"GradingRuleID" : -1
+} ]
+}, {
+"ID" : "krLTt3",
+"PointList" : [ {
+"ID" : "5VRCXg",
+"PointType" : "Straight",
+"Position" : {
+"x" : 106.189,
+"y" : 494.974
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "jTQgxb",
+"PointType" : "Straight",
+"Position" : {
+"x" : 111.11,
+"y" : 498.497
+},
+"GradingRuleID" : -1
+} ]
+}, {
+"ID" : "nxt6oC",
+"PointList" : [ {
+"ID" : "jTQgxb",
+"PointType" : "Straight",
+"Position" : {
+"x" : 111.11,
+"y" : 498.497
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "HHRiVq",
+"PointType" : "Straight",
+"Position" : {
+"x" : 115.553,
+"y" : 502.365
+},
+"GradingRuleID" : -1
+} ]
+}, {
+"ID" : "8q58Ym",
+"PointList" : [ {
+"ID" : "HHRiVq",
+"PointType" : "Straight",
+"Position" : {
+"x" : 115.553,
+"y" : 502.365
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "9aj0jr",
+"PointType" : "Straight",
+"Position" : {
+"x" : 119.534,
+"y" : 506.573
+},
+"GradingRuleID" : -1
+} ]
+}, {
+"ID" : "IfQnR4",
+"PointList" : [ {
+"ID" : "9aj0jr",
+"PointType" : "Straight",
+"Position" : {
+"x" : 119.534,
+"y" : 506.573
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "TQihql",
+"PointType" : "Straight",
+"Position" : {
+"x" : 123.069,
+"y" : 511.111
+},
+"GradingRuleID" : -1
+} ]
+}, {
+"ID" : "8sKIap",
+"PointList" : [ {
+"ID" : "TQihql",
+"PointType" : "Straight",
+"Position" : {
+"x" : 123.069,
+"y" : 511.111
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "XYFtHh",
+"PointType" : "Straight",
+"Position" : {
+"x" : 126.179,
+"y" : 515.975
+},
+"GradingRuleID" : -1
+} ]
+}, {
+"ID" : "LwJNX5",
+"PointList" : [ {
+"ID" : "XYFtHh",
+"PointType" : "Straight",
+"Position" : {
+"x" : 126.179,
+"y" : 515.975
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "gIhIGW",
+"PointType" : "Polyline",
+"Position" : {
+"x" : 130.03,
+"y" : 523.7
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "pmYosj",
+"PointType" : "Polyline",
+"Position" : {
+"x" : 132.979,
+"y" : 531.815
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "Mt4uTE",
+"PointType" : "Polyline",
+"Position" : {
+"x" : 135.17,
+"y" : 540.167
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "avJfvf",
+"PointType" : "Polyline",
+"Position" : {
+"x" : 136.731,
+"y" : 548.659
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "555lrz",
+"PointType" : "Polyline",
+"Position" : {
+"x" : 137.787,
+"y" : 557.229
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "WQz5Pn",
+"PointType" : "Polyline",
+"Position" : {
+"x" : 138.442,
+"y" : 565.84
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "hcMy19",
+"PointType" : "Polyline",
+"Position" : {
+"x" : 138.328,
+"y" : 605.031
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "kTqwBb",
+"PointType" : "Polyline",
+"Position" : {
+"x" : 136.047,
+"y" : 644.17
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "yvdqDk",
+"PointType" : "Polyline",
+"Position" : {
+"x" : 135.382,
+"y" : 654.31
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "nhyFSJ",
+"PointType" : "Straight",
+"Position" : {
+"x" : 134.673,
+"y" : 665.423
+},
+"GradingRuleID" : -1
+} ]
+} ],
+"ID" : "LwtO6t",
+"ShapeType" : 1,
+"IsClosed" : false,
+"FoldData" : {
+"iAngle" : 180,
+"iStrength" : 5,
+"bRenderFolded" : false
+}
+}, {
+"LineList" : [ {
+"ID" : "yyrroX",
+"PointList" : [ {
+"ID" : "yao2LM",
+"PointType" : "Straight",
+"Position" : {
+"x" : 132.722,
+"y" : 664.58
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "GAeISG",
+"PointType" : "Bezier Curve",
+"Position" : {
+"x" : 139.079,
+"y" : 562.711
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "KRUWtG",
+"PointType" : "Bezier Curve",
+"Position" : {
+"x" : 148.293,
+"y" : 499.811
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "vkIjLX",
+"PointType" : "Straight",
+"Position" : {
+"x" : 73.4272,
+"y" : 484.56
+},
+"GradingRuleID" : -1
+} ]
+} ],
+"ID" : "ZUNwZO",
+"ShapeType" : 2,
+"IsClosed" : false,
+"IsLinkable" : true
+}, {
+"LineList" : [ {
+"ID" : "TxjrHS",
+"PointList" : [ {
+"ID" : "H1X0zZ",
+"PointType" : "Straight",
+"Position" : {
+"x" : 132.722,
+"y" : 664.58
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "5Wro9z",
+"PointType" : "Straight",
+"Position" : {
+"x" : 133.387,
+"y" : 654.181
+},
+"GradingRuleID" : -1
+} ]
+} ],
+"ID" : "MQtI1W",
+"ShapeType" : 2,
+"IsClosed" : false,
+"IsLinkable" : true
+}, {
+"LineList" : [ {
+"ID" : "lSmhJB",
+"PointList" : [ {
+"ID" : "IKb4zv",
+"PointType" : "Straight",
+"Position" : {
+"x" : 133.387,
+"y" : 654.181
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "ArEuU8",
+"PointType" : "Straight",
+"Position" : {
+"x" : 134.05,
+"y" : 644.063
+},
+"GradingRuleID" : -1
+} ]
+} ],
+"ID" : "cdqsCu",
+"ShapeType" : 2,
+"IsClosed" : false,
+"IsLinkable" : true
+}, {
+"LineList" : [ {
+"ID" : "oovQjI",
+"PointList" : [ {
+"ID" : "yOxoED",
+"PointType" : "Straight",
+"Position" : {
+"x" : 134.05,
+"y" : 644.063
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "1rZ8T6",
+"PointType" : "Straight",
+"Position" : {
+"x" : 135.763,
+"y" : 616.39
+},
+"GradingRuleID" : -1
+} ]
+} ],
+"ID" : "8JweD9",
+"ShapeType" : 2,
+"IsClosed" : false,
+"IsLinkable" : true
+}, {
+"LineList" : [ {
+"ID" : "DVefji",
+"PointList" : [ {
+"ID" : "lEsApT",
+"PointType" : "Straight",
+"Position" : {
+"x" : 135.763,
+"y" : 616.39
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "hCLHYu",
+"PointType" : "Straight",
+"Position" : {
+"x" : 135.898,
+"y" : 613.835
+},
+"GradingRuleID" : -1
+} ]
+} ],
+"ID" : "pxGm3n",
+"ShapeType" : 2,
+"IsClosed" : false,
+"IsLinkable" : true
+}, {
+"LineList" : [ {
+"ID" : "4NuTWZ",
+"PointList" : [ {
+"ID" : "mCnFtw",
+"PointType" : "Straight",
+"Position" : {
+"x" : 135.898,
+"y" : 613.835
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "U0IysL",
+"PointType" : "Straight",
+"Position" : {
+"x" : 136.144,
+"y" : 608.87
+},
+"GradingRuleID" : -1
+} ]
+} ],
+"ID" : "nNevUk",
+"ShapeType" : 2,
+"IsClosed" : false,
+"IsLinkable" : true
+}, {
+"LineList" : [ {
+"ID" : "N4BHtU",
+"PointList" : [ {
+"ID" : "nZwRgm",
+"PointType" : "Straight",
+"Position" : {
+"x" : 136.144,
+"y" : 608.87
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "zJudlG",
+"PointType" : "Straight",
+"Position" : {
+"x" : 136.311,
+"y" : 605.247
+},
+"GradingRuleID" : -1
+} ]
+} ],
+"ID" : "To1Ig9",
+"ShapeType" : 2,
+"IsClosed" : false,
+"IsLinkable" : true
+}, {
+"LineList" : [ {
+"ID" : "NdVdN3",
+"PointList" : [ {
+"ID" : "P06nwh",
+"PointType" : "Straight",
+"Position" : {
+"x" : 136.311,
+"y" : 605.247
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "b3zr48",
+"PointType" : "Straight",
+"Position" : {
+"x" : 136.602,
+"y" : 597.746
+},
+"GradingRuleID" : -1
+} ]
+} ],
+"ID" : "dy43mX",
+"ShapeType" : 2,
+"IsClosed" : false,
+"IsLinkable" : true
+}, {
+"LineList" : [ {
+"ID" : "BKz4TS",
+"PointList" : [ {
+"ID" : "mLrQVV",
+"PointType" : "Straight",
+"Position" : {
+"x" : 136.602,
+"y" : 597.762
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "lS9tkv",
+"PointType" : "Polyline",
+"Position" : {
+"x" : 136.348,
+"y" : 565.175
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "ty8ejr",
+"PointType" : "Straight",
+"Position" : {
+"x" : 135.162,
+"y" : 551.858
+},
+"GradingRuleID" : -1
+} ]
+} ],
+"ID" : "L9L6aR",
+"ShapeType" : 2,
+"IsClosed" : false,
+"IsLinkable" : true
+}, {
+"LineList" : [ {
+"ID" : "2XE2CY",
+"PointList" : [ {
+"ID" : "dx35jv",
+"PointType" : "Straight",
+"Position" : {
+"x" : 135.162,
+"y" : 551.858
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "D0gtVq",
+"PointType" : "Polyline",
+"Position" : {
+"x" : 134.338,
+"y" : 546.346
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "fijDfd",
+"PointType" : "Polyline",
+"Position" : {
+"x" : 133.3,
+"y" : 540.87
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "BTajtn",
+"PointType" : "Polyline",
+"Position" : {
+"x" : 131.978,
+"y" : 535.455
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "gWQWTO",
+"PointType" : "Polyline",
+"Position" : {
+"x" : 129.983,
+"y" : 529.085
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "aXRS7J",
+"PointType" : "Polyline",
+"Position" : {
+"x" : 128.745,
+"y" : 525.851
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "eFlR96",
+"PointType" : "Straight",
+"Position" : {
+"x" : 127.355,
+"y" : 522.676
+},
+"GradingRuleID" : -1
+} ]
+} ],
+"ID" : "N6vHyu",
+"ShapeType" : 2,
+"IsClosed" : false,
+"IsLinkable" : true
+}, {
+"LineList" : [ {
+"ID" : "HkqDN5",
+"PointList" : [ {
+"ID" : "Ege5AY",
+"PointType" : "Straight",
+"Position" : {
+"x" : 127.357,
+"y" : 522.678
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "F4NKjk",
+"PointType" : "Polyline",
+"Position" : {
+"x" : 126.902,
+"y" : 521.802
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "GBBdS1",
+"PointType" : "Straight",
+"Position" : {
+"x" : 126.495,
+"y" : 520.9
+},
+"GradingRuleID" : -1
+} ]
+} ],
+"ID" : "8mmS7v",
+"ShapeType" : 2,
+"IsClosed" : false,
+"IsLinkable" : true
+}, {
+"LineList" : [ {
+"ID" : "YUP0kN",
+"PointList" : [ {
+"ID" : "7qBWxO",
+"PointType" : "Straight",
+"Position" : {
+"x" : 126.495,
+"y" : 520.9
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "hZj52c",
+"PointType" : "Polyline",
+"Position" : {
+"x" : 125.914,
+"y" : 519.955
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "CYA7JV",
+"PointType" : "Straight",
+"Position" : {
+"x" : 125.465,
+"y" : 518.929
+},
+"GradingRuleID" : -1
+} ]
+} ],
+"ID" : "Ma70Wg",
+"ShapeType" : 2,
+"IsClosed" : false,
+"IsLinkable" : true
+}, {
+"LineList" : [ {
+"ID" : "xYtdxz",
+"PointList" : [ {
+"ID" : "lkFxEc",
+"PointType" : "Straight",
+"Position" : {
+"x" : 125.465,
+"y" : 518.929
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "p9iNUa",
+"PointType" : "Polyline",
+"Position" : {
+"x" : 122.741,
+"y" : 514.488
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "oxodVc",
+"PointType" : "Polyline",
+"Position" : {
+"x" : 121.312,
+"y" : 512.312
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "deDjJM",
+"PointType" : "Straight",
+"Position" : {
+"x" : 120.163,
+"y" : 510.635
+},
+"GradingRuleID" : -1
+} ]
+} ],
+"ID" : "TiNxyA",
+"ShapeType" : 2,
+"IsClosed" : false,
+"IsLinkable" : true
+}, {
+"LineList" : [ {
+"ID" : "dR3O9V",
+"PointList" : [ {
+"ID" : "JjIQas",
+"PointType" : "Straight",
+"Position" : {
+"x" : 120.163,
+"y" : 510.635
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "VCFEv9",
+"PointType" : "Polyline",
+"Position" : {
+"x" : 119.497,
+"y" : 509.828
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "mQdByi",
+"PointType" : "Straight",
+"Position" : {
+"x" : 118.876,
+"y" : 508.982
+},
+"GradingRuleID" : -1
+} ]
+} ],
+"ID" : "u3zfDv",
+"ShapeType" : 2,
+"IsClosed" : false,
+"IsLinkable" : true
+}, {
+"LineList" : [ {
+"ID" : "iWyNWv",
+"PointList" : [ {
+"ID" : "D8Z4LH",
+"PointType" : "Straight",
+"Position" : {
+"x" : 118.876,
+"y" : 508.982
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "aOOjxl",
+"PointType" : "Straight",
+"Position" : {
+"x" : 117.345,
+"y" : 507.169
+},
+"GradingRuleID" : -1
+} ]
+} ],
+"ID" : "M0UOdO",
+"ShapeType" : 2,
+"IsClosed" : false,
+"IsLinkable" : true
+}, {
+"LineList" : [ {
+"ID" : "HIbE23",
+"PointList" : [ {
+"ID" : "m581NV",
+"PointType" : "Straight",
+"Position" : {
+"x" : 117.345,
+"y" : 507.169
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "EmI2R3",
+"PointType" : "Polyline",
+"Position" : {
+"x" : 115.128,
+"y" : 504.774
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "DCU2Zc",
+"PointType" : "Straight",
+"Position" : {
+"x" : 114.167,
+"y" : 503.81
+},
+"GradingRuleID" : -1
+} ]
+} ],
+"ID" : "nfeHOH",
+"ShapeType" : 2,
+"IsClosed" : false,
+"IsLinkable" : true
+}, {
+"LineList" : [ {
+"ID" : "mbGwdo",
+"PointList" : [ {
+"ID" : "gcWANl",
+"PointType" : "Straight",
+"Position" : {
+"x" : 94.5078,
+"y" : 491.027
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "KkfimT",
+"PointType" : "Polyline",
+"Position" : {
+"x" : 93.5319,
+"y" : 490.626
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "zLVK5H",
+"PointType" : "Straight",
+"Position" : {
+"x" : 92.9833,
+"y" : 490.401
+},
+"GradingRuleID" : -1
+} ]
+} ],
+"ID" : "7j5xo7",
+"ShapeType" : 2,
+"IsClosed" : false,
+"IsLinkable" : true
+}, {
+"LineList" : [ {
+"ID" : "QKZwBq",
+"PointList" : [ {
+"ID" : "371XWN",
+"PointType" : "Straight",
+"Position" : {
+"x" : 92.9833,
+"y" : 490.401
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "weoN2I",
+"PointType" : "Straight",
+"Position" : {
+"x" : 91.6982,
+"y" : 489.908
+},
+"GradingRuleID" : -1
+} ]
+} ],
+"ID" : "MnklKs",
+"ShapeType" : 2,
+"IsClosed" : false,
+"IsLinkable" : true
+}, {
+"LineList" : [ {
+"ID" : "Wbz6Nr",
+"PointList" : [ {
+"ID" : "jl2hN4",
+"PointType" : "Straight",
+"Position" : {
+"x" : 91.6982,
+"y" : 489.908
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "ZR2OSO",
+"PointType" : "Polyline",
+"Position" : {
+"x" : 89.8819,
+"y" : 489.236
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "A4imvI",
+"PointType" : "Polyline",
+"Position" : {
+"x" : 87.1786,
+"y" : 488.33
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "rk5aC7",
+"PointType" : "Straight",
+"Position" : {
+"x" : 73.4272,
+"y" : 484.56
+},
+"GradingRuleID" : -1
+} ]
+} ],
+"ID" : "BEDt0M",
+"ShapeType" : 2,
+"IsClosed" : false,
+"IsLinkable" : true
+} ],
+"ButtonHeadList" : [  ],
+"ButtonHoleList" : [  ],
+"AnnotationList" : [  ],
+"NotchList" : [  ],
+"IsHalfSymmetric" : false,
+"ShapeInfo" : {
+"IsSlashed" : false,
+"LineList" : [ {
+"ID" : "JUUlBe",
+"PointList" : [ {
+"ID" : "v1fqJp",
+"PointType" : "Straight",
+"Position" : {
+"x" : 73.4272,
+"y" : 484.56
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "4FKpma",
+"PointType" : "Straight",
+"Position" : {
+"x" : 73.4272,
+"y" : 478.432
+},
+"GradingRuleID" : -1
+} ]
+}, {
+"ID" : "tI9xWF",
+"PointList" : [ {
+"ID" : "4FKpma",
+"PointType" : "Straight",
+"Position" : {
+"x" : 73.4272,
+"y" : 478.432
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "fpKfM5",
+"PointType" : "Straight",
+"Position" : {
+"x" : 81.1028,
+"y" : 346.418
+},
+"GradingRuleID" : -1
+} ]
+}, {
+"ID" : "J7rHAi",
+"PointList" : [ {
+"ID" : "fpKfM5",
+"PointType" : "Straight",
+"Position" : {
+"x" : 81.1028,
+"y" : 346.418
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "dHnPGx",
+"PointType" : "Bezier Curve",
+"Position" : {
+"x" : 120.349,
+"y" : 355.63
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "oysW90",
+"PointType" : "Bezier Curve",
+"Position" : {
+"x" : 120.349,
+"y" : 355.63
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "myT0sm",
+"PointType" : "Straight",
+"Position" : {
+"x" : 159.885,
+"y" : 361.322
+},
+"GradingRuleID" : -1
+} ]
+}, {
+"ID" : "s0OQPt",
+"PointList" : [ {
+"ID" : "myT0sm",
+"PointType" : "Straight",
+"Position" : {
+"x" : 159.885,
+"y" : 361.322
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "9q0pUY",
+"PointType" : "Straight",
+"Position" : {
+"x" : 157.903,
+"y" : 460.359
+},
+"GradingRuleID" : -1
+} ]
+}, {
+"ID" : "oJBAxM",
+"PointList" : [ {
+"ID" : "9q0pUY",
+"PointType" : "Straight",
+"Position" : {
+"x" : 157.903,
+"y" : 460.359
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "KV8hP7",
+"PointType" : "Straight",
+"Position" : {
+"x" : 178.943,
+"y" : 363.562
+},
+"GradingRuleID" : -1
+} ]
+}, {
+"ID" : "BfTd20",
+"PointList" : [ {
+"ID" : "KV8hP7",
+"PointType" : "Straight",
+"Position" : {
+"x" : 178.943,
+"y" : 363.562
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "SvUtv6",
+"PointType" : "Bezier Curve",
+"Position" : {
+"x" : 196.191,
+"y" : 365.42
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "LXlCpP",
+"PointType" : "Bezier Curve",
+"Position" : {
+"x" : 196.191,
+"y" : 365.42
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "ADSr1o",
+"PointType" : "Straight",
+"Position" : {
+"x" : 213.48,
+"y" : 366.67
+},
+"GradingRuleID" : -1
+} ]
+}, {
+"ID" : "mEoIRd",
+"PointList" : [ {
+"ID" : "ADSr1o",
+"PointType" : "Straight",
+"Position" : {
+"x" : 213.48,
+"y" : 366.67
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "CdeGro",
+"PointType" : "Straight",
+"Position" : {
+"x" : 216.217,
+"y" : 476.699
+},
+"GradingRuleID" : -1
+} ]
+}, {
+"ID" : "dNXGRv",
+"PointList" : [ {
+"ID" : "CdeGro",
+"PointType" : "Straight",
+"Position" : {
+"x" : 216.217,
+"y" : 476.699
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "OltUkf",
+"PointType" : "Straight",
+"Position" : {
+"x" : 232.631,
+"y" : 367.867
+},
+"GradingRuleID" : -1
+} ]
+}, {
+"ID" : "O8Zu4U",
+"PointList" : [ {
+"ID" : "OltUkf",
+"PointType" : "Straight",
+"Position" : {
+"x" : 232.631,
+"y" : 367.867
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "ngJ8Pp",
+"PointType" : "Bezier Curve",
+"Position" : {
+"x" : 258.583,
+"y" : 369.235
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "tjBi30",
+"PointType" : "Bezier Curve",
+"Position" : {
+"x" : 258.583,
+"y" : 369.235
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "IBXqyU",
+"PointType" : "Straight",
+"Position" : {
+"x" : 284.624,
+"y" : 369.235
+},
+"GradingRuleID" : -1
+} ]
+}, {
+"ID" : "4Gb5Eb",
+"PointList" : [ {
+"ID" : "IBXqyU",
+"PointType" : "Straight",
+"Position" : {
+"x" : 284.624,
+"y" : 369.235
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "lP9mjr",
+"PointType" : "Straight",
+"Position" : {
+"x" : 284.624,
+"y" : 596.127
+},
+"GradingRuleID" : -1
+} ]
+}, {
+"ID" : "o0p82k",
+"PointList" : [ {
+"ID" : "lP9mjr",
+"PointType" : "Straight",
+"Position" : {
+"x" : 284.624,
+"y" : 596.127
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "rPCbWo",
+"PointType" : "Straight",
+"Position" : {
+"x" : 278.187,
+"y" : 596.127
+},
+"GradingRuleID" : -1
+} ]
+}, {
+"ID" : "mbJpYZ",
+"PointList" : [ {
+"ID" : "rPCbWo",
+"PointType" : "Straight",
+"Position" : {
+"x" : 278.187,
+"y" : 596.127
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "Y71rsf",
+"PointType" : "Straight",
+"Position" : {
+"x" : 240.773,
+"y" : 711.273
+},
+"GradingRuleID" : -1
+} ]
+}, {
+"ID" : "hz0eFV",
+"PointList" : [ {
+"ID" : "Y71rsf",
+"PointType" : "Straight",
+"Position" : {
+"x" : 240.773,
+"y" : 711.273
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "yFt0Cl",
+"PointType" : "Straight",
+"Position" : {
+"x" : 132.722,
+"y" : 664.58
+},
+"GradingRuleID" : -1
+} ]
+}, {
+"ID" : "Ks5Bye",
+"PointList" : [ {
+"ID" : "yFt0Cl",
+"PointType" : "Straight",
+"Position" : {
+"x" : 132.722,
+"y" : 664.58
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "o44YC3",
+"PointType" : "Straight",
+"Position" : {
+"x" : 127.847,
+"y" : 662.473
+},
+"GradingRuleID" : -1
+} ]
+}, {
+"ID" : "HLXF37",
+"PointList" : [ {
+"ID" : "o44YC3",
+"PointType" : "Straight",
+"Position" : {
+"x" : 127.847,
+"y" : 662.473
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "35zEwf",
+"PointType" : "Polyline",
+"Position" : {
+"x" : 128.396,
+"y" : 653.866
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "wnXGg7",
+"PointType" : "Polyline",
+"Position" : {
+"x" : 129.061,
+"y" : 643.722
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "rLcuyq",
+"PointType" : "Polyline",
+"Position" : {
+"x" : 130.923,
+"y" : 613.329
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "hx5rrP",
+"PointType" : "Polyline",
+"Position" : {
+"x" : 131.869,
+"y" : 582.897
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "ig7yNY",
+"PointType" : "Polyline",
+"Position" : {
+"x" : 130.204,
+"y" : 552.513
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "teFhVX",
+"PointType" : "Polyline",
+"Position" : {
+"x" : 127.993,
+"y" : 540.189
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "QZMSP6",
+"PointType" : "Polyline",
+"Position" : {
+"x" : 124.308,
+"y" : 528.227
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "PD6Vww",
+"PointType" : "Polyline",
+"Position" : {
+"x" : 118.643,
+"y" : 517.076
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "OZzABt",
+"PointType" : "Polyline",
+"Position" : {
+"x" : 110.701,
+"y" : 507.422
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "ChHpWN",
+"PointType" : "Polyline",
+"Position" : {
+"x" : 102.513,
+"y" : 500.942
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "91uHqP",
+"PointType" : "Polyline",
+"Position" : {
+"x" : 93.3335,
+"y" : 495.959
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "2FUnaR",
+"PointType" : "Polyline",
+"Position" : {
+"x" : 83.5522,
+"y" : 492.281
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "jqNOZj",
+"PointType" : "Straight",
+"Position" : {
+"x" : 73.4272,
+"y" : 489.696
+},
+"GradingRuleID" : -1
+} ]
+}, {
+"ID" : "NiNiOp",
+"PointList" : [ {
+"ID" : "jqNOZj",
+"PointType" : "Straight",
+"Position" : {
+"x" : 73.4272,
+"y" : 489.696
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "v1fqJp",
+"PointType" : "Straight",
+"Position" : {
+"x" : 73.4272,
+"y" : 484.56
+},
+"GradingRuleID" : -1
+} ]
+} ]
+},
+"ArrangementPointDataMap" : {
+"PointName" : "Body_Back_2_L",
+"fOffSetX" : 0.03,
+"fOffSetY" : 0.3,
+"fAngle" : 0.0
+}
+}, {
+"Name" : "Pattern_53956",
+"fGrainlineAngle" : 0.0,
+"ID" : "rLlkiB",
+"strSuperImposeSide" : "None",
+"CurrentFabricUUID" : "aaaYvs",
+"IsClosed" : true,
+"InternalLineList" : [ {
+"LineList" : [ {
+"ID" : "0fIIyF",
+"PointList" : [ {
+"ID" : "5jxguO",
+"PointType" : "Straight",
+"Position" : {
+"x" : -15.1815,
+"y" : 434.514
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "Zgi27r",
+"PointType" : "Polyline",
+"Position" : {
+"x" : -23.2777,
+"y" : 437.798
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "b80wt6",
+"PointType" : "Polyline",
+"Position" : {
+"x" : -32.7982,
+"y" : 442.094
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "UjRuad",
+"PointType" : "Polyline",
+"Position" : {
+"x" : -42.0012,
+"y" : 446.647
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "WvgLTg",
+"PointType" : "Polyline",
+"Position" : {
+"x" : -50.9219,
+"y" : 451.426
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "OFkb4X",
+"PointType" : "Polyline",
+"Position" : {
+"x" : -88.1529,
+"y" : 474.571
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "x0DoiO",
+"PointType" : "Polyline",
+"Position" : {
+"x" : -124.45,
+"y" : 499.177
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "VBRhAE",
+"PointType" : "Polyline",
+"Position" : {
+"x" : -145.081,
+"y" : 512.196
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "3VHh2M",
+"PointType" : "Polyline",
+"Position" : {
+"x" : -166.439,
+"y" : 523.981
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "TT6tA3",
+"PointType" : "Polyline",
+"Position" : {
+"x" : -175.486,
+"y" : 528.352
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "bcqs3V",
+"PointType" : "Polyline",
+"Position" : {
+"x" : -184.839,
+"y" : 532.46
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "OSms0W",
+"PointType" : "Polyline",
+"Position" : {
+"x" : -194.531,
+"y" : 536.276
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "QlPiEU",
+"PointType" : "Polyline",
+"Position" : {
+"x" : -204.607,
+"y" : 539.774
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "0iqE6s",
+"PointType" : "Polyline",
+"Position" : {
+"x" : -215.103,
+"y" : 542.923
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "MyGVx2",
+"PointType" : "Polyline",
+"Position" : {
+"x" : -226.059,
+"y" : 545.695
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "NVI0qH",
+"PointType" : "Polyline",
+"Position" : {
+"x" : -237.514,
+"y" : 548.061
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "1NKZGo",
+"PointType" : "Polyline",
+"Position" : {
+"x" : -249.508,
+"y" : 549.99
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "rrGEWW",
+"PointType" : "Polyline",
+"Position" : {
+"x" : -262.081,
+"y" : 551.451
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "NwH3hH",
+"PointType" : "Polyline",
+"Position" : {
+"x" : -275.268,
+"y" : 552.414
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "1tP0lA",
+"PointType" : "Straight",
+"Position" : {
+"x" : -289.057,
+"y" : 552.846
+},
+"GradingRuleID" : -1
+} ]
+} ],
+"ID" : "DjkGvE",
+"ShapeType" : 1,
+"IsClosed" : false,
+"FoldData" : {
+"iAngle" : 180,
+"iStrength" : 5,
+"bRenderFolded" : false
+}
+}, {
+"LineList" : [ {
+"ID" : "BIXBEA",
+"PointList" : [ {
+"ID" : "oYFJFV",
+"PointType" : "Straight",
+"Position" : {
+"x" : -289.057,
+"y" : 557.848
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "Vg7J0f",
+"PointType" : "Bezier Curve",
+"Position" : {
+"x" : -150.0,
+"y" : 556.297
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "MVzCY6",
+"PointType" : "Bezier Curve",
+"Position" : {
+"x" : -107.036,
+"y" : 474.963
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "SINX1L",
+"PointType" : "Straight",
+"Position" : {
+"x" : -11.619,
+"y" : 438.465
+},
+"GradingRuleID" : -1
+} ]
+} ],
+"ID" : "kBhXyF",
+"ShapeType" : 1,
+"IsClosed" : false,
+"FoldData" : {
+"iAngle" : 180,
+"iStrength" : 5,
+"bRenderFolded" : false
+}
+}, {
+"LineList" : [ {
+"ID" : "8qTf2q",
+"PointList" : [ {
+"ID" : "V92h7U",
+"PointType" : "Straight",
+"Position" : {
+"x" : -11.619,
+"y" : 438.465
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "U1tJoW",
+"PointType" : "Bezier Curve",
+"Position" : {
+"x" : -107.036,
+"y" : 474.963
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "v6Oo8P",
+"PointType" : "Bezier Curve",
+"Position" : {
+"x" : -150.0,
+"y" : 556.297
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "da8Oc2",
+"PointType" : "Straight",
+"Position" : {
+"x" : -289.057,
+"y" : 557.848
+},
+"GradingRuleID" : -1
+} ]
+} ],
+"ID" : "Pe9rFz",
+"ShapeType" : 2,
+"IsClosed" : false,
+"IsLinkable" : true
+}, {
+"LineList" : [ {
+"ID" : "xgtqH8",
+"PointList" : [ {
+"ID" : "EZVxcs",
+"PointType" : "Straight",
+"Position" : {
+"x" : -11.619,
+"y" : 438.465
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "UxSL6F",
+"PointType" : "Polyline",
+"Position" : {
+"x" : -21.3088,
+"y" : 442.395
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "RC2iK7",
+"PointType" : "Polyline",
+"Position" : {
+"x" : -30.6608,
+"y" : 446.615
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "FiLOhO",
+"PointType" : "Polyline",
+"Position" : {
+"x" : -39.7118,
+"y" : 451.093
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "tUXa6j",
+"PointType" : "Polyline",
+"Position" : {
+"x" : -77.3783,
+"y" : 473.416
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "xq9oLm",
+"PointType" : "Polyline",
+"Position" : {
+"x" : -113.649,
+"y" : 497.974
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "gBaeA1",
+"PointType" : "Polyline",
+"Position" : {
+"x" : -155.271,
+"y" : 523.77
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "hBHxQn",
+"PointType" : "Polyline",
+"Position" : {
+"x" : -164.19,
+"y" : 528.447
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "yhW7EM",
+"PointType" : "Polyline",
+"Position" : {
+"x" : -173.393,
+"y" : 532.893
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "WIUIwX",
+"PointType" : "Polyline",
+"Position" : {
+"x" : -182.916,
+"y" : 537.076
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "id7JIa",
+"PointType" : "Polyline",
+"Position" : {
+"x" : -192.795,
+"y" : 540.966
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "ltvgTE",
+"PointType" : "Polyline",
+"Position" : {
+"x" : -203.068,
+"y" : 544.532
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "zhs010",
+"PointType" : "Polyline",
+"Position" : {
+"x" : -213.771,
+"y" : 547.744
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "Ckji4P",
+"PointType" : "Polyline",
+"Position" : {
+"x" : -224.939,
+"y" : 550.57
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "zeaI0Z",
+"PointType" : "Polyline",
+"Position" : {
+"x" : -236.611,
+"y" : 552.98
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "H4F0oZ",
+"PointType" : "Polyline",
+"Position" : {
+"x" : -248.822,
+"y" : 554.944
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "U09ji2",
+"PointType" : "Polyline",
+"Position" : {
+"x" : -261.609,
+"y" : 556.43
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "zJNoHA",
+"PointType" : "Polyline",
+"Position" : {
+"x" : -275.009,
+"y" : 557.408
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "FCNk8v",
+"PointType" : "Straight",
+"Position" : {
+"x" : -289.057,
+"y" : 557.848
+},
+"GradingRuleID" : -1
+} ]
+} ],
+"ID" : "6uVs9b",
+"ShapeType" : 2,
+"IsClosed" : false,
+"IsLinkable" : true
+} ],
+"ButtonHeadList" : [  ],
+"ButtonHoleList" : [  ],
+"AnnotationList" : [  ],
+"NotchList" : [  ],
+"IsHalfSymmetric" : false,
+"ShapeInfo" : {
+"IsSlashed" : false,
+"LineList" : [ {
+"ID" : "BEB686",
+"PointList" : [ {
+"ID" : "BCbznf",
+"PointType" : "Straight",
+"Position" : {
+"x" : -289.057,
+"y" : 557.849
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "uyNHok",
+"PointType" : "Straight",
+"Position" : {
+"x" : -289.057,
+"y" : 343.363
+},
+"GradingRuleID" : -1
+} ]
+}, {
+"ID" : "eoDZAh",
+"PointList" : [ {
+"ID" : "uyNHok",
+"PointType" : "Straight",
+"Position" : {
+"x" : -289.057,
+"y" : 343.363
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "vDjlq0",
+"PointType" : "Straight",
+"Position" : {
+"x" : -97.3774,
+"y" : 343.363
+},
+"GradingRuleID" : -1
+} ]
+}, {
+"ID" : "oCalsU",
+"PointList" : [ {
+"ID" : "vDjlq0",
+"PointType" : "Straight",
+"Position" : {
+"x" : -97.3774,
+"y" : 343.363
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "HZrZSa",
+"PointType" : "Straight",
+"Position" : {
+"x" : -11.619,
+"y" : 438.465
+},
+"GradingRuleID" : -1
+} ]
+}, {
+"ID" : "zuhcpl",
+"PointList" : [ {
+"ID" : "HZrZSa",
+"PointType" : "Straight",
+"Position" : {
+"x" : -11.619,
+"y" : 438.465
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "Vo2Kj9",
+"PointType" : "Straight",
+"Position" : {
+"x" : -8.05652,
+"y" : 442.415
+},
+"GradingRuleID" : -1
+} ]
+}, {
+"ID" : "oScHXq",
+"PointList" : [ {
+"ID" : "Vo2Kj9",
+"PointType" : "Straight",
+"Position" : {
+"x" : -8.05652,
+"y" : 442.415
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "7cjI1e",
+"PointType" : "Polyline",
+"Position" : {
+"x" : -19.3399,
+"y" : 446.992
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "3x6ztm",
+"PointType" : "Polyline",
+"Position" : {
+"x" : -28.5234,
+"y" : 451.136
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "safHe8",
+"PointType" : "Polyline",
+"Position" : {
+"x" : -56.9599,
+"y" : 466.464
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "PnS1Re",
+"PointType" : "Polyline",
+"Position" : {
+"x" : -84.1454,
+"y" : 483.928
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "aBuiD2",
+"PointType" : "Polyline",
+"Position" : {
+"x" : -110.854,
+"y" : 502.121
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "hP4yz9",
+"PointType" : "Polyline",
+"Position" : {
+"x" : -127.293,
+"y" : 512.952
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "FVbS2n",
+"PointType" : "Polyline",
+"Position" : {
+"x" : -144.09,
+"y" : 523.217
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "DRGoeY",
+"PointType" : "Polyline",
+"Position" : {
+"x" : -152.884,
+"y" : 528.164
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "PV4dnA",
+"PointType" : "Polyline",
+"Position" : {
+"x" : -161.94,
+"y" : 532.914
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "SQ495m",
+"PointType" : "Polyline",
+"Position" : {
+"x" : -171.299,
+"y" : 537.435
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "aY8fmY",
+"PointType" : "Polyline",
+"Position" : {
+"x" : -180.994,
+"y" : 541.693
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "wfcBTj",
+"PointType" : "Polyline",
+"Position" : {
+"x" : -191.059,
+"y" : 545.656
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "HBKb7u",
+"PointType" : "Polyline",
+"Position" : {
+"x" : -201.529,
+"y" : 549.291
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "wlPJBF",
+"PointType" : "Polyline",
+"Position" : {
+"x" : -212.438,
+"y" : 552.564
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "EY4Kue",
+"PointType" : "Polyline",
+"Position" : {
+"x" : -223.82,
+"y" : 555.444
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "ykAfZJ",
+"PointType" : "Polyline",
+"Position" : {
+"x" : -235.707,
+"y" : 557.899
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "8ofSs6",
+"PointType" : "Polyline",
+"Position" : {
+"x" : -248.136,
+"y" : 559.897
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "mhhX57",
+"PointType" : "Polyline",
+"Position" : {
+"x" : -261.138,
+"y" : 561.409
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "DxO4Uz",
+"PointType" : "Polyline",
+"Position" : {
+"x" : -274.749,
+"y" : 562.403
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "QlfV8H",
+"PointType" : "Straight",
+"Position" : {
+"x" : -289.057,
+"y" : 562.851
+},
+"GradingRuleID" : -1
+} ]
+}, {
+"ID" : "YwpZeU",
+"PointList" : [ {
+"ID" : "QlfV8H",
+"PointType" : "Straight",
+"Position" : {
+"x" : -289.057,
+"y" : 562.851
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "BCbznf",
+"PointType" : "Straight",
+"Position" : {
+"x" : -289.057,
+"y" : 557.849
+},
+"GradingRuleID" : -1
+} ]
+} ]
+},
+"ArrangementPointDataMap" : {
+"PointName" : "Arm_Back_1_L",
+"fOffSetX" : -0.15,
+"fOffSetY" : 0.3,
+"fAngle" : 0.0
+}
+}, {
+"Name" : "Pattern_54330",
+"fGrainlineAngle" : 0.0,
+"ID" : "dyWHhf",
+"strSuperImposeSide" : "None",
+"CurrentFabricUUID" : "aaaYvs",
+"IsClosed" : true,
+"InternalLineList" : [ {
+"LineList" : [ {
+"ID" : "YG5KQW",
+"PointList" : [ {
+"ID" : "a9vnd6",
+"PointType" : "Straight",
+"Position" : {
+"x" : 215.42,
+"y" : 1117.63
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "dJWoo2",
+"PointType" : "Polyline",
+"Position" : {
+"x" : 202.254,
+"y" : 1117.33
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "IvR2J2",
+"PointType" : "Polyline",
+"Position" : {
+"x" : 189.637,
+"y" : 1116.5
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "pdCwFT",
+"PointType" : "Polyline",
+"Position" : {
+"x" : 177.544,
+"y" : 1115.14
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "9HGAar",
+"PointType" : "Polyline",
+"Position" : {
+"x" : 165.941,
+"y" : 1113.3
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "AkYBTT",
+"PointType" : "Polyline",
+"Position" : {
+"x" : 154.792,
+"y" : 1111.0
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "EOsQOr",
+"PointType" : "Polyline",
+"Position" : {
+"x" : 144.067,
+"y" : 1108.28
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "PxsWqs",
+"PointType" : "Polyline",
+"Position" : {
+"x" : 133.735,
+"y" : 1105.18
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "CaxGm1",
+"PointType" : "Polyline",
+"Position" : {
+"x" : 123.756,
+"y" : 1101.7
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "c01hKe",
+"PointType" : "Polyline",
+"Position" : {
+"x" : 114.105,
+"y" : 1097.9
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "KhqMCR",
+"PointType" : "Polyline",
+"Position" : {
+"x" : 104.749,
+"y" : 1093.79
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "ZMv8se",
+"PointType" : "Polyline",
+"Position" : {
+"x" : 95.652,
+"y" : 1089.41
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "0HOLi5",
+"PointType" : "Polyline",
+"Position" : {
+"x" : 67.077,
+"y" : 1073.35
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "ZYJmVK",
+"PointType" : "Polyline",
+"Position" : {
+"x" : 39.5912,
+"y" : 1055.49
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "rU0bbO",
+"PointType" : "Polyline",
+"Position" : {
+"x" : 12.4205,
+"y" : 1037.14
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "13Xc0b",
+"PointType" : "Polyline",
+"Position" : {
+"x" : -4.18751,
+"y" : 1026.4
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "ZzurSr",
+"PointType" : "Polyline",
+"Position" : {
+"x" : -21.1753,
+"y" : 1016.28
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "IGZxFH",
+"PointType" : "Polyline",
+"Position" : {
+"x" : -29.9767,
+"y" : 1011.48
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "FiFrAo",
+"PointType" : "Polyline",
+"Position" : {
+"x" : -39.0011,
+"y" : 1006.91
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "loIxuj",
+"PointType" : "Polyline",
+"Position" : {
+"x" : -48.2761,
+"y" : 1002.6
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "de6gGB",
+"PointType" : "Straight",
+"Position" : {
+"x" : -56.1478,
+"y" : 999.3
+},
+"GradingRuleID" : -1
+} ]
+} ],
+"ID" : "rfsbM0",
+"ShapeType" : 1,
+"IsClosed" : false,
+"FoldData" : {
+"iAngle" : 180,
+"iStrength" : 5,
+"bRenderFolded" : false
+}
+}, {
+"LineList" : [ {
+"ID" : "R9PJQ3",
+"PointList" : [ {
+"ID" : "2A5DSn",
+"PointType" : "Straight",
+"Position" : {
+"x" : 215.42,
+"y" : 1122.63
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "RV6Kqx",
+"PointType" : "Bezier Curve",
+"Position" : {
+"x" : 83.2465,
+"y" : 1122.58
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "75aPd4",
+"PointType" : "Bezier Curve",
+"Position" : {
+"x" : 32.3277,
+"y" : 1039.71
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "YZDet7",
+"PointType" : "Straight",
+"Position" : {
+"x" : -59.6735,
+"y" : 1003.24
+},
+"GradingRuleID" : -1
+} ]
+} ],
+"ID" : "m2XxIN",
+"ShapeType" : 1,
+"IsClosed" : false,
+"FoldData" : {
+"iAngle" : 180,
+"iStrength" : 5,
+"bRenderFolded" : false
+}
+}, {
+"LineList" : [ {
+"ID" : "gJ46cS",
+"PointList" : [ {
+"ID" : "Li1eAE",
+"PointType" : "Straight",
+"Position" : {
+"x" : 215.42,
+"y" : 1122.63
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "8mnP4A",
+"PointType" : "Polyline",
+"Position" : {
+"x" : 202.031,
+"y" : 1122.33
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "BDcjzk",
+"PointType" : "Polyline",
+"Position" : {
+"x" : 189.193,
+"y" : 1121.48
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "vHYxj6",
+"PointType" : "Polyline",
+"Position" : {
+"x" : 176.874,
+"y" : 1120.1
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "DsyC3N",
+"PointType" : "Polyline",
+"Position" : {
+"x" : 165.044,
+"y" : 1118.22
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "ILF9X5",
+"PointType" : "Polyline",
+"Position" : {
+"x" : 153.673,
+"y" : 1115.88
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "zXRap7",
+"PointType" : "Polyline",
+"Position" : {
+"x" : 142.732,
+"y" : 1113.1
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "JWT8m1",
+"PointType" : "Polyline",
+"Position" : {
+"x" : 132.19,
+"y" : 1109.93
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "Fa4uhm",
+"PointType" : "Polyline",
+"Position" : {
+"x" : 122.017,
+"y" : 1106.39
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "UZFaJp",
+"PointType" : "Polyline",
+"Position" : {
+"x" : 112.183,
+"y" : 1102.51
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "Rz74kC",
+"PointType" : "Polyline",
+"Position" : {
+"x" : 102.658,
+"y" : 1098.33
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "I8e25w",
+"PointType" : "Polyline",
+"Position" : {
+"x" : 93.4111,
+"y" : 1093.88
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "dHBcBq",
+"PointType" : "Polyline",
+"Position" : {
+"x" : 84.4132,
+"y" : 1089.18
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "zzFvQp",
+"PointType" : "Polyline",
+"Position" : {
+"x" : 75.6338,
+"y" : 1084.27
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "gyWISO",
+"PointType" : "Polyline",
+"Position" : {
+"x" : 34.1891,
+"y" : 1057.87
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "DBdF8r",
+"PointType" : "Polyline",
+"Position" : {
+"x" : -6.76158,
+"y" : 1030.69
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "YQaAJN",
+"PointType" : "Polyline",
+"Position" : {
+"x" : -41.1849,
+"y" : 1011.41
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "qf1wBK",
+"PointType" : "Polyline",
+"Position" : {
+"x" : -50.2977,
+"y" : 1007.18
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "rD4U3i",
+"PointType" : "Straight",
+"Position" : {
+"x" : -59.6735,
+"y" : 1003.24
+},
+"GradingRuleID" : -1
+} ]
+} ],
+"ID" : "VPQRu0",
+"ShapeType" : 2,
+"IsClosed" : false,
+"IsLinkable" : true
+}, {
+"LineList" : [ {
+"ID" : "Z6dY3b",
+"PointList" : [ {
+"ID" : "xxuLKU",
+"PointType" : "Straight",
+"Position" : {
+"x" : -59.6735,
+"y" : 1003.24
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "E6zdkq",
+"PointType" : "Bezier Curve",
+"Position" : {
+"x" : 32.3277,
+"y" : 1039.71
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "yszabr",
+"PointType" : "Bezier Curve",
+"Position" : {
+"x" : 83.2465,
+"y" : 1122.58
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "cuTrSB",
+"PointType" : "Straight",
+"Position" : {
+"x" : 215.42,
+"y" : 1122.63
+},
+"GradingRuleID" : -1
+} ]
+} ],
+"ID" : "ilSFRI",
+"ShapeType" : 2,
+"IsClosed" : false,
+"IsLinkable" : true
+} ],
+"ButtonHeadList" : [  ],
+"ButtonHoleList" : [  ],
+"AnnotationList" : [  ],
+"NotchList" : [  ],
+"IsHalfSymmetric" : false,
+"ShapeInfo" : {
+"IsSlashed" : false,
+"LineList" : [ {
+"ID" : "wCuAE5",
+"PointList" : [ {
+"ID" : "OVQJ9w",
+"PointType" : "Straight",
+"Position" : {
+"x" : 215.42,
+"y" : 1122.63
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "J1HOTC",
+"PointType" : "Straight",
+"Position" : {
+"x" : 215.42,
+"y" : 1127.63
+},
+"GradingRuleID" : -1
+} ]
+}, {
+"ID" : "KNebOB",
+"PointList" : [ {
+"ID" : "J1HOTC",
+"PointType" : "Straight",
+"Position" : {
+"x" : 215.42,
+"y" : 1127.63
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "42L4kO",
+"PointType" : "Polyline",
+"Position" : {
+"x" : 201.809,
+"y" : 1127.33
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "kx9qkG",
+"PointType" : "Polyline",
+"Position" : {
+"x" : 188.749,
+"y" : 1126.46
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "6d5qkK",
+"PointType" : "Polyline",
+"Position" : {
+"x" : 176.203,
+"y" : 1125.05
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "fpABic",
+"PointType" : "Polyline",
+"Position" : {
+"x" : 164.147,
+"y" : 1123.14
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "ukwJiK",
+"PointType" : "Polyline",
+"Position" : {
+"x" : 152.556,
+"y" : 1120.75
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "pSFQMd",
+"PointType" : "Polyline",
+"Position" : {
+"x" : 141.398,
+"y" : 1117.92
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "MKTCHp",
+"PointType" : "Polyline",
+"Position" : {
+"x" : 130.648,
+"y" : 1114.69
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "ZSV1bt",
+"PointType" : "Polyline",
+"Position" : {
+"x" : 120.276,
+"y" : 1111.08
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "JzmRwZ",
+"PointType" : "Polyline",
+"Position" : {
+"x" : 110.261,
+"y" : 1107.13
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "aeQUFM",
+"PointType" : "Polyline",
+"Position" : {
+"x" : 100.567,
+"y" : 1102.87
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "PypvOd",
+"PointType" : "Polyline",
+"Position" : {
+"x" : 91.169,
+"y" : 1098.35
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "QE7mgO",
+"PointType" : "Polyline",
+"Position" : {
+"x" : 82.0368,
+"y" : 1093.58
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "8zsi4d",
+"PointType" : "Polyline",
+"Position" : {
+"x" : 73.1389,
+"y" : 1088.61
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "DKyCTR",
+"PointType" : "Polyline",
+"Position" : {
+"x" : 64.4527,
+"y" : 1083.47
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "e0eKOz",
+"PointType" : "Polyline",
+"Position" : {
+"x" : 55.9377,
+"y" : 1078.19
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "Eiohnn",
+"PointType" : "Polyline",
+"Position" : {
+"x" : 37.5115,
+"y" : 1066.14
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "emkmwX",
+"PointType" : "Polyline",
+"Position" : {
+"x" : 19.2791,
+"y" : 1053.8
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "yN2HU1",
+"PointType" : "Polyline",
+"Position" : {
+"x" : 0.970978,
+"y" : 1041.57
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "qNRjz2",
+"PointType" : "Polyline",
+"Position" : {
+"x" : -17.6819,
+"y" : 1029.88
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "i1VIdV",
+"PointType" : "Polyline",
+"Position" : {
+"x" : -34.7239,
+"y" : 1020.29
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "yI2mDa",
+"PointType" : "Polyline",
+"Position" : {
+"x" : -52.3184,
+"y" : 1011.75
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "gInBub",
+"PointType" : "Straight",
+"Position" : {
+"x" : -63.1992,
+"y" : 1007.19
+},
+"GradingRuleID" : -1
+} ]
+}, {
+"ID" : "rxgTds",
+"PointList" : [ {
+"ID" : "gInBub",
+"PointType" : "Straight",
+"Position" : {
+"x" : -63.1992,
+"y" : 1007.19
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "rIpNjH",
+"PointType" : "Straight",
+"Position" : {
+"x" : -59.6735,
+"y" : 1003.24
+},
+"GradingRuleID" : -1
+} ]
+}, {
+"ID" : "awfW1v",
+"PointList" : [ {
+"ID" : "rIpNjH",
+"PointType" : "Straight",
+"Position" : {
+"x" : -59.6735,
+"y" : 1003.24
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "KnT9OI",
+"PointType" : "Straight",
+"Position" : {
+"x" : 25.3601,
+"y" : 908.141
+},
+"GradingRuleID" : -1
+} ]
+}, {
+"ID" : "DVYk5O",
+"PointList" : [ {
+"ID" : "KnT9OI",
+"PointType" : "Straight",
+"Position" : {
+"x" : 25.3601,
+"y" : 908.141
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "JxX6dB",
+"PointType" : "Straight",
+"Position" : {
+"x" : 215.42,
+"y" : 908.141
+},
+"GradingRuleID" : -1
+} ]
+}, {
+"ID" : "hrRAGp",
+"PointList" : [ {
+"ID" : "JxX6dB",
+"PointType" : "Straight",
+"Position" : {
+"x" : 215.42,
+"y" : 908.141
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "OVQJ9w",
+"PointType" : "Straight",
+"Position" : {
+"x" : 215.42,
+"y" : 1122.63
+},
+"GradingRuleID" : -1
+} ]
+} ]
+},
+"ArrangementPointDataMap" : {
+"PointName" : "Arm_Front_1_L",
+"fOffSetX" : 0.4,
+"fOffSetY" : 0.3,
+"fAngle" : 0.0
+}
+}, {
+"Name" : "Pattern_53503",
+"fGrainlineAngle" : 0.0,
+"ID" : "B7pUKn",
+"strSuperImposeSide" : "None",
+"CurrentFabricUUID" : "aaaYvs",
+"IsClosed" : true,
+"InternalLineList" : [ {
+"LineList" : [ {
+"ID" : "hhjDqn",
+"PointList" : [ {
+"ID" : "KCyp2m",
+"PointType" : "Straight",
+"Position" : {
+"x" : -143.503,
+"y" : 905.792
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "Y9WLff",
+"PointType" : "Straight",
+"Position" : {
+"x" : -66.2428,
+"y" : 903.415
+},
+"GradingRuleID" : -1
+} ]
+} ],
+"ID" : "ty5ncX",
+"ShapeType" : 2,
+"IsClosed" : false,
+"IsLinkable" : true
+}, {
+"LineList" : [ {
+"ID" : "Am09Dp",
+"PointList" : [ {
+"ID" : "Ecvqv6",
+"PointType" : "Straight",
+"Position" : {
+"x" : -143.503,
+"y" : 905.792
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "CQyX5L",
+"PointType" : "Straight",
+"Position" : {
+"x" : -66.2428,
+"y" : 903.415
+},
+"GradingRuleID" : -1
+} ]
+} ],
+"ID" : "6K6fF9",
+"ShapeType" : 2,
+"IsClosed" : false,
+"IsLinkable" : true
+} ],
+"ButtonHeadList" : [  ],
+"ButtonHoleList" : [  ],
+"AnnotationList" : [  ],
+"NotchList" : [  ],
+"IsHalfSymmetric" : false,
+"ShapeInfo" : {
+"IsSlashed" : false,
+"LineList" : [ {
+"ID" : "kcJhuz",
+"PointList" : [ {
+"ID" : "LiGmrp",
+"PointType" : "Straight",
+"Position" : {
+"x" : -143.503,
+"y" : 905.792
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "Og56On",
+"PointType" : "Straight",
+"Position" : {
+"x" : -143.503,
+"y" : 904.005
+},
+"GradingRuleID" : -1
+} ]
+}, {
+"ID" : "lchMb0",
+"PointList" : [ {
+"ID" : "Og56On",
+"PointType" : "Straight",
+"Position" : {
+"x" : -143.503,
+"y" : 904.005
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "eC6oD3",
+"PointType" : "Straight",
+"Position" : {
+"x" : -66.4261,
+"y" : 901.634
+},
+"GradingRuleID" : -1
+} ]
+}, {
+"ID" : "8wpM0P",
+"PointList" : [ {
+"ID" : "eC6oD3",
+"PointType" : "Straight",
+"Position" : {
+"x" : -66.4261,
+"y" : 901.634
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "usBoCz",
+"PointType" : "Straight",
+"Position" : {
+"x" : -66.2428,
+"y" : 903.415
+},
+"GradingRuleID" : -1
+} ]
+}, {
+"ID" : "MYfGfs",
+"PointList" : [ {
+"ID" : "usBoCz",
+"PointType" : "Straight",
+"Position" : {
+"x" : -66.2428,
+"y" : 903.415
+},
+"GradingRuleID" : -1
+}, {
+"ID" : "LiGmrp",
+"PointType" : "Straight",
+"Position" : {
+"x" : -143.503,
+"y" : 905.792
+},
+"GradingRuleID" : -1
+} ]
+} ]
+},
+"ArrangementPointDataMap" : {
+"PointName" : "Body_Front_3_L",
+"fOffSetX" : 0.27,
+"fOffSetY" : 0.2,
+"fAngle" : 0.0
+}
+} ],
+"SymmetricDataList" : [ {
+"SymmetricPatternID" : "None",
+"OriginPatternID" : "e1KYFe"
+}, {
+"SymmetricPatternID" : "None",
+"OriginPatternID" : "dEvm91"
+}, {
+"SymmetricPatternID" : "None",
+"OriginPatternID" : "MVggsp"
+}, {
+"SymmetricPatternID" : "None",
+"OriginPatternID" : "MOzT1m"
+}, {
+"SymmetricPatternID" : "None",
+"OriginPatternID" : "wf2O8N"
+}, {
+"SymmetricPatternID" : "None",
+"OriginPatternID" : "GlYD7g"
+}, {
+"SymmetricPatternID" : "None",
+"OriginPatternID" : "XBTPgj"
+}, {
+"SymmetricPatternID" : "None",
+"OriginPatternID" : "8uJoeb"
+}, {
+"SymmetricPatternID" : "None",
+"OriginPatternID" : "NyIXbd"
+}, {
+"SymmetricPatternID" : "None",
+"OriginPatternID" : "nPMPK4"
+}, {
+"SymmetricPatternID" : "None",
+"OriginPatternID" : "mEAmpO"
+}, {
+"SymmetricPatternID" : "None",
+"OriginPatternID" : "rdQaLP"
+}, {
+"SymmetricPatternID" : "None",
+"OriginPatternID" : "rLlkiB"
+}, {
+"SymmetricPatternID" : "None",
+"OriginPatternID" : "dyWHhf"
+}, {
+"SymmetricPatternID" : "None",
+"OriginPatternID" : "B7pUKn"
+} ],
+"InstanceDataList" : [ {
+"OriginPatternID" : "e1KYFe",
+"InstancePatternIDArray" : [  ]
+}, {
+"OriginPatternID" : "dEvm91",
+"InstancePatternIDArray" : [  ]
+}, {
+"OriginPatternID" : "MVggsp",
+"InstancePatternIDArray" : [  ]
+}, {
+"OriginPatternID" : "MOzT1m",
+"InstancePatternIDArray" : [  ]
+}, {
+"OriginPatternID" : "wf2O8N",
+"InstancePatternIDArray" : [  ]
+}, {
+"OriginPatternID" : "GlYD7g",
+"InstancePatternIDArray" : [  ]
+}, {
+"OriginPatternID" : "XBTPgj",
+"InstancePatternIDArray" : [  ]
+}, {
+"OriginPatternID" : "8uJoeb",
+"InstancePatternIDArray" : [  ]
+}, {
+"OriginPatternID" : "NyIXbd",
+"InstancePatternIDArray" : [  ]
+}, {
+"OriginPatternID" : "nPMPK4",
+"InstancePatternIDArray" : [  ]
+}, {
+"OriginPatternID" : "mEAmpO",
+"InstancePatternIDArray" : [  ]
+}, {
+"OriginPatternID" : "rdQaLP",
+"InstancePatternIDArray" : [  ]
+}, {
+"OriginPatternID" : "rLlkiB",
+"InstancePatternIDArray" : [  ]
+}, {
+"OriginPatternID" : "dyWHhf",
+"InstancePatternIDArray" : [  ]
+}, {
+"OriginPatternID" : "B7pUKn",
+"InstancePatternIDArray" : [  ]
+} ],
+"SeamLinePairGroupList" : [ {
+"Name" : "rand_0B1T21D8NX_SeamLineGroup_0",
+"bIsTurned" : false,
+"PairList" : [ {
+"First" : {
+"ShapeID" : "8uJoeb",
+"LengthParam" : {
+"fStart" : 0.0,
+"fEnd" : 0.0476124
+},
+"Direction" : true
+},
+"Second" : {
+"ShapeID" : "XBTPgj",
+"LengthParam" : {
+"fStart" : 1.0,
+"fEnd" : 0.94611
+},
+"Direction" : false
+}
+} ],
+"FoldData" : {
+"iAngle" : 180,
+"iStrength" : 5
+}
+}, {
+"Name" : "rand_0B1T21D8NX_SeamLineGroup_1",
+"bIsTurned" : false,
+"PairList" : [ {
+"First" : {
+"ShapeID" : "8uJoeb",
+"LengthParam" : {
+"fStart" : 0.501564,
+"fEnd" : 0.549177
+},
+"Direction" : true
+},
+"Second" : {
+"ShapeID" : "XBTPgj",
+"LengthParam" : {
+"fStart" : 0.484301,
+"fEnd" : 0.430411
+},
+"Direction" : false
+}
+} ],
+"FoldData" : {
+"iAngle" : 180,
+"iStrength" : 5
+}
+}, {
+"Name" : "rand_0B1T21D8NX_SeamLineGroup_2",
+"bIsTurned" : false,
+"PairList" : [ {
+"First" : {
+"ShapeID" : "wf2O8N",
+"LengthParam" : {
+"fStart" : 0.217967,
+"fEnd" : 0.288335
+},
+"Direction" : true
+},
+"Second" : {
+"ShapeID" : "wf2O8N",
+"LengthParam" : {
+"fStart" : 0.358704,
+"fEnd" : 0.288335
+},
+"Direction" : false
+}
+} ],
+"FoldData" : {
+"iAngle" : 180,
+"iStrength" : 5
+}
+}, {
+"Name" : "rand_0B1T21D8NX_SeamLineGroup_3",
+"bIsTurned" : false,
+"PairList" : [ {
+"First" : {
+"ShapeID" : "wf2O8N",
+"LengthParam" : {
+"fStart" : 0.036956,
+"fEnd" : 0.115143
+},
+"Direction" : true
+},
+"Second" : {
+"ShapeID" : "wf2O8N",
+"LengthParam" : {
+"fStart" : 0.193331,
+"fEnd" : 0.115143
+},
+"Direction" : false
+}
+} ],
+"FoldData" : {
+"iAngle" : 180,
+"iStrength" : 5
+}
+}, {
+"Name" : "rand_0B1T21D8NX_SeamLineGroup_4",
+"bIsTurned" : false,
+"PairList" : [ {
+"First" : {
+"ShapeID" : "dEvm91",
+"LengthParam" : {
+"fStart" : 0.799044,
+"fEnd" : 1.0
+},
+"Direction" : true
+},
+"Second" : {
+"ShapeID" : "e1KYFe",
+"LengthParam" : {
+"fStart" : 0.200956,
+"fEnd" : 0.0
+},
+"Direction" : false
+}
+} ],
+"FoldData" : {
+"iAngle" : 180,
+"iStrength" : 5
+}
+}, {
+"Name" : "rand_0B1T21D8NX_SeamLineGroup_5",
+"bIsTurned" : false,
+"PairList" : [ {
+"First" : {
+"ShapeID" : "dEvm91",
+"LengthParam" : {
+"fStart" : 0.299044,
+"fEnd" : 0.5
+},
+"Direction" : true
+},
+"Second" : {
+"ShapeID" : "e1KYFe",
+"LengthParam" : {
+"fStart" : 0.700956,
+"fEnd" : 0.5
+},
+"Direction" : false
+}
+} ],
+"FoldData" : {
+"iAngle" : 180,
+"iStrength" : 5
+}
+}, {
+"Name" : "rand_0B1T21D8NX_SeamLineGroup_6",
+"bIsTurned" : false,
+"PairList" : [ {
+"First" : {
+"ShapeID" : "MOzT1m",
+"LengthParam" : {
+"fStart" : 0.743704,
+"fEnd" : 1.0
+},
+"Direction" : true
+},
+"Second" : {
+"ShapeID" : "MVggsp",
+"LengthParam" : {
+"fStart" : 0.254988,
+"fEnd" : 0.0
+},
+"Direction" : false
+}
+} ],
+"FoldData" : {
+"iAngle" : 180,
+"iStrength" : 5
+}
+}, {
+"Name" : "rand_0B1T21D8NX_SeamLineGroup_7",
+"bIsTurned" : false,
+"PairList" : [ {
+"First" : {
+"ShapeID" : "MOzT1m",
+"LengthParam" : {
+"fStart" : 0.227109,
+"fEnd" : 0.379551
+},
+"Direction" : true
+},
+"Second" : {
+"ShapeID" : "MVggsp",
+"LengthParam" : {
+"fStart" : 0.772124,
+"fEnd" : 0.619884
+},
+"Direction" : false
+}
+} ],
+"FoldData" : {
+"iAngle" : 180,
+"iStrength" : 5
+}
+}, {
+"Name" : "rand_0B1T21D8NX_SeamLineGroup_8",
+"bIsTurned" : false,
+"PairList" : [ {
+"First" : {
+"ShapeID" : "dEvm91",
+"LengthParam" : {
+"fStart" : 0.5,
+"fEnd" : 0.799044
+},
+"Direction" : true
+},
+"Second" : {
+"ShapeID" : "MOzT1m",
+"LengthParam" : {
+"fStart" : 0.227109,
+"fEnd" : 0.0
+},
+"Direction" : false
+}
+} ],
+"FoldData" : {
+"iAngle" : 180,
+"iStrength" : 5
+}
+}, {
+"Name" : "rand_0B1T21D8NX_SeamLineGroup_9",
+"bIsTurned" : false,
+"PairList" : [ {
+"First" : {
+"ShapeID" : "e1KYFe",
+"LengthParam" : {
+"fStart" : 0.200956,
+"fEnd" : 0.5
+},
+"Direction" : true
+},
+"Second" : {
+"ShapeID" : "MVggsp",
+"LengthParam" : {
+"fStart" : 1.0,
+"fEnd" : 0.772124
+},
+"Direction" : false
+}
+} ],
+"FoldData" : {
+"iAngle" : 180,
+"iStrength" : 5
+}
+}, {
+"Name" : "rand_0B1T21D8NX_SeamLineGroup_10",
+"bIsTurned" : false,
+"PairList" : [ {
+"First" : {
+"ShapeID" : "GlYD7g",
+"LengthParam" : {
+"fStart" : 0.575243,
+"fEnd" : 0.640703
+},
+"Direction" : true
+},
+"Second" : {
+"ShapeID" : "GlYD7g",
+"LengthParam" : {
+"fStart" : 0.575243,
+"fEnd" : 0.509782
+},
+"Direction" : false
+}
+} ],
+"FoldData" : {
+"iAngle" : 180,
+"iStrength" : 5
+}
+}, {
+"Name" : "rand_0B1T21D8NX_SeamLineGroup_11",
+"bIsTurned" : false,
+"PairList" : [ {
+"First" : {
+"ShapeID" : "GlYD7g",
+"LengthParam" : {
+"fStart" : 0.879782,
+"fEnd" : 0.955274
+},
+"Direction" : true
+},
+"Second" : {
+"ShapeID" : "GlYD7g",
+"LengthParam" : {
+"fStart" : 0.879782,
+"fEnd" : 0.804291
+},
+"Direction" : false
+}
+} ],
+"FoldData" : {
+"iAngle" : 180,
+"iStrength" : 5
+}
+}, {
+"Name" : "rand_0B1T21D8NX_SeamLineGroup_12",
+"bIsTurned" : false,
+"PairList" : [ {
+"First" : {
+"ShapeID" : "MOzT1m",
+"LengthParam" : {
+"fStart" : 0.379551,
+"fEnd" : 0.743704
+},
+"Direction" : true
+},
+"Second" : {
+"ShapeID" : "GlYD7g",
+"LengthParam" : {
+"fStart" : 0.505455,
+"fEnd" : 0.371607
+},
+"Direction" : false
+}
+} ],
+"FoldData" : {
+"iAngle" : 180,
+"iStrength" : 5
+}
+}, {
+"Name" : "rand_0B1T21D8NX_SeamLineGroup_13",
+"bIsTurned" : false,
+"PairList" : [ {
+"First" : {
+"ShapeID" : "MVggsp",
+"LengthParam" : {
+"fStart" : 0.254988,
+"fEnd" : 0.619884
+},
+"Direction" : true
+},
+"Second" : {
+"ShapeID" : "wf2O8N",
+"LengthParam" : {
+"fStart" : 0.66462,
+"fEnd" : 0.51399
+},
+"Direction" : false
+}
+} ],
+"FoldData" : {
+"iAngle" : 180,
+"iStrength" : 5
+}
+}, {
+"Name" : "rand_0B1T21D8NX_SeamLineGroup_14",
+"bIsTurned" : false,
+"PairList" : [ {
+"First" : {
+"ShapeID" : "GlYD7g",
+"LengthParam" : {
+"fStart" : 0.29756,
+"fEnd" : 0.371607
+},
+"Direction" : true
+},
+"Second" : {
+"ShapeID" : "wf2O8N",
+"LengthParam" : {
+"fStart" : 0.748238,
+"fEnd" : 0.66462
+},
+"Direction" : false
+}
+} ],
+"FoldData" : {
+"iAngle" : 180,
+"iStrength" : 5
+}
+}, {
+"Name" : "rand_0B1T21D8NX_SeamLineGroup_15",
+"bIsTurned" : false,
+"PairList" : [ {
+"First" : {
+"ShapeID" : "GlYD7g",
+"LengthParam" : {
+"fStart" : 0.640703,
+"fEnd" : 0.724621
+},
+"Direction" : true
+},
+"Second" : {
+"ShapeID" : "wf2O8N",
+"LengthParam" : {
+"fStart" : 0.509637,
+"fEnd" : 0.415698
+},
+"Direction" : false
+}
+} ],
+"FoldData" : {
+"iAngle" : 180,
+"iStrength" : 5
+}
+}, {
+"Name" : "rand_0B1T21D8NX_SeamLineGroup_16",
+"bIsTurned" : false,
+"PairList" : [ {
+"First" : {
+"ShapeID" : "GlYD7g",
+"LengthParam" : {
+"fStart" : 0.505455,
+"fEnd" : 0.509782
+},
+"Direction" : true
+},
+"Second" : {
+"ShapeID" : "wf2O8N",
+"LengthParam" : {
+"fStart" : 0.51399,
+"fEnd" : 0.509637
+},
+"Direction" : false
+}
+} ],
+"FoldData" : {
+"iAngle" : 180,
+"iStrength" : 5
+}
+}, {
+"Name" : "rand_0B1T21D8NX_SeamLineGroup_19",
+"bIsTurned" : false,
+"PairList" : [ {
+"First" : {
+"ShapeID" : "nPMPK4",
+"LengthParam" : {
+"fStart" : 0.0,
+"fEnd" : 0.200956
+},
+"Direction" : true
+},
+"Second" : {
+"ShapeID" : "NyIXbd",
+"LengthParam" : {
+"fStart" : 1.0,
+"fEnd" : 0.799044
+},
+"Direction" : false
+}
+} ],
+"FoldData" : {
+"iAngle" : 180,
+"iStrength" : 5
+}
+}, {
+"Name" : "rand_0B1T21D8NX_SeamLineGroup_20",
+"bIsTurned" : false,
+"PairList" : [ {
+"First" : {
+"ShapeID" : "nPMPK4",
+"LengthParam" : {
+"fStart" : 0.5,
+"fEnd" : 0.700956
+},
+"Direction" : true
+},
+"Second" : {
+"ShapeID" : "NyIXbd",
+"LengthParam" : {
+"fStart" : 0.5,
+"fEnd" : 0.299044
+},
+"Direction" : false
+}
+} ],
+"FoldData" : {
+"iAngle" : 180,
+"iStrength" : 5
+}
+}, {
+"Name" : "rand_0B1T21D8NX_SeamLineGroup_34",
+"bIsTurned" : false,
+"PairList" : [ {
+"First" : {
+"ShapeID" : "GlYD7g",
+"LengthParam" : {
+"fStart" : 0.724621,
+"fEnd" : 0.804291
+},
+"Direction" : true
+},
+"Second" : {
+"ShapeID" : "8uJoeb",
+"LengthParam" : {
+"fStart" : 1.0,
+"fEnd" : 0.856334
+},
+"Direction" : false
+}
+} ],
+"FoldData" : {
+"iAngle" : 180,
+"iStrength" : 5
+}
+}, {
+"Name" : "rand_0B1T21D8NX_SeamLineGroup_35",
+"bIsTurned" : false,
+"PairList" : [ {
+"First" : {
+"ShapeID" : "GlYD7g",
+"LengthParam" : {
+"fStart" : 0.955274,
+"fEnd" : 1.0
+},
+"Direction" : true
+},
+"Second" : {
+"ShapeID" : "8uJoeb",
+"LengthParam" : {
+"fStart" : 0.856334,
+"fEnd" : 0.77568
+},
+"Direction" : false
+}
+} ],
+"FoldData" : {
+"iAngle" : 180,
+"iStrength" : 5
+}
+}, {
+"Name" : "rand_0B1T21D8NX_SeamLineGroup_41",
+"bIsTurned" : false,
+"PairList" : [ {
+"First" : {
+"ShapeID" : "wf2O8N",
+"LengthParam" : {
+"fStart" : 0.0,
+"fEnd" : 0.036956
+},
+"Direction" : true
+},
+"Second" : {
+"ShapeID" : "XBTPgj",
+"LengthParam" : {
+"fStart" : 0.216441,
+"fEnd" : 0.148984
+},
+"Direction" : false
+}
+} ],
+"FoldData" : {
+"iAngle" : 180,
+"iStrength" : 5
+}
+}, {
+"Name" : "rand_0B1T21D8NX_SeamLineGroup_42",
+"bIsTurned" : false,
+"PairList" : [ {
+"First" : {
+"ShapeID" : "wf2O8N",
+"LengthParam" : {
+"fStart" : 0.193331,
+"fEnd" : 0.217967
+},
+"Direction" : true
+},
+"Second" : {
+"ShapeID" : "XBTPgj",
+"LengthParam" : {
+"fStart" : 0.148984,
+"fEnd" : 0.104013
+},
+"Direction" : false
+}
+} ],
+"FoldData" : {
+"iAngle" : 180,
+"iStrength" : 5
+}
+}, {
+"Name" : "rand_0B1T21D8NX_SeamLineGroup_43",
+"bIsTurned" : false,
+"PairList" : [ {
+"First" : {
+"ShapeID" : "wf2O8N",
+"LengthParam" : {
+"fStart" : 0.358704,
+"fEnd" : 0.415698
+},
+"Direction" : true
+},
+"Second" : {
+"ShapeID" : "XBTPgj",
+"LengthParam" : {
+"fStart" : 0.104013,
+"fEnd" : 0.0
+},
+"Direction" : false
+}
+} ],
+"FoldData" : {
+"iAngle" : 180,
+"iStrength" : 5
+}
+}, {
+"Name" : "rand_0B1T21D8NX_SeamLineGroup_26",
+"bIsTurned" : false,
+"PairList" : [ {
+"First" : {
+"ShapeID" : "mEAmpO",
+"LengthParam" : {
+"fStart" : 0.550048,
+"fEnd" : 0.625562
+},
+"Direction" : true
+},
+"Second" : {
+"ShapeID" : "mEAmpO",
+"LengthParam" : {
+"fStart" : 0.701076,
+"fEnd" : 0.625562
+},
+"Direction" : false
+}
+} ],
+"FoldData" : {
+"iAngle" : 180,
+"iStrength" : 5
+}
+}, {
+"Name" : "rand_0B1T21D8NX_SeamLineGroup_32",
+"bIsTurned" : false,
+"PairList" : [ {
+"First" : {
+"ShapeID" : "GlYD7g",
+"LengthParam" : {
+"fStart" : 0.0,
+"fEnd" : 0.171325
+},
+"Direction" : true
+},
+"Second" : {
+"ShapeID" : "mEAmpO",
+"LengthParam" : {
+"fStart" : 0.505309,
+"fEnd" : 0.333933
+},
+"Direction" : false
+}
+} ],
+"FoldData" : {
+"iAngle" : 180,
+"iStrength" : 5
+}
+}, {
+"Name" : "rand_0B1T21D8NX_SeamLineGroup_36",
+"bIsTurned" : false,
+"PairList" : [ {
+"First" : {
+"ShapeID" : "mEAmpO",
+"LengthParam" : {
+"fStart" : 0.505309,
+"fEnd" : 0.550048
+},
+"Direction" : true
+},
+"Second" : {
+"ShapeID" : "8uJoeb",
+"LengthParam" : {
+"fStart" : 0.77568,
+"fEnd" : 0.695027
+},
+"Direction" : false
+}
+} ],
+"FoldData" : {
+"iAngle" : 180,
+"iStrength" : 5
+}
+}, {
+"Name" : "rand_0B1T21D8NX_SeamLineGroup_37",
+"bIsTurned" : false,
+"PairList" : [ {
+"First" : {
+"ShapeID" : "mEAmpO",
+"LengthParam" : {
+"fStart" : 0.701076,
+"fEnd" : 0.780769
+},
+"Direction" : true
+},
+"Second" : {
+"ShapeID" : "8uJoeb",
+"LengthParam" : {
+"fStart" : 0.695027,
+"fEnd" : 0.549177
+},
+"Direction" : false
+}
+} ],
+"FoldData" : {
+"iAngle" : 180,
+"iStrength" : 5
+}
+}, {
+"Name" : "Sewing_133687",
+"bIsTurned" : true,
+"PairList" : [ {
+"First" : {
+"ShapeID" : "mEAmpO",
+"LengthParam" : {
+"fStart" : 0.13024,
+"fEnd" : 0.00363092
+},
+"Direction" : false
+},
+"Second" : {
+"ShapeID" : "SuIiB0",
+"LengthParam" : {
+"fStart" : 1.0,
+"fEnd" : 0.0
+},
+"Direction" : false
+}
+} ],
+"FoldData" : {
+"iAngle" : 180,
+"iStrength" : 5
+}
+}, {
+"Name" : "rand_0B1T21D8NX_SeamLineGroup_17",
+"bIsTurned" : false,
+"PairList" : [ {
+"First" : {
+"ShapeID" : "rdQaLP",
+"LengthParam" : {
+"fStart" : 0.225579,
+"fEnd" : 0.295924
+},
+"Direction" : true
+},
+"Second" : {
+"ShapeID" : "rdQaLP",
+"LengthParam" : {
+"fStart" : 0.225579,
+"fEnd" : 0.155234
+},
+"Direction" : false
+}
+} ],
+"FoldData" : {
+"iAngle" : 180,
+"iStrength" : 5
+}
+}, {
+"Name" : "rand_0B1T21D8NX_SeamLineGroup_18",
+"bIsTurned" : false,
+"PairList" : [ {
+"First" : {
+"ShapeID" : "rdQaLP",
+"LengthParam" : {
+"fStart" : 0.398712,
+"fEnd" : 0.476873
+},
+"Direction" : true
+},
+"Second" : {
+"ShapeID" : "rdQaLP",
+"LengthParam" : {
+"fStart" : 0.398712,
+"fEnd" : 0.320551
+},
+"Direction" : false
+}
+} ],
+"FoldData" : {
+"iAngle" : 180,
+"iStrength" : 5
+}
+}, {
+"Name" : "rand_0B1T21D8NX_SeamLineGroup_33",
+"bIsTurned" : false,
+"PairList" : [ {
+"First" : {
+"ShapeID" : "wf2O8N",
+"LengthParam" : {
+"fStart" : 0.838819,
+"fEnd" : 1.0
+},
+"Direction" : true
+},
+"Second" : {
+"ShapeID" : "rdQaLP",
+"LengthParam" : {
+"fStart" : 0.674943,
+"fEnd" : 0.513817
+},
+"Direction" : false
+}
+} ],
+"FoldData" : {
+"iAngle" : 180,
+"iStrength" : 5
+}
+}, {
+"Name" : "rand_0B1T21D8NX_SeamLineGroup_38",
+"bIsTurned" : false,
+"PairList" : [ {
+"First" : {
+"ShapeID" : "rdQaLP",
+"LengthParam" : {
+"fStart" : 0.0982591,
+"fEnd" : 0.155234
+},
+"Direction" : true
+},
+"Second" : {
+"ShapeID" : "XBTPgj",
+"LengthParam" : {
+"fStart" : 0.430411,
+"fEnd" : 0.32887
+},
+"Direction" : false
+}
+} ],
+"FoldData" : {
+"iAngle" : 180,
+"iStrength" : 5
+}
+}, {
+"Name" : "rand_0B1T21D8NX_SeamLineGroup_39",
+"bIsTurned" : false,
+"PairList" : [ {
+"First" : {
+"ShapeID" : "rdQaLP",
+"LengthParam" : {
+"fStart" : 0.295924,
+"fEnd" : 0.320551
+},
+"Direction" : true
+},
+"Second" : {
+"ShapeID" : "XBTPgj",
+"LengthParam" : {
+"fStart" : 0.32887,
+"fEnd" : 0.283899
+},
+"Direction" : false
+}
+} ],
+"FoldData" : {
+"iAngle" : 180,
+"iStrength" : 5
+}
+}, {
+"Name" : "rand_0B1T21D8NX_SeamLineGroup_40",
+"bIsTurned" : false,
+"PairList" : [ {
+"First" : {
+"ShapeID" : "rdQaLP",
+"LengthParam" : {
+"fStart" : 0.476873,
+"fEnd" : 0.513817
+},
+"Direction" : true
+},
+"Second" : {
+"ShapeID" : "XBTPgj",
+"LengthParam" : {
+"fStart" : 0.283899,
+"fEnd" : 0.216441
+},
+"Direction" : false
+}
+} ],
+"FoldData" : {
+"iAngle" : 180,
+"iStrength" : 5
+}
+}, {
+"Name" : "rand_0B1T21D8NX_SeamLineGroup_29",
+"bIsTurned" : false,
+"PairList" : [ {
+"First" : {
+"ShapeID" : "mEAmpO",
+"LengthParam" : {
+"fStart" : 0.133592,
+"fEnd" : 0.207661
+},
+"Direction" : true
+},
+"Second" : {
+"ShapeID" : "rdQaLP",
+"LengthParam" : {
+"fStart" : 0.849084,
+"fEnd" : 0.765494
+},
+"Direction" : false
+}
+} ],
+"FoldData" : {
+"iAngle" : 180,
+"iStrength" : 5
+}
+}, {
+"Name" : "rand_0B1T21D8NX_SeamLineGroup_30",
+"bIsTurned" : false,
+"PairList" : [ {
+"First" : {
+"ShapeID" : "mEAmpO",
+"LengthParam" : {
+"fStart" : 0.780769,
+"fEnd" : 0.864712
+},
+"Direction" : true
+},
+"Second" : {
+"ShapeID" : "rdQaLP",
+"LengthParam" : {
+"fStart" : 0.0982591,
+"fEnd" : 0.00435166
+},
+"Direction" : false
+}
+} ],
+"FoldData" : {
+"iAngle" : 180,
+"iStrength" : 5
+}
+}, {
+"Name" : "rand_0B1T21D8NX_SeamLineGroup_31",
+"bIsTurned" : false,
+"PairList" : [ {
+"First" : {
+"ShapeID" : "mEAmpO",
+"LengthParam" : {
+"fStart" : 0.995672,
+"fEnd" : 1.0
+},
+"Direction" : true
+},
+"Second" : {
+"ShapeID" : "rdQaLP",
+"LengthParam" : {
+"fStart" : 0.00435166,
+"fEnd" : 0.0
+},
+"Direction" : false
+}
+} ],
+"FoldData" : {
+"iAngle" : 180,
+"iStrength" : 5
+}
+}, {
+"Name" : "Sewing_392786",
+"bIsTurned" : true,
+"PairList" : [ {
+"First" : {
+"ShapeID" : "mwQ46R",
+"LengthParam" : {
+"fStart" : 0.0,
+"fEnd" : 1.0
+},
+"Direction" : true
+},
+"Second" : {
+"ShapeID" : "rdQaLP",
+"LengthParam" : {
+"fStart" : 0.852855,
+"fEnd" : 0.996353
+},
+"Direction" : true
+}
+} ],
+"FoldData" : {
+"iAngle" : 180,
+"iStrength" : 5
+}
+}, {
+"Name" : "rand_0B1T21D8NX_SeamLineGroup_24",
+"bIsTurned" : false,
+"PairList" : [ {
+"First" : {
+"ShapeID" : "NyIXbd",
+"LengthParam" : {
+"fStart" : 0.5,
+"fEnd" : 0.799044
+},
+"Direction" : true
+},
+"Second" : {
+"ShapeID" : "rLlkiB",
+"LengthParam" : {
+"fStart" : 0.474919,
+"fEnd" : 0.250792
+},
+"Direction" : false
+}
+} ],
+"FoldData" : {
+"iAngle" : 180,
+"iStrength" : 5
+}
+}, {
+"Name" : "Sewing_696946",
+"bIsTurned" : true,
+"PairList" : [ {
+"First" : {
+"ShapeID" : "rLlkiB",
+"LengthParam" : {
+"fStart" : 0.994151,
+"fEnd" : 0.630874
+},
+"Direction" : false
+},
+"Second" : {
+"ShapeID" : "DjkGvE",
+"LengthParam" : {
+"fStart" : 1.0,
+"fEnd" : 0.0
+},
+"Direction" : false
+}
+} ],
+"FoldData" : {
+"iAngle" : 180,
+"iStrength" : 5
+}
+}, {
+"Name" : "Sewing_706586",
+"bIsTurned" : false,
+"PairList" : [ {
+"First" : {
+"ShapeID" : "rdQaLP",
+"LengthParam" : {
+"fStart" : 0.852855,
+"fEnd" : 0.996353
+},
+"Direction" : true
+},
+"Second" : {
+"ShapeID" : "rLlkiB",
+"LengthParam" : {
+"fStart" : 0.994151,
+"fEnd" : 0.630874
+},
+"Direction" : false
+}
+} ],
+"FoldData" : {
+"iAngle" : 180,
+"iStrength" : 5
+}
+}, {
+"Name" : "Sewing_707466",
+"bIsTurned" : false,
+"PairList" : [ {
+"First" : {
+"ShapeID" : "rdQaLP",
+"LengthParam" : {
+"fStart" : 0.849084,
+"fEnd" : 0.852855
+},
+"Direction" : true
+},
+"Second" : {
+"ShapeID" : "mEAmpO",
+"LengthParam" : {
+"fStart" : 0.13024,
+"fEnd" : 0.133592
+},
+"Direction" : true
+}
+} ],
+"FoldData" : {
+"iAngle" : 180,
+"iStrength" : 5
+}
+}, {
+"Name" : "Sewing_726233",
+"bIsTurned" : false,
+"PairList" : [ {
+"First" : {
+"ShapeID" : "rdQaLP",
+"LengthParam" : {
+"fStart" : 0.996353,
+"fEnd" : 1.0
+},
+"Direction" : true
+},
+"Second" : {
+"ShapeID" : "mEAmpO",
+"LengthParam" : {
+"fStart" : 0.00363092,
+"fEnd" : 0.0
+},
+"Direction" : false
+}
+} ],
+"FoldData" : {
+"iAngle" : 180,
+"iStrength" : 5
+}
+}, {
+"Name" : "rand_0B1T21D8NX_SeamLineGroup_23",
+"bIsTurned" : false,
+"PairList" : [ {
+"First" : {
+"ShapeID" : "nPMPK4",
+"LengthParam" : {
+"fStart" : 0.200956,
+"fEnd" : 0.5
+},
+"Direction" : true
+},
+"Second" : {
+"ShapeID" : "dyWHhf",
+"LengthParam" : {
+"fStart" : 0.747924,
+"fEnd" : 0.524554
+},
+"Direction" : false
+}
+} ],
+"FoldData" : {
+"iAngle" : 180,
+"iStrength" : 5
+}
+}, {
+"Name" : "Sewing_258734",
+"bIsTurned" : false,
+"PairList" : [ {
+"First" : {
+"ShapeID" : "dyWHhf",
+"LengthParam" : {
+"fStart" : 0.00587773,
+"fEnd" : 0.368406
+},
+"Direction" : true
+},
+"Second" : {
+"ShapeID" : "mEAmpO",
+"LengthParam" : {
+"fStart" : 0.13024,
+"fEnd" : 0.00363092
+},
+"Direction" : false
+}
+} ],
+"FoldData" : {
+"iAngle" : 180,
+"iStrength" : 5
+}
+}, {
+"Name" : "rand_0B1T21D8NX_SeamLineGroup_21",
+"bIsTurned" : false,
+"PairList" : [ {
+"First" : {
+"ShapeID" : "dyWHhf",
+"LengthParam" : {
+"fStart" : 0.747924,
+"fEnd" : 1.0
+},
+"Direction" : true
+},
+"Second" : {
+"ShapeID" : "rLlkiB",
+"LengthParam" : {
+"fStart" : 0.250792,
+"fEnd" : 0.0
+},
+"Direction" : false
+}
+} ],
+"FoldData" : {
+"iAngle" : 180,
+"iStrength" : 5
+}
+}, {
+"Name" : "rand_0B1T21D8NX_SeamLineGroup_22",
+"bIsTurned" : false,
+"PairList" : [ {
+"First" : {
+"ShapeID" : "dyWHhf",
+"LengthParam" : {
+"fStart" : 0.374622,
+"fEnd" : 0.524554
+},
+"Direction" : true
+},
+"Second" : {
+"ShapeID" : "rLlkiB",
+"LengthParam" : {
+"fStart" : 0.624653,
+"fEnd" : 0.474919
+},
+"Direction" : false
+}
+} ],
+"FoldData" : {
+"iAngle" : 180,
+"iStrength" : 5
+}
+}, {
+"Name" : "Sewing_759792",
+"bIsTurned" : true,
+"PairList" : [ {
+"First" : {
+"ShapeID" : "rfsbM0",
+"LengthParam" : {
+"fStart" : 0.0,
+"fEnd" : 1.0
+},
+"Direction" : true
+},
+"Second" : {
+"ShapeID" : "dyWHhf",
+"LengthParam" : {
+"fStart" : 0.00587773,
+"fEnd" : 0.368406
+},
+"Direction" : true
+}
+} ],
+"FoldData" : {
+"iAngle" : 180,
+"iStrength" : 5
+}
+}, {
+"Name" : "Sewing_1234306",
+"bIsTurned" : false,
+"PairList" : [ {
+"First" : {
+"ShapeID" : "mEAmpO",
+"LengthParam" : {
+"fStart" : 0.930192,
+"fEnd" : 0.995672
+},
+"Direction" : true
+},
+"Second" : {
+"ShapeID" : "B7pUKn",
+"LengthParam" : {
+"fStart" : 1.0,
+"fEnd" : 0.510742
+},
+"Direction" : false
+}
+} ],
+"FoldData" : {
+"iAngle" : 180,
+"iStrength" : 5
+}
+}, {
+"Name" : "Sewing_1234589",
+"bIsTurned" : false,
+"PairList" : [ {
+"First" : {
+"ShapeID" : "mEAmpO",
+"LengthParam" : {
+"fStart" : 0.930192,
+"fEnd" : 0.864712
+},
+"Direction" : false
+},
+"Second" : {
+"ShapeID" : "B7pUKn",
+"LengthParam" : {
+"fStart" : 0.0113105,
+"fEnd" : 0.499407
+},
+"Direction" : true
+}
+} ],
+"FoldData" : {
+"iAngle" : 180,
+"iStrength" : 5
+}
+}, {
+"Name" : "Sewing_1238522",
+"bIsTurned" : true,
+"PairList" : [ {
+"First" : {
+"ShapeID" : "B7pUKn",
+"LengthParam" : {
+"fStart" : 0.499407,
+"fEnd" : 0.0113105
+},
+"Direction" : false
+},
+"Second" : {
+"ShapeID" : "LgXWN3",
+"LengthParam" : {
+"fStart" : 1.0,
+"fEnd" : 0.6304
+},
+"Direction" : false
+}
+} ],
+"FoldData" : {
+"iAngle" : 180,
+"iStrength" : 5
+}
+}, {
+"Name" : "Sewing_1239209",
+"bIsTurned" : true,
+"PairList" : [ {
+"First" : {
+"ShapeID" : "B7pUKn",
+"LengthParam" : {
+"fStart" : 0.499407,
+"fEnd" : 0.0113105
+},
+"Direction" : false
+},
+"Second" : {
+"ShapeID" : "Q6JYLe",
+"LengthParam" : {
+"fStart" : 0.0,
+"fEnd" : 0.369202
+},
+"Direction" : true
+}
+} ],
+"FoldData" : {
+"iAngle" : 180,
+"iStrength" : 5
+}
+} ]
+}

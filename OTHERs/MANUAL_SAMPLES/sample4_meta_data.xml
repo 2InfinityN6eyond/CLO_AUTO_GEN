@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MetaData Version="1" ObjFileName="sample4.obj">
+    <PhysicalPropertyList>
+        <PhysicalProperty PhysicalPropertyName="Default_0" Stretch-Weft="100000" Stretch-Warp="100000" Shear="10000" Bending-Weft="314.159" Bending-Warp="1884.96" BucklingRatio-Weft="0" BucklingRatio-Warp="0" InternalDamping="0.0001" BucklingStiffness-Weft="0" BucklingStiffness-Warp="0" Density="0.0003" FrictionCoefficient="0.03"/>
+        <PhysicalProperty PhysicalPropertyName="Default_1" Stretch-Weft="100000" Stretch-Warp="100000" Shear="10000" Bending-Weft="314.159" Bending-Warp="1884.96" BucklingRatio-Weft="0" BucklingRatio-Warp="0" InternalDamping="0.0001" BucklingStiffness-Weft="0" BucklingStiffness-Warp="0" Density="0.0003" FrictionCoefficient="0.03"/>
+    </PhysicalPropertyList>
+    <MeshList>
+        <Mesh MeshStartIndex="1" MeshEndIndex="108" PhysicalPropertyName="Default_1"/>
+        <Mesh MeshStartIndex="109" MeshEndIndex="216" PhysicalPropertyName="Default_1"/>
+        <Mesh MeshStartIndex="217" MeshEndIndex="324" PhysicalPropertyName="Default_1"/>
+        <Mesh MeshStartIndex="325" MeshEndIndex="432" PhysicalPropertyName="Default_1"/>
+        <Mesh MeshStartIndex="433" MeshEndIndex="540" PhysicalPropertyName="Default_1"/>
+        <Mesh MeshStartIndex="541" MeshEndIndex="648" PhysicalPropertyName="Default_1"/>
+        <Mesh MeshStartIndex="649" MeshEndIndex="2353" PhysicalPropertyName="Default_1"/>
+        <Mesh MeshStartIndex="2354" MeshEndIndex="2431" PhysicalPropertyName="Default_1"/>
+        <Mesh MeshStartIndex="2432" MeshEndIndex="2523" PhysicalPropertyName="Default_1"/>
+        <Mesh MeshStartIndex="2524" MeshEndIndex="4021" PhysicalPropertyName="Default_1"/>
+        <Mesh MeshStartIndex="4022" MeshEndIndex="4129" PhysicalPropertyName="Default_1"/>
+        <Mesh MeshStartIndex="4130" MeshEndIndex="4237" PhysicalPropertyName="Default_1"/>
+        <Mesh MeshStartIndex="4238" MeshEndIndex="4345" PhysicalPropertyName="Default_1"/>
+        <Mesh MeshStartIndex="4346" MeshEndIndex="4453" PhysicalPropertyName="Default_1"/>
+        <Mesh MeshStartIndex="4454" MeshEndIndex="4561" PhysicalPropertyName="Default_1"/>
+        <Mesh MeshStartIndex="4562" MeshEndIndex="4669" PhysicalPropertyName="Default_1"/>
+    </MeshList>
+    <SeamLinePairList>
+        <SeamLinePair FoldAngle="0" BKScale="1"/>
+        <SeamLinePair FoldAngle="0" BKScale="1"/>
+        <SeamLinePair FoldAngle="0" BKScale="1"/>
+        <SeamLinePair FoldAngle="0" BKScale="1"/>
+        <SeamLinePair FoldAngle="0" BKScale="1"/>
+        <SeamLinePair FoldAngle="0" BKScale="1"/>
+        <SeamLinePair FoldAngle="0" BKScale="1"/>
+        <SeamLinePair FoldAngle="0" BKScale="1"/>
+        <SeamLinePair FoldAngle="0" BKScale="1"/>
+        <SeamLinePair FoldAngle="0" BKScale="1"/>
+        <SeamLinePair FoldAngle="0" BKScale="1"/>
+        <SeamLinePair FoldAngle="0" BKScale="1"/>
+        <SeamLinePair FoldAngle="0" BKScale="1"/>
+        <SeamLinePair FoldAngle="0" BKScale="1"/>
+        <SeamLinePair FoldAngle="0" BKScale="1"/>
+        <SeamLinePair FoldAngle="0" BKScale="1"/>
+        <SeamLinePair FoldAngle="0" BKScale="1"/>
+        <SeamLinePair FoldAngle="0" BKScale="1"/>
+        <SeamLinePair FoldAngle="0" BKScale="1"/>
+        <SeamLinePair FoldAngle="0" BKScale="1"/>
+        <SeamLinePair FoldAngle="0" BKScale="1"/>
+        <SeamLinePair FoldAngle="0" BKScale="1"/>
+        <SeamLinePair FoldAngle="0" BKScale="1"/>
+        <SeamLinePair FoldAngle="0" BKScale="1"/>
+        <SeamLinePair FoldAngle="0" BKScale="1"/>
+        <SeamLinePair FoldAngle="0" BKScale="1"/>
+        <SeamLinePair FoldAngle="0" BKScale="1"/>
+        <SeamLinePair FoldAngle="0" BKScale="1"/>
+        <SeamLinePair FoldAngle="0" BKScale="1"/>
+        <SeamLinePair FoldAngle="0" BKScale="1"/>
+        <SeamLinePair FoldAngle="0" BKScale="1"/>
+        <SeamLinePair FoldAngle="0" BKScale="1"/>
+        <SeamLinePair FoldAngle="0" BKScale="1"/>
+        <SeamLinePair FoldAngle="0" BKScale="1"/>
+        <SeamLinePair FoldAngle="0" BKScale="1"/>
+        <SeamLinePair FoldAngle="0" BKScale="1"/>
+        <SeamLinePair FoldAngle="0" BKScale="1"/>
+        <SeamLinePair FoldAngle="0" BKScale="1"/>
+        <SeamLinePair FoldAngle="0" BKScale="1"/>
+        <SeamLinePair FoldAngle="0" BKScale="1"/>
+    </SeamLinePairList>
+    <PBRMaterial Opacity="100" Name="Default Fabric_FRONT_107833">
+        <globalColor Name="38C40B" R="56" G="196" B="11" Intensity="1"/>
+        <SpecularColor Shininess="28"/>
+    </PBRMaterial>
+</MetaData>

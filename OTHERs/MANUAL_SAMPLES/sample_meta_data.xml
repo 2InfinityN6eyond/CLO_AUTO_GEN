@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MetaData Version="1" ObjFileName="sample.obj">
+    <PhysicalPropertyList>
+        <PhysicalProperty PhysicalPropertyName="Default_0" Stretch-Weft="100000" Stretch-Warp="100000" Shear="10000" Bending-Weft="314.159" Bending-Warp="1884.96" BucklingRatio-Weft="0" BucklingRatio-Warp="0" InternalDamping="0.0001" BucklingStiffness-Weft="0" BucklingStiffness-Warp="0" Density="0.0003" FrictionCoefficient="0.03"/>
+        <PhysicalProperty PhysicalPropertyName="Default_1" Stretch-Weft="100000" Stretch-Warp="100000" Shear="10000" Bending-Weft="314.159" Bending-Warp="1884.96" BucklingRatio-Weft="0" BucklingRatio-Warp="0" InternalDamping="0.0001" BucklingStiffness-Weft="0" BucklingStiffness-Warp="0" Density="0.0003" FrictionCoefficient="0.03"/>
+        <PhysicalProperty PhysicalPropertyName="V1_Woven_Cotton_Stretch_Sateen_0" Stretch-Weft="459253" Stretch-Warp="514214" Shear="274146" Bending-Weft="6090.98" Bending-Warp="49084.4" BucklingRatio-Weft="0.3" BucklingRatio-Warp="0.3" InternalDamping="0.0001" BucklingStiffness-Weft="0.25" BucklingStiffness-Warp="0.25" Density="0.000229798" FrictionCoefficient="0.03"/>
+    </PhysicalPropertyList>
+    <MeshList>
+        <Mesh MeshStartIndex="1" MeshEndIndex="34" PhysicalPropertyName="V1_Woven_Cotton_Stretch_Sateen_0"/>
+        <Mesh MeshStartIndex="35" MeshEndIndex="68" PhysicalPropertyName="V1_Woven_Cotton_Stretch_Sateen_0"/>
+        <Mesh MeshStartIndex="69" MeshEndIndex="208" PhysicalPropertyName="V1_Woven_Cotton_Stretch_Sateen_0"/>
+        <Mesh MeshStartIndex="209" MeshEndIndex="340" PhysicalPropertyName="V1_Woven_Cotton_Stretch_Sateen_0"/>
+        <Mesh MeshStartIndex="341" MeshEndIndex="460" PhysicalPropertyName="V1_Woven_Cotton_Stretch_Sateen_0"/>
+        <Mesh MeshStartIndex="461" MeshEndIndex="867" PhysicalPropertyName="V1_Woven_Cotton_Stretch_Sateen_0"/>
+        <Mesh MeshStartIndex="868" MeshEndIndex="1349" PhysicalPropertyName="V1_Woven_Cotton_Stretch_Sateen_0"/>
+        <Mesh MeshStartIndex="1350" MeshEndIndex="1392" PhysicalPropertyName="V1_Woven_Cotton_Stretch_Sateen_0"/>
+        <Mesh MeshStartIndex="1393" MeshEndIndex="1794" PhysicalPropertyName="V1_Woven_Cotton_Stretch_Sateen_0"/>
+        <Mesh MeshStartIndex="1795" MeshEndIndex="2283" PhysicalPropertyName="V1_Woven_Cotton_Stretch_Sateen_0"/>
+        <Mesh MeshStartIndex="2284" MeshEndIndex="2327" PhysicalPropertyName="V1_Woven_Cotton_Stretch_Sateen_0"/>
+        <Mesh MeshStartIndex="2328" MeshEndIndex="2468" PhysicalPropertyName="V1_Woven_Cotton_Stretch_Sateen_0"/>
+        <Mesh MeshStartIndex="2469" MeshEndIndex="2601" PhysicalPropertyName="V1_Woven_Cotton_Stretch_Sateen_0"/>
+        <Mesh MeshStartIndex="2602" MeshEndIndex="2721" PhysicalPropertyName="V1_Woven_Cotton_Stretch_Sateen_0"/>
+        <Mesh MeshStartIndex="2722" MeshEndIndex="2755" PhysicalPropertyName="V1_Woven_Cotton_Stretch_Sateen_0"/>
+        <Mesh MeshStartIndex="2756" MeshEndIndex="2789" PhysicalPropertyName="V1_Woven_Cotton_Stretch_Sateen_0"/>
+    </MeshList>
+    <SeamLinePairList>
+        <SeamLinePair FoldAngle="0" BKScale="1"/>
+        <SeamLinePair FoldAngle="0" BKScale="1"/>
+        <SeamLinePair FoldAngle="0" BKScale="1"/>
+        <SeamLinePair FoldAngle="0" BKScale="1"/>
+        <SeamLinePair FoldAngle="0" BKScale="1"/>
+        <SeamLinePair FoldAngle="0" BKScale="1"/>
+        <SeamLinePair FoldAngle="0" BKScale="1"/>
+        <SeamLinePair FoldAngle="0" BKScale="1"/>
+        <SeamLinePair FoldAngle="0" BKScale="1"/>
+        <SeamLinePair FoldAngle="0" BKScale="1"/>
+        <SeamLinePair FoldAngle="0" BKScale="1"/>
+        <SeamLinePair FoldAngle="0" BKScale="1"/>
+        <SeamLinePair FoldAngle="0" BKScale="1"/>
+        <SeamLinePair FoldAngle="0" BKScale="1"/>
+        <SeamLinePair FoldAngle="0" BKScale="1"/>
+        <SeamLinePair FoldAngle="0" BKScale="1"/>
+        <SeamLinePair FoldAngle="0" BKScale="1"/>
+        <SeamLinePair FoldAngle="0" BKScale="1"/>
+        <SeamLinePair FoldAngle="0" BKScale="1"/>
+        <SeamLinePair FoldAngle="0" BKScale="1"/>
+        <SeamLinePair FoldAngle="0" BKScale="1"/>
+        <SeamLinePair FoldAngle="0" BKScale="1"/>
+        <SeamLinePair FoldAngle="0" BKScale="1"/>
+        <SeamLinePair FoldAngle="0" BKScale="1"/>
+        <SeamLinePair FoldAngle="0" BKScale="1"/>
+        <SeamLinePair FoldAngle="0" BKScale="1"/>
+        <SeamLinePair FoldAngle="0" BKScale="1"/>
+        <SeamLinePair FoldAngle="0" BKScale="1"/>
+        <SeamLinePair FoldAngle="0" BKScale="1"/>
+        <SeamLinePair FoldAngle="0" BKScale="1"/>
+        <SeamLinePair FoldAngle="0" BKScale="1"/>
+    </SeamLinePairList>
+    <PBRMaterial Opacity="100" Name="V1_Woven_Cotton_Stretch_Sateen_FRONT_96115">
+        <globalColor Name="(None)" R="255" G="255" B="255" Intensity="1"/>
+        <SpecularColor Shininess="28"/>
+        <globalMap FilePath="E:/HJP/KUAICV/VTO/DATA/CLO/OTHERs/MANUAL_SAMPLES/Cotton_Stretch_Sateen_FCL1PSC014_test2_COL.jpg" Angle="0" AngleUnit="degree" Width="1024" WidthUnit="px" Height="1024" HeightUnit="px" ScaleX="173.4" ScaleY="173.4"/>
+        <NormalMap FilePath="E:/HJP/KUAICV/VTO/DATA/CLO/OTHERs/MANUAL_SAMPLES/Cotton_Stretch_Sateen_FCL1PSC014_test2_NRM.jpg" FilePathWithIntensity="E:/HJP/KUAICV/VTO/DATA/CLO/OTHERs/MANUAL_SAMPLES/Cotton_Stretch_Sateen_FCL1PSC014_test2_NRM_50.jpg" Angle="0" AngleUnit="degree" Width="1024" WidthUnit="px" Height="1024" HeightUnit="px" NormalIntensityInPercentage="50"/>
+    </PBRMaterial>
+</MetaData>
