@@ -207,14 +207,7 @@ class GarmentScene :
             view_name = os.path.basename(viewpoint).split(".")[0]
             import_api.ImportFile(viewpoint)
             export_api.ExportRenderingImage(os.path.join(self.output_dir, f"{view_name}.png"))
-        
-        
-        
-        
-        
-    
-
-    
+                
 SYSTEM_CONFIG_DICT = {
     "HJP_WINDOWS_DESKTOP": {
         "CLO_DIR": "E:/HJP/KUAICV/VTO/DATA/CLO",
@@ -232,17 +225,13 @@ path_config = PathConfig(root_path=SYSTEM_CONFIG_DICT[system_name]["CLO_DIR"])
 # GARMENT_IDX = 9
 # garment_config_json_path = final_garment_path_list[GARMENT_IDX]
 
+garment_config_json_path = r"E:\HJP\KUAICV\VTO\DATA\CLO\sample_data\rand_RZN2PW02QP__00__rand_TZ91RV7MEG__00\tmp\rand_RZN2PW02QP__00__rand_TZ91RV7MEG__00__clo.json"
+garment_scene = GarmentScene(
+    garment_json_path=garment_config_json_path,
+    avatar_path=path_config.avatar_path_list[0],
+    whole_fabric_path_list=path_config.fabric_path_list,
+    pose_path=path_config.pose_path_list[0],
+    viewpoint_path_list=path_config.viewpoint_path_list
+)
 
-for garment_config_json_path in sorted(
-    path_config.combination_path_list
-) :
-
-    garment_scene = GarmentScene(
-        garment_json_path=garment_config_json_path,
-        avatar_path=path_config.avatar_path_list[0],
-        whole_fabric_path_list=path_config.fabric_path_list,
-        pose_path=path_config.pose_path_list[0],
-        viewpoint_path_list=path_config.viewpoint_path_list
-    )
-
-    garment_scene.import_scene()
+garment_scene.import_scene()
