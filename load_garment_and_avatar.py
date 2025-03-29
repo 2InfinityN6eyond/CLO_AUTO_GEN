@@ -218,10 +218,14 @@ class GarmentScene :
 SYSTEM_CONFIG_DICT = {
     "HJP_WINDOWS_DESKTOP": {
         "CLO_DIR": "E:/HJP/KUAICV/VTO/DATA/CLO",
+    },
+    "JOSEF_WINDOWS_DESKTOP": {
+        "CLO_DIR": r"D:\VTO2025\DATASETs\Ours1\CLO_AUTO_GEN"
     }
 }
 
 system_name = "HJP_WINDOWS_DESKTOP"
+system_name = "JOSEF_WINDOWS_DESKTOP"
 
 path_config = PathConfig(root_path=SYSTEM_CONFIG_DICT[system_name]["CLO_DIR"])
 
@@ -234,7 +238,8 @@ path_config = PathConfig(root_path=SYSTEM_CONFIG_DICT[system_name]["CLO_DIR"])
 
 
 for garment_config_json_path in sorted(
-    path_config.combination_path_list
+    # path_config.combination_path_list
+    path_config.outfit_path_list
 ) :
 
     garment_scene = GarmentScene(
