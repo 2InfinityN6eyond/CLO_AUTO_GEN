@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MetaData Version="1" ObjFileName="Dramatic.obj">
+    <PhysicalPropertyList>
+        <PhysicalProperty PhysicalPropertyName="V1_Woven_Nylon_Canvas_0" Stretch-Weft="1e+06" Stretch-Warp="341048" Shear="337922" Bending-Weft="36818.5" Bending-Warp="24450.8" BucklingRatio-Weft="0.3" BucklingRatio-Warp="0.3" InternalDamping="0.0001" BucklingStiffness-Weft="0.25" BucklingStiffness-Warp="0.25" Density="0.000169697" FrictionCoefficient="0.03"/>
+    </PhysicalPropertyList>
+    <MeshList>
+        <Mesh MeshStartIndex="1" MeshEndIndex="938" PhysicalPropertyName="V1_Woven_Nylon_Canvas_0"/>
+        <Mesh MeshStartIndex="939" MeshEndIndex="1915" PhysicalPropertyName="V1_Woven_Nylon_Canvas_0"/>
+        <Mesh MeshStartIndex="1916" MeshEndIndex="5256" PhysicalPropertyName="V1_Woven_Nylon_Canvas_0"/>
+        <Mesh MeshStartIndex="5257" MeshEndIndex="8609" PhysicalPropertyName="V1_Woven_Nylon_Canvas_0"/>
+        <Mesh MeshStartIndex="8610" MeshEndIndex="9523" PhysicalPropertyName="V1_Woven_Nylon_Canvas_0"/>
+        <Mesh MeshStartIndex="9524" MeshEndIndex="10512" PhysicalPropertyName="V1_Woven_Nylon_Canvas_0"/>
+    </MeshList>
+    <SeamLinePairList>
+        <SeamLinePair FoldAngle="0" BKScale="1">
+            <SeamLine MeshPointIndexes ="5257/5258/5259/5260/5261/5262/5263/5264/5265/5266/5267/5268/5269/5270/5271/5272/5273/5274/5275/5276/5277/5278/5279/5280/5281/5282/5283"/>
+            <SeamLine MeshPointIndexes ="1916/2037/2036/2035/2034/2033/2032/2031/2030/2029/2028/2027/2026/2025/2024/2023/2022/2021/2020/2019/2018/2017/2016/2015/2014/2013/2012"/>
+        </SeamLinePair>
+        <SeamLinePair FoldAngle="0" BKScale="1">
+            <SeamLine MeshPointIndexes ="5329/5330/5331/5332/5333/5334/5335/5336/5337/5338/5339/5340/5341/5342/5343/5344/5345/5346/5347/5348/5349/5350/5351/5352/5353/5354/5355"/>
+            <SeamLine MeshPointIndexes ="1966/1965/1964/1963/1962/1961/1960/1959/1958/1957/1956/1955/1954/1953/1952/1951/1950/1949/1948/1947/1946/1945/1944/1943/1942/1941/1940"/>
+        </SeamLinePair>
+        <SeamLinePair FoldAngle="0" BKScale="1">
+            <SeamLine MeshPointIndexes ="963/964/965/966"/>
+            <SeamLine MeshPointIndexes ="39/38/37/36"/>
+        </SeamLinePair>
+        <SeamLinePair FoldAngle="0" BKScale="1">
+            <SeamLine MeshPointIndexes ="977/978/979/980/981/982/983/984/985/986/987/988/989/990"/>
+            <SeamLine MeshPointIndexes ="26/25/24/23/22/21/20/19/18/17/16/15/14/13"/>
+        </SeamLinePair>
+        <SeamLinePair FoldAngle="0" BKScale="1">
+            <SeamLine MeshPointIndexes ="9561/9562/9563/9564"/>
+            <SeamLine MeshPointIndexes ="8638/8637/8636/8635"/>
+        </SeamLinePair>
+        <SeamLinePair FoldAngle="0" BKScale="1">
+            <SeamLine MeshPointIndexes ="9537/9538/9539/9540/9541/9542/9543/9544/9545/9546/9547/9548/9549/9550"/>
+            <SeamLine MeshPointIndexes ="8661/8660/8659/8658/8657/8656/8655/8654/8653/8652/8651/8650/8649/8648"/>
+        </SeamLinePair>
+        <SeamLinePair FoldAngle="0" BKScale="1">
+            <SeamLine MeshPointIndexes ="939/940/941/942/943"/>
+            <SeamLine MeshPointIndexes ="9524/9587/9586/9585/9584"/>
+        </SeamLinePair>
+        <SeamLinePair FoldAngle="0" BKScale="1">
+            <SeamLine MeshPointIndexes ="45/46/47/48/49/50/51/52/53/54/55/56/57/58/59/60/61/62/63/1"/>
+            <SeamLine MeshPointIndexes ="8629/8628/8627/8626/8625/8624/8623/8622/8621/8620/8619/8618/8617/8616/8615/8614/8613/8612/8611/8610"/>
+        </SeamLinePair>
+        <SeamLinePair FoldAngle="0" BKScale="1">
+            <SeamLine MeshPointIndexes ="990/991/992/993/994/995/996/997/998/999/1000/1001/1002/939"/>
+            <SeamLine MeshPointIndexes ="5257/5380/5379/5378/5377/5376/5375/5374/5373/5372/5371/5370/5369/5368"/>
+        </SeamLinePair>
+        <SeamLinePair FoldAngle="0" BKScale="1">
+            <SeamLine MeshPointIndexes ="9524/9525/9526/9527/9528/9529/9530/9531/9532/9533/9534/9535/9536/9537"/>
+            <SeamLine MeshPointIndexes ="5368/5367/5366/5365/5364/5363/5362/5361/5360/5359/5358/5357/5356/5355"/>
+        </SeamLinePair>
+        <SeamLinePair FoldAngle="0" BKScale="1">
+            <SeamLine MeshPointIndexes ="8661/8662/8663/8664/8665/8666/8667/8668/8669/8670/8671/8672/8610"/>
+            <SeamLine MeshPointIndexes ="1940/1939/1938/1937/1936/1935/1934/1933/1932/1931/1930/1929/1928"/>
+        </SeamLinePair>
+        <SeamLinePair FoldAngle="0" BKScale="1">
+            <SeamLine MeshPointIndexes ="1/2/3/4/5/6/7/8/9/10/11/12/13"/>
+            <SeamLine MeshPointIndexes ="1928/1927/1926/1925/1924/1923/1922/1921/1920/1919/1918/1917/1916"/>
+        </SeamLinePair>
+    </SeamLinePairList>
+    <PBRMaterial Opacity="100" Name="V1_Woven_Nylon_Canvas_FRONT_1054272">
+        <globalColor Name="(None)" R="255" G="255" B="255" Intensity="1"/>
+        <SpecularColor Shininess="28"/>
+        <globalMap FilePath="E:/HJP/KUAICV/VTO/DATA/CLO/gcd_01/GCD_01/garments_5000_0/rand_EDO67ACBAY/Nylon_Canvas_FCL2PSN003_test11_COL.jpg" Angle="0" AngleUnit="degree" Width="1024" WidthUnit="px" Height="1024" HeightUnit="px" ScaleX="188.7" ScaleY="185.9"/>
+        <NormalMap FilePath="E:/HJP/KUAICV/VTO/DATA/CLO/gcd_01/GCD_01/garments_5000_0/rand_EDO67ACBAY/Nylon_Canvas_FCL2PSN003_test11_NRM.jpg" FilePathWithIntensity="E:/HJP/KUAICV/VTO/DATA/CLO/gcd_01/GCD_01/garments_5000_0/rand_EDO67ACBAY/Nylon_Canvas_FCL2PSN003_test11_NRM_50.jpg" Angle="0" AngleUnit="degree" Width="1024" WidthUnit="px" Height="1024" HeightUnit="px" NormalIntensityInPercentage="50"/>
+    </PBRMaterial>
+</MetaData>
