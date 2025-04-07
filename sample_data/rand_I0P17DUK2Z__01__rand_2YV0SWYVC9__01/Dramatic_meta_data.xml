@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MetaData Version="1" ObjFileName="Dramatic.obj">
+    <PhysicalPropertyList>
+        <PhysicalProperty PhysicalPropertyName="V1_Woven_Muslin_32X38_0" Stretch-Weft="399053" Stretch-Warp="378091" Shear="204805" Bending-Weft="24540.7" Bending-Warp="24540.7" BucklingRatio-Weft="0.3" BucklingRatio-Warp="0.3" InternalDamping="0.0001" BucklingStiffness-Weft="0.25" BucklingStiffness-Warp="0.25" Density="0.000154545" FrictionCoefficient="0.03"/>
+        <PhysicalProperty PhysicalPropertyName="V1_Woven_Nylon_Canvas_0" Stretch-Weft="1e+06" Stretch-Warp="341048" Shear="337922" Bending-Weft="36818.5" Bending-Warp="24450.8" BucklingRatio-Weft="0.3" BucklingRatio-Warp="0.3" InternalDamping="0.0001" BucklingStiffness-Weft="0.25" BucklingStiffness-Warp="0.25" Density="0.000169697" FrictionCoefficient="0.03"/>
+    </PhysicalPropertyList>
+    <MeshList>
+        <Mesh MeshStartIndex="1" MeshEndIndex="3083" PhysicalPropertyName="V1_Woven_Muslin_32X38_0"/>
+        <Mesh MeshStartIndex="3084" MeshEndIndex="6218" PhysicalPropertyName="V1_Woven_Muslin_32X38_0"/>
+        <Mesh MeshStartIndex="6219" MeshEndIndex="9279" PhysicalPropertyName="V1_Woven_Muslin_32X38_0"/>
+        <Mesh MeshStartIndex="9280" MeshEndIndex="12450" PhysicalPropertyName="V1_Woven_Muslin_32X38_0"/>
+        <Mesh MeshStartIndex="12451" MeshEndIndex="14616" PhysicalPropertyName="V1_Woven_Nylon_Canvas_0"/>
+        <Mesh MeshStartIndex="14617" MeshEndIndex="16807" PhysicalPropertyName="V1_Woven_Nylon_Canvas_0"/>
+    </MeshList>
+    <SeamLinePairList>
+        <SeamLinePair FoldAngle="0" BKScale="1">
+            <SeamLine MeshPointIndexes ="3145/3146/3147/3148/3149"/>
+            <SeamLine MeshPointIndexes ="80/79/78/77/76"/>
+        </SeamLinePair>
+        <SeamLinePair FoldAngle="0" BKScale="1">
+            <SeamLine MeshPointIndexes ="3161/3162/3163/3164/3165/3166/3167/3168/3169/3170/3171/3172/3173/3174/3175/3176/3177/3178/3179/3180/3181/3182/3183/3184/3185/3186/3187/3188/3189/3190/3191/3192/3193/3194/3195/3196/3197/3198/3199/3200/3201/3202/3203/3204/3205/3206/3207/3208/3209"/>
+            <SeamLine MeshPointIndexes ="65/64/63/62/61/60/59/58/57/56/55/54/53/52/51/50/49/48/47/46/45/44/43/42/41/40/39/38/37/36/35/34/33/32/31/30/29/28/27/26/25/24/23/22/21/20/19/18/17"/>
+        </SeamLinePair>
+        <SeamLinePair FoldAngle="0" BKScale="1">
+            <SeamLine MeshPointIndexes ="9358/9359/9360/9361/9362"/>
+            <SeamLine MeshPointIndexes ="6283/6282/6281/6280/6279"/>
+        </SeamLinePair>
+        <SeamLinePair FoldAngle="0" BKScale="1">
+            <SeamLine MeshPointIndexes ="9298/9299/9300/9301/9302/9303/9304/9305/9306/9307/9308/9309/9310/9311/9312/9313/9314/9315/9316/9317/9318/9319/9320/9321/9322/9323/9324/9325/9326/9327/9328/9329/9330/9331/9332/9333/9334/9335/9336/9337/9338/9339/9340/9341/9342/9343/9344/9345/9346"/>
+            <SeamLine MeshPointIndexes ="6342/6341/6340/6339/6338/6337/6336/6335/6334/6333/6332/6331/6330/6329/6328/6327/6326/6325/6324/6323/6322/6321/6320/6319/6318/6317/6316/6315/6314/6313/6312/6311/6310/6309/6308/6307/6306/6305/6304/6303/6302/6301/6300/6299/6298/6297/6296/6295/6294"/>
+        </SeamLinePair>
+        <SeamLinePair FoldAngle="0" BKScale="1">
+            <SeamLine MeshPointIndexes ="3084/3085/3086/3087/3088/3089/3090/3091/3092/3093/3094/3095/3096/3097/3098/3099/3100/3101/3102/3103/3104/3105/3106/3107/3108/3109/3110/3111/3112/3113/3114/3115/3116/3117/3118/3119/3120/3121"/>
+            <SeamLine MeshPointIndexes ="9280/9422/9421/9420/9419/9418/9417/9416/9415/9414/9413/9412/9411/9410/9409/9408/9407/9406/9405/9404/9403/9402/9401/9400/9399/9398/9397/9396/9395/9394/9393/9392/9391/9390/9389/9388/9387/9386"/>
+        </SeamLinePair>
+        <SeamLinePair FoldAngle="0" BKScale="1">
+            <SeamLine MeshPointIndexes ="88/89/90/91/92/93/94/95/96/97/98/99/100/101/102/103/104/105/106/107/108/109/110/111/112/113/114/115/116/117/118/119/120/121/122/123/124/125/126/127/128/129/130/131/132/133/134/135/136/137/138/139/1"/>
+            <SeamLine MeshPointIndexes ="6271/6270/6269/6268/6267/6266/6265/6264/6263/6262/6261/6260/6259/6258/6257/6256/6255/6254/6253/6252/6251/6250/6249/6248/6247/6246/6245/6244/6243/6242/6241/6240/6239/6238/6237/6236/6235/6234/6233/6232/6231/6230/6229/6228/6227/6226/6225/6224/6223/6222/6221/6220/6219"/>
+        </SeamLinePair>
+        <SeamLinePair FoldAngle="0" BKScale="1">
+            <SeamLine MeshPointIndexes ="14617/14618/14619/14620/14621/14622/14623/14624/14625/14626/14627/14628/14629/14630/14631/14632/14633"/>
+            <SeamLine MeshPointIndexes ="12451/12544/12543/12542/12541/12540/12539/12538/12537/12536/12535/12534/12533/12532/12531/12530/12529"/>
+        </SeamLinePair>
+        <SeamLinePair FoldAngle="0" BKScale="1">
+            <SeamLine MeshPointIndexes ="14681/14682/14683/14684/14685/14686/14687/14688/14689/14690/14691/14692/14693/14694/14695/14696/14697"/>
+            <SeamLine MeshPointIndexes ="12487/12486/12485/12484/12483/12482/12481/12480/12479/12478/12477/12476/12475/12474/12473/12472/12471"/>
+        </SeamLinePair>
+    </SeamLinePairList>
+    <PBRMaterial Opacity="100" Name="V1_Woven_Muslin_32X38_FRONT_1291964">
+        <globalColor Name="(None)" R="255" G="255" B="255" Intensity="1"/>
+        <SpecularColor Shininess="28"/>
+        <globalMap FilePath="E:/HJP/KUAICV/VTO/DATA/CLO/gcd_01/GCD_01/garments_5000_0/rand_I0P17DUK2Z__01__rand_2YV0SWYVC9__01/Muslin_32X38.jpg" Angle="0" AngleUnit="degree" Width="1024" WidthUnit="px" Height="1024" HeightUnit="px" ScaleX="86.6988" ScaleY="86.6988"/>
+        <NormalMap FilePath="E:/HJP/KUAICV/VTO/DATA/CLO/gcd_01/GCD_01/garments_5000_0/rand_I0P17DUK2Z__01__rand_2YV0SWYVC9__01/Muslin_32X38_NRM.jpg" FilePathWithIntensity="E:/HJP/KUAICV/VTO/DATA/CLO/gcd_01/GCD_01/garments_5000_0/rand_I0P17DUK2Z__01__rand_2YV0SWYVC9__01/Muslin_32X38_NRM_10.jpg" Angle="0" AngleUnit="degree" Width="1024" WidthUnit="px" Height="1024" HeightUnit="px" NormalIntensityInPercentage="10"/>
+    </PBRMaterial>
+    <PBRMaterial Opacity="100" Name="V1_Woven_Nylon_Canvas_FRONT_1291979">
+        <globalColor Name="(None)" R="255" G="255" B="255" Intensity="1"/>
+        <SpecularColor Shininess="28"/>
+        <globalMap FilePath="E:/HJP/KUAICV/VTO/DATA/CLO/gcd_01/GCD_01/garments_5000_0/rand_I0P17DUK2Z__01__rand_2YV0SWYVC9__01/Nylon_Canvas_FCL2PSN003_test11_COL.jpg" Angle="0" AngleUnit="degree" Width="1024" WidthUnit="px" Height="1024" HeightUnit="px" ScaleX="188.7" ScaleY="185.9"/>
+        <NormalMap FilePath="E:/HJP/KUAICV/VTO/DATA/CLO/gcd_01/GCD_01/garments_5000_0/rand_I0P17DUK2Z__01__rand_2YV0SWYVC9__01/Nylon_Canvas_FCL2PSN003_test11_NRM.jpg" FilePathWithIntensity="E:/HJP/KUAICV/VTO/DATA/CLO/gcd_01/GCD_01/garments_5000_0/rand_I0P17DUK2Z__01__rand_2YV0SWYVC9__01/Nylon_Canvas_FCL2PSN003_test11_NRM_50.jpg" Angle="0" AngleUnit="degree" Width="1024" WidthUnit="px" Height="1024" HeightUnit="px" NormalIntensityInPercentage="50"/>
+    </PBRMaterial>
+</MetaData>

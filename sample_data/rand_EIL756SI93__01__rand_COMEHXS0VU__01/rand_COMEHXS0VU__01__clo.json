@@ -1,0 +1,1709 @@
+{
+    "FabricList": [
+        {
+            "FabricName": "Default Fabric",
+            "FabricType": "None",
+            "FabricContent": "None",
+            "strBaseColorHexCode": "6DEDBB",
+            "FabricUUID": "PLOFg8"
+        }
+    ],
+    "GradingRuleTableList": [],
+    "PatternList": [
+        {
+            "Name": "rand_COMEHXS0VU_skirt_panel_9",
+            "fGrainlineAngle": 0.0,
+            "ID": "rand_COMEHXS0VU_skirt_panel_9",
+            "strSuperImposeSide": "None",
+            "CurrentFabricUUID": "PLOFg8",
+            "IsClosed": false,
+            "InternalLineList": [],
+            "ButtonHeadList": [],
+            "ButtonHoleList": [],
+            "AnnotationList": [],
+            "NotchList": [],
+            "IsHalfSymmetric": false,
+            "ShapeInfo": {
+                "IsSlashed": false,
+                "LineList": [
+                    {
+                        "ID": "skirt_panel_9_edge_0",
+                        "PointList": [
+                            {
+                                "ID": "skirt_panel_9_point_0",
+                                "PointType": "Straight",
+                                "Position": {
+                                    "x": 0.0,
+                                    "y": -432.35179
+                                },
+                                "GradingRuleID": -1
+                            },
+                            {
+                                "ID": "skirt_panel_9_point_1",
+                                "PointType": "Bezier Curve",
+                                "Position": {
+                                    "x": 49.36738,
+                                    "y": -366.52863
+                                },
+                                "GradingRuleID": -1
+                            },
+                            {
+                                "ID": "skirt_panel_9_point_2",
+                                "PointType": "Bezier Curve",
+                                "Position": {
+                                    "x": 148.10213,
+                                    "y": -366.52863
+                                },
+                                "GradingRuleID": -1
+                            },
+                            {
+                                "ID": "skirt_panel_9_point_3",
+                                "PointType": "Straight",
+                                "Position": {
+                                    "x": 197.46951,
+                                    "y": -432.35179
+                                },
+                                "GradingRuleID": -1
+                            }
+                        ]
+                    },
+                    {
+                        "ID": "skirt_panel_9_edge_1",
+                        "PointList": [
+                            {
+                                "ID": "skirt_panel_9_point_3",
+                                "PointType": "Straight",
+                                "Position": {
+                                    "x": 197.46951,
+                                    "y": -432.35179
+                                },
+                                "GradingRuleID": -1
+                            },
+                            {
+                                "ID": "skirt_panel_9_point_4",
+                                "PointType": "Straight",
+                                "Position": {
+                                    "x": 136.47659,
+                                    "y": 0.0
+                                },
+                                "GradingRuleID": -1
+                            }
+                        ]
+                    },
+                    {
+                        "ID": "skirt_panel_9_edge_2",
+                        "PointList": [
+                            {
+                                "ID": "skirt_panel_9_point_4",
+                                "PointType": "Straight",
+                                "Position": {
+                                    "x": 136.47659,
+                                    "y": 0.0
+                                },
+                                "GradingRuleID": -1
+                            },
+                            {
+                                "ID": "skirt_panel_9_point_5",
+                                "PointType": "Straight",
+                                "Position": {
+                                    "x": 60.99291,
+                                    "y": 0.0
+                                },
+                                "GradingRuleID": -1
+                            }
+                        ]
+                    },
+                    {
+                        "ID": "skirt_panel_9_edge_3",
+                        "PointList": [
+                            {
+                                "ID": "skirt_panel_9_point_5",
+                                "PointType": "Straight",
+                                "Position": {
+                                    "x": 60.99291,
+                                    "y": 0.0
+                                },
+                                "GradingRuleID": -1
+                            },
+                            {
+                                "ID": "skirt_panel_9_point_0",
+                                "PointType": "Straight",
+                                "Position": {
+                                    "x": 0.0,
+                                    "y": -432.35179
+                                },
+                                "GradingRuleID": -1
+                            }
+                        ]
+                    }
+                ],
+                "HalfSymmetryPointIDMap": {},
+                "HalfSymmetryLineIDMap": {}
+            },
+            "ArrangementPointDataMap": {
+                "PointName": "Arm_Back_7_R",
+                "fOffSetX": 0.0,
+                "fOffSetY": 0.05,
+                "fAngle": 180.0
+            }
+        },
+        {
+            "Name": "rand_COMEHXS0VU_skirt_panel_0",
+            "fGrainlineAngle": 0.0,
+            "ID": "rand_COMEHXS0VU_skirt_panel_0",
+            "strSuperImposeSide": "None",
+            "CurrentFabricUUID": "PLOFg8",
+            "IsClosed": false,
+            "InternalLineList": [],
+            "ButtonHeadList": [],
+            "ButtonHoleList": [],
+            "AnnotationList": [],
+            "NotchList": [],
+            "IsHalfSymmetric": false,
+            "ShapeInfo": {
+                "IsSlashed": false,
+                "LineList": [
+                    {
+                        "ID": "skirt_panel_0_edge_0",
+                        "PointList": [
+                            {
+                                "ID": "skirt_panel_0_point_0",
+                                "PointType": "Straight",
+                                "Position": {
+                                    "x": 0.0,
+                                    "y": -432.35179
+                                },
+                                "GradingRuleID": -1
+                            },
+                            {
+                                "ID": "skirt_panel_0_point_1",
+                                "PointType": "Bezier Curve",
+                                "Position": {
+                                    "x": 49.36738,
+                                    "y": -366.52863
+                                },
+                                "GradingRuleID": -1
+                            },
+                            {
+                                "ID": "skirt_panel_0_point_2",
+                                "PointType": "Bezier Curve",
+                                "Position": {
+                                    "x": 148.10213,
+                                    "y": -366.52863
+                                },
+                                "GradingRuleID": -1
+                            },
+                            {
+                                "ID": "skirt_panel_0_point_3",
+                                "PointType": "Straight",
+                                "Position": {
+                                    "x": 197.46951,
+                                    "y": -432.35179
+                                },
+                                "GradingRuleID": -1
+                            }
+                        ]
+                    },
+                    {
+                        "ID": "skirt_panel_0_edge_1",
+                        "PointList": [
+                            {
+                                "ID": "skirt_panel_0_point_3",
+                                "PointType": "Straight",
+                                "Position": {
+                                    "x": 197.46951,
+                                    "y": -432.35179
+                                },
+                                "GradingRuleID": -1
+                            },
+                            {
+                                "ID": "skirt_panel_0_point_4",
+                                "PointType": "Straight",
+                                "Position": {
+                                    "x": 136.47659,
+                                    "y": 0.0
+                                },
+                                "GradingRuleID": -1
+                            }
+                        ]
+                    },
+                    {
+                        "ID": "skirt_panel_0_edge_2",
+                        "PointList": [
+                            {
+                                "ID": "skirt_panel_0_point_4",
+                                "PointType": "Straight",
+                                "Position": {
+                                    "x": 136.47659,
+                                    "y": 0.0
+                                },
+                                "GradingRuleID": -1
+                            },
+                            {
+                                "ID": "skirt_panel_0_point_5",
+                                "PointType": "Straight",
+                                "Position": {
+                                    "x": 60.99291,
+                                    "y": 0.0
+                                },
+                                "GradingRuleID": -1
+                            }
+                        ]
+                    },
+                    {
+                        "ID": "skirt_panel_0_edge_3",
+                        "PointList": [
+                            {
+                                "ID": "skirt_panel_0_point_5",
+                                "PointType": "Straight",
+                                "Position": {
+                                    "x": 60.99291,
+                                    "y": 0.0
+                                },
+                                "GradingRuleID": -1
+                            },
+                            {
+                                "ID": "skirt_panel_0_point_0",
+                                "PointType": "Straight",
+                                "Position": {
+                                    "x": 0.0,
+                                    "y": -432.35179
+                                },
+                                "GradingRuleID": -1
+                            }
+                        ]
+                    }
+                ],
+                "HalfSymmetryPointIDMap": {},
+                "HalfSymmetryLineIDMap": {}
+            },
+            "ArrangementPointDataMap": {
+                "PointName": "Arm_Front_8_R",
+                "fOffSetX": 0.0,
+                "fOffSetY": 0.05,
+                "fAngle": 180.0
+            }
+        },
+        {
+            "Name": "rand_COMEHXS0VU_skirt_panel_1",
+            "fGrainlineAngle": 0.0,
+            "ID": "rand_COMEHXS0VU_skirt_panel_1",
+            "strSuperImposeSide": "None",
+            "CurrentFabricUUID": "PLOFg8",
+            "IsClosed": false,
+            "InternalLineList": [],
+            "ButtonHeadList": [],
+            "ButtonHoleList": [],
+            "AnnotationList": [],
+            "NotchList": [],
+            "IsHalfSymmetric": false,
+            "ShapeInfo": {
+                "IsSlashed": false,
+                "LineList": [
+                    {
+                        "ID": "skirt_panel_1_edge_0",
+                        "PointList": [
+                            {
+                                "ID": "skirt_panel_1_point_0",
+                                "PointType": "Straight",
+                                "Position": {
+                                    "x": 0.0,
+                                    "y": -432.35179
+                                },
+                                "GradingRuleID": -1
+                            },
+                            {
+                                "ID": "skirt_panel_1_point_1",
+                                "PointType": "Bezier Curve",
+                                "Position": {
+                                    "x": 49.36738,
+                                    "y": -366.52863
+                                },
+                                "GradingRuleID": -1
+                            },
+                            {
+                                "ID": "skirt_panel_1_point_2",
+                                "PointType": "Bezier Curve",
+                                "Position": {
+                                    "x": 148.10213,
+                                    "y": -366.52863
+                                },
+                                "GradingRuleID": -1
+                            },
+                            {
+                                "ID": "skirt_panel_1_point_3",
+                                "PointType": "Straight",
+                                "Position": {
+                                    "x": 197.46951,
+                                    "y": -432.35179
+                                },
+                                "GradingRuleID": -1
+                            }
+                        ]
+                    },
+                    {
+                        "ID": "skirt_panel_1_edge_1",
+                        "PointList": [
+                            {
+                                "ID": "skirt_panel_1_point_3",
+                                "PointType": "Straight",
+                                "Position": {
+                                    "x": 197.46951,
+                                    "y": -432.35179
+                                },
+                                "GradingRuleID": -1
+                            },
+                            {
+                                "ID": "skirt_panel_1_point_4",
+                                "PointType": "Straight",
+                                "Position": {
+                                    "x": 136.47659,
+                                    "y": 0.0
+                                },
+                                "GradingRuleID": -1
+                            }
+                        ]
+                    },
+                    {
+                        "ID": "skirt_panel_1_edge_2",
+                        "PointList": [
+                            {
+                                "ID": "skirt_panel_1_point_4",
+                                "PointType": "Straight",
+                                "Position": {
+                                    "x": 136.47659,
+                                    "y": 0.0
+                                },
+                                "GradingRuleID": -1
+                            },
+                            {
+                                "ID": "skirt_panel_1_point_5",
+                                "PointType": "Straight",
+                                "Position": {
+                                    "x": 60.99291,
+                                    "y": 0.0
+                                },
+                                "GradingRuleID": -1
+                            }
+                        ]
+                    },
+                    {
+                        "ID": "skirt_panel_1_edge_3",
+                        "PointList": [
+                            {
+                                "ID": "skirt_panel_1_point_5",
+                                "PointType": "Straight",
+                                "Position": {
+                                    "x": 60.99291,
+                                    "y": 0.0
+                                },
+                                "GradingRuleID": -1
+                            },
+                            {
+                                "ID": "skirt_panel_1_point_0",
+                                "PointType": "Straight",
+                                "Position": {
+                                    "x": 0.0,
+                                    "y": -432.35179
+                                },
+                                "GradingRuleID": -1
+                            }
+                        ]
+                    }
+                ],
+                "HalfSymmetryPointIDMap": {},
+                "HalfSymmetryLineIDMap": {}
+            },
+            "ArrangementPointDataMap": {
+                "PointName": "Body_Front_8_R",
+                "fOffSetX": 0.0,
+                "fOffSetY": 0.05,
+                "fAngle": 180.0
+            }
+        },
+        {
+            "Name": "rand_COMEHXS0VU_skirt_panel_8",
+            "fGrainlineAngle": 0.0,
+            "ID": "rand_COMEHXS0VU_skirt_panel_8",
+            "strSuperImposeSide": "None",
+            "CurrentFabricUUID": "PLOFg8",
+            "IsClosed": false,
+            "InternalLineList": [],
+            "ButtonHeadList": [],
+            "ButtonHoleList": [],
+            "AnnotationList": [],
+            "NotchList": [],
+            "IsHalfSymmetric": false,
+            "ShapeInfo": {
+                "IsSlashed": false,
+                "LineList": [
+                    {
+                        "ID": "skirt_panel_8_edge_0",
+                        "PointList": [
+                            {
+                                "ID": "skirt_panel_8_point_0",
+                                "PointType": "Straight",
+                                "Position": {
+                                    "x": 0.0,
+                                    "y": -432.35179
+                                },
+                                "GradingRuleID": -1
+                            },
+                            {
+                                "ID": "skirt_panel_8_point_1",
+                                "PointType": "Bezier Curve",
+                                "Position": {
+                                    "x": 49.36738,
+                                    "y": -366.52863
+                                },
+                                "GradingRuleID": -1
+                            },
+                            {
+                                "ID": "skirt_panel_8_point_2",
+                                "PointType": "Bezier Curve",
+                                "Position": {
+                                    "x": 148.10213,
+                                    "y": -366.52863
+                                },
+                                "GradingRuleID": -1
+                            },
+                            {
+                                "ID": "skirt_panel_8_point_3",
+                                "PointType": "Straight",
+                                "Position": {
+                                    "x": 197.46951,
+                                    "y": -432.35179
+                                },
+                                "GradingRuleID": -1
+                            }
+                        ]
+                    },
+                    {
+                        "ID": "skirt_panel_8_edge_1",
+                        "PointList": [
+                            {
+                                "ID": "skirt_panel_8_point_3",
+                                "PointType": "Straight",
+                                "Position": {
+                                    "x": 197.46951,
+                                    "y": -432.35179
+                                },
+                                "GradingRuleID": -1
+                            },
+                            {
+                                "ID": "skirt_panel_8_point_4",
+                                "PointType": "Straight",
+                                "Position": {
+                                    "x": 136.47659,
+                                    "y": 0.0
+                                },
+                                "GradingRuleID": -1
+                            }
+                        ]
+                    },
+                    {
+                        "ID": "skirt_panel_8_edge_2",
+                        "PointList": [
+                            {
+                                "ID": "skirt_panel_8_point_4",
+                                "PointType": "Straight",
+                                "Position": {
+                                    "x": 136.47659,
+                                    "y": 0.0
+                                },
+                                "GradingRuleID": -1
+                            },
+                            {
+                                "ID": "skirt_panel_8_point_5",
+                                "PointType": "Straight",
+                                "Position": {
+                                    "x": 60.99291,
+                                    "y": 0.0
+                                },
+                                "GradingRuleID": -1
+                            }
+                        ]
+                    },
+                    {
+                        "ID": "skirt_panel_8_edge_3",
+                        "PointList": [
+                            {
+                                "ID": "skirt_panel_8_point_5",
+                                "PointType": "Straight",
+                                "Position": {
+                                    "x": 60.99291,
+                                    "y": 0.0
+                                },
+                                "GradingRuleID": -1
+                            },
+                            {
+                                "ID": "skirt_panel_8_point_0",
+                                "PointType": "Straight",
+                                "Position": {
+                                    "x": 0.0,
+                                    "y": -432.35179
+                                },
+                                "GradingRuleID": -1
+                            }
+                        ]
+                    }
+                ],
+                "HalfSymmetryPointIDMap": {},
+                "HalfSymmetryLineIDMap": {}
+            },
+            "ArrangementPointDataMap": {
+                "PointName": "Body_Back_8_R",
+                "fOffSetX": 0.0,
+                "fOffSetY": 0.05,
+                "fAngle": 180.0
+            }
+        },
+        {
+            "Name": "rand_COMEHXS0VU_skirt_panel_2",
+            "fGrainlineAngle": 0.0,
+            "ID": "rand_COMEHXS0VU_skirt_panel_2",
+            "strSuperImposeSide": "None",
+            "CurrentFabricUUID": "PLOFg8",
+            "IsClosed": false,
+            "InternalLineList": [],
+            "ButtonHeadList": [],
+            "ButtonHoleList": [],
+            "AnnotationList": [],
+            "NotchList": [],
+            "IsHalfSymmetric": false,
+            "ShapeInfo": {
+                "IsSlashed": false,
+                "LineList": [
+                    {
+                        "ID": "skirt_panel_2_edge_0",
+                        "PointList": [
+                            {
+                                "ID": "skirt_panel_2_point_0",
+                                "PointType": "Straight",
+                                "Position": {
+                                    "x": 0.0,
+                                    "y": -432.35179
+                                },
+                                "GradingRuleID": -1
+                            },
+                            {
+                                "ID": "skirt_panel_2_point_1",
+                                "PointType": "Bezier Curve",
+                                "Position": {
+                                    "x": 49.36738,
+                                    "y": -366.52863
+                                },
+                                "GradingRuleID": -1
+                            },
+                            {
+                                "ID": "skirt_panel_2_point_2",
+                                "PointType": "Bezier Curve",
+                                "Position": {
+                                    "x": 148.10213,
+                                    "y": -366.52863
+                                },
+                                "GradingRuleID": -1
+                            },
+                            {
+                                "ID": "skirt_panel_2_point_3",
+                                "PointType": "Straight",
+                                "Position": {
+                                    "x": 197.46951,
+                                    "y": -432.35179
+                                },
+                                "GradingRuleID": -1
+                            }
+                        ]
+                    },
+                    {
+                        "ID": "skirt_panel_2_edge_1",
+                        "PointList": [
+                            {
+                                "ID": "skirt_panel_2_point_3",
+                                "PointType": "Straight",
+                                "Position": {
+                                    "x": 197.46951,
+                                    "y": -432.35179
+                                },
+                                "GradingRuleID": -1
+                            },
+                            {
+                                "ID": "skirt_panel_2_point_4",
+                                "PointType": "Straight",
+                                "Position": {
+                                    "x": 136.47659,
+                                    "y": 0.0
+                                },
+                                "GradingRuleID": -1
+                            }
+                        ]
+                    },
+                    {
+                        "ID": "skirt_panel_2_edge_2",
+                        "PointList": [
+                            {
+                                "ID": "skirt_panel_2_point_4",
+                                "PointType": "Straight",
+                                "Position": {
+                                    "x": 136.47659,
+                                    "y": 0.0
+                                },
+                                "GradingRuleID": -1
+                            },
+                            {
+                                "ID": "skirt_panel_2_point_5",
+                                "PointType": "Straight",
+                                "Position": {
+                                    "x": 60.99291,
+                                    "y": 0.0
+                                },
+                                "GradingRuleID": -1
+                            }
+                        ]
+                    },
+                    {
+                        "ID": "skirt_panel_2_edge_3",
+                        "PointList": [
+                            {
+                                "ID": "skirt_panel_2_point_5",
+                                "PointType": "Straight",
+                                "Position": {
+                                    "x": 60.99291,
+                                    "y": 0.0
+                                },
+                                "GradingRuleID": -1
+                            },
+                            {
+                                "ID": "skirt_panel_2_point_0",
+                                "PointType": "Straight",
+                                "Position": {
+                                    "x": 0.0,
+                                    "y": -432.35179
+                                },
+                                "GradingRuleID": -1
+                            }
+                        ]
+                    }
+                ],
+                "HalfSymmetryPointIDMap": {},
+                "HalfSymmetryLineIDMap": {}
+            },
+            "ArrangementPointDataMap": {
+                "PointName": "Leg_Front_1_R",
+                "fOffSetX": 0.0,
+                "fOffSetY": 0.05,
+                "fAngle": 180.0
+            }
+        },
+        {
+            "Name": "rand_COMEHXS0VU_skirt_panel_7",
+            "fGrainlineAngle": 0.0,
+            "ID": "rand_COMEHXS0VU_skirt_panel_7",
+            "strSuperImposeSide": "None",
+            "CurrentFabricUUID": "PLOFg8",
+            "IsClosed": false,
+            "InternalLineList": [],
+            "ButtonHeadList": [],
+            "ButtonHoleList": [],
+            "AnnotationList": [],
+            "NotchList": [],
+            "IsHalfSymmetric": false,
+            "ShapeInfo": {
+                "IsSlashed": false,
+                "LineList": [
+                    {
+                        "ID": "skirt_panel_7_edge_0",
+                        "PointList": [
+                            {
+                                "ID": "skirt_panel_7_point_0",
+                                "PointType": "Straight",
+                                "Position": {
+                                    "x": 0.0,
+                                    "y": -432.35179
+                                },
+                                "GradingRuleID": -1
+                            },
+                            {
+                                "ID": "skirt_panel_7_point_1",
+                                "PointType": "Bezier Curve",
+                                "Position": {
+                                    "x": 49.36738,
+                                    "y": -366.52863
+                                },
+                                "GradingRuleID": -1
+                            },
+                            {
+                                "ID": "skirt_panel_7_point_2",
+                                "PointType": "Bezier Curve",
+                                "Position": {
+                                    "x": 148.10213,
+                                    "y": -366.52863
+                                },
+                                "GradingRuleID": -1
+                            },
+                            {
+                                "ID": "skirt_panel_7_point_3",
+                                "PointType": "Straight",
+                                "Position": {
+                                    "x": 197.46951,
+                                    "y": -432.35179
+                                },
+                                "GradingRuleID": -1
+                            }
+                        ]
+                    },
+                    {
+                        "ID": "skirt_panel_7_edge_1",
+                        "PointList": [
+                            {
+                                "ID": "skirt_panel_7_point_3",
+                                "PointType": "Straight",
+                                "Position": {
+                                    "x": 197.46951,
+                                    "y": -432.35179
+                                },
+                                "GradingRuleID": -1
+                            },
+                            {
+                                "ID": "skirt_panel_7_point_4",
+                                "PointType": "Straight",
+                                "Position": {
+                                    "x": 136.47659,
+                                    "y": 0.0
+                                },
+                                "GradingRuleID": -1
+                            }
+                        ]
+                    },
+                    {
+                        "ID": "skirt_panel_7_edge_2",
+                        "PointList": [
+                            {
+                                "ID": "skirt_panel_7_point_4",
+                                "PointType": "Straight",
+                                "Position": {
+                                    "x": 136.47659,
+                                    "y": 0.0
+                                },
+                                "GradingRuleID": -1
+                            },
+                            {
+                                "ID": "skirt_panel_7_point_5",
+                                "PointType": "Straight",
+                                "Position": {
+                                    "x": 60.99291,
+                                    "y": 0.0
+                                },
+                                "GradingRuleID": -1
+                            }
+                        ]
+                    },
+                    {
+                        "ID": "skirt_panel_7_edge_3",
+                        "PointList": [
+                            {
+                                "ID": "skirt_panel_7_point_5",
+                                "PointType": "Straight",
+                                "Position": {
+                                    "x": 60.99291,
+                                    "y": 0.0
+                                },
+                                "GradingRuleID": -1
+                            },
+                            {
+                                "ID": "skirt_panel_7_point_0",
+                                "PointType": "Straight",
+                                "Position": {
+                                    "x": 0.0,
+                                    "y": -432.35179
+                                },
+                                "GradingRuleID": -1
+                            }
+                        ]
+                    }
+                ],
+                "HalfSymmetryPointIDMap": {},
+                "HalfSymmetryLineIDMap": {}
+            },
+            "ArrangementPointDataMap": {
+                "PointName": "Leg_Back_1_L",
+                "fOffSetX": 0.0,
+                "fOffSetY": 0.05,
+                "fAngle": 180.0
+            }
+        },
+        {
+            "Name": "rand_COMEHXS0VU_skirt_panel_3",
+            "fGrainlineAngle": 0.0,
+            "ID": "rand_COMEHXS0VU_skirt_panel_3",
+            "strSuperImposeSide": "None",
+            "CurrentFabricUUID": "PLOFg8",
+            "IsClosed": false,
+            "InternalLineList": [],
+            "ButtonHeadList": [],
+            "ButtonHoleList": [],
+            "AnnotationList": [],
+            "NotchList": [],
+            "IsHalfSymmetric": false,
+            "ShapeInfo": {
+                "IsSlashed": false,
+                "LineList": [
+                    {
+                        "ID": "skirt_panel_3_edge_0",
+                        "PointList": [
+                            {
+                                "ID": "skirt_panel_3_point_0",
+                                "PointType": "Straight",
+                                "Position": {
+                                    "x": 0.0,
+                                    "y": -432.35179
+                                },
+                                "GradingRuleID": -1
+                            },
+                            {
+                                "ID": "skirt_panel_3_point_1",
+                                "PointType": "Bezier Curve",
+                                "Position": {
+                                    "x": 49.36738,
+                                    "y": -366.52863
+                                },
+                                "GradingRuleID": -1
+                            },
+                            {
+                                "ID": "skirt_panel_3_point_2",
+                                "PointType": "Bezier Curve",
+                                "Position": {
+                                    "x": 148.10213,
+                                    "y": -366.52863
+                                },
+                                "GradingRuleID": -1
+                            },
+                            {
+                                "ID": "skirt_panel_3_point_3",
+                                "PointType": "Straight",
+                                "Position": {
+                                    "x": 197.46951,
+                                    "y": -432.35179
+                                },
+                                "GradingRuleID": -1
+                            }
+                        ]
+                    },
+                    {
+                        "ID": "skirt_panel_3_edge_1",
+                        "PointList": [
+                            {
+                                "ID": "skirt_panel_3_point_3",
+                                "PointType": "Straight",
+                                "Position": {
+                                    "x": 197.46951,
+                                    "y": -432.35179
+                                },
+                                "GradingRuleID": -1
+                            },
+                            {
+                                "ID": "skirt_panel_3_point_4",
+                                "PointType": "Straight",
+                                "Position": {
+                                    "x": 136.47659,
+                                    "y": 0.0
+                                },
+                                "GradingRuleID": -1
+                            }
+                        ]
+                    },
+                    {
+                        "ID": "skirt_panel_3_edge_2",
+                        "PointList": [
+                            {
+                                "ID": "skirt_panel_3_point_4",
+                                "PointType": "Straight",
+                                "Position": {
+                                    "x": 136.47659,
+                                    "y": 0.0
+                                },
+                                "GradingRuleID": -1
+                            },
+                            {
+                                "ID": "skirt_panel_3_point_5",
+                                "PointType": "Straight",
+                                "Position": {
+                                    "x": 60.99291,
+                                    "y": 0.0
+                                },
+                                "GradingRuleID": -1
+                            }
+                        ]
+                    },
+                    {
+                        "ID": "skirt_panel_3_edge_3",
+                        "PointList": [
+                            {
+                                "ID": "skirt_panel_3_point_5",
+                                "PointType": "Straight",
+                                "Position": {
+                                    "x": 60.99291,
+                                    "y": 0.0
+                                },
+                                "GradingRuleID": -1
+                            },
+                            {
+                                "ID": "skirt_panel_3_point_0",
+                                "PointType": "Straight",
+                                "Position": {
+                                    "x": 0.0,
+                                    "y": -432.35179
+                                },
+                                "GradingRuleID": -1
+                            }
+                        ]
+                    }
+                ],
+                "HalfSymmetryPointIDMap": {},
+                "HalfSymmetryLineIDMap": {}
+            },
+            "ArrangementPointDataMap": {
+                "PointName": "Body_Front_8_L",
+                "fOffSetX": 0.0,
+                "fOffSetY": 0.05,
+                "fAngle": 180.0
+            }
+        },
+        {
+            "Name": "rand_COMEHXS0VU_skirt_panel_6",
+            "fGrainlineAngle": 0.0,
+            "ID": "rand_COMEHXS0VU_skirt_panel_6",
+            "strSuperImposeSide": "None",
+            "CurrentFabricUUID": "PLOFg8",
+            "IsClosed": false,
+            "InternalLineList": [],
+            "ButtonHeadList": [],
+            "ButtonHoleList": [],
+            "AnnotationList": [],
+            "NotchList": [],
+            "IsHalfSymmetric": false,
+            "ShapeInfo": {
+                "IsSlashed": false,
+                "LineList": [
+                    {
+                        "ID": "skirt_panel_6_edge_0",
+                        "PointList": [
+                            {
+                                "ID": "skirt_panel_6_point_0",
+                                "PointType": "Straight",
+                                "Position": {
+                                    "x": 0.0,
+                                    "y": -432.35179
+                                },
+                                "GradingRuleID": -1
+                            },
+                            {
+                                "ID": "skirt_panel_6_point_1",
+                                "PointType": "Bezier Curve",
+                                "Position": {
+                                    "x": 49.36738,
+                                    "y": -366.52863
+                                },
+                                "GradingRuleID": -1
+                            },
+                            {
+                                "ID": "skirt_panel_6_point_2",
+                                "PointType": "Bezier Curve",
+                                "Position": {
+                                    "x": 148.10213,
+                                    "y": -366.52863
+                                },
+                                "GradingRuleID": -1
+                            },
+                            {
+                                "ID": "skirt_panel_6_point_3",
+                                "PointType": "Straight",
+                                "Position": {
+                                    "x": 197.46951,
+                                    "y": -432.35179
+                                },
+                                "GradingRuleID": -1
+                            }
+                        ]
+                    },
+                    {
+                        "ID": "skirt_panel_6_edge_1",
+                        "PointList": [
+                            {
+                                "ID": "skirt_panel_6_point_3",
+                                "PointType": "Straight",
+                                "Position": {
+                                    "x": 197.46951,
+                                    "y": -432.35179
+                                },
+                                "GradingRuleID": -1
+                            },
+                            {
+                                "ID": "skirt_panel_6_point_4",
+                                "PointType": "Straight",
+                                "Position": {
+                                    "x": 136.47659,
+                                    "y": 0.0
+                                },
+                                "GradingRuleID": -1
+                            }
+                        ]
+                    },
+                    {
+                        "ID": "skirt_panel_6_edge_2",
+                        "PointList": [
+                            {
+                                "ID": "skirt_panel_6_point_4",
+                                "PointType": "Straight",
+                                "Position": {
+                                    "x": 136.47659,
+                                    "y": 0.0
+                                },
+                                "GradingRuleID": -1
+                            },
+                            {
+                                "ID": "skirt_panel_6_point_5",
+                                "PointType": "Straight",
+                                "Position": {
+                                    "x": 60.99291,
+                                    "y": 0.0
+                                },
+                                "GradingRuleID": -1
+                            }
+                        ]
+                    },
+                    {
+                        "ID": "skirt_panel_6_edge_3",
+                        "PointList": [
+                            {
+                                "ID": "skirt_panel_6_point_5",
+                                "PointType": "Straight",
+                                "Position": {
+                                    "x": 60.99291,
+                                    "y": 0.0
+                                },
+                                "GradingRuleID": -1
+                            },
+                            {
+                                "ID": "skirt_panel_6_point_0",
+                                "PointType": "Straight",
+                                "Position": {
+                                    "x": 0.0,
+                                    "y": -432.35179
+                                },
+                                "GradingRuleID": -1
+                            }
+                        ]
+                    }
+                ],
+                "HalfSymmetryPointIDMap": {},
+                "HalfSymmetryLineIDMap": {}
+            },
+            "ArrangementPointDataMap": {
+                "PointName": "Body_Back_8_L",
+                "fOffSetX": 0.0,
+                "fOffSetY": 0.05,
+                "fAngle": 180.0
+            }
+        },
+        {
+            "Name": "rand_COMEHXS0VU_skirt_panel_4",
+            "fGrainlineAngle": 0.0,
+            "ID": "rand_COMEHXS0VU_skirt_panel_4",
+            "strSuperImposeSide": "None",
+            "CurrentFabricUUID": "PLOFg8",
+            "IsClosed": false,
+            "InternalLineList": [],
+            "ButtonHeadList": [],
+            "ButtonHoleList": [],
+            "AnnotationList": [],
+            "NotchList": [],
+            "IsHalfSymmetric": false,
+            "ShapeInfo": {
+                "IsSlashed": false,
+                "LineList": [
+                    {
+                        "ID": "skirt_panel_4_edge_0",
+                        "PointList": [
+                            {
+                                "ID": "skirt_panel_4_point_0",
+                                "PointType": "Straight",
+                                "Position": {
+                                    "x": 0.0,
+                                    "y": -432.35179
+                                },
+                                "GradingRuleID": -1
+                            },
+                            {
+                                "ID": "skirt_panel_4_point_1",
+                                "PointType": "Bezier Curve",
+                                "Position": {
+                                    "x": 49.36738,
+                                    "y": -366.52863
+                                },
+                                "GradingRuleID": -1
+                            },
+                            {
+                                "ID": "skirt_panel_4_point_2",
+                                "PointType": "Bezier Curve",
+                                "Position": {
+                                    "x": 148.10213,
+                                    "y": -366.52863
+                                },
+                                "GradingRuleID": -1
+                            },
+                            {
+                                "ID": "skirt_panel_4_point_3",
+                                "PointType": "Straight",
+                                "Position": {
+                                    "x": 197.46951,
+                                    "y": -432.35179
+                                },
+                                "GradingRuleID": -1
+                            }
+                        ]
+                    },
+                    {
+                        "ID": "skirt_panel_4_edge_1",
+                        "PointList": [
+                            {
+                                "ID": "skirt_panel_4_point_3",
+                                "PointType": "Straight",
+                                "Position": {
+                                    "x": 197.46951,
+                                    "y": -432.35179
+                                },
+                                "GradingRuleID": -1
+                            },
+                            {
+                                "ID": "skirt_panel_4_point_4",
+                                "PointType": "Straight",
+                                "Position": {
+                                    "x": 136.47659,
+                                    "y": 0.0
+                                },
+                                "GradingRuleID": -1
+                            }
+                        ]
+                    },
+                    {
+                        "ID": "skirt_panel_4_edge_2",
+                        "PointList": [
+                            {
+                                "ID": "skirt_panel_4_point_4",
+                                "PointType": "Straight",
+                                "Position": {
+                                    "x": 136.47659,
+                                    "y": 0.0
+                                },
+                                "GradingRuleID": -1
+                            },
+                            {
+                                "ID": "skirt_panel_4_point_5",
+                                "PointType": "Straight",
+                                "Position": {
+                                    "x": 60.99291,
+                                    "y": 0.0
+                                },
+                                "GradingRuleID": -1
+                            }
+                        ]
+                    },
+                    {
+                        "ID": "skirt_panel_4_edge_3",
+                        "PointList": [
+                            {
+                                "ID": "skirt_panel_4_point_5",
+                                "PointType": "Straight",
+                                "Position": {
+                                    "x": 60.99291,
+                                    "y": 0.0
+                                },
+                                "GradingRuleID": -1
+                            },
+                            {
+                                "ID": "skirt_panel_4_point_0",
+                                "PointType": "Straight",
+                                "Position": {
+                                    "x": 0.0,
+                                    "y": -432.35179
+                                },
+                                "GradingRuleID": -1
+                            }
+                        ]
+                    }
+                ],
+                "HalfSymmetryPointIDMap": {},
+                "HalfSymmetryLineIDMap": {}
+            },
+            "ArrangementPointDataMap": {
+                "PointName": "Arm_Front_7_L",
+                "fOffSetX": 0.0,
+                "fOffSetY": 0.05,
+                "fAngle": 180.0
+            }
+        },
+        {
+            "Name": "rand_COMEHXS0VU_skirt_panel_5",
+            "fGrainlineAngle": 0.0,
+            "ID": "rand_COMEHXS0VU_skirt_panel_5",
+            "strSuperImposeSide": "None",
+            "CurrentFabricUUID": "PLOFg8",
+            "IsClosed": false,
+            "InternalLineList": [],
+            "ButtonHeadList": [],
+            "ButtonHoleList": [],
+            "AnnotationList": [],
+            "NotchList": [],
+            "IsHalfSymmetric": false,
+            "ShapeInfo": {
+                "IsSlashed": false,
+                "LineList": [
+                    {
+                        "ID": "skirt_panel_5_edge_0",
+                        "PointList": [
+                            {
+                                "ID": "skirt_panel_5_point_0",
+                                "PointType": "Straight",
+                                "Position": {
+                                    "x": 0.0,
+                                    "y": -432.35179
+                                },
+                                "GradingRuleID": -1
+                            },
+                            {
+                                "ID": "skirt_panel_5_point_1",
+                                "PointType": "Bezier Curve",
+                                "Position": {
+                                    "x": 49.36738,
+                                    "y": -366.52863
+                                },
+                                "GradingRuleID": -1
+                            },
+                            {
+                                "ID": "skirt_panel_5_point_2",
+                                "PointType": "Bezier Curve",
+                                "Position": {
+                                    "x": 148.10213,
+                                    "y": -366.52863
+                                },
+                                "GradingRuleID": -1
+                            },
+                            {
+                                "ID": "skirt_panel_5_point_3",
+                                "PointType": "Straight",
+                                "Position": {
+                                    "x": 197.46951,
+                                    "y": -432.35179
+                                },
+                                "GradingRuleID": -1
+                            }
+                        ]
+                    },
+                    {
+                        "ID": "skirt_panel_5_edge_1",
+                        "PointList": [
+                            {
+                                "ID": "skirt_panel_5_point_3",
+                                "PointType": "Straight",
+                                "Position": {
+                                    "x": 197.46951,
+                                    "y": -432.35179
+                                },
+                                "GradingRuleID": -1
+                            },
+                            {
+                                "ID": "skirt_panel_5_point_4",
+                                "PointType": "Straight",
+                                "Position": {
+                                    "x": 136.47659,
+                                    "y": 0.0
+                                },
+                                "GradingRuleID": -1
+                            }
+                        ]
+                    },
+                    {
+                        "ID": "skirt_panel_5_edge_2",
+                        "PointList": [
+                            {
+                                "ID": "skirt_panel_5_point_4",
+                                "PointType": "Straight",
+                                "Position": {
+                                    "x": 136.47659,
+                                    "y": 0.0
+                                },
+                                "GradingRuleID": -1
+                            },
+                            {
+                                "ID": "skirt_panel_5_point_5",
+                                "PointType": "Straight",
+                                "Position": {
+                                    "x": 60.99291,
+                                    "y": 0.0
+                                },
+                                "GradingRuleID": -1
+                            }
+                        ]
+                    },
+                    {
+                        "ID": "skirt_panel_5_edge_3",
+                        "PointList": [
+                            {
+                                "ID": "skirt_panel_5_point_5",
+                                "PointType": "Straight",
+                                "Position": {
+                                    "x": 60.99291,
+                                    "y": 0.0
+                                },
+                                "GradingRuleID": -1
+                            },
+                            {
+                                "ID": "skirt_panel_5_point_0",
+                                "PointType": "Straight",
+                                "Position": {
+                                    "x": 0.0,
+                                    "y": -432.35179
+                                },
+                                "GradingRuleID": -1
+                            }
+                        ]
+                    }
+                ],
+                "HalfSymmetryPointIDMap": {},
+                "HalfSymmetryLineIDMap": {}
+            },
+            "ArrangementPointDataMap": {
+                "PointName": "Arm_Back_8_L",
+                "fOffSetX": 0.0,
+                "fOffSetY": 0.05,
+                "fAngle": 180.0
+            }
+        }
+    ],
+    "SymmetricDataList": [],
+    "InstanceDataList": [
+        {
+            "OriginPatternID": "skirt_panel_9",
+            "InstancePatternIDArray": []
+        },
+        {
+            "OriginPatternID": "skirt_panel_0",
+            "InstancePatternIDArray": []
+        },
+        {
+            "OriginPatternID": "skirt_panel_1",
+            "InstancePatternIDArray": []
+        },
+        {
+            "OriginPatternID": "skirt_panel_8",
+            "InstancePatternIDArray": []
+        },
+        {
+            "OriginPatternID": "skirt_panel_2",
+            "InstancePatternIDArray": []
+        },
+        {
+            "OriginPatternID": "skirt_panel_7",
+            "InstancePatternIDArray": []
+        },
+        {
+            "OriginPatternID": "skirt_panel_3",
+            "InstancePatternIDArray": []
+        },
+        {
+            "OriginPatternID": "skirt_panel_6",
+            "InstancePatternIDArray": []
+        },
+        {
+            "OriginPatternID": "skirt_panel_4",
+            "InstancePatternIDArray": []
+        },
+        {
+            "OriginPatternID": "skirt_panel_5",
+            "InstancePatternIDArray": []
+        }
+    ],
+    "SeamLinePairGroupList": [
+        {
+            "Name": "rand_COMEHXS0VU_SeamLineGroup_0",
+            "bIsTurned": false,
+            "PairList": [
+                {
+                    "First": {
+                        "ShapeID": "rand_COMEHXS0VU_skirt_panel_0",
+                        "LengthParam": {
+                            "fStart": 0.1944236063349201,
+                            "fEnd": 0.5651654702837742
+                        },
+                        "Direction": true
+                    },
+                    "Second": {
+                        "ShapeID": "rand_COMEHXS0VU_skirt_panel_1",
+                        "LengthParam": {
+                            "fStart": 1.0,
+                            "fEnd": 0.629258136051146
+                        },
+                        "Direction": false
+                    }
+                }
+            ],
+            "FoldData": {
+                "iAngle": 180,
+                "iStrength": 5
+            }
+        },
+        {
+            "Name": "rand_COMEHXS0VU_SeamLineGroup_1",
+            "bIsTurned": false,
+            "PairList": [
+                {
+                    "First": {
+                        "ShapeID": "rand_COMEHXS0VU_skirt_panel_1",
+                        "LengthParam": {
+                            "fStart": 0.1944236063349201,
+                            "fEnd": 0.5651654702837742
+                        },
+                        "Direction": true
+                    },
+                    "Second": {
+                        "ShapeID": "rand_COMEHXS0VU_skirt_panel_2",
+                        "LengthParam": {
+                            "fStart": 1.0,
+                            "fEnd": 0.629258136051146
+                        },
+                        "Direction": false
+                    }
+                }
+            ],
+            "FoldData": {
+                "iAngle": 180,
+                "iStrength": 5
+            }
+        },
+        {
+            "Name": "rand_COMEHXS0VU_SeamLineGroup_2",
+            "bIsTurned": false,
+            "PairList": [
+                {
+                    "First": {
+                        "ShapeID": "rand_COMEHXS0VU_skirt_panel_2",
+                        "LengthParam": {
+                            "fStart": 0.1944236063349201,
+                            "fEnd": 0.5651654702837742
+                        },
+                        "Direction": true
+                    },
+                    "Second": {
+                        "ShapeID": "rand_COMEHXS0VU_skirt_panel_3",
+                        "LengthParam": {
+                            "fStart": 1.0,
+                            "fEnd": 0.629258136051146
+                        },
+                        "Direction": false
+                    }
+                }
+            ],
+            "FoldData": {
+                "iAngle": 180,
+                "iStrength": 5
+            }
+        },
+        {
+            "Name": "rand_COMEHXS0VU_SeamLineGroup_3",
+            "bIsTurned": false,
+            "PairList": [
+                {
+                    "First": {
+                        "ShapeID": "rand_COMEHXS0VU_skirt_panel_3",
+                        "LengthParam": {
+                            "fStart": 0.1944236063349201,
+                            "fEnd": 0.5651654702837742
+                        },
+                        "Direction": true
+                    },
+                    "Second": {
+                        "ShapeID": "rand_COMEHXS0VU_skirt_panel_4",
+                        "LengthParam": {
+                            "fStart": 1.0,
+                            "fEnd": 0.629258136051146
+                        },
+                        "Direction": false
+                    }
+                }
+            ],
+            "FoldData": {
+                "iAngle": 180,
+                "iStrength": 5
+            }
+        },
+        {
+            "Name": "rand_COMEHXS0VU_SeamLineGroup_4",
+            "bIsTurned": false,
+            "PairList": [
+                {
+                    "First": {
+                        "ShapeID": "rand_COMEHXS0VU_skirt_panel_4",
+                        "LengthParam": {
+                            "fStart": 0.1944236063349201,
+                            "fEnd": 0.5651654702837742
+                        },
+                        "Direction": true
+                    },
+                    "Second": {
+                        "ShapeID": "rand_COMEHXS0VU_skirt_panel_5",
+                        "LengthParam": {
+                            "fStart": 1.0,
+                            "fEnd": 0.629258136051146
+                        },
+                        "Direction": false
+                    }
+                }
+            ],
+            "FoldData": {
+                "iAngle": 180,
+                "iStrength": 5
+            }
+        },
+        {
+            "Name": "rand_COMEHXS0VU_SeamLineGroup_5",
+            "bIsTurned": false,
+            "PairList": [
+                {
+                    "First": {
+                        "ShapeID": "rand_COMEHXS0VU_skirt_panel_5",
+                        "LengthParam": {
+                            "fStart": 0.1944236063349201,
+                            "fEnd": 0.5651654702837742
+                        },
+                        "Direction": true
+                    },
+                    "Second": {
+                        "ShapeID": "rand_COMEHXS0VU_skirt_panel_6",
+                        "LengthParam": {
+                            "fStart": 1.0,
+                            "fEnd": 0.629258136051146
+                        },
+                        "Direction": false
+                    }
+                }
+            ],
+            "FoldData": {
+                "iAngle": 180,
+                "iStrength": 5
+            }
+        },
+        {
+            "Name": "rand_COMEHXS0VU_SeamLineGroup_6",
+            "bIsTurned": false,
+            "PairList": [
+                {
+                    "First": {
+                        "ShapeID": "rand_COMEHXS0VU_skirt_panel_6",
+                        "LengthParam": {
+                            "fStart": 0.1944236063349201,
+                            "fEnd": 0.5651654702837742
+                        },
+                        "Direction": true
+                    },
+                    "Second": {
+                        "ShapeID": "rand_COMEHXS0VU_skirt_panel_7",
+                        "LengthParam": {
+                            "fStart": 1.0,
+                            "fEnd": 0.629258136051146
+                        },
+                        "Direction": false
+                    }
+                }
+            ],
+            "FoldData": {
+                "iAngle": 180,
+                "iStrength": 5
+            }
+        },
+        {
+            "Name": "rand_COMEHXS0VU_SeamLineGroup_7",
+            "bIsTurned": false,
+            "PairList": [
+                {
+                    "First": {
+                        "ShapeID": "rand_COMEHXS0VU_skirt_panel_7",
+                        "LengthParam": {
+                            "fStart": 0.1944236063349201,
+                            "fEnd": 0.5651654702837742
+                        },
+                        "Direction": true
+                    },
+                    "Second": {
+                        "ShapeID": "rand_COMEHXS0VU_skirt_panel_8",
+                        "LengthParam": {
+                            "fStart": 1.0,
+                            "fEnd": 0.629258136051146
+                        },
+                        "Direction": false
+                    }
+                }
+            ],
+            "FoldData": {
+                "iAngle": 180,
+                "iStrength": 5
+            }
+        },
+        {
+            "Name": "rand_COMEHXS0VU_SeamLineGroup_8",
+            "bIsTurned": false,
+            "PairList": [
+                {
+                    "First": {
+                        "ShapeID": "rand_COMEHXS0VU_skirt_panel_8",
+                        "LengthParam": {
+                            "fStart": 0.1944236063349201,
+                            "fEnd": 0.5651654702837742
+                        },
+                        "Direction": true
+                    },
+                    "Second": {
+                        "ShapeID": "rand_COMEHXS0VU_skirt_panel_9",
+                        "LengthParam": {
+                            "fStart": 1.0,
+                            "fEnd": 0.629258136051146
+                        },
+                        "Direction": false
+                    }
+                }
+            ],
+            "FoldData": {
+                "iAngle": 180,
+                "iStrength": 5
+            }
+        },
+        {
+            "Name": "rand_COMEHXS0VU_SeamLineGroup_9",
+            "bIsTurned": false,
+            "PairList": [
+                {
+                    "First": {
+                        "ShapeID": "rand_COMEHXS0VU_skirt_panel_9",
+                        "LengthParam": {
+                            "fStart": 0.1944236063349201,
+                            "fEnd": 0.5651654702837742
+                        },
+                        "Direction": true
+                    },
+                    "Second": {
+                        "ShapeID": "rand_COMEHXS0VU_skirt_panel_0",
+                        "LengthParam": {
+                            "fStart": 1.0,
+                            "fEnd": 0.629258136051146
+                        },
+                        "Direction": false
+                    }
+                }
+            ],
+            "FoldData": {
+                "iAngle": 180,
+                "iStrength": 5
+            }
+        }
+    ]
+}
