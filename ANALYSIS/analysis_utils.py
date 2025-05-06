@@ -2,7 +2,8 @@ import trimesh
 import plotly.graph_objects as go
 import numpy as np
 import matplotlib.pyplot as plt
-
+import json
+import svgpathtools as svgpath
 
 
 def set_constants():
@@ -24,6 +25,52 @@ def set_constants():
     return DATASET_ROOT
 
 
+
+     
+def v_id_map(vertices): 
+    v_map = [None] * len(vertices) 
+    v_map[0] = 0 
+    for i in range(1, len(vertices)): 
+        if all(vertices[i - 1] == vertices[i]): 
+            v_map[i] = v_map[i-1]   
+        else: 
+            v_map[i] = v_map[i-1] + 1 
+    return v_map
+
+
+
+def parse_clo_json(data) :
+    panel_svg_path_dict = {}
+    for panel_data in data["PatternList"] :
+        panel_name = "_".join(panel_data["Name"].split("_")[2:])
+        
+        svg_path = []
+        for line in panel_data["ShapeInfo"]["LineList"] :
+            point_list = []
+            for point in line["PointList"] :
+                point_list.append(point["Position"]['x'] + point["Position"]['y'] * 1j)
+            
+            if len(point_list) == 2 :
+                svg_path.append(svgpath.Line(point_list[0], point_list[1]))
+            elif len(point_list) == 4 :
+                svg_path.append(svgpath.CubicBezier(point_list[0], point_list[1], point_list[2], point_list[3]))
+            else :
+                raise ValueError("No Straight Line nor Cubic Bezier Curve")
+            
+        panel_svg_path_dict[panel_name] = svgpath.Path(*svg_path),
+        
+        print(svg_path)
+        
+        
+        
+    return panel_svg_path_dict
+
+with open("../modified_2.json", "r") as f :
+    data = json.load(f)
+    
+parsed = parse_clo_json(data)
+
+# parsed
 
 # basic visualization fucntions
 
@@ -161,15 +208,108 @@ def visualize_meshes_plotly(
     return fig
     
     
-     
-def v_id_map(vertices): 
-    v_map = [None] * len(vertices) 
-    v_map[0] = 0 
-    for i in range(1, len(vertices)): 
-        if all(vertices[i - 1] == vertices[i]): 
-            v_map[i] = v_map[i-1]   
-        else: 
-            v_map[i] = v_map[i-1] + 1 
-    return v_map
-
-
+def visualize_camera_info(
+    fig,
+    cam2world,
+    fov,
+    aspect,
+    name = None,
+    near = 10,
+    far = 500,
+    marker_size = 8,
+    cam_axis_length = 50,
+) :
+    """
+    Add camera visualization to a Plotly figure.
+    
+    Args:
+        fig: Plotly figure object
+        cam2world: 4x4 camera-to-world transformation matrix
+        fov: Field of view in radians
+        aspect: Aspect ratio (width/height)
+        near: Near plane distance
+        far: Far plane distance
+    """
+    
+    # Extract camera position and orientation from cam2world matrix
+    cam_pos = cam2world[:3, 3]
+    cam_right = cam2world[:3, 0]    # X axis is right
+    cam_up = cam2world[:3, 1]       # Y axis is up
+    cam_forward = -cam2world[:3, 2]  # -Z axis is forward
+    
+    # Calculate frustum size based on FOV
+    near_height = 2 * near * np.tan(fov/2)
+    near_width = near_height * aspect
+    far_height = 2 * far * np.tan(fov/2)
+    far_width = far_height * aspect
+    
+    # Calculate corner points
+    near_top_right = cam_pos + near * cam_forward + (near_height/2) * cam_up + (near_width/2) * cam_right
+    near_top_left = cam_pos + near * cam_forward + (near_height/2) * cam_up - (near_width/2) * cam_right
+    near_bottom_right = cam_pos + near * cam_forward - (near_height/2) * cam_up + (near_width/2) * cam_right
+    near_bottom_left = cam_pos + near * cam_forward - (near_height/2) * cam_up - (near_width/2) * cam_right
+    
+    far_top_right = cam_pos + far * cam_forward + (far_height/2) * cam_up + (far_width/2) * cam_right
+    far_top_left = cam_pos + far * cam_forward + (far_height/2) * cam_up - (far_width/2) * cam_right
+    far_bottom_right = cam_pos + far * cam_forward - (far_height/2) * cam_up + (far_width/2) * cam_right
+    far_bottom_left = cam_pos + far * cam_forward - (far_height/2) * cam_up - (far_width/2) * cam_right
+    
+    # Create frustum lines
+    frustum_lines = [
+        # Near plane
+        [near_top_right, near_top_left],
+        [near_top_left, near_bottom_left],
+        [near_bottom_left, near_bottom_right],
+        [near_bottom_right, near_top_right],
+        # Far plane
+        [far_top_right, far_top_left],
+        [far_top_left, far_bottom_left],
+        [far_bottom_left, far_bottom_right],
+        [far_bottom_right, far_top_right],
+        # Connecting lines
+        [near_top_right, far_top_right],
+        [near_top_left, far_top_left],
+        [near_bottom_left, far_bottom_left],
+        [near_bottom_right, far_bottom_right],
+    ]
+    
+    # Add frustum lines to the figure
+    for line in frustum_lines:
+        fig.add_trace(go.Scatter3d(
+            x=[line[0][0], line[1][0]],
+            y=[line[0][1], line[1][1]],
+            z=[line[0][2], line[1][2]],
+            mode='lines',
+            line=dict(color='black', width=2),
+            name='Camera Frustum'
+        ))
+    
+    # Add camera position marker
+    fig.add_trace(go.Scatter3d(
+        x=[cam_pos[0]],
+        y=[cam_pos[1]],
+        z=[cam_pos[2]],
+        mode='markers',
+        marker=dict(size=marker_size, color='red'),
+        name='Camera Position'
+    ))
+    
+    # Add camera orientation vectors
+    # vector_length = 50.0  # Adjust based on your scene scale
+    vector_length = cam_axis_length  # Adjust based on your scene scale
+    for vec, color, name in [
+        (cam_right, 'red', 'Right(X)'), 
+        (cam_up, 'green', 'Up(Y)'),
+        (cam_forward, 'blue', 'Forward(-Z)'), 
+    ]:
+        fig.add_trace(go.Scatter3d(
+            x=[cam_pos[0], cam_pos[0] + vector_length * vec[0]],
+            y=[cam_pos[1], cam_pos[1] + vector_length * vec[1]],
+            z=[cam_pos[2], cam_pos[2] + vector_length * vec[2]],
+            mode='lines',
+            line=dict(color=color, width=3),
+            name=f'Camera {name}'
+        ))
+    
+    return fig
+    

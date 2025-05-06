@@ -1,5 +1,49 @@
 import numpy as np
 import plotly.graph_objects as go
+import trimesh
+
+def merge_meshes(mesh_list):
+    """
+    Merge multiple trimesh objects into a single mesh.
+    
+    Args:
+        mesh_list: List of trimesh.Trimesh objects
+        
+    Returns:
+        A single merged trimesh.Trimesh object
+    """
+    if not mesh_list:
+        raise ValueError("Empty mesh list provided")
+        
+    # Initialize lists to store all vertices and faces
+    all_vertices = []
+    all_faces = []
+    
+    # Keep track of the current vertex offset
+    vertex_offset = 0
+    
+    for mesh in mesh_list:
+        # Add vertices
+        all_vertices.append(mesh.vertices)
+        
+        # Add faces with updated vertex indices
+        faces = mesh.faces + vertex_offset
+        all_faces.append(faces)
+        
+        # Update vertex offset for next mesh
+        vertex_offset += len(mesh.vertices)
+    
+    # Concatenate all vertices and faces
+    merged_vertices = np.vstack(all_vertices)
+    merged_faces = np.vstack(all_faces)
+    
+    # Create new mesh
+    merged_mesh = trimesh.Trimesh(
+        vertices=merged_vertices,
+        faces=merged_faces
+    )
+    
+    return merged_mesh
 
 def visualize_camera_info(
     fig,
@@ -95,6 +139,40 @@ def visualize_camera_info(
             mode='lines',
             line=dict(color=color, width=3),
             name=f'Camera {name}'
+        ))
+    
+    return fig 
+
+def visualize_stitch_indices(fig, garment_mesh, seam_line_vert_idx_arr_dict, stitch_dict):
+    """
+    Add stitch index labels to a 3D plot.
+    
+    Args:
+        fig: Plotly figure object
+        garment_mesh: trimesh.Trimesh object
+        seam_line_vert_idx_arr_dict: Dictionary mapping stitch indices to vertex indices
+        stitch_dict: Dictionary containing stitch information
+    """
+    for stch_idx, seam_line_vert_idx_arr in seam_line_vert_idx_arr_dict.items():
+        # Get vertices for this stitch
+        stitch_vertices = garment_mesh.vertices[seam_line_vert_idx_arr]
+        
+        # Calculate center point of the stitch line
+        center_point = np.mean(stitch_vertices, axis=0)
+        
+        # Add text label at the center point
+        fig.add_trace(go.Scatter3d(
+            x=[center_point[0]],
+            y=[center_point[1]],
+            z=[center_point[2]],
+            mode='text',
+            text=[str(stch_idx)],
+            textposition="middle center",
+            textfont=dict(
+                size=14,
+                color='black'
+            ),
+            name=f"Stitch {stch_idx} Label"
         ))
     
     return fig 
