@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MetaData Version="1" ObjFileName="FV2_07.obj">
+    <PhysicalPropertyList>
+        <PhysicalProperty PhysicalPropertyName="V2_Cut_Sew_Knit_Jersey_1_0" Stretch-Weft="19336.2" Stretch-Warp="19252.1" Shear="17588.9" Bending-Weft="95.0302" Bending-Warp="6447.65" BucklingRatio-Weft="0.3" BucklingRatio-Warp="0.3" InternalDamping="0.0001" BucklingStiffness-Weft="1" BucklingStiffness-Warp="1" Density="0.0002" FrictionCoefficient="0.03"/>
+        <PhysicalProperty PhysicalPropertyName="V2_Cut_Sew_Knit_Waffle_3_0" Stretch-Weft="48192.2" Stretch-Warp="45754.4" Shear="31638.8" Bending-Weft="510.447" Bending-Warp="2462.35" BucklingRatio-Weft="0.3" BucklingRatio-Warp="0.3" InternalDamping="0.0001" BucklingStiffness-Weft="1" BucklingStiffness-Warp="1" Density="0.000184" FrictionCoefficient="0.03"/>
+    </PhysicalPropertyList>
+    <MeshList>
+        <Mesh MeshStartIndex="1" MeshEndIndex="1023" PhysicalPropertyName="V2_Cut_Sew_Knit_Jersey_1_0"/>
+        <Mesh MeshStartIndex="1024" MeshEndIndex="1975" PhysicalPropertyName="V2_Cut_Sew_Knit_Jersey_1_0"/>
+        <Mesh MeshStartIndex="1976" MeshEndIndex="3004" PhysicalPropertyName="V2_Cut_Sew_Knit_Jersey_1_0"/>
+        <Mesh MeshStartIndex="3005" MeshEndIndex="3950" PhysicalPropertyName="V2_Cut_Sew_Knit_Jersey_1_0"/>
+        <Mesh MeshStartIndex="3951" MeshEndIndex="7900" PhysicalPropertyName="V2_Cut_Sew_Knit_Waffle_3_0"/>
+        <Mesh MeshStartIndex="7901" MeshEndIndex="11359" PhysicalPropertyName="V2_Cut_Sew_Knit_Waffle_3_0"/>
+    </MeshList>
+    <SeamLinePairList>
+        <SeamLinePair FoldAngle="0" BKScale="1">
+            <SeamLine MeshPointIndexes ="1052/1053/1054/1055/1056"/>
+            <SeamLine MeshPointIndexes ="40/39/38/37/36"/>
+        </SeamLinePair>
+        <SeamLinePair FoldAngle="0" BKScale="1">
+            <SeamLine MeshPointIndexes ="1067/1068/1069/1070/1071/1072/1073/1074/1075/1076/1077/1078/1079/1080"/>
+            <SeamLine MeshPointIndexes ="25/24/23/22/21/20/19/18/17/16/15/14/13/12"/>
+        </SeamLinePair>
+        <SeamLinePair FoldAngle="0" BKScale="1">
+            <SeamLine MeshPointIndexes ="3041/3042/3043/3044/3045"/>
+            <SeamLine MeshPointIndexes ="2005/2004/2003/2002/2001"/>
+        </SeamLinePair>
+        <SeamLinePair FoldAngle="0" BKScale="1">
+            <SeamLine MeshPointIndexes ="3017/3018/3019/3020/3021/3022/3023/3024/3025/3026/3027/3028/3029/3030"/>
+            <SeamLine MeshPointIndexes ="2029/2028/2027/2026/2025/2024/2023/2022/2021/2020/2019/2018/2017/2016"/>
+        </SeamLinePair>
+        <SeamLinePair FoldAngle="0" BKScale="1">
+            <SeamLine MeshPointIndexes ="1024/1025/1026/1027/1028/1029/1030/1031/1032/1033/1034"/>
+            <SeamLine MeshPointIndexes ="3005/3072/3071/3070/3069/3068/3067/3066/3065/3064/3063"/>
+        </SeamLinePair>
+        <SeamLinePair FoldAngle="0" BKScale="1">
+            <SeamLine MeshPointIndexes ="46/47/48/49/50/51/52/53/54/55/56/57/58/59/60/61/62/63/64/1"/>
+            <SeamLine MeshPointIndexes ="1995/1994/1993/1992/1991/1990/1989/1988/1987/1986/1985/1984/1983/1982/1981/1980/1979/1978/1977/1976"/>
+        </SeamLinePair>
+        <SeamLinePair FoldAngle="0" BKScale="1">
+            <SeamLine MeshPointIndexes ="3998/3999/4000/4001/4002/4003/4004"/>
+            <SeamLine MeshPointIndexes ="4010/4009/4008/4007/4006/4005/4004"/>
+        </SeamLinePair>
+        <SeamLinePair FoldAngle="0" BKScale="1">
+            <SeamLine MeshPointIndexes ="4012/4013/4014/4015/4016/4017/4018/4019"/>
+            <SeamLine MeshPointIndexes ="4026/4025/4024/4023/4022/4021/4020/4019"/>
+        </SeamLinePair>
+        <SeamLinePair FoldAngle="0" BKScale="1">
+            <SeamLine MeshPointIndexes ="4032/4033/4034/4035/4036/4037/4038/4039"/>
+            <SeamLine MeshPointIndexes ="4046/4045/4044/4043/4042/4041/4040/4039"/>
+        </SeamLinePair>
+        <SeamLinePair FoldAngle="0" BKScale="1">
+            <SeamLine MeshPointIndexes ="4048/4049/4050/4051/4052/4053/4054"/>
+            <SeamLine MeshPointIndexes ="4060/4059/4058/4057/4056/4055/4054"/>
+        </SeamLinePair>
+        <SeamLinePair FoldAngle="0" BKScale="1">
+            <SeamLine MeshPointIndexes ="7995/7996/7997/7998/7999/8000/8001/8002/8003/8004/8005/8006/8007/8008/8009/8010/8011/8012/8013/8014/8015/8016/8017/8018/8019/8020/8021/8022/8023/8024/8025/8026/8027/8028/7901"/>
+            <SeamLine MeshPointIndexes ="3985/3984/3983/3982/3981/3980/3979/3978/3977/3976/3975/3974/3973/3972/3971/3970/3969/3968/3967/3966/3965/3964/3963/3962/3961/3960/3959/3958/3957/3956/3955/3954/3953/3952/3951"/>
+        </SeamLinePair>
+        <SeamLinePair FoldAngle="0" BKScale="1">
+            <SeamLine MeshPointIndexes ="7987/7988/7989/7990/7991/7992/7993/7994/7995"/>
+            <SeamLine MeshPointIndexes ="3993/3992/3991/3990/3989/3988/3987/3986/3985"/>
+        </SeamLinePair>
+        <SeamLinePair FoldAngle="0" BKScale="1">
+            <SeamLine MeshPointIndexes ="7959/7960/7961/7962/7963/7964/7965/7966/7967"/>
+            <SeamLine MeshPointIndexes ="4073/4072/4071/4070/4069/4068/4067/4066/4065"/>
+        </SeamLinePair>
+        <SeamLinePair FoldAngle="0" BKScale="1">
+            <SeamLine MeshPointIndexes ="7925/7926/7927/7928/7929/7930/7931/7932/7933/7934/7935/7936/7937/7938/7939/7940/7941/7942/7943/7944/7945/7946/7947/7948/7949/7950/7951/7952/7953/7954/7955/7956/7957/7958/7959"/>
+            <SeamLine MeshPointIndexes ="4107/4106/4105/4104/4103/4102/4101/4100/4099/4098/4097/4096/4095/4094/4093/4092/4091/4090/4089/4088/4087/4086/4085/4084/4083/4082/4081/4080/4079/4078/4077/4076/4075/4074/4073"/>
+        </SeamLinePair>
+    </SeamLinePairList>
+    <PBRMaterial Opacity="100" Name="V2_Cut_Sew_Knit_Jersey_1_FRONT_11055326">
+        <globalColor Name="(None)" R="255" G="255" B="255" Intensity="1"/>
+        <SpecularColor Shininess="28"/>
+        <globalMap FilePath="E:/HJP/KUAICV/VTO/DATA/CLO/gcd_01/GCD_01/garments_5000_0/rand_KFFMSBTCLN__01__rand_NREVPLXRB4__01/Cut _ Sew Knit_Jersey_1_BASE_rgb_medium.png" Angle="0" AngleUnit="degree" Width="1853" WidthUnit="px" Height="1853" HeightUnit="px" ScaleX="156.888" ScaleY="156.888"/>
+        <NormalMap FilePath="E:/HJP/KUAICV/VTO/DATA/CLO/gcd_01/GCD_01/garments_5000_0/rand_KFFMSBTCLN__01__rand_NREVPLXRB4__01/Cut _ Sew Knit_Jersey_1_NRM.png" FilePathWithIntensity="E:/HJP/KUAICV/VTO/DATA/CLO/gcd_01/GCD_01/garments_5000_0/rand_KFFMSBTCLN__01__rand_NREVPLXRB4__01/Cut _ Sew Knit_Jersey_1_NRM_5.jpg" Angle="0" AngleUnit="degree" Width="1853" WidthUnit="px" Height="1853" HeightUnit="px" NormalIntensityInPercentage="5"/>
+        <SpecularMap FilePath="E:/HJP/KUAICV/VTO/DATA/CLO/gcd_01/GCD_01/garments_5000_0/rand_KFFMSBTCLN__01__rand_NREVPLXRB4__01/Cut _ Sew Knit_Jersey_1_ROUGH_SPEC.png" Angle="0" AngleUnit="degree" Width="1853" WidthUnit="px" Height="1853" HeightUnit="px"/>
+    </PBRMaterial>
+    <PBRMaterial Opacity="100" Name="V2_Cut_Sew_Knit_Waffle_3_FRONT_11055346">
+        <globalColor Name="(None)" R="255" G="255" B="255" Intensity="1"/>
+        <SpecularColor Shininess="28"/>
+        <globalMap FilePath="E:/HJP/KUAICV/VTO/DATA/CLO/gcd_01/GCD_01/garments_5000_0/rand_KFFMSBTCLN__01__rand_NREVPLXRB4__01/Cut _ Sew Knit_Waffle_3_BASE_rgb_medium.png" Angle="0" AngleUnit="degree" Width="514" WidthUnit="px" Height="388" HeightUnit="px" ScaleX="43.5187" ScaleY="32.8507"/>
+        <NormalMap FilePath="E:/HJP/KUAICV/VTO/DATA/CLO/gcd_01/GCD_01/garments_5000_0/rand_KFFMSBTCLN__01__rand_NREVPLXRB4__01/Cut _ Sew Knit_Waffle_3_NRM.png" FilePathWithIntensity="E:/HJP/KUAICV/VTO/DATA/CLO/gcd_01/GCD_01/garments_5000_0/rand_KFFMSBTCLN__01__rand_NREVPLXRB4__01/Cut _ Sew Knit_Waffle_3_NRM_8.jpg" Angle="0" AngleUnit="degree" Width="514" WidthUnit="px" Height="388" HeightUnit="px" NormalIntensityInPercentage="8"/>
+        <SpecularMap FilePath="E:/HJP/KUAICV/VTO/DATA/CLO/gcd_01/GCD_01/garments_5000_0/rand_KFFMSBTCLN__01__rand_NREVPLXRB4__01/Cut _ Sew Knit_Waffle_3_ROUGH_SPEC.png" Angle="0" AngleUnit="degree" Width="514" WidthUnit="px" Height="388" HeightUnit="px"/>
+    </PBRMaterial>
+</MetaData>
