@@ -1,0 +1,29 @@
+{
+    "FabricList": [
+        {
+            "FabricName": "Default Fabric",
+            "FabricType": "None",
+            "FabricContent": "None",
+            "strBaseColorHexCode": "A3DF0C",
+            "FabricUUID": "8FLSQK"
+        }
+    ],
+    "GradingRuleTableList": [],
+    "PatternList": [
+        
+    ],
+    "SymmetricDataList": [],
+    "InstanceDataList": [
+        {
+            "OriginPatternID": "skirt_back",
+            "InstancePatternIDArray": []
+        },
+        {
+            "OriginPatternID": "skirt_front",
+            "InstancePatternIDArray": []
+        }
+    ],
+    "SeamLinePairGroupList": [
+        
+    ]
+}
