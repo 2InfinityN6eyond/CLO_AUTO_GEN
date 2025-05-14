@@ -1,44 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <MetaData Version="1" ObjFileName="Dramatic.obj">
     <PhysicalPropertyList>
-        <PhysicalProperty PhysicalPropertyName="V1_Woven_Silk_Crepede_Chine_0" Stretch-Weft="140084" Stretch-Warp="71935.4" Shear="5666.98" Bending-Weft="572.247" Bending-Warp="841.892" BucklingRatio-Weft="0" BucklingRatio-Warp="0" InternalDamping="0.0001" BucklingStiffness-Weft="0" BucklingStiffness-Warp="0" Density="6.9697e-05" FrictionCoefficient="0.03"/>
+        <PhysicalProperty PhysicalPropertyName="V2_Cut_Sew_Knit_LoopTerry_1_0" Stretch-Weft="18066.1" Stretch-Warp="27724.5" Shear="11912.6" Bending-Weft="2058.06" Bending-Warp="283.319" BucklingRatio-Weft="0.3" BucklingRatio-Warp="0.3" InternalDamping="0.0001" BucklingStiffness-Weft="0.855807" BucklingStiffness-Warp="0.832596" Density="0.000213" FrictionCoefficient="0.03"/>
     </PhysicalPropertyList>
     <MeshList>
-        <Mesh MeshStartIndex="1" MeshEndIndex="664" PhysicalPropertyName="V1_Woven_Silk_Crepede_Chine_0"/>
-        <Mesh MeshStartIndex="665" MeshEndIndex="1354" PhysicalPropertyName="V1_Woven_Silk_Crepede_Chine_0"/>
-        <Mesh MeshStartIndex="1355" MeshEndIndex="4421" PhysicalPropertyName="V1_Woven_Silk_Crepede_Chine_0"/>
-        <Mesh MeshStartIndex="4422" MeshEndIndex="7957" PhysicalPropertyName="V1_Woven_Silk_Crepede_Chine_0"/>
-        <Mesh MeshStartIndex="7958" MeshEndIndex="8633" PhysicalPropertyName="V1_Woven_Silk_Crepede_Chine_0"/>
-        <Mesh MeshStartIndex="8634" MeshEndIndex="9325" PhysicalPropertyName="V1_Woven_Silk_Crepede_Chine_0"/>
+        <Mesh MeshStartIndex="1" MeshEndIndex="664" PhysicalPropertyName="V2_Cut_Sew_Knit_LoopTerry_1_0"/>
+        <Mesh MeshStartIndex="665" MeshEndIndex="1354" PhysicalPropertyName="V2_Cut_Sew_Knit_LoopTerry_1_0"/>
+        <Mesh MeshStartIndex="1355" MeshEndIndex="4421" PhysicalPropertyName="V2_Cut_Sew_Knit_LoopTerry_1_0"/>
+        <Mesh MeshStartIndex="4422" MeshEndIndex="7965" PhysicalPropertyName="V2_Cut_Sew_Knit_LoopTerry_1_0"/>
+        <Mesh MeshStartIndex="7966" MeshEndIndex="8641" PhysicalPropertyName="V2_Cut_Sew_Knit_LoopTerry_1_0"/>
+        <Mesh MeshStartIndex="8642" MeshEndIndex="9333" PhysicalPropertyName="V2_Cut_Sew_Knit_LoopTerry_1_0"/>
     </MeshList>
     <SeamLinePairList>
         <SeamLinePair FoldAngle="0" BKScale="1">
-            <SeamLine MeshPointIndexes ="8013/8014/8015/8016/8017/8018"/>
-            <SeamLine MeshPointIndexes ="8013/8012/8011/8010/8009/8008"/>
+            <SeamLine MeshPointIndexes ="8021/8022/8023/8024/8025/8026"/>
+            <SeamLine MeshPointIndexes ="8021/8020/8019/8018/8017/8016"/>
         </SeamLinePair>
         <SeamLinePair FoldAngle="0" BKScale="1">
-            <SeamLine MeshPointIndexes ="8028/8029/8030/8031/8032/8033/8034"/>
-            <SeamLine MeshPointIndexes ="8028/8027/8026/8025/8024/8023/8022"/>
+            <SeamLine MeshPointIndexes ="8036/8037/8038/8039/8040/8041/8042"/>
+            <SeamLine MeshPointIndexes ="8036/8035/8034/8033/8032/8031/8030"/>
         </SeamLinePair>
         <SeamLinePair FoldAngle="0" BKScale="1">
-            <SeamLine MeshPointIndexes ="8672/8673/8674/8675/8676/8677/8678"/>
-            <SeamLine MeshPointIndexes ="8684/8683/8682/8681/8680/8679/8678"/>
+            <SeamLine MeshPointIndexes ="8680/8681/8682/8683/8684/8685/8686"/>
+            <SeamLine MeshPointIndexes ="8692/8691/8690/8689/8688/8687/8686"/>
         </SeamLinePair>
         <SeamLinePair FoldAngle="0" BKScale="1">
-            <SeamLine MeshPointIndexes ="8641/8642/8643/8644/8645/8646/8647"/>
-            <SeamLine MeshPointIndexes ="8653/8652/8651/8650/8649/8648/8647"/>
+            <SeamLine MeshPointIndexes ="8649/8650/8651/8652/8653/8654/8655"/>
+            <SeamLine MeshPointIndexes ="8661/8660/8659/8658/8657/8656/8655"/>
         </SeamLinePair>
         <SeamLinePair FoldAngle="0" BKScale="1">
-            <SeamLine MeshPointIndexes ="8697/8698/8699/8700"/>
-            <SeamLine MeshPointIndexes ="7981/7980/7979/7978"/>
+            <SeamLine MeshPointIndexes ="8705/8706/8707/8708"/>
+            <SeamLine MeshPointIndexes ="7989/7988/7987/7986"/>
         </SeamLinePair>
         <SeamLinePair FoldAngle="0" BKScale="1">
-            <SeamLine MeshPointIndexes ="8665/8666/8667/8668/8669/8670/8671/8672"/>
-            <SeamLine MeshPointIndexes ="8001/8000/7999/7998/7997/7996/7995/7994"/>
+            <SeamLine MeshPointIndexes ="8673/8674/8675/8676/8677/8678/8679/8680"/>
+            <SeamLine MeshPointIndexes ="8009/8008/8007/8006/8005/8004/8003/8002"/>
         </SeamLinePair>
         <SeamLinePair FoldAngle="0" BKScale="1">
-            <SeamLine MeshPointIndexes ="8684/8685/8686/8687"/>
-            <SeamLine MeshPointIndexes ="7994/7993/7992/7991"/>
+            <SeamLine MeshPointIndexes ="8692/8693/8694/8695"/>
+            <SeamLine MeshPointIndexes ="8002/8001/8000/7999"/>
         </SeamLinePair>
         <SeamLinePair FoldAngle="0" BKScale="1">
             <SeamLine MeshPointIndexes ="708/709/710/711/712/713/714"/>
@@ -70,11 +70,11 @@
         </SeamLinePair>
         <SeamLinePair FoldAngle="0" BKScale="1">
             <SeamLine MeshPointIndexes ="665/666/667/668"/>
-            <SeamLine MeshPointIndexes ="8634/8720/8719/8718"/>
+            <SeamLine MeshPointIndexes ="8642/8728/8727/8726"/>
         </SeamLinePair>
         <SeamLinePair FoldAngle="0" BKScale="1">
             <SeamLine MeshPointIndexes ="69/70/71/72/73/74/75/76/77/78/79/80/81/82/1"/>
-            <SeamLine MeshPointIndexes ="7972/7971/7970/7969/7968/7967/7966/7965/7964/7963/7962/7961/7960/7959/7958"/>
+            <SeamLine MeshPointIndexes ="7980/7979/7978/7977/7976/7975/7974/7973/7972/7971/7970/7969/7968/7967/7966"/>
         </SeamLinePair>
         <SeamLinePair FoldAngle="0" BKScale="1">
             <SeamLine MeshPointIndexes ="4523/4524/4525/4526/4527/4528/4529/4530/4531/4532/4533/4534/4535/4536/4537/4538/4539/4540/4541/4542/4543/4544/4545/4546/4422"/>
@@ -93,23 +93,23 @@
             <SeamLine MeshPointIndexes ="4511/4510/4509/4508/4507/4506/4505/4504"/>
         </SeamLinePair>
         <SeamLinePair FoldAngle="0" BKScale="1">
-            <SeamLine MeshPointIndexes ="8634/8635/8636/8637/8638/8639/8640/8641"/>
+            <SeamLine MeshPointIndexes ="8642/8643/8644/8645/8646/8647/8648/8649"/>
             <SeamLine MeshPointIndexes ="4504/4503/4502/4501/4500/4499/4498/4497"/>
         </SeamLinePair>
         <SeamLinePair FoldAngle="0" BKScale="1">
-            <SeamLine MeshPointIndexes ="8653/8654/8655/8656/8657/8658/8659/8660/8661/8662/8663/8664/8665"/>
+            <SeamLine MeshPointIndexes ="8661/8662/8663/8664/8665/8666/8667/8668/8669/8670/8671/8672/8673"/>
             <SeamLine MeshPointIndexes ="4497/4496/4495/4494/4493/4492/4491/4490/4489/4488/4487/4486/4485"/>
         </SeamLinePair>
         <SeamLinePair FoldAngle="0" BKScale="1">
-            <SeamLine MeshPointIndexes ="8001/8002/8003/8004/8005/8006/8007/8008"/>
+            <SeamLine MeshPointIndexes ="8009/8010/8011/8012/8013/8014/8015/8016"/>
             <SeamLine MeshPointIndexes ="1413/1412/1411/1410/1409/1408/1407/1406"/>
         </SeamLinePair>
         <SeamLinePair FoldAngle="0" BKScale="1">
-            <SeamLine MeshPointIndexes ="8018/8019/8020/8021/8022"/>
+            <SeamLine MeshPointIndexes ="8026/8027/8028/8029/8030"/>
             <SeamLine MeshPointIndexes ="1406/1405/1404/1403/1402"/>
         </SeamLinePair>
         <SeamLinePair FoldAngle="0" BKScale="1">
-            <SeamLine MeshPointIndexes ="8034/8035/8036/8037/8038/8039/7958"/>
+            <SeamLine MeshPointIndexes ="8042/8043/8044/8045/8046/8047/7966"/>
             <SeamLine MeshPointIndexes ="1402/1401/1400/1399/1398/1397/1396"/>
         </SeamLinePair>
         <SeamLinePair FoldAngle="0" BKScale="1">
@@ -125,10 +125,11 @@
             <SeamLine MeshPointIndexes ="1386/1385/1384/1383/1382/1381/1380/1379"/>
         </SeamLinePair>
     </SeamLinePairList>
-    <PBRMaterial Opacity="100" Name="V1_Woven_Silk_Crepede_Chine_FRONT_1075843">
+    <PBRMaterial Opacity="100" Name="V2_Cut_Sew_Knit_LoopTerry_1_FRONT_8928">
         <globalColor Name="(None)" R="255" G="255" B="255" Intensity="1"/>
-        <SpecularColor Shininess="28"/>
-        <globalMap FilePath="E:/HJP/KUAICV/VTO/DATA/CLO/gcd_01/GCD_01/garments_5000_0/rand_6W3XGQZOE9/Silk_Crepede_Chine_FCL1PSS001_3_test2_COL.jpg" Angle="90" AngleUnit="degree" Width="1024" WidthUnit="px" Height="1024" HeightUnit="px" ScaleX="173.4" ScaleY="173.4"/>
-        <NormalMap FilePath="E:/HJP/KUAICV/VTO/DATA/CLO/gcd_01/GCD_01/garments_5000_0/rand_6W3XGQZOE9/Silk_Crepede_Chine_FCL1PSS001_3_test2_NRM.jpg" FilePathWithIntensity="E:/HJP/KUAICV/VTO/DATA/CLO/gcd_01/GCD_01/garments_5000_0/rand_6W3XGQZOE9/Silk_Crepede_Chine_FCL1PSS001_3_test2_NRM_50.jpg" Angle="90" AngleUnit="degree" Width="1024" WidthUnit="px" Height="1024" HeightUnit="px" NormalIntensityInPercentage="50"/>
+        <SpecularColor Shininess="2"/>
+        <globalMap FilePath="/Users/hjp/HJP/KUAICV/VTO/CLO_AUTO_GEN/sample_data/rand_6W3XGQZOE9/Cut _ Sew Knit_Loop terry_1_BASE_rgb_medium.png" Angle="0" AngleUnit="degree" Width="664" WidthUnit="px" Height="576" HeightUnit="px" ScaleX="56.2188" ScaleY="48.7681"/>
+        <NormalMap FilePath="/Users/hjp/HJP/KUAICV/VTO/CLO_AUTO_GEN/sample_data/rand_6W3XGQZOE9/Cut _ Sew Knit_Loop terry_1_NRM.png" FilePathWithIntensity="/Users/hjp/HJP/KUAICV/VTO/CLO_AUTO_GEN/sample_data/rand_6W3XGQZOE9/Cut _ Sew Knit_Loop terry_1_NRM_9.jpg" Angle="0" AngleUnit="degree" Width="664" WidthUnit="px" Height="576" HeightUnit="px" NormalIntensityInPercentage="9"/>
+        <SpecularMap FilePath="/Users/hjp/HJP/KUAICV/VTO/CLO_AUTO_GEN/sample_data/rand_6W3XGQZOE9/Cut _ Sew Knit_Loop terry_1_ROUGH_SPEC.png" Angle="0" AngleUnit="degree" Width="664" WidthUnit="px" Height="576" HeightUnit="px"/>
     </PBRMaterial>
 </MetaData>
