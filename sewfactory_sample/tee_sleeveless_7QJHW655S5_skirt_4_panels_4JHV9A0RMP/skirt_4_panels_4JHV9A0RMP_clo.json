@@ -4,8 +4,8 @@
             "FabricName": "Default Fabric",
             "FabricType": "None",
             "FabricContent": "None",
-            "strBaseColorHexCode": "821827",
-            "FabricUUID": "LkkGTG"
+            "strBaseColorHexCode": "9D0366",
+            "FabricUUID": "wODee3"
         }
     ],
     "GradingRuleTableList": [],
@@ -15,7 +15,7 @@
             "fGrainlineAngle": 0.0,
             "ID": "skirt_4_panels_4JHV9A0RMP_right",
             "strSuperImposeSide": "None",
-            "CurrentFabricUUID": "LkkGTG",
+            "CurrentFabricUUID": "wODee3",
             "IsClosed": false,
             "InternalLineList": [],
             "ButtonHeadList": [],
@@ -216,7 +216,7 @@
             "fGrainlineAngle": 0.0,
             "ID": "skirt_4_panels_4JHV9A0RMP_back",
             "strSuperImposeSide": "None",
-            "CurrentFabricUUID": "LkkGTG",
+            "CurrentFabricUUID": "wODee3",
             "IsClosed": false,
             "InternalLineList": [],
             "ButtonHeadList": [],
@@ -243,7 +243,7 @@
                                 "ID": "back_point_1",
                                 "PointType": "Straight",
                                 "Position": {
-                                    "x": -178.29078,
+                                    "x": 178.29078,
                                     "y": -127.5
                                 },
                                 "GradingRuleID": -1
@@ -257,7 +257,7 @@
                                 "ID": "back_point_1",
                                 "PointType": "Straight",
                                 "Position": {
-                                    "x": -178.29078,
+                                    "x": 178.29078,
                                     "y": -127.5
                                 },
                                 "GradingRuleID": -1
@@ -266,7 +266,7 @@
                                 "ID": "back_point_2",
                                 "PointType": "Straight",
                                 "Position": {
-                                    "x": -208.74911,
+                                    "x": 208.74911,
                                     "y": 0.0
                                 },
                                 "GradingRuleID": -1
@@ -280,7 +280,7 @@
                                 "ID": "back_point_2",
                                 "PointType": "Straight",
                                 "Position": {
-                                    "x": -208.74911,
+                                    "x": 208.74911,
                                     "y": 0.0
                                 },
                                 "GradingRuleID": -1
@@ -289,7 +289,7 @@
                                 "ID": "back_point_3",
                                 "PointType": "Bezier Curve",
                                 "Position": {
-                                    "x": -288.08244,
+                                    "x": 288.08244,
                                     "y": -15.86667
                                 },
                                 "GradingRuleID": -1
@@ -298,7 +298,7 @@
                                 "ID": "back_point_4",
                                 "PointType": "Bezier Curve",
                                 "Position": {
-                                    "x": -367.41578,
+                                    "x": 367.41578,
                                     "y": -15.86667
                                 },
                                 "GradingRuleID": -1
@@ -307,7 +307,7 @@
                                 "ID": "back_point_5",
                                 "PointType": "Straight",
                                 "Position": {
-                                    "x": -446.74911,
+                                    "x": 446.74911,
                                     "y": 0.0
                                 },
                                 "GradingRuleID": -1
@@ -321,7 +321,7 @@
                                 "ID": "back_point_5",
                                 "PointType": "Straight",
                                 "Position": {
-                                    "x": -446.74911,
+                                    "x": 446.74911,
                                     "y": 0.0
                                 },
                                 "GradingRuleID": -1
@@ -330,7 +330,7 @@
                                 "ID": "back_point_6",
                                 "PointType": "Straight",
                                 "Position": {
-                                    "x": -477.20744,
+                                    "x": 477.20744,
                                     "y": -127.5
                                 },
                                 "GradingRuleID": -1
@@ -344,7 +344,7 @@
                                 "ID": "back_point_6",
                                 "PointType": "Straight",
                                 "Position": {
-                                    "x": -477.20744,
+                                    "x": 477.20744,
                                     "y": -127.5
                                 },
                                 "GradingRuleID": -1
@@ -353,7 +353,7 @@
                                 "ID": "back_point_7",
                                 "PointType": "Straight",
                                 "Position": {
-                                    "x": -655.49822,
+                                    "x": 655.49822,
                                     "y": -731.90813
                                 },
                                 "GradingRuleID": -1
@@ -367,7 +367,7 @@
                                 "ID": "back_point_7",
                                 "PointType": "Straight",
                                 "Position": {
-                                    "x": -655.49822,
+                                    "x": 655.49822,
                                     "y": -731.90813
                                 },
                                 "GradingRuleID": -1
@@ -376,7 +376,7 @@
                                 "ID": "back_point_8",
                                 "PointType": "Bezier Curve",
                                 "Position": {
-                                    "x": -436.99881,
+                                    "x": 436.99881,
                                     "y": -853.47004
                                 },
                                 "GradingRuleID": -1
@@ -385,7 +385,7 @@
                                 "ID": "back_point_9",
                                 "PointType": "Bezier Curve",
                                 "Position": {
-                                    "x": -218.49941,
+                                    "x": 218.49941,
                                     "y": -853.47004
                                 },
                                 "GradingRuleID": -1
@@ -417,7 +417,7 @@
             "fGrainlineAngle": 0.0,
             "ID": "skirt_4_panels_4JHV9A0RMP_front",
             "strSuperImposeSide": "None",
-            "CurrentFabricUUID": "LkkGTG",
+            "CurrentFabricUUID": "wODee3",
             "IsClosed": false,
             "InternalLineList": [],
             "ButtonHeadList": [],
@@ -618,7 +618,7 @@
             "fGrainlineAngle": 0.0,
             "ID": "skirt_4_panels_4JHV9A0RMP_left",
             "strSuperImposeSide": "None",
-            "CurrentFabricUUID": "LkkGTG",
+            "CurrentFabricUUID": "wODee3",
             "IsClosed": false,
             "InternalLineList": [],
             "ButtonHeadList": [],

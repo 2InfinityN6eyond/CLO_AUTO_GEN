@@ -4,18 +4,18 @@
             "FabricName": "Default Fabric",
             "FabricType": "None",
             "FabricContent": "None",
-            "strBaseColorHexCode": "7F6E82",
-            "FabricUUID": "8anPOp"
+            "strBaseColorHexCode": "466ED9",
+            "FabricUUID": "1ynAoZ"
         }
     ],
     "GradingRuleTableList": [],
     "PatternList": [
         {
-            "Name": "tee_sleeveless_7QJHW655S5_back",
+            "Name": "tee_sleeveless_K5BB0A0DEO_back",
             "fGrainlineAngle": 0.0,
-            "ID": "tee_sleeveless_7QJHW655S5_back",
+            "ID": "tee_sleeveless_K5BB0A0DEO_back",
             "strSuperImposeSide": "None",
-            "CurrentFabricUUID": "8anPOp",
+            "CurrentFabricUUID": "1ynAoZ",
             "IsClosed": false,
             "InternalLineList": [],
             "ButtonHeadList": [],
@@ -34,7 +34,7 @@
                                 "PointType": "Straight",
                                 "Position": {
                                     "x": 0.0,
-                                    "y": -381.53253
+                                    "y": -562.42955
                                 },
                                 "GradingRuleID": -1
                             },
@@ -42,8 +42,8 @@
                                 "ID": "back_point_1",
                                 "PointType": "Straight",
                                 "Position": {
-                                    "x": 95.20055,
-                                    "y": -214.70425
+                                    "x": 208.14213,
+                                    "y": -286.224
                                 },
                                 "GradingRuleID": -1
                             }
@@ -56,8 +56,8 @@
                                 "ID": "back_point_1",
                                 "PointType": "Straight",
                                 "Position": {
-                                    "x": 95.20055,
-                                    "y": -214.70425
+                                    "x": 208.14213,
+                                    "y": -286.224
                                 },
                                 "GradingRuleID": -1
                             },
@@ -65,8 +65,8 @@
                                 "ID": "back_point_2",
                                 "PointType": "Bezier Curve",
                                 "Position": {
-                                    "x": 160.89229,
-                                    "y": -183.0131
+                                    "x": 292.84772,
+                                    "y": -240.15146
                                 },
                                 "GradingRuleID": -1
                             },
@@ -74,8 +74,8 @@
                                 "ID": "back_point_3",
                                 "PointType": "Bezier Curve",
                                 "Position": {
-                                    "x": 174.95441,
-                                    "y": -111.44501
+                                    "x": 306.81305,
+                                    "y": -144.74346
                                 },
                                 "GradingRuleID": -1
                             },
@@ -83,7 +83,7 @@
                                 "ID": "back_point_4",
                                 "PointType": "Straight",
                                 "Position": {
-                                    "x": 137.38692,
+                                    "x": 250.03811,
                                     "y": 0.0
                                 },
                                 "GradingRuleID": -1
@@ -97,7 +97,7 @@
                                 "ID": "back_point_4",
                                 "PointType": "Straight",
                                 "Position": {
-                                    "x": 137.38692,
+                                    "x": 250.03811,
                                     "y": 0.0
                                 },
                                 "GradingRuleID": -1
@@ -106,7 +106,7 @@
                                 "ID": "back_point_5",
                                 "PointType": "Straight",
                                 "Position": {
-                                    "x": 280.619,
+                                    "x": 391.43918,
                                     "y": 0.0
                                 },
                                 "GradingRuleID": -1
@@ -120,7 +120,7 @@
                                 "ID": "back_point_5",
                                 "PointType": "Straight",
                                 "Position": {
-                                    "x": 280.619,
+                                    "x": 391.43918,
                                     "y": 0.0
                                 },
                                 "GradingRuleID": -1
@@ -129,8 +129,8 @@
                                 "ID": "back_point_6",
                                 "PointType": "Bezier Curve",
                                 "Position": {
-                                    "x": 339.8143,
-                                    "y": -176.22498
+                                    "x": 450.79038,
+                                    "y": -24.50943
                                 },
                                 "GradingRuleID": -1
                             },
@@ -138,8 +138,8 @@
                                 "ID": "back_point_7",
                                 "PointType": "Bezier Curve",
                                 "Position": {
-                                    "x": 399.00959,
-                                    "y": -176.22498
+                                    "x": 510.14158,
+                                    "y": -24.50943
                                 },
                                 "GradingRuleID": -1
                             },
@@ -147,7 +147,7 @@
                                 "ID": "back_point_8",
                                 "PointType": "Straight",
                                 "Position": {
-                                    "x": 458.20489,
+                                    "x": 569.49279,
                                     "y": 0.0
                                 },
                                 "GradingRuleID": -1
@@ -161,7 +161,7 @@
                                 "ID": "back_point_8",
                                 "PointType": "Straight",
                                 "Position": {
-                                    "x": 458.20489,
+                                    "x": 569.49279,
                                     "y": 0.0
                                 },
                                 "GradingRuleID": -1
@@ -170,7 +170,7 @@
                                 "ID": "back_point_9",
                                 "PointType": "Straight",
                                 "Position": {
-                                    "x": 601.43697,
+                                    "x": 710.89386,
                                     "y": 0.0
                                 },
                                 "GradingRuleID": -1
@@ -184,7 +184,7 @@
                                 "ID": "back_point_9",
                                 "PointType": "Straight",
                                 "Position": {
-                                    "x": 601.43697,
+                                    "x": 710.89386,
                                     "y": 0.0
                                 },
                                 "GradingRuleID": -1
@@ -193,8 +193,8 @@
                                 "ID": "back_point_10",
                                 "PointType": "Bezier Curve",
                                 "Position": {
-                                    "x": 563.86948,
-                                    "y": -111.44501
+                                    "x": 654.11891,
+                                    "y": -144.74346
                                 },
                                 "GradingRuleID": -1
                             },
@@ -202,8 +202,8 @@
                                 "ID": "back_point_11",
                                 "PointType": "Bezier Curve",
                                 "Position": {
-                                    "x": 577.9316,
-                                    "y": -183.0131
+                                    "x": 668.08424,
+                                    "y": -240.15146
                                 },
                                 "GradingRuleID": -1
                             },
@@ -211,8 +211,8 @@
                                 "ID": "back_point_12",
                                 "PointType": "Straight",
                                 "Position": {
-                                    "x": 643.62334,
-                                    "y": -214.70425
+                                    "x": 752.78984,
+                                    "y": -286.224
                                 },
                                 "GradingRuleID": -1
                             }
@@ -225,8 +225,8 @@
                                 "ID": "back_point_12",
                                 "PointType": "Straight",
                                 "Position": {
-                                    "x": 643.62334,
-                                    "y": -214.70425
+                                    "x": 752.78984,
+                                    "y": -286.224
                                 },
                                 "GradingRuleID": -1
                             },
@@ -234,8 +234,8 @@
                                 "ID": "back_point_13",
                                 "PointType": "Straight",
                                 "Position": {
-                                    "x": 738.82389,
-                                    "y": -381.53253
+                                    "x": 960.93196,
+                                    "y": -562.42955
                                 },
                                 "GradingRuleID": -1
                             }
@@ -248,8 +248,8 @@
                                 "ID": "back_point_13",
                                 "PointType": "Straight",
                                 "Position": {
-                                    "x": 738.82389,
-                                    "y": -381.53253
+                                    "x": 960.93196,
+                                    "y": -562.42955
                                 },
                                 "GradingRuleID": -1
                             },
@@ -258,7 +258,7 @@
                                 "PointType": "Straight",
                                 "Position": {
                                     "x": 0.0,
-                                    "y": -381.53253
+                                    "y": -562.42955
                                 },
                                 "GradingRuleID": -1
                             }
@@ -276,11 +276,11 @@
             }
         },
         {
-            "Name": "tee_sleeveless_7QJHW655S5_front",
+            "Name": "tee_sleeveless_K5BB0A0DEO_front",
             "fGrainlineAngle": 0.0,
-            "ID": "tee_sleeveless_7QJHW655S5_front",
+            "ID": "tee_sleeveless_K5BB0A0DEO_front",
             "strSuperImposeSide": "None",
-            "CurrentFabricUUID": "8anPOp",
+            "CurrentFabricUUID": "1ynAoZ",
             "IsClosed": false,
             "InternalLineList": [],
             "ButtonHeadList": [],
@@ -299,7 +299,7 @@
                                 "PointType": "Straight",
                                 "Position": {
                                     "x": 0.0,
-                                    "y": -381.53253
+                                    "y": -562.42955
                                 },
                                 "GradingRuleID": -1
                             },
@@ -307,8 +307,8 @@
                                 "ID": "front_point_1",
                                 "PointType": "Straight",
                                 "Position": {
-                                    "x": 738.82389,
-                                    "y": -381.53253
+                                    "x": 960.93196,
+                                    "y": -562.42955
                                 },
                                 "GradingRuleID": -1
                             }
@@ -321,8 +321,8 @@
                                 "ID": "front_point_1",
                                 "PointType": "Straight",
                                 "Position": {
-                                    "x": 738.82389,
-                                    "y": -381.53253
+                                    "x": 960.93196,
+                                    "y": -562.42955
                                 },
                                 "GradingRuleID": -1
                             },
@@ -330,8 +330,8 @@
                                 "ID": "front_point_2",
                                 "PointType": "Straight",
                                 "Position": {
-                                    "x": 643.62334,
-                                    "y": -214.70425
+                                    "x": 752.78984,
+                                    "y": -286.224
                                 },
                                 "GradingRuleID": -1
                             }
@@ -344,8 +344,8 @@
                                 "ID": "front_point_2",
                                 "PointType": "Straight",
                                 "Position": {
-                                    "x": 643.62334,
-                                    "y": -214.70425
+                                    "x": 752.78984,
+                                    "y": -286.224
                                 },
                                 "GradingRuleID": -1
                             },
@@ -353,8 +353,8 @@
                                 "ID": "front_point_3",
                                 "PointType": "Bezier Curve",
                                 "Position": {
-                                    "x": 577.9316,
-                                    "y": -183.0131
+                                    "x": 668.08424,
+                                    "y": -240.15146
                                 },
                                 "GradingRuleID": -1
                             },
@@ -362,8 +362,8 @@
                                 "ID": "front_point_4",
                                 "PointType": "Bezier Curve",
                                 "Position": {
-                                    "x": 563.86948,
-                                    "y": -111.44501
+                                    "x": 654.11891,
+                                    "y": -144.74346
                                 },
                                 "GradingRuleID": -1
                             },
@@ -371,7 +371,7 @@
                                 "ID": "front_point_5",
                                 "PointType": "Straight",
                                 "Position": {
-                                    "x": 601.43697,
+                                    "x": 710.89386,
                                     "y": 0.0
                                 },
                                 "GradingRuleID": -1
@@ -385,7 +385,7 @@
                                 "ID": "front_point_5",
                                 "PointType": "Straight",
                                 "Position": {
-                                    "x": 601.43697,
+                                    "x": 710.89386,
                                     "y": 0.0
                                 },
                                 "GradingRuleID": -1
@@ -394,7 +394,7 @@
                                 "ID": "front_point_6",
                                 "PointType": "Straight",
                                 "Position": {
-                                    "x": 458.20489,
+                                    "x": 569.49279,
                                     "y": 0.0
                                 },
                                 "GradingRuleID": -1
@@ -408,7 +408,7 @@
                                 "ID": "front_point_6",
                                 "PointType": "Straight",
                                 "Position": {
-                                    "x": 458.20489,
+                                    "x": 569.49279,
                                     "y": 0.0
                                 },
                                 "GradingRuleID": -1
@@ -417,8 +417,8 @@
                                 "ID": "front_point_7",
                                 "PointType": "Straight",
                                 "Position": {
-                                    "x": 369.41195,
-                                    "y": -81.21331
+                                    "x": 480.46598,
+                                    "y": -62.78891
                                 },
                                 "GradingRuleID": -1
                             }
@@ -431,8 +431,8 @@
                                 "ID": "front_point_7",
                                 "PointType": "Straight",
                                 "Position": {
-                                    "x": 369.41195,
-                                    "y": -81.21331
+                                    "x": 480.46598,
+                                    "y": -62.78891
                                 },
                                 "GradingRuleID": -1
                             },
@@ -440,7 +440,7 @@
                                 "ID": "front_point_8",
                                 "PointType": "Straight",
                                 "Position": {
-                                    "x": 280.619,
+                                    "x": 391.43918,
                                     "y": 0.0
                                 },
                                 "GradingRuleID": -1
@@ -454,7 +454,7 @@
                                 "ID": "front_point_8",
                                 "PointType": "Straight",
                                 "Position": {
-                                    "x": 280.619,
+                                    "x": 391.43918,
                                     "y": 0.0
                                 },
                                 "GradingRuleID": -1
@@ -463,7 +463,7 @@
                                 "ID": "front_point_9",
                                 "PointType": "Straight",
                                 "Position": {
-                                    "x": 137.38692,
+                                    "x": 250.03811,
                                     "y": 0.0
                                 },
                                 "GradingRuleID": -1
@@ -477,7 +477,7 @@
                                 "ID": "front_point_9",
                                 "PointType": "Straight",
                                 "Position": {
-                                    "x": 137.38692,
+                                    "x": 250.03811,
                                     "y": 0.0
                                 },
                                 "GradingRuleID": -1
@@ -486,8 +486,8 @@
                                 "ID": "front_point_10",
                                 "PointType": "Bezier Curve",
                                 "Position": {
-                                    "x": 174.95441,
-                                    "y": -111.44501
+                                    "x": 306.81305,
+                                    "y": -144.74346
                                 },
                                 "GradingRuleID": -1
                             },
@@ -495,8 +495,8 @@
                                 "ID": "front_point_11",
                                 "PointType": "Bezier Curve",
                                 "Position": {
-                                    "x": 160.89229,
-                                    "y": -183.0131
+                                    "x": 292.84772,
+                                    "y": -240.15146
                                 },
                                 "GradingRuleID": -1
                             },
@@ -504,8 +504,8 @@
                                 "ID": "front_point_12",
                                 "PointType": "Straight",
                                 "Position": {
-                                    "x": 95.20055,
-                                    "y": -214.70425
+                                    "x": 208.14213,
+                                    "y": -286.224
                                 },
                                 "GradingRuleID": -1
                             }
@@ -518,8 +518,8 @@
                                 "ID": "front_point_12",
                                 "PointType": "Straight",
                                 "Position": {
-                                    "x": 95.20055,
-                                    "y": -214.70425
+                                    "x": 208.14213,
+                                    "y": -286.224
                                 },
                                 "GradingRuleID": -1
                             },
@@ -528,7 +528,7 @@
                                 "PointType": "Straight",
                                 "Position": {
                                     "x": 0.0,
-                                    "y": -381.53253
+                                    "y": -562.42955
                                 },
                                 "GradingRuleID": -1
                             }
@@ -559,23 +559,23 @@
     ],
     "SeamLinePairGroupList": [
         {
-            "Name": "tee_sleeveless_7QJHW655S5_SeamLineGroup_0",
+            "Name": "tee_sleeveless_K5BB0A0DEO_SeamLineGroup_0",
             "bIsTurned": false,
             "PairList": [
                 {
                     "First": {
-                        "ShapeID": "tee_sleeveless_7QJHW655S5_back",
+                        "ShapeID": "tee_sleeveless_K5BB0A0DEO_back",
                         "LengthParam": {
-                            "fStart": 0.40880103801609313,
-                            "fEnd": 0.4731565124570565
+                            "fStart": 0.3589355974418237,
+                            "fEnd": 0.4102163155232484
                         },
                         "Direction": true
                     },
                     "Second": {
-                        "ShapeID": "tee_sleeveless_7QJHW655S5_front",
+                        "ShapeID": "tee_sleeveless_K5BB0A0DEO_front",
                         "LengthParam": {
-                            "fStart": 0.7966938482185878,
-                            "fEnd": 0.7295569008774221
+                            "fStart": 0.7617243233418427,
+                            "fEnd": 0.711084376798659
                         },
                         "Direction": false
                     }
@@ -587,23 +587,23 @@
             }
         },
         {
-            "Name": "tee_sleeveless_7QJHW655S5_SeamLineGroup_1",
+            "Name": "tee_sleeveless_K5BB0A0DEO_SeamLineGroup_1",
             "bIsTurned": false,
             "PairList": [
                 {
                     "First": {
-                        "ShapeID": "tee_sleeveless_7QJHW655S5_back",
+                        "ShapeID": "tee_sleeveless_K5BB0A0DEO_back",
                         "LengthParam": {
-                            "fStart": 0.5817363252020876,
-                            "fEnd": 0.6680397231602749
+                            "fStart": 0.526080315544434,
+                            "fEnd": 0.6515070086314615
                         },
                         "Direction": true
                     },
                     "Second": {
-                        "ShapeID": "tee_sleeveless_7QJHW655S5_front",
+                        "ShapeID": "tee_sleeveless_K5BB0A0DEO_front",
                         "LengthParam": {
                             "fStart": 1.0,
-                            "fEnd": 0.909966529896415
+                            "fEnd": 0.8761405598312767
                         },
                         "Direction": false
                     }
@@ -615,23 +615,23 @@
             }
         },
         {
-            "Name": "tee_sleeveless_7QJHW655S5_SeamLineGroup_2",
+            "Name": "tee_sleeveless_K5BB0A0DEO_SeamLineGroup_2",
             "bIsTurned": false,
             "PairList": [
                 {
                     "First": {
-                        "ShapeID": "tee_sleeveless_7QJHW655S5_back",
+                        "ShapeID": "tee_sleeveless_K5BB0A0DEO_back",
                         "LengthParam": {
                             "fStart": 0.0,
-                            "fEnd": 0.08630339795818733
+                            "fEnd": 0.12542669308702753
                         },
                         "Direction": true
                     },
                     "Second": {
-                        "ShapeID": "tee_sleeveless_7QJHW655S5_front",
+                        "ShapeID": "tee_sleeveless_K5BB0A0DEO_front",
                         "LengthParam": {
-                            "fStart": 0.43634122121794044,
-                            "fEnd": 0.3463077511143556
+                            "fStart": 0.467997882722426,
+                            "fEnd": 0.34413844255370263
                         },
                         "Direction": false
                     }
@@ -643,23 +643,23 @@
             }
         },
         {
-            "Name": "tee_sleeveless_7QJHW655S5_SeamLineGroup_3",
+            "Name": "tee_sleeveless_K5BB0A0DEO_SeamLineGroup_3",
             "bIsTurned": false,
             "PairList": [
                 {
                     "First": {
-                        "ShapeID": "tee_sleeveless_7QJHW655S5_back",
+                        "ShapeID": "tee_sleeveless_K5BB0A0DEO_back",
                         "LengthParam": {
-                            "fStart": 0.1948832107032185,
-                            "fEnd": 0.25923868514418186
+                            "fStart": 0.24129069310821322,
+                            "fEnd": 0.2925714111896379
                         },
                         "Direction": true
                     },
                     "Second": {
-                        "ShapeID": "tee_sleeveless_7QJHW655S5_front",
+                        "ShapeID": "tee_sleeveless_K5BB0A0DEO_front",
                         "LengthParam": {
-                            "fStart": 0.6167508502369334,
-                            "fEnd": 0.5496139028957677
+                            "fStart": 0.6330540657550437,
+                            "fEnd": 0.58241411921186
                         },
                         "Direction": false
                     }
