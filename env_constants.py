@@ -12,3 +12,4 @@ elif hostname == "hjp-Z690-AERO-G":
     DATASET_ROOT = ""
     PYGARMENT_ROOT = r"E:\HJP\KUAICV\VTO\REFERENCES\GarmentCodeAnalysis"
     SEWFACTORY_BASE_PATH = r"D:\VTO2025\DATASETs\SewFactory\sewfactory"
+    SEAMDRESS_SEWFACTORY_DIR = r"D:\VTO2025\DATASETs\SeamDressSewFactory"
