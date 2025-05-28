@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MetaData Version="1" ObjFileName="FV2_05.obj">
+    <PhysicalPropertyList>
+        <PhysicalProperty PhysicalPropertyName="V1_Woven_Muslin_18X20_0" Stretch-Weft="152454" Stretch-Warp="212880" Shear="99420.3" Bending-Weft="3262.71" Bending-Warp="6138.92" BucklingRatio-Weft="0.3" BucklingRatio-Warp="0.3" InternalDamping="0.0001" BucklingStiffness-Weft="0.25" BucklingStiffness-Warp="0.25" Density="0.00010303" FrictionCoefficient="0.03"/>
+    </PhysicalPropertyList>
+    <MeshList>
+        <Mesh MeshStartIndex="1" MeshEndIndex="3873" PhysicalPropertyName="V1_Woven_Muslin_18X20_0"/>
+        <Mesh MeshStartIndex="3874" MeshEndIndex="4033" PhysicalPropertyName="V1_Woven_Muslin_18X20_0"/>
+        <Mesh MeshStartIndex="4034" MeshEndIndex="4193" PhysicalPropertyName="V1_Woven_Muslin_18X20_0"/>
+        <Mesh MeshStartIndex="4194" MeshEndIndex="8066" PhysicalPropertyName="V1_Woven_Muslin_18X20_0"/>
+        <Mesh MeshStartIndex="8067" MeshEndIndex="9477" PhysicalPropertyName="V1_Woven_Muslin_18X20_0"/>
+        <Mesh MeshStartIndex="9478" MeshEndIndex="10919" PhysicalPropertyName="V1_Woven_Muslin_18X20_0"/>
+    </MeshList>
+    <SeamLinePairList>
+        <SeamLinePair FoldAngle="0" BKScale="1">
+            <SeamLine MeshPointIndexes ="8147/8148/8149/8150/8151/8152/8153/8154/8067"/>
+            <SeamLine MeshPointIndexes ="9508/9507/9506/9505/9504/9503/9502/9501/9500"/>
+        </SeamLinePair>
+        <SeamLinePair FoldAngle="0" BKScale="1">
+            <SeamLine MeshPointIndexes ="8130/8131/8132/8133/8134/8135/8136"/>
+            <SeamLine MeshPointIndexes ="9525/9524/9523/9522/9521/9520/9519"/>
+        </SeamLinePair>
+        <SeamLinePair FoldAngle="0" BKScale="1">
+            <SeamLine MeshPointIndexes ="8108/8109/8110/8111/8112/8113/8114"/>
+            <SeamLine MeshPointIndexes ="9539/9538/9537/9536/9535/9534/9533"/>
+        </SeamLinePair>
+        <SeamLinePair FoldAngle="0" BKScale="1">
+            <SeamLine MeshPointIndexes ="8089/8090/8091/8092/8093/8094/8095/8096/8097"/>
+            <SeamLine MeshPointIndexes ="9478/9557/9556/9555/9554/9553/9552/9551/9550"/>
+        </SeamLinePair>
+        <SeamLinePair FoldAngle="0" BKScale="1">
+            <SeamLine MeshPointIndexes ="37/38/39/40/41/42/43/44/45/46/47/48/49/50/51/52/53/54/55/56/57/58/59/60/61/62/63/64"/>
+            <SeamLine MeshPointIndexes ="4194/4319/4318/4317/4316/4315/4314/4313/4312/4311/4310/4309/4308/4307/4306/4305/4304/4303/4302/4301/4300/4299/4298/4297/4296/4295/4294/4293"/>
+        </SeamLinePair>
+        <SeamLinePair FoldAngle="0" BKScale="1">
+            <SeamLine MeshPointIndexes ="100/101/102/103/104/105/106/107/108/109/110/111/112/113/114/115/116/117/118/119/120/121/122/123/124/125/126/1"/>
+            <SeamLine MeshPointIndexes ="4257/4256/4255/4254/4253/4252/4251/4250/4249/4248/4247/4246/4245/4244/4243/4242/4241/4240/4239/4238/4237/4236/4235/4234/4233/4232/4231/4230"/>
+        </SeamLinePair>
+        <SeamLinePair FoldAngle="0" BKScale="1">
+            <SeamLine MeshPointIndexes ="4257/4258/4259/4260/4261/4262/4263/4264/4265/4266/4267/4268/4269/4270/4271/4272/4273/4274/4275/4276/4277/4278/4279/4280/4281/4282/4283/4284/4285/4286/4287/4288/4289/4290/4291/4292/4293"/>
+            <SeamLine MeshPointIndexes ="4070/4069/4068/4067/4066/4065/4064/4063/4062/4061/4060/4059/4058/4057/4056/4055/4054/4053/4052/4051/4050/4049/4048/4047/4046/4045/4044/4043/4042/4041/4040/4039/4038/4037/4036/4035/4034"/>
+        </SeamLinePair>
+        <SeamLinePair FoldAngle="0" BKScale="1">
+            <SeamLine MeshPointIndexes ="4072/4073/4074/4075/4076/4077/4078/4079/4080/4081/4082/4083/4084/4085/4086/4087/4088/4089/4090/4091/4092/4093/4094"/>
+            <SeamLine MeshPointIndexes ="9500/9499/9498/9497/9496/9495/9494/9493/9492/9491/9490/9489/9488/9487/9486/9485/9484/9483/9482/9481/9480/9479/9478"/>
+        </SeamLinePair>
+        <SeamLinePair FoldAngle="0" BKScale="1">
+            <SeamLine MeshPointIndexes ="8067/8068/8069/8070/8071/8072/8073/8074/8075/8076/8077/8078/8079/8080/8081/8082/8083/8084/8085/8086/8087/8088/8089"/>
+            <SeamLine MeshPointIndexes ="3934/3933/3932/3931/3930/3929/3928/3927/3926/3925/3924/3923/3922/3921/3920/3919/3918/3917/3916/3915/3914/3913/3912"/>
+        </SeamLinePair>
+        <SeamLinePair FoldAngle="0" BKScale="1">
+            <SeamLine MeshPointIndexes ="3874/3875/3876/3877/3878/3879/3880/3881/3882/3883/3884/3885/3886/3887/3888/3889/3890/3891/3892/3893/3894/3895/3896/3897/3898/3899/3900/3901/3902/3903/3904/3905/3906/3907/3908/3909/3910"/>
+            <SeamLine MeshPointIndexes ="100/99/98/97/96/95/94/93/92/91/90/89/88/87/86/85/84/83/82/81/80/79/78/77/76/75/74/73/72/71/70/69/68/67/66/65/64"/>
+        </SeamLinePair>
+        <SeamLinePair FoldAngle="0" BKScale="1">
+            <SeamLine MeshPointIndexes ="3910/3911/3912"/>
+            <SeamLine MeshPointIndexes ="4034/4095/4094"/>
+        </SeamLinePair>
+        <SeamLinePair FoldAngle="0" BKScale="1">
+            <SeamLine MeshPointIndexes ="3934/3935/3874"/>
+            <SeamLine MeshPointIndexes ="4072/4071/4070"/>
+        </SeamLinePair>
+    </SeamLinePairList>
+    <PBRMaterial Opacity="100" Name="V1_Woven_Muslin_18X20_FRONT_3454071">
+        <globalColor Name="(None)" R="255" G="255" B="255" Intensity="1"/>
+        <SpecularColor Shininess="28"/>
+        <globalMap FilePath="D:/VTO2025/DATASETs/SeamDressSewFactory/sewfactory__01/wb_dress_sleeveless_H097SG0SIZ__01/muslin_2.jpg" Angle="0" AngleUnit="degree" Width="1024" WidthUnit="px" Height="1024" HeightUnit="px" ScaleX="86.6988" ScaleY="86.6988"/>
+        <NormalMap FilePath="D:/VTO2025/DATASETs/SeamDressSewFactory/sewfactory__01/wb_dress_sleeveless_H097SG0SIZ__01/muslin_2_normal_NRM.jpg" FilePathWithIntensity="D:/VTO2025/DATASETs/SeamDressSewFactory/sewfactory__01/wb_dress_sleeveless_H097SG0SIZ__01/muslin_2_normal_NRM_20.jpg" OrignalFilePath="D:/VTO2025/DATASETs/SeamDressSewFactory/sewfactory__01/wb_dress_sleeveless_H097SG0SIZ__01/muslin_2_normal.jpg" ArtworkPageNumber="0" Angle="0" AngleUnit="degree" Width="1024" WidthUnit="px" Height="1024" HeightUnit="px" NormalIntensityInPercentage="20"/>
+    </PBRMaterial>
+</MetaData>
