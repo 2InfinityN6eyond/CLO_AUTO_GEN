@@ -7,6 +7,8 @@ if hostname == "hjpui-MacBookPro.local":
     DATASET_ROOT    = "/Users/hjp/HJP/KUAICV/VTO/DATASET/PoC59"
     PYGARMENT_ROOT  = "/Users/hjp/HJP/KUAICV/VTO/GarmentCodeAnalysis"
     SEWFACTORY_BASE_PATH = "/Users/hjp/HJP/KUAICV/VTO/DATASET/sewfactory/sewfactory"
+    SEAMDRESS_SEWFACTORY_DIR =  "/Users/hjp/HJP/KUAICV/VTO/CLO_AUTO_GEN"
+    # "/Users/hjp/HJP/KUAICV/VTO/CLO_AUTO_GEN/sewfactory__01"
     
 elif hostname == "hjp-Z690-AERO-G":
     DATASET_ROOT = ""
