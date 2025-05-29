@@ -4,4 +4,4 @@ sewfactory/
 sewfactory__01/
 *.zip
 *.tar.gz
-sample_data_deprecated/
+# sample_data_deprecated/
