@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MetaData Version="1" ObjFileName="Dynamic.obj">
+    <PhysicalPropertyList>
+        <PhysicalProperty PhysicalPropertyName="V2_Woven_Denim_1_0" Stretch-Weft="62190.3" Stretch-Warp="156821" Shear="28448.3" Bending-Weft="6229.55" Bending-Warp="48636.1" BucklingRatio-Weft="0.3" BucklingRatio-Warp="0.3" InternalDamping="0.0001" BucklingStiffness-Weft="0.322756" BucklingStiffness-Warp="0.31579" Density="0.000248" FrictionCoefficient="0.03"/>
+    </PhysicalPropertyList>
+    <MeshList>
+        <Mesh MeshStartIndex="1" MeshEndIndex="666" PhysicalPropertyName="V2_Woven_Denim_1_0"/>
+        <Mesh MeshStartIndex="667" MeshEndIndex="1361" PhysicalPropertyName="V2_Woven_Denim_1_0"/>
+        <Mesh MeshStartIndex="1362" MeshEndIndex="5505" PhysicalPropertyName="V2_Woven_Denim_1_0"/>
+        <Mesh MeshStartIndex="5506" MeshEndIndex="9149" PhysicalPropertyName="V2_Woven_Denim_1_0"/>
+        <Mesh MeshStartIndex="9150" MeshEndIndex="9485" PhysicalPropertyName="V2_Woven_Denim_1_0"/>
+        <Mesh MeshStartIndex="9486" MeshEndIndex="9863" PhysicalPropertyName="V2_Woven_Denim_1_0"/>
+        <Mesh MeshStartIndex="9864" MeshEndIndex="10533" PhysicalPropertyName="V2_Woven_Denim_1_0"/>
+        <Mesh MeshStartIndex="10534" MeshEndIndex="11228" PhysicalPropertyName="V2_Woven_Denim_1_0"/>
+    </MeshList>
+    <SeamLinePairList>
+        <SeamLinePair FoldAngle="0" BKScale="1">
+            <SeamLine MeshPointIndexes ="9547/9548/9549/9550/9486"/>
+            <SeamLine MeshPointIndexes ="9154/9153/9152/9151/9150"/>
+        </SeamLinePair>
+        <SeamLinePair FoldAngle="0" BKScale="1">
+            <SeamLine MeshPointIndexes ="9513/9514/9515/9516/9517"/>
+            <SeamLine MeshPointIndexes ="9184/9183/9182/9181/9180"/>
+        </SeamLinePair>
+        <SeamLinePair FoldAngle="0" BKScale="1">
+            <SeamLine MeshPointIndexes ="1401/1402/1403/1404/1405/1406/1407/1408/1409/1410"/>
+            <SeamLine MeshPointIndexes ="1419/1418/1417/1416/1415/1414/1413/1412/1411/1410"/>
+        </SeamLinePair>
+        <SeamLinePair FoldAngle="0" BKScale="1">
+            <SeamLine MeshPointIndexes ="1422/1423/1424/1425/1426/1427/1428/1429/1430/1431"/>
+            <SeamLine MeshPointIndexes ="1440/1439/1438/1437/1436/1435/1434/1433/1432/1431"/>
+        </SeamLinePair>
+        <SeamLinePair FoldAngle="0" BKScale="1">
+            <SeamLine MeshPointIndexes ="1449/1450/1451/1452/1453/1454/1455/1456/1457/1458"/>
+            <SeamLine MeshPointIndexes ="1467/1466/1465/1464/1463/1462/1461/1460/1459/1458"/>
+        </SeamLinePair>
+        <SeamLinePair FoldAngle="0" BKScale="1">
+            <SeamLine MeshPointIndexes ="1470/1471/1472/1473/1474/1475/1476/1477/1478/1479"/>
+            <SeamLine MeshPointIndexes ="1488/1487/1486/1485/1484/1483/1482/1481/1480/1479"/>
+        </SeamLinePair>
+        <SeamLinePair FoldAngle="0" BKScale="1">
+            <SeamLine MeshPointIndexes ="5638/5639/5640/5641/5642/5643/5644/5645/5646/5647/5648/5649/5650/5651/5652/5653/5654/5655/5656"/>
+            <SeamLine MeshPointIndexes ="1385/1384/1383/1382/1381/1380/1379/1378/1377/1376/1375/1374/1373/1372/1371/1370/1369/1368/1367"/>
+        </SeamLinePair>
+        <SeamLinePair FoldAngle="0" BKScale="1">
+            <SeamLine MeshPointIndexes ="5627/5628/5629/5630/5631/5632/5633/5634/5635/5636/5637/5638"/>
+            <SeamLine MeshPointIndexes ="1396/1395/1394/1393/1392/1391/1390/1389/1388/1387/1386/1385"/>
+        </SeamLinePair>
+        <SeamLinePair FoldAngle="0" BKScale="1">
+            <SeamLine MeshPointIndexes ="5589/5590/5591/5592/5593/5594/5595/5596/5597/5598/5599/5600"/>
+            <SeamLine MeshPointIndexes ="1504/1503/1502/1501/1500/1499/1498/1497/1496/1495/1494/1493"/>
+        </SeamLinePair>
+        <SeamLinePair FoldAngle="0" BKScale="1">
+            <SeamLine MeshPointIndexes ="5558/5559/5560/5561/5562/5563/5564/5565/5566/5567/5568/5569/5570/5571/5572/5573/5574/5575/5576/5577/5578/5579/5580/5581/5582/5583/5584/5585/5586/5587/5588/5589"/>
+            <SeamLine MeshPointIndexes ="1535/1534/1533/1532/1531/1530/1529/1528/1527/1526/1525/1524/1523/1522/1521/1520/1519/1518/1517/1516/1515/1514/1513/1512/1511/1510/1509/1508/1507/1506/1505/1504"/>
+        </SeamLinePair>
+        <SeamLinePair FoldAngle="0" BKScale="1">
+            <SeamLine MeshPointIndexes ="10568/10569/10570/10571/10572/10573/10574"/>
+            <SeamLine MeshPointIndexes ="10580/10579/10578/10577/10576/10575/10574"/>
+        </SeamLinePair>
+        <SeamLinePair FoldAngle="0" BKScale="1">
+            <SeamLine MeshPointIndexes ="10540/10541/10542/10543/10544/10545/10546"/>
+            <SeamLine MeshPointIndexes ="10552/10551/10550/10549/10548/10547/10546"/>
+        </SeamLinePair>
+        <SeamLinePair FoldAngle="0" BKScale="1">
+            <SeamLine MeshPointIndexes ="9916/9917/9918/9919/9920/9921"/>
+            <SeamLine MeshPointIndexes ="9916/9915/9914/9913/9912/9911"/>
+        </SeamLinePair>
+        <SeamLinePair FoldAngle="0" BKScale="1">
+            <SeamLine MeshPointIndexes ="9930/9931/9932/9933/9934/9935/9936"/>
+            <SeamLine MeshPointIndexes ="9930/9929/9928/9927/9926/9925/9924"/>
+        </SeamLinePair>
+        <SeamLinePair FoldAngle="0" BKScale="1">
+            <SeamLine MeshPointIndexes ="10593/10594/10595/10596"/>
+            <SeamLine MeshPointIndexes ="9887/9886/9885/9884"/>
+        </SeamLinePair>
+        <SeamLinePair FoldAngle="0" BKScale="1">
+            <SeamLine MeshPointIndexes ="10561/10562/10563/10564/10565/10566/10567/10568"/>
+            <SeamLine MeshPointIndexes ="9906/9905/9904/9903/9902/9901/9900/9899"/>
+        </SeamLinePair>
+        <SeamLinePair FoldAngle="0" BKScale="1">
+            <SeamLine MeshPointIndexes ="10580/10581/10582/10583"/>
+            <SeamLine MeshPointIndexes ="9899/9898/9897/9896"/>
+        </SeamLinePair>
+        <SeamLinePair FoldAngle="0" BKScale="1">
+            <SeamLine MeshPointIndexes ="712/713/714/715/716/717/718"/>
+            <SeamLine MeshPointIndexes ="712/711/710/709/708/707/706"/>
+        </SeamLinePair>
+        <SeamLinePair FoldAngle="0" BKScale="1">
+            <SeamLine MeshPointIndexes ="740/741/742/743/744/745/746"/>
+            <SeamLine MeshPointIndexes ="740/739/738/737/736/735/734"/>
+        </SeamLinePair>
+        <SeamLinePair FoldAngle="0" BKScale="1">
+            <SeamLine MeshPointIndexes ="21/22/23/24/25/26"/>
+            <SeamLine MeshPointIndexes ="31/30/29/28/27/26"/>
+        </SeamLinePair>
+        <SeamLinePair FoldAngle="0" BKScale="1">
+            <SeamLine MeshPointIndexes ="6/7/8/9/10/11/12"/>
+            <SeamLine MeshPointIndexes ="18/17/16/15/14/13/12"/>
+        </SeamLinePair>
+        <SeamLinePair FoldAngle="0" BKScale="1">
+            <SeamLine MeshPointIndexes ="690/691/692/693"/>
+            <SeamLine MeshPointIndexes ="58/57/56/55"/>
+        </SeamLinePair>
+        <SeamLinePair FoldAngle="0" BKScale="1">
+            <SeamLine MeshPointIndexes ="718/719/720/721/722/723/724/725"/>
+            <SeamLine MeshPointIndexes ="43/42/41/40/39/38/37/36"/>
+        </SeamLinePair>
+        <SeamLinePair FoldAngle="0" BKScale="1">
+            <SeamLine MeshPointIndexes ="703/704/705/706"/>
+            <SeamLine MeshPointIndexes ="46/45/44/43"/>
+        </SeamLinePair>
+        <SeamLinePair FoldAngle="0" BKScale="1">
+            <SeamLine MeshPointIndexes ="667/668/669/670/671/672/673/674/675/676"/>
+            <SeamLine MeshPointIndexes ="10534/10618/10617/10616/10615/10614/10613/10612/10611/10610"/>
+        </SeamLinePair>
+        <SeamLinePair FoldAngle="0" BKScale="1">
+            <SeamLine MeshPointIndexes ="64/65/66/67/68/69/70/71/72/73/74/75/76/77/1"/>
+            <SeamLine MeshPointIndexes ="9878/9877/9876/9875/9874/9873/9872/9871/9870/9869/9868/9867/9866/9865/9864"/>
+        </SeamLinePair>
+        <SeamLinePair FoldAngle="0" BKScale="1">
+            <SeamLine MeshPointIndexes ="725/726/727/728/729/730/731/732/733/734"/>
+            <SeamLine MeshPointIndexes ="9547/9546/9545/9544/9543/9542/9541/9540/9539/9538"/>
+        </SeamLinePair>
+        <SeamLinePair FoldAngle="0" BKScale="1">
+            <SeamLine MeshPointIndexes ="746/747/748/749/750/751/667"/>
+            <SeamLine MeshPointIndexes ="9538/9537/9536/9535/9534/9533/9532"/>
+        </SeamLinePair>
+        <SeamLinePair FoldAngle="0" BKScale="1">
+            <SeamLine MeshPointIndexes ="10534/10535/10536/10537/10538/10539/10540"/>
+            <SeamLine MeshPointIndexes ="9532/9531/9530/9529/9528/9527/9526"/>
+        </SeamLinePair>
+        <SeamLinePair FoldAngle="0" BKScale="1">
+            <SeamLine MeshPointIndexes ="10552/10553/10554/10555/10556/10557/10558/10559/10560/10561"/>
+            <SeamLine MeshPointIndexes ="9526/9525/9524/9523/9522/9521/9520/9519/9518/9517"/>
+        </SeamLinePair>
+        <SeamLinePair FoldAngle="0" BKScale="1">
+            <SeamLine MeshPointIndexes ="9906/9907/9908/9909/9910/9911"/>
+            <SeamLine MeshPointIndexes ="9180/9179/9178/9177/9176/9175"/>
+        </SeamLinePair>
+        <SeamLinePair FoldAngle="0" BKScale="1">
+            <SeamLine MeshPointIndexes ="9921/9922/9923/9924"/>
+            <SeamLine MeshPointIndexes ="9175/9174/9173/9172"/>
+        </SeamLinePair>
+        <SeamLinePair FoldAngle="0" BKScale="1">
+            <SeamLine MeshPointIndexes ="9936/9937/9938/9939/9940/9864"/>
+            <SeamLine MeshPointIndexes ="9172/9171/9170/9169/9168/9167"/>
+        </SeamLinePair>
+        <SeamLinePair FoldAngle="0" BKScale="1">
+            <SeamLine MeshPointIndexes ="1/2/3/4/5/6"/>
+            <SeamLine MeshPointIndexes ="9167/9166/9165/9164/9163/9162"/>
+        </SeamLinePair>
+        <SeamLinePair FoldAngle="0" BKScale="1">
+            <SeamLine MeshPointIndexes ="18/19/20/21"/>
+            <SeamLine MeshPointIndexes ="9162/9161/9160/9159"/>
+        </SeamLinePair>
+        <SeamLinePair FoldAngle="0" BKScale="1">
+            <SeamLine MeshPointIndexes ="31/32/33/34/35/36"/>
+            <SeamLine MeshPointIndexes ="9159/9158/9157/9156/9155/9154"/>
+        </SeamLinePair>
+        <SeamLinePair FoldAngle="0" BKScale="1">
+            <SeamLine MeshPointIndexes ="9486/9487/9488/9489/9490/9491/9492/9493/9494/9495/9496/9497/9498/9499/9500/9501/9502/9503/9504/9505/9506/9507/9508/9509/9510/9511/9512/9513"/>
+            <SeamLine MeshPointIndexes ="5627/5626/5625/5624/5623/5622/5621/5620/5619/5618/5617/5616/5615/5614/5613/5612/5611/5610/5609/5608/5607/5606/5605/5604/5603/5602/5601/5600"/>
+        </SeamLinePair>
+        <SeamLinePair FoldAngle="0" BKScale="1">
+            <SeamLine MeshPointIndexes ="9184/9185/9186/9187/9188/9189"/>
+            <SeamLine MeshPointIndexes ="1493/1492/1491/1490/1489/1488"/>
+        </SeamLinePair>
+        <SeamLinePair FoldAngle="0" BKScale="1">
+            <SeamLine MeshPointIndexes ="9189/9190/9191/9192"/>
+            <SeamLine MeshPointIndexes ="1470/1469/1468/1467"/>
+        </SeamLinePair>
+        <SeamLinePair FoldAngle="0" BKScale="1">
+            <SeamLine MeshPointIndexes ="9192/9193/9194/9195/9196/9197/9198/9199/9200/9201"/>
+            <SeamLine MeshPointIndexes ="1449/1448/1447/1446/1445/1444/1443/1442/1441/1440"/>
+        </SeamLinePair>
+        <SeamLinePair FoldAngle="0" BKScale="1">
+            <SeamLine MeshPointIndexes ="9201/9202/9203/9204"/>
+            <SeamLine MeshPointIndexes ="1422/1421/1420/1419"/>
+        </SeamLinePair>
+        <SeamLinePair FoldAngle="0" BKScale="1">
+            <SeamLine MeshPointIndexes ="9204/9205/9206/9207/9208/9150"/>
+            <SeamLine MeshPointIndexes ="1401/1400/1399/1398/1397/1396"/>
+        </SeamLinePair>
+    </SeamLinePairList>
+    <PBRMaterial Opacity="100" Name="V2_Woven_Denim_1_FRONT_457954">
+        <globalColor Name="(None)" R="255" G="255" B="255" Intensity="1"/>
+        <SpecularColor Shininess="28"/>
+        <globalMap FilePath="e://HJP//KUAICV//VTO//CLO_AUTO_GEN//sample_data_deprecated//rand_X67D2EXO0F/Woven_Denim_1_BASE_rgb_medium indigo.png" Angle="0" AngleUnit="degree" Width="727" WidthUnit="px" Height="664" HeightUnit="px" ScaleX="61.5528" ScaleY="56.2188"/>
+        <NormalMap FilePath="e://HJP//KUAICV//VTO//CLO_AUTO_GEN//sample_data_deprecated//rand_X67D2EXO0F/Woven_Denim_1_NRM.png" FilePathWithIntensity="e://HJP//KUAICV//VTO//CLO_AUTO_GEN//sample_data_deprecated//rand_X67D2EXO0F/Woven_Denim_1_NRM_6.jpg" Angle="0" AngleUnit="degree" Width="727" WidthUnit="px" Height="664" HeightUnit="px" NormalIntensityInPercentage="6"/>
+        <SpecularMap FilePath="e://HJP//KUAICV//VTO//CLO_AUTO_GEN//sample_data_deprecated//rand_X67D2EXO0F/Woven_Denim_1_ROUGH_SPEC.png" Angle="0" AngleUnit="degree" Width="727" WidthUnit="px" Height="664" HeightUnit="px"/>
+    </PBRMaterial>
+</MetaData>
