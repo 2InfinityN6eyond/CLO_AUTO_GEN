@@ -1,0 +1,1216 @@
+{
+    "FabricList": [
+        {
+            "FabricName": "Default Fabric",
+            "FabricType": "None",
+            "FabricContent": "None",
+            "strBaseColorHexCode": "07B209",
+            "FabricUUID": "2UVIjk"
+        }
+    ],
+    "GradingRuleTableList": [],
+    "PatternList": [
+        {
+            "Name": "dress_sleeveless_4EI7RB9464_skirt_back",
+            "fGrainlineAngle": 0.0,
+            "ID": "dress_sleeveless_4EI7RB9464_skirt_back",
+            "strSuperImposeSide": "None",
+            "CurrentFabricUUID": "2UVIjk",
+            "IsClosed": false,
+            "InternalLineList": [],
+            "ButtonHeadList": [],
+            "ButtonHoleList": [],
+            "AnnotationList": [],
+            "NotchList": [],
+            "IsHalfSymmetric": false,
+            "ShapeInfo": {
+                "IsSlashed": false,
+                "LineList": [
+                    {
+                        "ID": "skirt_back_edge_0",
+                        "PointList": [
+                            {
+                                "ID": "skirt_back_point_0",
+                                "PointType": "Straight",
+                                "Position": {
+                                    "x": 0.0,
+                                    "y": -544.69464
+                                },
+                                "GradingRuleID": -1
+                            },
+                            {
+                                "ID": "skirt_back_point_1",
+                                "PointType": "Bezier Curve",
+                                "Position": {
+                                    "x": 301.41248,
+                                    "y": -793.49456
+                                },
+                                "GradingRuleID": -1
+                            },
+                            {
+                                "ID": "skirt_back_point_2",
+                                "PointType": "Bezier Curve",
+                                "Position": {
+                                    "x": 602.82495,
+                                    "y": -793.49456
+                                },
+                                "GradingRuleID": -1
+                            },
+                            {
+                                "ID": "skirt_back_point_3",
+                                "PointType": "Straight",
+                                "Position": {
+                                    "x": 904.23743,
+                                    "y": -544.69464
+                                },
+                                "GradingRuleID": -1
+                            }
+                        ]
+                    },
+                    {
+                        "ID": "skirt_back_edge_1",
+                        "PointList": [
+                            {
+                                "ID": "skirt_back_point_3",
+                                "PointType": "Straight",
+                                "Position": {
+                                    "x": 904.23743,
+                                    "y": -544.69464
+                                },
+                                "GradingRuleID": -1
+                            },
+                            {
+                                "ID": "skirt_back_point_4",
+                                "PointType": "Straight",
+                                "Position": {
+                                    "x": 669.23826,
+                                    "y": -127.5
+                                },
+                                "GradingRuleID": -1
+                            }
+                        ]
+                    },
+                    {
+                        "ID": "skirt_back_edge_2",
+                        "PointList": [
+                            {
+                                "ID": "skirt_back_point_4",
+                                "PointType": "Straight",
+                                "Position": {
+                                    "x": 669.23826,
+                                    "y": -127.5
+                                },
+                                "GradingRuleID": -1
+                            },
+                            {
+                                "ID": "skirt_back_point_5",
+                                "PointType": "Straight",
+                                "Position": {
+                                    "x": 621.37213,
+                                    "y": 0.0
+                                },
+                                "GradingRuleID": -1
+                            }
+                        ]
+                    },
+                    {
+                        "ID": "skirt_back_edge_3",
+                        "PointList": [
+                            {
+                                "ID": "skirt_back_point_5",
+                                "PointType": "Straight",
+                                "Position": {
+                                    "x": 621.37213,
+                                    "y": 0.0
+                                },
+                                "GradingRuleID": -1
+                            },
+                            {
+                                "ID": "skirt_back_point_6",
+                                "PointType": "Straight",
+                                "Position": {
+                                    "x": 282.8653,
+                                    "y": 0.0
+                                },
+                                "GradingRuleID": -1
+                            }
+                        ]
+                    },
+                    {
+                        "ID": "skirt_back_edge_4",
+                        "PointList": [
+                            {
+                                "ID": "skirt_back_point_6",
+                                "PointType": "Straight",
+                                "Position": {
+                                    "x": 282.8653,
+                                    "y": 0.0
+                                },
+                                "GradingRuleID": -1
+                            },
+                            {
+                                "ID": "skirt_back_point_7",
+                                "PointType": "Straight",
+                                "Position": {
+                                    "x": 234.99917,
+                                    "y": -127.5
+                                },
+                                "GradingRuleID": -1
+                            }
+                        ]
+                    },
+                    {
+                        "ID": "skirt_back_edge_5",
+                        "PointList": [
+                            {
+                                "ID": "skirt_back_point_7",
+                                "PointType": "Straight",
+                                "Position": {
+                                    "x": 234.99917,
+                                    "y": -127.5
+                                },
+                                "GradingRuleID": -1
+                            },
+                            {
+                                "ID": "skirt_back_point_0",
+                                "PointType": "Straight",
+                                "Position": {
+                                    "x": 0.0,
+                                    "y": -544.69464
+                                },
+                                "GradingRuleID": -1
+                            }
+                        ]
+                    }
+                ],
+                "HalfSymmetryPointIDMap": {},
+                "HalfSymmetryLineIDMap": {}
+            },
+            "ArrangementPointDataMap": {
+                "PointName": "Body_Back_Center_8",
+                "fOffSetX": 0.0,
+                "fOffSetY": 0.05,
+                "fAngle": 180.0
+            }
+        },
+        {
+            "Name": "dress_sleeveless_4EI7RB9464_skirt_front",
+            "fGrainlineAngle": 0.0,
+            "ID": "dress_sleeveless_4EI7RB9464_skirt_front",
+            "strSuperImposeSide": "None",
+            "CurrentFabricUUID": "2UVIjk",
+            "IsClosed": false,
+            "InternalLineList": [],
+            "ButtonHeadList": [],
+            "ButtonHoleList": [],
+            "AnnotationList": [],
+            "NotchList": [],
+            "IsHalfSymmetric": false,
+            "ShapeInfo": {
+                "IsSlashed": false,
+                "LineList": [
+                    {
+                        "ID": "skirt_front_edge_0",
+                        "PointList": [
+                            {
+                                "ID": "skirt_front_point_0",
+                                "PointType": "Straight",
+                                "Position": {
+                                    "x": 0.0,
+                                    "y": -544.69464
+                                },
+                                "GradingRuleID": -1
+                            },
+                            {
+                                "ID": "skirt_front_point_1",
+                                "PointType": "Bezier Curve",
+                                "Position": {
+                                    "x": 301.41248,
+                                    "y": -581.68447
+                                },
+                                "GradingRuleID": -1
+                            },
+                            {
+                                "ID": "skirt_front_point_2",
+                                "PointType": "Bezier Curve",
+                                "Position": {
+                                    "x": 602.82495,
+                                    "y": -581.68447
+                                },
+                                "GradingRuleID": -1
+                            },
+                            {
+                                "ID": "skirt_front_point_3",
+                                "PointType": "Straight",
+                                "Position": {
+                                    "x": 904.23743,
+                                    "y": -544.69464
+                                },
+                                "GradingRuleID": -1
+                            }
+                        ]
+                    },
+                    {
+                        "ID": "skirt_front_edge_1",
+                        "PointList": [
+                            {
+                                "ID": "skirt_front_point_3",
+                                "PointType": "Straight",
+                                "Position": {
+                                    "x": 904.23743,
+                                    "y": -544.69464
+                                },
+                                "GradingRuleID": -1
+                            },
+                            {
+                                "ID": "skirt_front_point_4",
+                                "PointType": "Straight",
+                                "Position": {
+                                    "x": 669.23826,
+                                    "y": -127.5
+                                },
+                                "GradingRuleID": -1
+                            }
+                        ]
+                    },
+                    {
+                        "ID": "skirt_front_edge_2",
+                        "PointList": [
+                            {
+                                "ID": "skirt_front_point_4",
+                                "PointType": "Straight",
+                                "Position": {
+                                    "x": 669.23826,
+                                    "y": -127.5
+                                },
+                                "GradingRuleID": -1
+                            },
+                            {
+                                "ID": "skirt_front_point_5",
+                                "PointType": "Straight",
+                                "Position": {
+                                    "x": 621.37213,
+                                    "y": 0.0
+                                },
+                                "GradingRuleID": -1
+                            }
+                        ]
+                    },
+                    {
+                        "ID": "skirt_front_edge_3",
+                        "PointList": [
+                            {
+                                "ID": "skirt_front_point_5",
+                                "PointType": "Straight",
+                                "Position": {
+                                    "x": 621.37213,
+                                    "y": 0.0
+                                },
+                                "GradingRuleID": -1
+                            },
+                            {
+                                "ID": "skirt_front_point_6",
+                                "PointType": "Straight",
+                                "Position": {
+                                    "x": 282.8653,
+                                    "y": 0.0
+                                },
+                                "GradingRuleID": -1
+                            }
+                        ]
+                    },
+                    {
+                        "ID": "skirt_front_edge_4",
+                        "PointList": [
+                            {
+                                "ID": "skirt_front_point_6",
+                                "PointType": "Straight",
+                                "Position": {
+                                    "x": 282.8653,
+                                    "y": 0.0
+                                },
+                                "GradingRuleID": -1
+                            },
+                            {
+                                "ID": "skirt_front_point_7",
+                                "PointType": "Straight",
+                                "Position": {
+                                    "x": 234.99917,
+                                    "y": -127.5
+                                },
+                                "GradingRuleID": -1
+                            }
+                        ]
+                    },
+                    {
+                        "ID": "skirt_front_edge_5",
+                        "PointList": [
+                            {
+                                "ID": "skirt_front_point_7",
+                                "PointType": "Straight",
+                                "Position": {
+                                    "x": 234.99917,
+                                    "y": -127.5
+                                },
+                                "GradingRuleID": -1
+                            },
+                            {
+                                "ID": "skirt_front_point_0",
+                                "PointType": "Straight",
+                                "Position": {
+                                    "x": 0.0,
+                                    "y": -544.69464
+                                },
+                                "GradingRuleID": -1
+                            }
+                        ]
+                    }
+                ],
+                "HalfSymmetryPointIDMap": {},
+                "HalfSymmetryLineIDMap": {}
+            },
+            "ArrangementPointDataMap": {
+                "PointName": "Body_Front_Center_8",
+                "fOffSetX": 0.0,
+                "fOffSetY": 0.05,
+                "fAngle": 180.0
+            }
+        },
+        {
+            "Name": "dress_sleeveless_4EI7RB9464_top_back",
+            "fGrainlineAngle": 0.0,
+            "ID": "dress_sleeveless_4EI7RB9464_top_back",
+            "strSuperImposeSide": "None",
+            "CurrentFabricUUID": "2UVIjk",
+            "IsClosed": false,
+            "InternalLineList": [],
+            "ButtonHeadList": [],
+            "ButtonHoleList": [],
+            "AnnotationList": [],
+            "NotchList": [],
+            "IsHalfSymmetric": false,
+            "ShapeInfo": {
+                "IsSlashed": false,
+                "LineList": [
+                    {
+                        "ID": "top_back_edge_0",
+                        "PointList": [
+                            {
+                                "ID": "top_back_point_0",
+                                "PointType": "Straight",
+                                "Position": {
+                                    "x": 41.30551,
+                                    "y": -311.66667
+                                },
+                                "GradingRuleID": -1
+                            },
+                            {
+                                "ID": "top_back_point_1",
+                                "PointType": "Straight",
+                                "Position": {
+                                    "x": 379.81233,
+                                    "y": -311.66667
+                                },
+                                "GradingRuleID": -1
+                            }
+                        ]
+                    },
+                    {
+                        "ID": "top_back_edge_1",
+                        "PointList": [
+                            {
+                                "ID": "top_back_point_1",
+                                "PointType": "Straight",
+                                "Position": {
+                                    "x": 379.81233,
+                                    "y": -311.66667
+                                },
+                                "GradingRuleID": -1
+                            },
+                            {
+                                "ID": "top_back_point_2",
+                                "PointType": "Straight",
+                                "Position": {
+                                    "x": 421.11784,
+                                    "y": -155.79776
+                                },
+                                "GradingRuleID": -1
+                            }
+                        ]
+                    },
+                    {
+                        "ID": "top_back_edge_2",
+                        "PointList": [
+                            {
+                                "ID": "top_back_point_2",
+                                "PointType": "Straight",
+                                "Position": {
+                                    "x": 421.11784,
+                                    "y": -155.79776
+                                },
+                                "GradingRuleID": -1
+                            },
+                            {
+                                "ID": "top_back_point_3",
+                                "PointType": "Bezier Curve",
+                                "Position": {
+                                    "x": 373.09304,
+                                    "y": -133.27652
+                                },
+                                "GradingRuleID": -1
+                            },
+                            {
+                                "ID": "top_back_point_4",
+                                "PointType": "Bezier Curve",
+                                "Position": {
+                                    "x": 362.29514,
+                                    "y": -81.34393
+                                },
+                                "GradingRuleID": -1
+                            },
+                            {
+                                "ID": "top_back_point_5",
+                                "PointType": "Straight",
+                                "Position": {
+                                    "x": 388.72416,
+                                    "y": -0.0
+                                },
+                                "GradingRuleID": -1
+                            }
+                        ]
+                    },
+                    {
+                        "ID": "top_back_edge_3",
+                        "PointList": [
+                            {
+                                "ID": "top_back_point_5",
+                                "PointType": "Straight",
+                                "Position": {
+                                    "x": 388.72416,
+                                    "y": 0.0
+                                },
+                                "GradingRuleID": -1
+                            },
+                            {
+                                "ID": "top_back_point_6",
+                                "PointType": "Straight",
+                                "Position": {
+                                    "x": 251.73284,
+                                    "y": 0.0
+                                },
+                                "GradingRuleID": -1
+                            }
+                        ]
+                    },
+                    {
+                        "ID": "top_back_edge_4",
+                        "PointList": [
+                            {
+                                "ID": "top_back_point_6",
+                                "PointType": "Straight",
+                                "Position": {
+                                    "x": 251.73284,
+                                    "y": 0.0
+                                },
+                                "GradingRuleID": -1
+                            },
+                            {
+                                "ID": "top_back_point_7",
+                                "PointType": "Bezier Curve",
+                                "Position": {
+                                    "x": 224.28356,
+                                    "y": -93.01242
+                                },
+                                "GradingRuleID": -1
+                            },
+                            {
+                                "ID": "top_back_point_8",
+                                "PointType": "Bezier Curve",
+                                "Position": {
+                                    "x": 196.83428,
+                                    "y": -93.01242
+                                },
+                                "GradingRuleID": -1
+                            },
+                            {
+                                "ID": "top_back_point_9",
+                                "PointType": "Straight",
+                                "Position": {
+                                    "x": 169.385,
+                                    "y": 0.0
+                                },
+                                "GradingRuleID": -1
+                            }
+                        ]
+                    },
+                    {
+                        "ID": "top_back_edge_5",
+                        "PointList": [
+                            {
+                                "ID": "top_back_point_9",
+                                "PointType": "Straight",
+                                "Position": {
+                                    "x": 169.385,
+                                    "y": 0.0
+                                },
+                                "GradingRuleID": -1
+                            },
+                            {
+                                "ID": "top_back_point_10",
+                                "PointType": "Straight",
+                                "Position": {
+                                    "x": 32.39368,
+                                    "y": 0.0
+                                },
+                                "GradingRuleID": -1
+                            }
+                        ]
+                    },
+                    {
+                        "ID": "top_back_edge_6",
+                        "PointList": [
+                            {
+                                "ID": "top_back_point_10",
+                                "PointType": "Straight",
+                                "Position": {
+                                    "x": 32.39368,
+                                    "y": 0.0
+                                },
+                                "GradingRuleID": -1
+                            },
+                            {
+                                "ID": "top_back_point_11",
+                                "PointType": "Bezier Curve",
+                                "Position": {
+                                    "x": 58.8227,
+                                    "y": -81.34393
+                                },
+                                "GradingRuleID": -1
+                            },
+                            {
+                                "ID": "top_back_point_12",
+                                "PointType": "Bezier Curve",
+                                "Position": {
+                                    "x": 48.0248,
+                                    "y": -133.27652
+                                },
+                                "GradingRuleID": -1
+                            },
+                            {
+                                "ID": "top_back_point_13",
+                                "PointType": "Straight",
+                                "Position": {
+                                    "x": 0.0,
+                                    "y": -155.79776
+                                },
+                                "GradingRuleID": -1
+                            }
+                        ]
+                    },
+                    {
+                        "ID": "top_back_edge_7",
+                        "PointList": [
+                            {
+                                "ID": "top_back_point_13",
+                                "PointType": "Straight",
+                                "Position": {
+                                    "x": 0.0,
+                                    "y": -155.79776
+                                },
+                                "GradingRuleID": -1
+                            },
+                            {
+                                "ID": "top_back_point_0",
+                                "PointType": "Straight",
+                                "Position": {
+                                    "x": 41.30551,
+                                    "y": -311.66667
+                                },
+                                "GradingRuleID": -1
+                            }
+                        ]
+                    }
+                ],
+                "HalfSymmetryPointIDMap": {},
+                "HalfSymmetryLineIDMap": {}
+            },
+            "ArrangementPointDataMap": {
+                "PointName": "Body_Back_Center_4",
+                "fOffSetX": 0.0,
+                "fOffSetY": 0.05,
+                "fAngle": 180.0
+            }
+        },
+        {
+            "Name": "dress_sleeveless_4EI7RB9464_top_front",
+            "fGrainlineAngle": 0.0,
+            "ID": "dress_sleeveless_4EI7RB9464_top_front",
+            "strSuperImposeSide": "None",
+            "CurrentFabricUUID": "2UVIjk",
+            "IsClosed": false,
+            "InternalLineList": [],
+            "ButtonHeadList": [],
+            "ButtonHoleList": [],
+            "AnnotationList": [],
+            "NotchList": [],
+            "IsHalfSymmetric": false,
+            "ShapeInfo": {
+                "IsSlashed": false,
+                "LineList": [
+                    {
+                        "ID": "top_front_edge_0",
+                        "PointList": [
+                            {
+                                "ID": "top_front_point_0",
+                                "PointType": "Straight",
+                                "Position": {
+                                    "x": 41.30551,
+                                    "y": -311.66667
+                                },
+                                "GradingRuleID": -1
+                            },
+                            {
+                                "ID": "top_front_point_1",
+                                "PointType": "Straight",
+                                "Position": {
+                                    "x": 379.81233,
+                                    "y": -311.66667
+                                },
+                                "GradingRuleID": -1
+                            }
+                        ]
+                    },
+                    {
+                        "ID": "top_front_edge_1",
+                        "PointList": [
+                            {
+                                "ID": "top_front_point_1",
+                                "PointType": "Straight",
+                                "Position": {
+                                    "x": 379.81233,
+                                    "y": -311.66667
+                                },
+                                "GradingRuleID": -1
+                            },
+                            {
+                                "ID": "top_front_point_2",
+                                "PointType": "Straight",
+                                "Position": {
+                                    "x": 421.11784,
+                                    "y": -155.79776
+                                },
+                                "GradingRuleID": -1
+                            }
+                        ]
+                    },
+                    {
+                        "ID": "top_front_edge_2",
+                        "PointList": [
+                            {
+                                "ID": "top_front_point_2",
+                                "PointType": "Straight",
+                                "Position": {
+                                    "x": 421.11784,
+                                    "y": -155.79776
+                                },
+                                "GradingRuleID": -1
+                            },
+                            {
+                                "ID": "top_front_point_3",
+                                "PointType": "Bezier Curve",
+                                "Position": {
+                                    "x": 373.09304,
+                                    "y": -133.27652
+                                },
+                                "GradingRuleID": -1
+                            },
+                            {
+                                "ID": "top_front_point_4",
+                                "PointType": "Bezier Curve",
+                                "Position": {
+                                    "x": 362.29514,
+                                    "y": -81.34393
+                                },
+                                "GradingRuleID": -1
+                            },
+                            {
+                                "ID": "top_front_point_5",
+                                "PointType": "Straight",
+                                "Position": {
+                                    "x": 388.72416,
+                                    "y": -0.0
+                                },
+                                "GradingRuleID": -1
+                            }
+                        ]
+                    },
+                    {
+                        "ID": "top_front_edge_3",
+                        "PointList": [
+                            {
+                                "ID": "top_front_point_5",
+                                "PointType": "Straight",
+                                "Position": {
+                                    "x": 388.72416,
+                                    "y": 0.0
+                                },
+                                "GradingRuleID": -1
+                            },
+                            {
+                                "ID": "top_front_point_6",
+                                "PointType": "Straight",
+                                "Position": {
+                                    "x": 251.73284,
+                                    "y": 0.0
+                                },
+                                "GradingRuleID": -1
+                            }
+                        ]
+                    },
+                    {
+                        "ID": "top_front_edge_4",
+                        "PointList": [
+                            {
+                                "ID": "top_front_point_6",
+                                "PointType": "Straight",
+                                "Position": {
+                                    "x": 251.73284,
+                                    "y": 0.0
+                                },
+                                "GradingRuleID": -1
+                            },
+                            {
+                                "ID": "top_front_point_7",
+                                "PointType": "Straight",
+                                "Position": {
+                                    "x": 210.55892,
+                                    "y": -76.00163
+                                },
+                                "GradingRuleID": -1
+                            }
+                        ]
+                    },
+                    {
+                        "ID": "top_front_edge_5",
+                        "PointList": [
+                            {
+                                "ID": "top_front_point_7",
+                                "PointType": "Straight",
+                                "Position": {
+                                    "x": 210.55892,
+                                    "y": -76.00163
+                                },
+                                "GradingRuleID": -1
+                            },
+                            {
+                                "ID": "top_front_point_8",
+                                "PointType": "Straight",
+                                "Position": {
+                                    "x": 169.385,
+                                    "y": 0.0
+                                },
+                                "GradingRuleID": -1
+                            }
+                        ]
+                    },
+                    {
+                        "ID": "top_front_edge_6",
+                        "PointList": [
+                            {
+                                "ID": "top_front_point_8",
+                                "PointType": "Straight",
+                                "Position": {
+                                    "x": 169.385,
+                                    "y": 0.0
+                                },
+                                "GradingRuleID": -1
+                            },
+                            {
+                                "ID": "top_front_point_9",
+                                "PointType": "Straight",
+                                "Position": {
+                                    "x": 32.39368,
+                                    "y": 0.0
+                                },
+                                "GradingRuleID": -1
+                            }
+                        ]
+                    },
+                    {
+                        "ID": "top_front_edge_7",
+                        "PointList": [
+                            {
+                                "ID": "top_front_point_9",
+                                "PointType": "Straight",
+                                "Position": {
+                                    "x": 32.39368,
+                                    "y": 0.0
+                                },
+                                "GradingRuleID": -1
+                            },
+                            {
+                                "ID": "top_front_point_10",
+                                "PointType": "Bezier Curve",
+                                "Position": {
+                                    "x": 58.8227,
+                                    "y": -81.34393
+                                },
+                                "GradingRuleID": -1
+                            },
+                            {
+                                "ID": "top_front_point_11",
+                                "PointType": "Bezier Curve",
+                                "Position": {
+                                    "x": 48.0248,
+                                    "y": -133.27652
+                                },
+                                "GradingRuleID": -1
+                            },
+                            {
+                                "ID": "top_front_point_12",
+                                "PointType": "Straight",
+                                "Position": {
+                                    "x": 0.0,
+                                    "y": -155.79776
+                                },
+                                "GradingRuleID": -1
+                            }
+                        ]
+                    },
+                    {
+                        "ID": "top_front_edge_8",
+                        "PointList": [
+                            {
+                                "ID": "top_front_point_12",
+                                "PointType": "Straight",
+                                "Position": {
+                                    "x": 0.0,
+                                    "y": -155.79776
+                                },
+                                "GradingRuleID": -1
+                            },
+                            {
+                                "ID": "top_front_point_0",
+                                "PointType": "Straight",
+                                "Position": {
+                                    "x": 41.30551,
+                                    "y": -311.66667
+                                },
+                                "GradingRuleID": -1
+                            }
+                        ]
+                    }
+                ],
+                "HalfSymmetryPointIDMap": {},
+                "HalfSymmetryLineIDMap": {}
+            },
+            "ArrangementPointDataMap": {
+                "PointName": "Body_Front_Center_4",
+                "fOffSetX": 0.0,
+                "fOffSetY": 0.05,
+                "fAngle": 180.0
+            }
+        }
+    ],
+    "SymmetricDataList": [],
+    "InstanceDataList": [
+        {
+            "OriginPatternID": "skirt_back",
+            "InstancePatternIDArray": []
+        },
+        {
+            "OriginPatternID": "skirt_front",
+            "InstancePatternIDArray": []
+        },
+        {
+            "OriginPatternID": "top_back",
+            "InstancePatternIDArray": []
+        },
+        {
+            "OriginPatternID": "top_front",
+            "InstancePatternIDArray": []
+        }
+    ],
+    "SeamLinePairGroupList": [
+        {
+            "Name": "dress_sleeveless_4EI7RB9464_SeamLineGroup_0",
+            "bIsTurned": false,
+            "PairList": [
+                {
+                    "First": {
+                        "ShapeID": "dress_sleeveless_4EI7RB9464_top_back",
+                        "LengthParam": {
+                            "fStart": 0.88921075059438,
+                            "fEnd": 1.0
+                        },
+                        "Direction": true
+                    },
+                    "Second": {
+                        "ShapeID": "dress_sleeveless_4EI7RB9464_top_front",
+                        "LengthParam": {
+                            "fStart": 0.342448958054075,
+                            "fEnd": 0.2319558635721912
+                        },
+                        "Direction": false
+                    }
+                }
+            ],
+            "FoldData": {
+                "iAngle": 180,
+                "iStrength": 5
+            }
+        },
+        {
+            "Name": "dress_sleeveless_4EI7RB9464_SeamLineGroup_1",
+            "bIsTurned": false,
+            "PairList": [
+                {
+                    "First": {
+                        "ShapeID": "dress_sleeveless_4EI7RB9464_top_back",
+                        "LengthParam": {
+                            "fStart": 0.674337562946891,
+                            "fEnd": 0.7684600629574051
+                        },
+                        "Direction": true
+                    },
+                    "Second": {
+                        "ShapeID": "dress_sleeveless_4EI7RB9464_top_front",
+                        "LengthParam": {
+                            "fStart": 0.5567477600744196,
+                            "fEnd": 0.46287686247083604
+                        },
+                        "Direction": false
+                    }
+                }
+            ],
+            "FoldData": {
+                "iAngle": 180,
+                "iStrength": 5
+            }
+        },
+        {
+            "Name": "dress_sleeveless_4EI7RB9464_SeamLineGroup_2",
+            "bIsTurned": false,
+            "PairList": [
+                {
+                    "First": {
+                        "ShapeID": "dress_sleeveless_4EI7RB9464_top_back",
+                        "LengthParam": {
+                            "fStart": 0.46411751250916733,
+                            "fEnd": 0.5582400125196814
+                        },
+                        "Direction": true
+                    },
+                    "Second": {
+                        "ShapeID": "dress_sleeveless_4EI7RB9464_top_front",
+                        "LengthParam": {
+                            "fStart": 0.7690790011013551,
+                            "fEnd": 0.6752081034977715
+                        },
+                        "Direction": false
+                    }
+                }
+            ],
+            "FoldData": {
+                "iAngle": 180,
+                "iStrength": 5
+            }
+        },
+        {
+            "Name": "dress_sleeveless_4EI7RB9464_SeamLineGroup_3",
+            "bIsTurned": false,
+            "PairList": [
+                {
+                    "First": {
+                        "ShapeID": "dress_sleeveless_4EI7RB9464_top_back",
+                        "LengthParam": {
+                            "fStart": 0.23257757546657248,
+                            "fEnd": 0.3433668248721924
+                        },
+                        "Direction": true
+                    },
+                    "Second": {
+                        "ShapeID": "dress_sleeveless_4EI7RB9464_top_front",
+                        "LengthParam": {
+                            "fStart": 1.0,
+                            "fEnd": 0.8895069055181162
+                        },
+                        "Direction": false
+                    }
+                }
+            ],
+            "FoldData": {
+                "iAngle": 180,
+                "iStrength": 5
+            }
+        },
+        {
+            "Name": "dress_sleeveless_4EI7RB9464_SeamLineGroup_4",
+            "bIsTurned": false,
+            "PairList": [
+                {
+                    "First": {
+                        "ShapeID": "dress_sleeveless_4EI7RB9464_skirt_back",
+                        "LengthParam": {
+                            "fStart": 0.5754766909608505,
+                            "fEnd": 0.6285323100605179
+                        },
+                        "Direction": true
+                    },
+                    "Second": {
+                        "ShapeID": "dress_sleeveless_4EI7RB9464_skirt_front",
+                        "LengthParam": {
+                            "fStart": 0.8065375499051968,
+                            "fEnd": 0.7515126675496209
+                        },
+                        "Direction": false
+                    }
+                }
+            ],
+            "FoldData": {
+                "iAngle": 180,
+                "iStrength": 5
+            }
+        },
+        {
+            "Name": "dress_sleeveless_4EI7RB9464_SeamLineGroup_5",
+            "bIsTurned": false,
+            "PairList": [
+                {
+                    "First": {
+                        "ShapeID": "dress_sleeveless_4EI7RB9464_skirt_back",
+                        "LengthParam": {
+                            "fStart": 0.3889379902328849,
+                            "fEnd": 0.5754766909608505
+                        },
+                        "Direction": true
+                    },
+                    "Second": {
+                        "ShapeID": "dress_sleeveless_4EI7RB9464_skirt_front",
+                        "LengthParam": {
+                            "fStart": 1.0,
+                            "fEnd": 0.8065375499051968
+                        },
+                        "Direction": false
+                    }
+                }
+            ],
+            "FoldData": {
+                "iAngle": 180,
+                "iStrength": 5
+            }
+        },
+        {
+            "Name": "dress_sleeveless_4EI7RB9464_SeamLineGroup_6",
+            "bIsTurned": false,
+            "PairList": [
+                {
+                    "First": {
+                        "ShapeID": "dress_sleeveless_4EI7RB9464_skirt_back",
+                        "LengthParam": {
+                            "fStart": 0.8134612992720344,
+                            "fEnd": 1.0
+                        },
+                        "Direction": true
+                    },
+                    "Second": {
+                        "ShapeID": "dress_sleeveless_4EI7RB9464_skirt_front",
+                        "LengthParam": {
+                            "fStart": 0.5597196765681424,
+                            "fEnd": 0.36625722647333914
+                        },
+                        "Direction": false
+                    }
+                }
+            ],
+            "FoldData": {
+                "iAngle": 180,
+                "iStrength": 5
+            }
+        },
+        {
+            "Name": "dress_sleeveless_4EI7RB9464_SeamLineGroup_7",
+            "bIsTurned": false,
+            "PairList": [
+                {
+                    "First": {
+                        "ShapeID": "dress_sleeveless_4EI7RB9464_skirt_back",
+                        "LengthParam": {
+                            "fStart": 0.7604056801723671,
+                            "fEnd": 0.8134612992720344
+                        },
+                        "Direction": true
+                    },
+                    "Second": {
+                        "ShapeID": "dress_sleeveless_4EI7RB9464_skirt_front",
+                        "LengthParam": {
+                            "fStart": 0.6147445589237183,
+                            "fEnd": 0.5597196765681424
+                        },
+                        "Direction": false
+                    }
+                }
+            ],
+            "FoldData": {
+                "iAngle": 180,
+                "iStrength": 5
+            }
+        },
+        {
+            "Name": "dress_sleeveless_4EI7RB9464_SeamLineGroup_8",
+            "bIsTurned": false,
+            "PairList": [
+                {
+                    "First": {
+                        "ShapeID": "dress_sleeveless_4EI7RB9464_skirt_front",
+                        "LengthParam": {
+                            "fStart": 0.6147445589237183,
+                            "fEnd": 0.7515126675496209
+                        },
+                        "Direction": true
+                    },
+                    "Second": {
+                        "ShapeID": "dress_sleeveless_4EI7RB9464_top_front",
+                        "LengthParam": {
+                            "fStart": 0.2319558635721912,
+                            "fEnd": 0.0
+                        },
+                        "Direction": false
+                    }
+                }
+            ],
+            "FoldData": {
+                "iAngle": 180,
+                "iStrength": 5
+            }
+        },
+        {
+            "Name": "dress_sleeveless_4EI7RB9464_SeamLineGroup_9",
+            "bIsTurned": false,
+            "PairList": [
+                {
+                    "First": {
+                        "ShapeID": "dress_sleeveless_4EI7RB9464_top_back",
+                        "LengthParam": {
+                            "fStart": 0.0,
+                            "fEnd": 0.23257757546657248
+                        },
+                        "Direction": true
+                    },
+                    "Second": {
+                        "ShapeID": "dress_sleeveless_4EI7RB9464_skirt_back",
+                        "LengthParam": {
+                            "fStart": 0.7604056801723671,
+                            "fEnd": 0.6285323100605179
+                        },
+                        "Direction": false
+                    }
+                }
+            ],
+            "FoldData": {
+                "iAngle": 180,
+                "iStrength": 5
+            }
+        }
+    ]
+}

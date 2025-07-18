@@ -1,4 +1,7 @@
-sample_data/
+# sample_data/
 gcd_01/
+sewfactory/
+sewfactory__01/
 *.zip
 *.tar.gz
+# sample_data_deprecated/

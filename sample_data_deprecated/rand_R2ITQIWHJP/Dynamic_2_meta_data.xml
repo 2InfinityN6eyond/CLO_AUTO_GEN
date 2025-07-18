@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MetaData Version="1" ObjFileName="Dynamic_2.obj">
+    <PhysicalPropertyList>
+        <PhysicalProperty PhysicalPropertyName="V2_Cut_Sew_Knit_LoopTerry_1_0" Stretch-Weft="18066.1" Stretch-Warp="27724.5" Shear="11912.6" Bending-Weft="2058.06" Bending-Warp="283.319" BucklingRatio-Weft="0.3" BucklingRatio-Warp="0.3" InternalDamping="0.0001" BucklingStiffness-Weft="0.855807" BucklingStiffness-Warp="0.832596" Density="0.000213" FrictionCoefficient="0.03"/>
+    </PhysicalPropertyList>
+    <MeshList>
+        <Mesh MeshStartIndex="1" MeshEndIndex="2033" PhysicalPropertyName="V2_Cut_Sew_Knit_LoopTerry_1_0"/>
+        <Mesh MeshStartIndex="2034" MeshEndIndex="3918" PhysicalPropertyName="V2_Cut_Sew_Knit_LoopTerry_1_0"/>
+        <Mesh MeshStartIndex="3919" MeshEndIndex="4927" PhysicalPropertyName="V2_Cut_Sew_Knit_LoopTerry_1_0"/>
+        <Mesh MeshStartIndex="4928" MeshEndIndex="6010" PhysicalPropertyName="V2_Cut_Sew_Knit_LoopTerry_1_0"/>
+        <Mesh MeshStartIndex="6011" MeshEndIndex="8023" PhysicalPropertyName="V2_Cut_Sew_Knit_LoopTerry_1_0"/>
+        <Mesh MeshStartIndex="8024" MeshEndIndex="9079" PhysicalPropertyName="V2_Cut_Sew_Knit_LoopTerry_1_0"/>
+        <Mesh MeshStartIndex="9080" MeshEndIndex="10170" PhysicalPropertyName="V2_Cut_Sew_Knit_LoopTerry_1_0"/>
+        <Mesh MeshStartIndex="10171" MeshEndIndex="12041" PhysicalPropertyName="V2_Cut_Sew_Knit_LoopTerry_1_0"/>
+        <Mesh MeshStartIndex="12042" MeshEndIndex="13975" PhysicalPropertyName="V2_Cut_Sew_Knit_LoopTerry_1_0"/>
+    </MeshList>
+    <SeamLinePairList>
+        <SeamLinePair FoldAngle="0" BKScale="1">
+            <SeamLine MeshPointIndexes ="9120/9121/9122/9123/9124/9125/9126"/>
+            <SeamLine MeshPointIndexes ="8055/8054/8053/8052/8051/8050/8049"/>
+        </SeamLinePair>
+        <SeamLinePair FoldAngle="0" BKScale="1">
+            <SeamLine MeshPointIndexes ="9094/9095/9096/9097/9098/9099/9100/9101/9102/9103/9104/9105/9106/9107/9108"/>
+            <SeamLine MeshPointIndexes ="8080/8079/8078/8077/8076/8075/8074/8073/8072/8071/8070/8069/8068/8067/8066"/>
+        </SeamLinePair>
+        <SeamLinePair FoldAngle="0" BKScale="1">
+            <SeamLine MeshPointIndexes ="4955/4956/4957/4958/4959/4960/4961"/>
+            <SeamLine MeshPointIndexes ="3963/3962/3961/3960/3959/3958/3957"/>
+        </SeamLinePair>
+        <SeamLinePair FoldAngle="0" BKScale="1">
+            <SeamLine MeshPointIndexes ="4973/4974/4975/4976/4977/4978/4979/4980/4981/4982/4983/4984/4985/4986/4987"/>
+            <SeamLine MeshPointIndexes ="3946/3945/3944/3943/3942/3941/3940/3939/3938/3937/3936/3935/3934/3933/3932"/>
+        </SeamLinePair>
+        <SeamLinePair FoldAngle="0" BKScale="1">
+            <SeamLine MeshPointIndexes ="4928/4929/4930/4931/4932/4933/4934/4935/4936/4937/4938/4939/4940/4941/4942/4943"/>
+            <SeamLine MeshPointIndexes ="9080/9152/9151/9150/9149/9148/9147/9146/9145/9144/9143/9142/9141/9140/9139/9138"/>
+        </SeamLinePair>
+        <SeamLinePair FoldAngle="0" BKScale="1">
+            <SeamLine MeshPointIndexes ="3969/3970/3971/3972/3973/3974/3975/3976/3977/3978/3979/3980/3981/3982/3983/3984/3985/3986/3987/3919"/>
+            <SeamLine MeshPointIndexes ="8043/8042/8041/8040/8039/8038/8037/8036/8035/8034/8033/8032/8031/8030/8029/8028/8027/8026/8025/8024"/>
+        </SeamLinePair>
+        <SeamLinePair FoldAngle="0" BKScale="1">
+            <SeamLine MeshPointIndexes ="37/38/39/40/41/42/43/44/45/46/47/48/49/50/51/52/53/54/55/56"/>
+            <SeamLine MeshPointIndexes ="6011/6095/6094/6093/6092/6091/6090/6089/6088/6087/6086/6085/6084/6083/6082/6081/6080/6079/6078/6077"/>
+        </SeamLinePair>
+        <SeamLinePair FoldAngle="0" BKScale="1">
+            <SeamLine MeshPointIndexes ="6047/6048/6049/6050/6051/6052/6053/6054/6055/6056/6057/6058/6059/6060/6061/6062/6063/6064/6065/6066"/>
+            <SeamLine MeshPointIndexes ="12042/12126/12125/12124/12123/12122/12121/12120/12119/12118/12117/12116/12115/12114/12113/12112/12111/12110/12109/12108"/>
+        </SeamLinePair>
+        <SeamLinePair FoldAngle="0" BKScale="1">
+            <SeamLine MeshPointIndexes ="12078/12079/12080/12081/12082/12083/12084/12085/12086/12087/12088/12089/12090/12091/12092/12093/12094/12095/12096/12097"/>
+            <SeamLine MeshPointIndexes ="10171/10255/10254/10253/10252/10251/10250/10249/10248/10247/10246/10245/10244/10243/10242/10241/10240/10239/10238/10237"/>
+        </SeamLinePair>
+        <SeamLinePair FoldAngle="0" BKScale="1">
+            <SeamLine MeshPointIndexes ="10207/10208/10209/10210/10211/10212/10213/10214/10215/10216/10217/10218/10219/10220/10221/10222/10223/10224/10225/10226"/>
+            <SeamLine MeshPointIndexes ="2034/2118/2117/2116/2115/2114/2113/2112/2111/2110/2109/2108/2107/2106/2105/2104/2103/2102/2101/2100"/>
+        </SeamLinePair>
+        <SeamLinePair FoldAngle="0" BKScale="1">
+            <SeamLine MeshPointIndexes ="2070/2071/2072/2073/2074/2075/2076/2077/2078/2079/2080/2081/2082/2083/2084/2085/2086/2087/2088/2089"/>
+            <SeamLine MeshPointIndexes ="1/84/83/82/81/80/79/78/77/76/75/74/73/72/71/70/69/68/67/66"/>
+        </SeamLinePair>
+        <SeamLinePair FoldAngle="0" BKScale="1">
+            <SeamLine MeshPointIndexes ="4987/4988/4989/4990/4991/4992/4993/4994/4995/4996/4997"/>
+            <SeamLine MeshPointIndexes ="66/65/64/63/62/61/60/59/58/57/56"/>
+        </SeamLinePair>
+        <SeamLinePair FoldAngle="0" BKScale="1">
+            <SeamLine MeshPointIndexes ="4997/4998/4999/5000/4928"/>
+            <SeamLine MeshPointIndexes ="6077/6076/6075/6074/6073"/>
+        </SeamLinePair>
+        <SeamLinePair FoldAngle="0" BKScale="1">
+            <SeamLine MeshPointIndexes ="9080/9081/9082/9083/9084/9085/9086/9087"/>
+            <SeamLine MeshPointIndexes ="6073/6072/6071/6070/6069/6068/6067/6066"/>
+        </SeamLinePair>
+        <SeamLinePair FoldAngle="0" BKScale="1">
+            <SeamLine MeshPointIndexes ="9087/9088/9089/9090/9091/9092/9093/9094"/>
+            <SeamLine MeshPointIndexes ="12108/12107/12106/12105/12104/12103/12102/12101"/>
+        </SeamLinePair>
+        <SeamLinePair FoldAngle="0" BKScale="1">
+            <SeamLine MeshPointIndexes ="8080/8081/8082/8083/8084"/>
+            <SeamLine MeshPointIndexes ="12101/12100/12099/12098/12097"/>
+        </SeamLinePair>
+        <SeamLinePair FoldAngle="0" BKScale="1">
+            <SeamLine MeshPointIndexes ="8084/8085/8086/8087/8088/8089/8090/8091/8092/8024"/>
+            <SeamLine MeshPointIndexes ="10237/10236/10235/10234/10233/10232/10231/10230/10229/10228"/>
+        </SeamLinePair>
+        <SeamLinePair FoldAngle="0" BKScale="1">
+            <SeamLine MeshPointIndexes ="3919/3920/3921"/>
+            <SeamLine MeshPointIndexes ="10228/10227/10226"/>
+        </SeamLinePair>
+        <SeamLinePair FoldAngle="0" BKScale="1">
+            <SeamLine MeshPointIndexes ="3921/3922/3923/3924/3925/3926/3927/3928/3929/3930/3931/3932"/>
+            <SeamLine MeshPointIndexes ="2100/2099/2098/2097/2096/2095/2094/2093/2092/2091/2090/2089"/>
+        </SeamLinePair>
+    </SeamLinePairList>
+    <PBRMaterial Opacity="100" Name="V2_Cut_Sew_Knit_LoopTerry_1_FRONT_354613">
+        <globalColor Name="(None)" R="255" G="255" B="255" Intensity="1"/>
+        <SpecularColor Shininess="2"/>
+        <globalMap FilePath="e://HJP//KUAICV//VTO//CLO_AUTO_GEN//sample_data_deprecated//rand_R2ITQIWHJP/Cut _ Sew Knit_Loop terry_1_BASE_rgb_medium.png" Angle="0" AngleUnit="degree" Width="664" WidthUnit="px" Height="576" HeightUnit="px" ScaleX="56.2188" ScaleY="48.7681"/>
+        <NormalMap FilePath="e://HJP//KUAICV//VTO//CLO_AUTO_GEN//sample_data_deprecated//rand_R2ITQIWHJP/Cut _ Sew Knit_Loop terry_1_NRM.png" FilePathWithIntensity="e://HJP//KUAICV//VTO//CLO_AUTO_GEN//sample_data_deprecated//rand_R2ITQIWHJP/Cut _ Sew Knit_Loop terry_1_NRM_9.jpg" Angle="0" AngleUnit="degree" Width="664" WidthUnit="px" Height="576" HeightUnit="px" NormalIntensityInPercentage="9"/>
+        <SpecularMap FilePath="e://HJP//KUAICV//VTO//CLO_AUTO_GEN//sample_data_deprecated//rand_R2ITQIWHJP/Cut _ Sew Knit_Loop terry_1_ROUGH_SPEC.png" Angle="0" AngleUnit="degree" Width="664" WidthUnit="px" Height="576" HeightUnit="px"/>
+    </PBRMaterial>
+</MetaData>
