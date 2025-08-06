@@ -1,7 +1,11 @@
-# sample_data/
+
 gcd_01/
 sewfactory/
 sewfactory__01/
 *.zip
 *.tar.gz
-# sample_data_deprecated/
+
+# Ignore SAMPLE_DATA directory but include GCD__GOOD subdirectory
+SAMPLE_DATA/
+!SAMPLE_DATA/GCD__GOOD/
+!SAMPLE_DATA/SEWFACTORY__GOOD/
