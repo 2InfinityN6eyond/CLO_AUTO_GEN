@@ -6,6 +6,6 @@ sewfactory__01/
 *.tar.gz
 
 # Ignore SAMPLE_DATA directory but include GCD__GOOD subdirectory
-SAMPLE_DATA/
+SAMPLE_DATA/*
 !SAMPLE_DATA/GCD__GOOD/
 !SAMPLE_DATA/SEWFACTORY__GOOD/
