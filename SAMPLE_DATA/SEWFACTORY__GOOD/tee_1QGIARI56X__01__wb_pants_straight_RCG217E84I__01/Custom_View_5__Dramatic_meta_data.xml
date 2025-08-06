@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MetaData Version="1" ObjFileName="Custom_View_5__Dramatic.obj">
+    <PhysicalPropertyList>
+        <PhysicalProperty PhysicalPropertyName="Default_0" Stretch-Weft="100000" Stretch-Warp="100000" Shear="10000" Bending-Weft="314.159" Bending-Warp="1884.96" BucklingRatio-Weft="0" BucklingRatio-Warp="0" InternalDamping="0.0001" BucklingStiffness-Weft="0" BucklingStiffness-Warp="0" Density="0.0003" FrictionCoefficient="0.03"/>
+        <PhysicalProperty PhysicalPropertyName="V1_Woven_Polyester_Taffeta_0" Stretch-Weft="544209" Stretch-Warp="605146" Shear="831746" Bending-Weft="13041.8" Bending-Warp="5749.43" BucklingRatio-Weft="0.3" BucklingRatio-Warp="0.3" InternalDamping="0.0001" BucklingStiffness-Weft="0.25" BucklingStiffness-Warp="0.25" Density="0.000135859" FrictionCoefficient="0.03"/>
+        <PhysicalProperty PhysicalPropertyName="V2_Cut_Sew_Knit_Waffle_3_0" Stretch-Weft="48192.2" Stretch-Warp="45754.4" Shear="31638.8" Bending-Weft="510.447" Bending-Warp="2462.35" BucklingRatio-Weft="0.3" BucklingRatio-Warp="0.3" InternalDamping="0.0001" BucklingStiffness-Weft="1" BucklingStiffness-Warp="1" Density="0.000184" FrictionCoefficient="0.03"/>
+    </PhysicalPropertyList>
+    <MeshList>
+        <Mesh MeshStartIndex="1" MeshEndIndex="1267" PhysicalPropertyName="V1_Woven_Polyester_Taffeta_0"/>
+        <Mesh MeshStartIndex="1268" MeshEndIndex="2445" PhysicalPropertyName="V1_Woven_Polyester_Taffeta_0"/>
+        <Mesh MeshStartIndex="2446" MeshEndIndex="2900" PhysicalPropertyName="V1_Woven_Polyester_Taffeta_0"/>
+        <Mesh MeshStartIndex="2901" MeshEndIndex="3145" PhysicalPropertyName="V1_Woven_Polyester_Taffeta_0"/>
+        <Mesh MeshStartIndex="3146" MeshEndIndex="4420" PhysicalPropertyName="V1_Woven_Polyester_Taffeta_0"/>
+        <Mesh MeshStartIndex="4421" MeshEndIndex="5600" PhysicalPropertyName="V1_Woven_Polyester_Taffeta_0"/>
+        <Mesh MeshStartIndex="5601" MeshEndIndex="7334" PhysicalPropertyName="V2_Cut_Sew_Knit_Waffle_3_0"/>
+        <Mesh MeshStartIndex="7335" MeshEndIndex="9088" PhysicalPropertyName="V2_Cut_Sew_Knit_Waffle_3_0"/>
+        <Mesh MeshStartIndex="9089" MeshEndIndex="11545" PhysicalPropertyName="V2_Cut_Sew_Knit_Waffle_3_0"/>
+        <Mesh MeshStartIndex="11546" MeshEndIndex="13903" PhysicalPropertyName="V2_Cut_Sew_Knit_Waffle_3_0"/>
+        <Mesh MeshStartIndex="13904" MeshEndIndex="15657" PhysicalPropertyName="V2_Cut_Sew_Knit_Waffle_3_0"/>
+        <Mesh MeshStartIndex="15658" MeshEndIndex="17391" PhysicalPropertyName="V2_Cut_Sew_Knit_Waffle_3_0"/>
+    </MeshList>
+    <SeamLinePairList>
+        <SeamLinePair FoldAngle="0" BKScale="1">
+            <SeamLine MeshPointIndexes ="1319/1320/1321/1322/1323/1324/1325/1326/1327/1328/1329/1330/1331/1332/1333/1334/1335/1336/1337/1338/1339/1340/1268"/>
+            <SeamLine MeshPointIndexes ="36/35/34/33/32/31/30/29/28/27/26/25/24/23/22/21/20/19/18/17/16/15/14"/>
+        </SeamLinePair>
+        <SeamLinePair FoldAngle="0" BKScale="1">
+            <SeamLine MeshPointIndexes ="1281/1282/1283/1284/1285/1286/1287/1288/1289/1290/1291"/>
+            <SeamLine MeshPointIndexes ="1/74/73/72/71/70/69/68/67/66/65"/>
+        </SeamLinePair>
+        <SeamLinePair FoldAngle="0" BKScale="1">
+            <SeamLine MeshPointIndexes ="4434/4435/4436/4437/4438/4439/4440/4441/4442/4443/4444/4445/4446/4447/4448/4449/4450/4451/4452/4453/4454/4455/4456"/>
+            <SeamLine MeshPointIndexes ="3146/3219/3218/3217/3216/3215/3214/3213/3212/3211/3210/3209/3208/3207/3206/3205/3204/3203/3202/3201/3200/3199/3198"/>
+        </SeamLinePair>
+        <SeamLinePair FoldAngle="0" BKScale="1">
+            <SeamLine MeshPointIndexes ="4484/4485/4486/4487/4488/4489/4490/4491/4492/4493/4421"/>
+            <SeamLine MeshPointIndexes ="3169/3168/3167/3166/3165/3164/3163/3162/3161/3160/3159"/>
+        </SeamLinePair>
+        <SeamLinePair FoldAngle="0" BKScale="1">
+            <SeamLine MeshPointIndexes ="50/51/52/53/54/55/56/57/58/59/60/61/62/63/64/65"/>
+            <SeamLine MeshPointIndexes ="3184/3183/3182/3181/3180/3179/3178/3177/3176/3175/3174/3173/3172/3171/3170/3169"/>
+        </SeamLinePair>
+        <SeamLinePair FoldAngle="0" BKScale="1">
+            <SeamLine MeshPointIndexes ="1291/1292/1293/1294/1295/1296/1297/1298/1299/1300/1301/1302/1303/1304/1305"/>
+            <SeamLine MeshPointIndexes ="4484/4483/4482/4481/4480/4479/4478/4477/4476/4475/4474/4473/4472/4471/4470"/>
+        </SeamLinePair>
+        <SeamLinePair FoldAngle="0" BKScale="1">
+            <SeamLine MeshPointIndexes ="1305/1306/1307/1308/1309/1310/1311/1312/1313/1314/1315/1316/1317/1318/1319"/>
+            <SeamLine MeshPointIndexes ="2915/2914/2913/2912/2911/2910/2909/2908/2907/2906/2905/2904/2903/2902/2901"/>
+        </SeamLinePair>
+        <SeamLinePair FoldAngle="0" BKScale="1">
+            <SeamLine MeshPointIndexes ="4456/4457/4458/4459/4460/4461/4462/4463/4464/4465/4466/4467/4468/4469/4470"/>
+            <SeamLine MeshPointIndexes ="2929/2928/2927/2926/2925/2924/2923/2922/2921/2920/2919/2918/2917/2916/2915"/>
+        </SeamLinePair>
+        <SeamLinePair FoldAngle="0" BKScale="1">
+            <SeamLine MeshPointIndexes ="3184/3185/3186/3187/3188/3189/3190/3191/3192/3193/3194/3195/3196/3197/3198"/>
+            <SeamLine MeshPointIndexes ="2460/2459/2458/2457/2456/2455/2454/2453/2452/2451/2450/2449/2448/2447/2446"/>
+        </SeamLinePair>
+        <SeamLinePair FoldAngle="0" BKScale="1">
+            <SeamLine MeshPointIndexes ="36/37/38/39/40/41/42/43/44/45/46/47/48/49/50"/>
+            <SeamLine MeshPointIndexes ="2474/2473/2472/2471/2470/2469/2468/2467/2466/2465/2464/2463/2462/2461/2460"/>
+        </SeamLinePair>
+        <SeamLinePair FoldAngle="0" BKScale="1">
+            <SeamLine MeshPointIndexes ="2474/2475/2476"/>
+            <SeamLine MeshPointIndexes ="2901/2944/2943"/>
+        </SeamLinePair>
+        <SeamLinePair FoldAngle="0" BKScale="1">
+            <SeamLine MeshPointIndexes ="2488/2489/2446"/>
+            <SeamLine MeshPointIndexes ="2931/2930/2929"/>
+        </SeamLinePair>
+        <SeamLinePair FoldAngle="0" BKScale="1">
+            <SeamLine MeshPointIndexes ="9170/9171/9172/9173/9174/9175/9176"/>
+            <SeamLine MeshPointIndexes ="11667/11666/11665/11664/11663/11662/11661"/>
+        </SeamLinePair>
+        <SeamLinePair FoldAngle="0" BKScale="1">
+            <SeamLine MeshPointIndexes ="9138/9139/9140/9141/9142/9143/9144/9145/9146/9147/9148/9149/9150/9151"/>
+            <SeamLine MeshPointIndexes ="11546/11698/11697/11696/11695/11694/11693/11692/11691/11690/11689/11688/11687/11686"/>
+        </SeamLinePair>
+        <SeamLinePair FoldAngle="0" BKScale="1">
+            <SeamLine MeshPointIndexes ="9213/9214/9215/9216/9217/9218/9219/9220/9221/9222/9223/9224/9225/9089"/>
+            <SeamLine MeshPointIndexes ="11608/11607/11606/11605/11604/11603/11602/11601/11600/11599/11598/11597/11596/11595"/>
+        </SeamLinePair>
+        <SeamLinePair FoldAngle="0" BKScale="1">
+            <SeamLine MeshPointIndexes ="9188/9189/9190/9191/9192/9193/9194"/>
+            <SeamLine MeshPointIndexes ="11633/11632/11631/11630/11629/11628/11627"/>
+        </SeamLinePair>
+        <SeamLinePair FoldAngle="0" BKScale="1">
+            <SeamLine MeshPointIndexes ="7355/7356/7357/7358/7359/7360/7361/7362/7363/7364/7365/7366/7367/7368/7369/7370/7371/7372/7373/7374"/>
+            <SeamLine MeshPointIndexes ="11686/11685/11684/11683/11682/11681/11680/11679/11678/11677/11676/11675/11674/11673/11672/11671/11670/11669/11668/11667"/>
+        </SeamLinePair>
+        <SeamLinePair FoldAngle="0" BKScale="1">
+            <SeamLine MeshPointIndexes ="5622/5623/5624/5625/5626/5627/5628/5629/5630/5631/5632/5633/5634/5635/5636/5637/5638/5639/5640/5641"/>
+            <SeamLine MeshPointIndexes ="9170/9169/9168/9167/9166/9165/9164/9163/9162/9161/9160/9159/9158/9157/9156/9155/9154/9153/9152/9151"/>
+        </SeamLinePair>
+        <SeamLinePair FoldAngle="0" BKScale="1">
+            <SeamLine MeshPointIndexes ="15679/15680/15681/15682/15683/15684/15685/15686/15687/15688/15689/15690/15691/15692/15693/15694/15695/15696/15697/15698"/>
+            <SeamLine MeshPointIndexes ="11627/11626/11625/11624/11623/11622/11621/11620/11619/11618/11617/11616/11615/11614/11613/11612/11611/11610/11609/11608"/>
+        </SeamLinePair>
+        <SeamLinePair FoldAngle="0" BKScale="1">
+            <SeamLine MeshPointIndexes ="13924/13925/13926/13927/13928/13929/13930/13931/13932/13933/13934/13935/13936/13937/13938/13939/13940/13941/13942/13943"/>
+            <SeamLine MeshPointIndexes ="9213/9212/9211/9210/9209/9208/9207/9206/9205/9204/9203/9202/9201/9200/9199/9198/9197/9196/9195/9194"/>
+        </SeamLinePair>
+        <SeamLinePair FoldAngle="0" BKScale="1">
+            <SeamLine MeshPointIndexes ="13904/13905/13906/13907/13908/13909/13910/13911/13912/13913/13914/13915/13916/13917/13918/13919/13920/13921/13922/13923/13924"/>
+            <SeamLine MeshPointIndexes ="15718/15717/15716/15715/15714/15713/15712/15711/15710/15709/15708/15707/15706/15705/15704/15703/15702/15701/15700/15699/15698"/>
+        </SeamLinePair>
+        <SeamLinePair FoldAngle="0" BKScale="1">
+            <SeamLine MeshPointIndexes ="13943/13944/13945/13946/13947/13948/13949/13950/13951/13952/13953/13954/13955/13956/13957/13958/13959/13960/13961/13962/13963/13964"/>
+            <SeamLine MeshPointIndexes ="15679/15678/15677/15676/15675/15674/15673/15672/15671/15670/15669/15668/15667/15666/15665/15664/15663/15662/15661/15660/15659/15658"/>
+        </SeamLinePair>
+        <SeamLinePair FoldAngle="0" BKScale="1">
+            <SeamLine MeshPointIndexes ="5641/5642/5643/5644/5645/5646/5647/5648/5649/5650/5651/5652/5653/5654/5655/5656/5657/5658/5659/5660/5661"/>
+            <SeamLine MeshPointIndexes ="7355/7354/7353/7352/7351/7350/7349/7348/7347/7346/7345/7344/7343/7342/7341/7340/7339/7338/7337/7336/7335"/>
+        </SeamLinePair>
+        <SeamLinePair FoldAngle="0" BKScale="1">
+            <SeamLine MeshPointIndexes ="5601/5602/5603/5604/5605/5606/5607/5608/5609/5610/5611/5612/5613/5614/5615/5616/5617/5618/5619/5620/5621/5622"/>
+            <SeamLine MeshPointIndexes ="7395/7394/7393/7392/7391/7390/7389/7388/7387/7386/7385/7384/7383/7382/7381/7380/7379/7378/7377/7376/7375/7374"/>
+        </SeamLinePair>
+    </SeamLinePairList>
+    <PBRMaterial Opacity="100" Name="V1_Woven_Polyester_Taffeta_FRONT_4515963">
+        <globalColor Name="(None)" R="255" G="255" B="255" Intensity="1"/>
+        <SpecularColor Shininess="28"/>
+        <globalMap FilePath="D:/VTO2025/DATASETs/Ours1/CLO_AUTO_GEN/SAMPLE_DATA/SEWFACTORY__01/tee_1QGIARI56X__01__wb_pants_straight_RCG217E84I__01/Polyester_Taffeta_FCL2PSP002_2_test2_COL_4386502.jpg" Angle="0" AngleUnit="degree" Width="1024" WidthUnit="px" Height="1024" HeightUnit="px" ScaleX="173.4" ScaleY="173.4"/>
+        <NormalMap FilePath="D:/VTO2025/DATASETs/Ours1/CLO_AUTO_GEN/SAMPLE_DATA/SEWFACTORY__01/tee_1QGIARI56X__01__wb_pants_straight_RCG217E84I__01/Polyester_Taffeta_FCL2PSP002_2_test2_NRM_4386504.jpg" FilePathWithIntensity="D:/VTO2025/DATASETs/Ours1/CLO_AUTO_GEN/SAMPLE_DATA/SEWFACTORY__01/tee_1QGIARI56X__01__wb_pants_straight_RCG217E84I__01/Polyester_Taffeta_FCL2PSP002_2_test2_NRM_4386504_50.jpg" Angle="0" AngleUnit="degree" Width="1024" WidthUnit="px" Height="1024" HeightUnit="px" NormalIntensityInPercentage="50"/>
+    </PBRMaterial>
+    <PBRMaterial Opacity="100" Name="V2_Cut_Sew_Knit_Waffle_3_FRONT_4515970">
+        <globalColor Name="(None)" R="255" G="255" B="255" Intensity="1"/>
+        <SpecularColor Shininess="28"/>
+        <globalMap FilePath="D:/VTO2025/DATASETs/Ours1/CLO_AUTO_GEN/SAMPLE_DATA/SEWFACTORY__01/tee_1QGIARI56X__01__wb_pants_straight_RCG217E84I__01/Cut _ Sew Knit_Waffle_3_BASE_rgb_medium_4373463.png" Angle="0" AngleUnit="degree" Width="514" WidthUnit="px" Height="388" HeightUnit="px" ScaleX="43.5187" ScaleY="32.8507"/>
+        <NormalMap FilePath="D:/VTO2025/DATASETs/Ours1/CLO_AUTO_GEN/SAMPLE_DATA/SEWFACTORY__01/tee_1QGIARI56X__01__wb_pants_straight_RCG217E84I__01/Cut _ Sew Knit_Waffle_3_NRM_4373465.png" FilePathWithIntensity="D:/VTO2025/DATASETs/Ours1/CLO_AUTO_GEN/SAMPLE_DATA/SEWFACTORY__01/tee_1QGIARI56X__01__wb_pants_straight_RCG217E84I__01/Cut _ Sew Knit_Waffle_3_NRM_4373465_8.jpg" Angle="0" AngleUnit="degree" Width="514" WidthUnit="px" Height="388" HeightUnit="px" NormalIntensityInPercentage="8"/>
+        <SpecularMap FilePath="D:/VTO2025/DATASETs/Ours1/CLO_AUTO_GEN/SAMPLE_DATA/SEWFACTORY__01/tee_1QGIARI56X__01__wb_pants_straight_RCG217E84I__01/Cut _ Sew Knit_Waffle_3_ROUGH_4373469_SPEC.png" Angle="0" AngleUnit="degree" Width="514" WidthUnit="px" Height="388" HeightUnit="px"/>
+    </PBRMaterial>
+</MetaData>

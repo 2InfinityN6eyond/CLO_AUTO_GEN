@@ -1,0 +1,1462 @@
+{
+    "FabricList": [
+        {
+            "FabricName": "Default Fabric",
+            "FabricType": "None",
+            "FabricContent": "None",
+            "strBaseColorHexCode": "4E0CC2",
+            "FabricUUID": "Es2SPX"
+        }
+    ],
+    "GradingRuleTableList": [],
+    "PatternList": [
+        {
+            "Name": "tee_1QGIARI56X_rbsleeve",
+            "fGrainlineAngle": 0.0,
+            "ID": "tee_1QGIARI56X_rbsleeve",
+            "strSuperImposeSide": "None",
+            "CurrentFabricUUID": "Es2SPX",
+            "IsClosed": false,
+            "InternalLineList": [],
+            "ButtonHeadList": [],
+            "ButtonHoleList": [],
+            "AnnotationList": [],
+            "NotchList": [],
+            "IsHalfSymmetric": false,
+            "ShapeInfo": {
+                "IsSlashed": false,
+                "LineList": [
+                    {
+                        "ID": "rbsleeve_edge_0",
+                        "PointList": [
+                            {
+                                "ID": "rbsleeve_point_0",
+                                "PointType": "Straight",
+                                "Position": {
+                                    "x": 442.37298,
+                                    "y": -0.0
+                                },
+                                "GradingRuleID": -1
+                            },
+                            {
+                                "ID": "rbsleeve_point_1",
+                                "PointType": "Straight",
+                                "Position": {
+                                    "x": 442.37298,
+                                    "y": 408.05008
+                                },
+                                "GradingRuleID": -1
+                            }
+                        ]
+                    },
+                    {
+                        "ID": "rbsleeve_edge_1",
+                        "PointList": [
+                            {
+                                "ID": "rbsleeve_point_1",
+                                "PointType": "Straight",
+                                "Position": {
+                                    "x": 442.37298,
+                                    "y": 408.05008
+                                },
+                                "GradingRuleID": -1
+                            },
+                            {
+                                "ID": "rbsleeve_point_2",
+                                "PointType": "Bezier Curve",
+                                "Position": {
+                                    "x": 276.55179,
+                                    "y": 478.96304
+                                },
+                                "GradingRuleID": -1
+                            },
+                            {
+                                "ID": "rbsleeve_point_3",
+                                "PointType": "Bezier Curve",
+                                "Position": {
+                                    "x": 165.44408,
+                                    "y": 466.12504
+                                },
+                                "GradingRuleID": -1
+                            },
+                            {
+                                "ID": "rbsleeve_point_4",
+                                "PointType": "Straight",
+                                "Position": {
+                                    "x": 109.04986,
+                                    "y": 369.53607
+                                },
+                                "GradingRuleID": -1
+                            }
+                        ]
+                    },
+                    {
+                        "ID": "rbsleeve_edge_2",
+                        "PointList": [
+                            {
+                                "ID": "rbsleeve_point_4",
+                                "PointType": "Straight",
+                                "Position": {
+                                    "x": 109.04986,
+                                    "y": 369.53607
+                                },
+                                "GradingRuleID": -1
+                            },
+                            {
+                                "ID": "rbsleeve_point_5",
+                                "PointType": "Straight",
+                                "Position": {
+                                    "x": 0.0,
+                                    "y": 0.0
+                                },
+                                "GradingRuleID": -1
+                            }
+                        ]
+                    },
+                    {
+                        "ID": "rbsleeve_edge_3",
+                        "PointList": [
+                            {
+                                "ID": "rbsleeve_point_5",
+                                "PointType": "Straight",
+                                "Position": {
+                                    "x": 0.0,
+                                    "y": 0.0
+                                },
+                                "GradingRuleID": -1
+                            },
+                            {
+                                "ID": "rbsleeve_point_0",
+                                "PointType": "Straight",
+                                "Position": {
+                                    "x": 442.37298,
+                                    "y": -0.0
+                                },
+                                "GradingRuleID": -1
+                            }
+                        ]
+                    }
+                ],
+                "HalfSymmetryPointIDMap": {},
+                "HalfSymmetryLineIDMap": {}
+            },
+            "ArrangementPointDataMap": {
+                "PointName": "Arm_Back_2_R",
+                "fOffSetX": 0.0,
+                "fOffSetY": 0.05,
+                "fAngle": 180.0
+            }
+        },
+        {
+            "Name": "tee_1QGIARI56X_rfsleeve",
+            "fGrainlineAngle": 0.0,
+            "ID": "tee_1QGIARI56X_rfsleeve",
+            "strSuperImposeSide": "None",
+            "CurrentFabricUUID": "Es2SPX",
+            "IsClosed": false,
+            "InternalLineList": [],
+            "ButtonHeadList": [],
+            "ButtonHoleList": [],
+            "AnnotationList": [],
+            "NotchList": [],
+            "IsHalfSymmetric": false,
+            "ShapeInfo": {
+                "IsSlashed": false,
+                "LineList": [
+                    {
+                        "ID": "rfsleeve_edge_0",
+                        "PointList": [
+                            {
+                                "ID": "rfsleeve_point_0",
+                                "PointType": "Straight",
+                                "Position": {
+                                    "x": 442.37298,
+                                    "y": -0.0
+                                },
+                                "GradingRuleID": -1
+                            },
+                            {
+                                "ID": "rfsleeve_point_1",
+                                "PointType": "Straight",
+                                "Position": {
+                                    "x": 333.32312,
+                                    "y": 369.53607
+                                },
+                                "GradingRuleID": -1
+                            }
+                        ]
+                    },
+                    {
+                        "ID": "rfsleeve_edge_1",
+                        "PointList": [
+                            {
+                                "ID": "rfsleeve_point_1",
+                                "PointType": "Straight",
+                                "Position": {
+                                    "x": 333.32312,
+                                    "y": 369.53607
+                                },
+                                "GradingRuleID": -1
+                            },
+                            {
+                                "ID": "rfsleeve_point_2",
+                                "PointType": "Bezier Curve",
+                                "Position": {
+                                    "x": 276.9289,
+                                    "y": 466.12504
+                                },
+                                "GradingRuleID": -1
+                            },
+                            {
+                                "ID": "rfsleeve_point_3",
+                                "PointType": "Bezier Curve",
+                                "Position": {
+                                    "x": 165.82119,
+                                    "y": 478.96304
+                                },
+                                "GradingRuleID": -1
+                            },
+                            {
+                                "ID": "rfsleeve_point_4",
+                                "PointType": "Straight",
+                                "Position": {
+                                    "x": 0.0,
+                                    "y": 408.05008
+                                },
+                                "GradingRuleID": -1
+                            }
+                        ]
+                    },
+                    {
+                        "ID": "rfsleeve_edge_2",
+                        "PointList": [
+                            {
+                                "ID": "rfsleeve_point_4",
+                                "PointType": "Straight",
+                                "Position": {
+                                    "x": 0.0,
+                                    "y": 408.05008
+                                },
+                                "GradingRuleID": -1
+                            },
+                            {
+                                "ID": "rfsleeve_point_5",
+                                "PointType": "Straight",
+                                "Position": {
+                                    "x": 0.0,
+                                    "y": 0.0
+                                },
+                                "GradingRuleID": -1
+                            }
+                        ]
+                    },
+                    {
+                        "ID": "rfsleeve_edge_3",
+                        "PointList": [
+                            {
+                                "ID": "rfsleeve_point_5",
+                                "PointType": "Straight",
+                                "Position": {
+                                    "x": 0.0,
+                                    "y": 0.0
+                                },
+                                "GradingRuleID": -1
+                            },
+                            {
+                                "ID": "rfsleeve_point_0",
+                                "PointType": "Straight",
+                                "Position": {
+                                    "x": 442.37298,
+                                    "y": -0.0
+                                },
+                                "GradingRuleID": -1
+                            }
+                        ]
+                    }
+                ],
+                "HalfSymmetryPointIDMap": {},
+                "HalfSymmetryLineIDMap": {}
+            },
+            "ArrangementPointDataMap": {
+                "PointName": "Arm_Front_2_R",
+                "fOffSetX": 0.0,
+                "fOffSetY": 0.05,
+                "fAngle": 180.0
+            }
+        },
+        {
+            "Name": "tee_1QGIARI56X_back",
+            "fGrainlineAngle": 0.0,
+            "ID": "tee_1QGIARI56X_back",
+            "strSuperImposeSide": "None",
+            "CurrentFabricUUID": "Es2SPX",
+            "IsClosed": false,
+            "InternalLineList": [],
+            "ButtonHeadList": [],
+            "ButtonHoleList": [],
+            "AnnotationList": [],
+            "NotchList": [],
+            "IsHalfSymmetric": false,
+            "ShapeInfo": {
+                "IsSlashed": false,
+                "LineList": [
+                    {
+                        "ID": "back_edge_0",
+                        "PointList": [
+                            {
+                                "ID": "back_point_0",
+                                "PointType": "Straight",
+                                "Position": {
+                                    "x": 0.0,
+                                    "y": -448.83736
+                                },
+                                "GradingRuleID": -1
+                            },
+                            {
+                                "ID": "back_point_1",
+                                "PointType": "Straight",
+                                "Position": {
+                                    "x": 965.13522,
+                                    "y": -448.83736
+                                },
+                                "GradingRuleID": -1
+                            }
+                        ]
+                    },
+                    {
+                        "ID": "back_edge_1",
+                        "PointList": [
+                            {
+                                "ID": "back_point_1",
+                                "PointType": "Straight",
+                                "Position": {
+                                    "x": 965.13522,
+                                    "y": -448.83736
+                                },
+                                "GradingRuleID": -1
+                            },
+                            {
+                                "ID": "back_point_2",
+                                "PointType": "Straight",
+                                "Position": {
+                                    "x": 732.90867,
+                                    "y": -333.32312
+                                },
+                                "GradingRuleID": -1
+                            }
+                        ]
+                    },
+                    {
+                        "ID": "back_edge_2",
+                        "PointList": [
+                            {
+                                "ID": "back_point_2",
+                                "PointType": "Straight",
+                                "Position": {
+                                    "x": 732.90867,
+                                    "y": -333.32312
+                                },
+                                "GradingRuleID": -1
+                            },
+                            {
+                                "ID": "back_point_3",
+                                "PointType": "Bezier Curve",
+                                "Position": {
+                                    "x": 636.3197,
+                                    "y": -276.9289
+                                },
+                                "GradingRuleID": -1
+                            },
+                            {
+                                "ID": "back_point_4",
+                                "PointType": "Bezier Curve",
+                                "Position": {
+                                    "x": 623.4817,
+                                    "y": -165.82119
+                                },
+                                "GradingRuleID": -1
+                            },
+                            {
+                                "ID": "back_point_5",
+                                "PointType": "Straight",
+                                "Position": {
+                                    "x": 694.39466,
+                                    "y": 0.0
+                                },
+                                "GradingRuleID": -1
+                            }
+                        ]
+                    },
+                    {
+                        "ID": "back_edge_3",
+                        "PointList": [
+                            {
+                                "ID": "back_point_5",
+                                "PointType": "Straight",
+                                "Position": {
+                                    "x": 694.39466,
+                                    "y": 0.0
+                                },
+                                "GradingRuleID": -1
+                            },
+                            {
+                                "ID": "back_point_6",
+                                "PointType": "Straight",
+                                "Position": {
+                                    "x": 593.9868,
+                                    "y": 0.0
+                                },
+                                "GradingRuleID": -1
+                            }
+                        ]
+                    },
+                    {
+                        "ID": "back_edge_4",
+                        "PointList": [
+                            {
+                                "ID": "back_point_6",
+                                "PointType": "Straight",
+                                "Position": {
+                                    "x": 593.9868,
+                                    "y": 0.0
+                                },
+                                "GradingRuleID": -1
+                            },
+                            {
+                                "ID": "back_point_7",
+                                "PointType": "Bezier Curve",
+                                "Position": {
+                                    "x": 519.70734,
+                                    "y": -12.25308
+                                },
+                                "GradingRuleID": -1
+                            },
+                            {
+                                "ID": "back_point_8",
+                                "PointType": "Bezier Curve",
+                                "Position": {
+                                    "x": 445.42788,
+                                    "y": -12.25308
+                                },
+                                "GradingRuleID": -1
+                            },
+                            {
+                                "ID": "back_point_9",
+                                "PointType": "Straight",
+                                "Position": {
+                                    "x": 371.14841,
+                                    "y": 0.0
+                                },
+                                "GradingRuleID": -1
+                            }
+                        ]
+                    },
+                    {
+                        "ID": "back_edge_5",
+                        "PointList": [
+                            {
+                                "ID": "back_point_9",
+                                "PointType": "Straight",
+                                "Position": {
+                                    "x": 371.14841,
+                                    "y": 0.0
+                                },
+                                "GradingRuleID": -1
+                            },
+                            {
+                                "ID": "back_point_10",
+                                "PointType": "Straight",
+                                "Position": {
+                                    "x": 270.74056,
+                                    "y": 0.0
+                                },
+                                "GradingRuleID": -1
+                            }
+                        ]
+                    },
+                    {
+                        "ID": "back_edge_6",
+                        "PointList": [
+                            {
+                                "ID": "back_point_10",
+                                "PointType": "Straight",
+                                "Position": {
+                                    "x": 270.74056,
+                                    "y": 0.0
+                                },
+                                "GradingRuleID": -1
+                            },
+                            {
+                                "ID": "back_point_11",
+                                "PointType": "Bezier Curve",
+                                "Position": {
+                                    "x": 341.65352,
+                                    "y": -165.82119
+                                },
+                                "GradingRuleID": -1
+                            },
+                            {
+                                "ID": "back_point_12",
+                                "PointType": "Bezier Curve",
+                                "Position": {
+                                    "x": 328.81552,
+                                    "y": -276.9289
+                                },
+                                "GradingRuleID": -1
+                            },
+                            {
+                                "ID": "back_point_13",
+                                "PointType": "Straight",
+                                "Position": {
+                                    "x": 232.22655,
+                                    "y": -333.32312
+                                },
+                                "GradingRuleID": -1
+                            }
+                        ]
+                    },
+                    {
+                        "ID": "back_edge_7",
+                        "PointList": [
+                            {
+                                "ID": "back_point_13",
+                                "PointType": "Straight",
+                                "Position": {
+                                    "x": 232.22655,
+                                    "y": -333.32312
+                                },
+                                "GradingRuleID": -1
+                            },
+                            {
+                                "ID": "back_point_0",
+                                "PointType": "Straight",
+                                "Position": {
+                                    "x": 0.0,
+                                    "y": -448.83736
+                                },
+                                "GradingRuleID": -1
+                            }
+                        ]
+                    }
+                ],
+                "HalfSymmetryPointIDMap": {},
+                "HalfSymmetryLineIDMap": {}
+            },
+            "ArrangementPointDataMap": {
+                "PointName": "Body_Back_Center_4",
+                "fOffSetX": 0.0,
+                "fOffSetY": 0.05,
+                "fAngle": 180.0
+            }
+        },
+        {
+            "Name": "tee_1QGIARI56X_front",
+            "fGrainlineAngle": 0.0,
+            "ID": "tee_1QGIARI56X_front",
+            "strSuperImposeSide": "None",
+            "CurrentFabricUUID": "Es2SPX",
+            "IsClosed": false,
+            "InternalLineList": [],
+            "ButtonHeadList": [],
+            "ButtonHoleList": [],
+            "AnnotationList": [],
+            "NotchList": [],
+            "IsHalfSymmetric": false,
+            "ShapeInfo": {
+                "IsSlashed": false,
+                "LineList": [
+                    {
+                        "ID": "front_edge_0",
+                        "PointList": [
+                            {
+                                "ID": "front_point_0",
+                                "PointType": "Straight",
+                                "Position": {
+                                    "x": 0.0,
+                                    "y": -448.83736
+                                },
+                                "GradingRuleID": -1
+                            },
+                            {
+                                "ID": "front_point_1",
+                                "PointType": "Straight",
+                                "Position": {
+                                    "x": 965.13522,
+                                    "y": -448.83736
+                                },
+                                "GradingRuleID": -1
+                            }
+                        ]
+                    },
+                    {
+                        "ID": "front_edge_1",
+                        "PointList": [
+                            {
+                                "ID": "front_point_1",
+                                "PointType": "Straight",
+                                "Position": {
+                                    "x": 965.13522,
+                                    "y": -448.83736
+                                },
+                                "GradingRuleID": -1
+                            },
+                            {
+                                "ID": "front_point_2",
+                                "PointType": "Straight",
+                                "Position": {
+                                    "x": 732.90867,
+                                    "y": -333.32312
+                                },
+                                "GradingRuleID": -1
+                            }
+                        ]
+                    },
+                    {
+                        "ID": "front_edge_2",
+                        "PointList": [
+                            {
+                                "ID": "front_point_2",
+                                "PointType": "Straight",
+                                "Position": {
+                                    "x": 732.90867,
+                                    "y": -333.32312
+                                },
+                                "GradingRuleID": -1
+                            },
+                            {
+                                "ID": "front_point_3",
+                                "PointType": "Bezier Curve",
+                                "Position": {
+                                    "x": 636.3197,
+                                    "y": -276.9289
+                                },
+                                "GradingRuleID": -1
+                            },
+                            {
+                                "ID": "front_point_4",
+                                "PointType": "Bezier Curve",
+                                "Position": {
+                                    "x": 623.4817,
+                                    "y": -165.82119
+                                },
+                                "GradingRuleID": -1
+                            },
+                            {
+                                "ID": "front_point_5",
+                                "PointType": "Straight",
+                                "Position": {
+                                    "x": 694.39466,
+                                    "y": -0.0
+                                },
+                                "GradingRuleID": -1
+                            }
+                        ]
+                    },
+                    {
+                        "ID": "front_edge_3",
+                        "PointList": [
+                            {
+                                "ID": "front_point_5",
+                                "PointType": "Straight",
+                                "Position": {
+                                    "x": 694.39466,
+                                    "y": 0.0
+                                },
+                                "GradingRuleID": -1
+                            },
+                            {
+                                "ID": "front_point_6",
+                                "PointType": "Straight",
+                                "Position": {
+                                    "x": 593.9868,
+                                    "y": 0.0
+                                },
+                                "GradingRuleID": -1
+                            }
+                        ]
+                    },
+                    {
+                        "ID": "front_edge_4",
+                        "PointList": [
+                            {
+                                "ID": "front_point_6",
+                                "PointType": "Straight",
+                                "Position": {
+                                    "x": 593.9868,
+                                    "y": 0.0
+                                },
+                                "GradingRuleID": -1
+                            },
+                            {
+                                "ID": "front_point_7",
+                                "PointType": "Straight",
+                                "Position": {
+                                    "x": 482.56761,
+                                    "y": -246.26171
+                                },
+                                "GradingRuleID": -1
+                            }
+                        ]
+                    },
+                    {
+                        "ID": "front_edge_5",
+                        "PointList": [
+                            {
+                                "ID": "front_point_7",
+                                "PointType": "Straight",
+                                "Position": {
+                                    "x": 482.56761,
+                                    "y": -246.26171
+                                },
+                                "GradingRuleID": -1
+                            },
+                            {
+                                "ID": "front_point_8",
+                                "PointType": "Straight",
+                                "Position": {
+                                    "x": 371.14841,
+                                    "y": 0.0
+                                },
+                                "GradingRuleID": -1
+                            }
+                        ]
+                    },
+                    {
+                        "ID": "front_edge_6",
+                        "PointList": [
+                            {
+                                "ID": "front_point_8",
+                                "PointType": "Straight",
+                                "Position": {
+                                    "x": 371.14841,
+                                    "y": 0.0
+                                },
+                                "GradingRuleID": -1
+                            },
+                            {
+                                "ID": "front_point_9",
+                                "PointType": "Straight",
+                                "Position": {
+                                    "x": 270.74056,
+                                    "y": 0.0
+                                },
+                                "GradingRuleID": -1
+                            }
+                        ]
+                    },
+                    {
+                        "ID": "front_edge_7",
+                        "PointList": [
+                            {
+                                "ID": "front_point_9",
+                                "PointType": "Straight",
+                                "Position": {
+                                    "x": 270.74056,
+                                    "y": 0.0
+                                },
+                                "GradingRuleID": -1
+                            },
+                            {
+                                "ID": "front_point_10",
+                                "PointType": "Bezier Curve",
+                                "Position": {
+                                    "x": 341.65352,
+                                    "y": -165.82119
+                                },
+                                "GradingRuleID": -1
+                            },
+                            {
+                                "ID": "front_point_11",
+                                "PointType": "Bezier Curve",
+                                "Position": {
+                                    "x": 328.81552,
+                                    "y": -276.9289
+                                },
+                                "GradingRuleID": -1
+                            },
+                            {
+                                "ID": "front_point_12",
+                                "PointType": "Straight",
+                                "Position": {
+                                    "x": 232.22655,
+                                    "y": -333.32312
+                                },
+                                "GradingRuleID": -1
+                            }
+                        ]
+                    },
+                    {
+                        "ID": "front_edge_8",
+                        "PointList": [
+                            {
+                                "ID": "front_point_12",
+                                "PointType": "Straight",
+                                "Position": {
+                                    "x": 232.22655,
+                                    "y": -333.32312
+                                },
+                                "GradingRuleID": -1
+                            },
+                            {
+                                "ID": "front_point_0",
+                                "PointType": "Straight",
+                                "Position": {
+                                    "x": 0.0,
+                                    "y": -448.83736
+                                },
+                                "GradingRuleID": -1
+                            }
+                        ]
+                    }
+                ],
+                "HalfSymmetryPointIDMap": {},
+                "HalfSymmetryLineIDMap": {}
+            },
+            "ArrangementPointDataMap": {
+                "PointName": "Body_Front_Center_4",
+                "fOffSetX": 0.0,
+                "fOffSetY": 0.05,
+                "fAngle": 180.0
+            }
+        },
+        {
+            "Name": "tee_1QGIARI56X_lbsleeve",
+            "fGrainlineAngle": 0.0,
+            "ID": "tee_1QGIARI56X_lbsleeve",
+            "strSuperImposeSide": "None",
+            "CurrentFabricUUID": "Es2SPX",
+            "IsClosed": false,
+            "InternalLineList": [],
+            "ButtonHeadList": [],
+            "ButtonHoleList": [],
+            "AnnotationList": [],
+            "NotchList": [],
+            "IsHalfSymmetric": false,
+            "ShapeInfo": {
+                "IsSlashed": false,
+                "LineList": [
+                    {
+                        "ID": "lbsleeve_edge_0",
+                        "PointList": [
+                            {
+                                "ID": "lbsleeve_point_0",
+                                "PointType": "Straight",
+                                "Position": {
+                                    "x": 442.37298,
+                                    "y": -0.0
+                                },
+                                "GradingRuleID": -1
+                            },
+                            {
+                                "ID": "lbsleeve_point_1",
+                                "PointType": "Straight",
+                                "Position": {
+                                    "x": 333.32312,
+                                    "y": 369.53607
+                                },
+                                "GradingRuleID": -1
+                            }
+                        ]
+                    },
+                    {
+                        "ID": "lbsleeve_edge_1",
+                        "PointList": [
+                            {
+                                "ID": "lbsleeve_point_1",
+                                "PointType": "Straight",
+                                "Position": {
+                                    "x": 333.32312,
+                                    "y": 369.53607
+                                },
+                                "GradingRuleID": -1
+                            },
+                            {
+                                "ID": "lbsleeve_point_2",
+                                "PointType": "Bezier Curve",
+                                "Position": {
+                                    "x": 276.9289,
+                                    "y": 466.12504
+                                },
+                                "GradingRuleID": -1
+                            },
+                            {
+                                "ID": "lbsleeve_point_3",
+                                "PointType": "Bezier Curve",
+                                "Position": {
+                                    "x": 165.82119,
+                                    "y": 478.96304
+                                },
+                                "GradingRuleID": -1
+                            },
+                            {
+                                "ID": "lbsleeve_point_4",
+                                "PointType": "Straight",
+                                "Position": {
+                                    "x": 0.0,
+                                    "y": 408.05008
+                                },
+                                "GradingRuleID": -1
+                            }
+                        ]
+                    },
+                    {
+                        "ID": "lbsleeve_edge_2",
+                        "PointList": [
+                            {
+                                "ID": "lbsleeve_point_4",
+                                "PointType": "Straight",
+                                "Position": {
+                                    "x": 0.0,
+                                    "y": 408.05008
+                                },
+                                "GradingRuleID": -1
+                            },
+                            {
+                                "ID": "lbsleeve_point_5",
+                                "PointType": "Straight",
+                                "Position": {
+                                    "x": 0.0,
+                                    "y": 0.0
+                                },
+                                "GradingRuleID": -1
+                            }
+                        ]
+                    },
+                    {
+                        "ID": "lbsleeve_edge_3",
+                        "PointList": [
+                            {
+                                "ID": "lbsleeve_point_5",
+                                "PointType": "Straight",
+                                "Position": {
+                                    "x": 0.0,
+                                    "y": 0.0
+                                },
+                                "GradingRuleID": -1
+                            },
+                            {
+                                "ID": "lbsleeve_point_0",
+                                "PointType": "Straight",
+                                "Position": {
+                                    "x": 442.37298,
+                                    "y": -0.0
+                                },
+                                "GradingRuleID": -1
+                            }
+                        ]
+                    }
+                ],
+                "HalfSymmetryPointIDMap": {},
+                "HalfSymmetryLineIDMap": {}
+            },
+            "ArrangementPointDataMap": {
+                "PointName": "Arm_Back_2_L",
+                "fOffSetX": 0.0,
+                "fOffSetY": 0.05,
+                "fAngle": 180.0
+            }
+        },
+        {
+            "Name": "tee_1QGIARI56X_lfsleeve",
+            "fGrainlineAngle": 0.0,
+            "ID": "tee_1QGIARI56X_lfsleeve",
+            "strSuperImposeSide": "None",
+            "CurrentFabricUUID": "Es2SPX",
+            "IsClosed": false,
+            "InternalLineList": [],
+            "ButtonHeadList": [],
+            "ButtonHoleList": [],
+            "AnnotationList": [],
+            "NotchList": [],
+            "IsHalfSymmetric": false,
+            "ShapeInfo": {
+                "IsSlashed": false,
+                "LineList": [
+                    {
+                        "ID": "lfsleeve_edge_0",
+                        "PointList": [
+                            {
+                                "ID": "lfsleeve_point_0",
+                                "PointType": "Straight",
+                                "Position": {
+                                    "x": 442.37298,
+                                    "y": -0.0
+                                },
+                                "GradingRuleID": -1
+                            },
+                            {
+                                "ID": "lfsleeve_point_1",
+                                "PointType": "Straight",
+                                "Position": {
+                                    "x": 442.37298,
+                                    "y": 408.05008
+                                },
+                                "GradingRuleID": -1
+                            }
+                        ]
+                    },
+                    {
+                        "ID": "lfsleeve_edge_1",
+                        "PointList": [
+                            {
+                                "ID": "lfsleeve_point_1",
+                                "PointType": "Straight",
+                                "Position": {
+                                    "x": 442.37298,
+                                    "y": 408.05008
+                                },
+                                "GradingRuleID": -1
+                            },
+                            {
+                                "ID": "lfsleeve_point_2",
+                                "PointType": "Bezier Curve",
+                                "Position": {
+                                    "x": 276.55179,
+                                    "y": 478.96304
+                                },
+                                "GradingRuleID": -1
+                            },
+                            {
+                                "ID": "lfsleeve_point_3",
+                                "PointType": "Bezier Curve",
+                                "Position": {
+                                    "x": 165.44408,
+                                    "y": 466.12504
+                                },
+                                "GradingRuleID": -1
+                            },
+                            {
+                                "ID": "lfsleeve_point_4",
+                                "PointType": "Straight",
+                                "Position": {
+                                    "x": 109.04986,
+                                    "y": 369.53607
+                                },
+                                "GradingRuleID": -1
+                            }
+                        ]
+                    },
+                    {
+                        "ID": "lfsleeve_edge_2",
+                        "PointList": [
+                            {
+                                "ID": "lfsleeve_point_4",
+                                "PointType": "Straight",
+                                "Position": {
+                                    "x": 109.04986,
+                                    "y": 369.53607
+                                },
+                                "GradingRuleID": -1
+                            },
+                            {
+                                "ID": "lfsleeve_point_5",
+                                "PointType": "Straight",
+                                "Position": {
+                                    "x": 0.0,
+                                    "y": 0.0
+                                },
+                                "GradingRuleID": -1
+                            }
+                        ]
+                    },
+                    {
+                        "ID": "lfsleeve_edge_3",
+                        "PointList": [
+                            {
+                                "ID": "lfsleeve_point_5",
+                                "PointType": "Straight",
+                                "Position": {
+                                    "x": 0.0,
+                                    "y": 0.0
+                                },
+                                "GradingRuleID": -1
+                            },
+                            {
+                                "ID": "lfsleeve_point_0",
+                                "PointType": "Straight",
+                                "Position": {
+                                    "x": 442.37298,
+                                    "y": -0.0
+                                },
+                                "GradingRuleID": -1
+                            }
+                        ]
+                    }
+                ],
+                "HalfSymmetryPointIDMap": {},
+                "HalfSymmetryLineIDMap": {}
+            },
+            "ArrangementPointDataMap": {
+                "PointName": "Arm_Front_2_L",
+                "fOffSetX": 0.0,
+                "fOffSetY": 0.05,
+                "fAngle": 180.0
+            }
+        }
+    ],
+    "SymmetricDataList": [],
+    "InstanceDataList": [
+        {
+            "OriginPatternID": "rbsleeve",
+            "InstancePatternIDArray": []
+        },
+        {
+            "OriginPatternID": "rfsleeve",
+            "InstancePatternIDArray": []
+        },
+        {
+            "OriginPatternID": "back",
+            "InstancePatternIDArray": []
+        },
+        {
+            "OriginPatternID": "front",
+            "InstancePatternIDArray": []
+        },
+        {
+            "OriginPatternID": "lbsleeve",
+            "InstancePatternIDArray": []
+        },
+        {
+            "OriginPatternID": "lfsleeve",
+            "InstancePatternIDArray": []
+        }
+    ],
+    "SeamLinePairGroupList": [
+        {
+            "Name": "tee_1QGIARI56X_SeamLineGroup_0",
+            "bIsTurned": false,
+            "PairList": [
+                {
+                    "First": {
+                        "ShapeID": "tee_1QGIARI56X_back",
+                        "LengthParam": {
+                            "fStart": 0.6019879825007479,
+                            "fEnd": 0.639882067651687
+                        },
+                        "Direction": true
+                    },
+                    "Second": {
+                        "ShapeID": "tee_1QGIARI56X_front",
+                        "LengthParam": {
+                            "fStart": 0.7876409157976512,
+                            "fEnd": 0.7537929987125928
+                        },
+                        "Direction": false
+                    }
+                }
+            ],
+            "FoldData": {
+                "iAngle": 180,
+                "iStrength": 5
+            }
+        },
+        {
+            "Name": "tee_1QGIARI56X_SeamLineGroup_1",
+            "bIsTurned": false,
+            "PairList": [
+                {
+                    "First": {
+                        "ShapeID": "tee_1QGIARI56X_back",
+                        "LengthParam": {
+                            "fStart": 0.36424356829892085,
+                            "fEnd": 0.4621301554759105
+                        },
+                        "Direction": true
+                    },
+                    "Second": {
+                        "ShapeID": "tee_1QGIARI56X_front",
+                        "LengthParam": {
+                            "fStart": 1.0,
+                            "fEnd": 0.9125653232342518
+                        },
+                        "Direction": false
+                    }
+                }
+            ],
+            "FoldData": {
+                "iAngle": 180,
+                "iStrength": 5
+            }
+        },
+        {
+            "Name": "tee_1QGIARI56X_SeamLineGroup_2",
+            "bIsTurned": false,
+            "PairList": [
+                {
+                    "First": {
+                        "ShapeID": "tee_1QGIARI56X_back",
+                        "LengthParam": {
+                            "fStart": 0.9021134128230104,
+                            "fEnd": 1.0
+                        },
+                        "Direction": true
+                    },
+                    "Second": {
+                        "ShapeID": "tee_1QGIARI56X_front",
+                        "LengthParam": {
+                            "fStart": 0.4127858773407065,
+                            "fEnd": 0.3253512005749582
+                        },
+                        "Direction": false
+                    }
+                }
+            ],
+            "FoldData": {
+                "iAngle": 180,
+                "iStrength": 5
+            }
+        },
+        {
+            "Name": "tee_1QGIARI56X_SeamLineGroup_3",
+            "bIsTurned": false,
+            "PairList": [
+                {
+                    "First": {
+                        "ShapeID": "tee_1QGIARI56X_back",
+                        "LengthParam": {
+                            "fStart": 0.7243615006472339,
+                            "fEnd": 0.762255585798173
+                        },
+                        "Direction": true
+                    },
+                    "Second": {
+                        "ShapeID": "tee_1QGIARI56X_front",
+                        "LengthParam": {
+                            "fStart": 0.5715582018623657,
+                            "fEnd": 0.5377102847773072
+                        },
+                        "Direction": false
+                    }
+                }
+            ],
+            "FoldData": {
+                "iAngle": 180,
+                "iStrength": 5
+            }
+        },
+        {
+            "Name": "tee_1QGIARI56X_SeamLineGroup_4",
+            "bIsTurned": false,
+            "PairList": [
+                {
+                    "First": {
+                        "ShapeID": "tee_1QGIARI56X_rfsleeve",
+                        "LengthParam": {
+                            "fStart": 0.23986293579193085,
+                            "fEnd": 0.47056839935204187
+                        },
+                        "Direction": true
+                    },
+                    "Second": {
+                        "ShapeID": "tee_1QGIARI56X_front",
+                        "LengthParam": {
+                            "fStart": 0.9125653232342518,
+                            "fEnd": 0.7876409157976512
+                        },
+                        "Direction": false
+                    }
+                }
+            ],
+            "FoldData": {
+                "iAngle": 180,
+                "iStrength": 5
+            }
+        },
+        {
+            "Name": "tee_1QGIARI56X_SeamLineGroup_5",
+            "bIsTurned": false,
+            "PairList": [
+                {
+                    "First": {
+                        "ShapeID": "tee_1QGIARI56X_rbsleeve",
+                        "LengthParam": {
+                            "fStart": 0.2540319238816156,
+                            "fEnd": 0.48473738744172656
+                        },
+                        "Direction": true
+                    },
+                    "Second": {
+                        "ShapeID": "tee_1QGIARI56X_back",
+                        "LengthParam": {
+                            "fStart": 0.6019879825007479,
+                            "fEnd": 0.4621301554759105
+                        },
+                        "Direction": false
+                    }
+                }
+            ],
+            "FoldData": {
+                "iAngle": 180,
+                "iStrength": 5
+            }
+        },
+        {
+            "Name": "tee_1QGIARI56X_SeamLineGroup_6",
+            "bIsTurned": false,
+            "PairList": [
+                {
+                    "First": {
+                        "ShapeID": "tee_1QGIARI56X_lfsleeve",
+                        "LengthParam": {
+                            "fStart": 0.2540319238816156,
+                            "fEnd": 0.48473738744172656
+                        },
+                        "Direction": true
+                    },
+                    "Second": {
+                        "ShapeID": "tee_1QGIARI56X_front",
+                        "LengthParam": {
+                            "fStart": 0.5377102847773072,
+                            "fEnd": 0.4127858773407065
+                        },
+                        "Direction": false
+                    }
+                }
+            ],
+            "FoldData": {
+                "iAngle": 180,
+                "iStrength": 5
+            }
+        },
+        {
+            "Name": "tee_1QGIARI56X_SeamLineGroup_7",
+            "bIsTurned": false,
+            "PairList": [
+                {
+                    "First": {
+                        "ShapeID": "tee_1QGIARI56X_lbsleeve",
+                        "LengthParam": {
+                            "fStart": 0.23986293579193085,
+                            "fEnd": 0.47056839935204187
+                        },
+                        "Direction": true
+                    },
+                    "Second": {
+                        "ShapeID": "tee_1QGIARI56X_back",
+                        "LengthParam": {
+                            "fStart": 0.9021134128230104,
+                            "fEnd": 0.762255585798173
+                        },
+                        "Direction": false
+                    }
+                }
+            ],
+            "FoldData": {
+                "iAngle": 180,
+                "iStrength": 5
+            }
+        },
+        {
+            "Name": "tee_1QGIARI56X_SeamLineGroup_8",
+            "bIsTurned": false,
+            "PairList": [
+                {
+                    "First": {
+                        "ShapeID": "tee_1QGIARI56X_lbsleeve",
+                        "LengthParam": {
+                            "fStart": 0.0,
+                            "fEnd": 0.23986293579193085
+                        },
+                        "Direction": true
+                    },
+                    "Second": {
+                        "ShapeID": "tee_1QGIARI56X_lfsleeve",
+                        "LengthParam": {
+                            "fStart": 0.7246003232336575,
+                            "fEnd": 0.48473738744172656
+                        },
+                        "Direction": false
+                    }
+                }
+            ],
+            "FoldData": {
+                "iAngle": 180,
+                "iStrength": 5
+            }
+        },
+        {
+            "Name": "tee_1QGIARI56X_SeamLineGroup_9",
+            "bIsTurned": false,
+            "PairList": [
+                {
+                    "First": {
+                        "ShapeID": "tee_1QGIARI56X_lbsleeve",
+                        "LengthParam": {
+                            "fStart": 0.47056839935204187,
+                            "fEnd": 0.7246003232336575
+                        },
+                        "Direction": true
+                    },
+                    "Second": {
+                        "ShapeID": "tee_1QGIARI56X_lfsleeve",
+                        "LengthParam": {
+                            "fStart": 0.2540319238816156,
+                            "fEnd": 0.0
+                        },
+                        "Direction": false
+                    }
+                }
+            ],
+            "FoldData": {
+                "iAngle": 180,
+                "iStrength": 5
+            }
+        },
+        {
+            "Name": "tee_1QGIARI56X_SeamLineGroup_10",
+            "bIsTurned": false,
+            "PairList": [
+                {
+                    "First": {
+                        "ShapeID": "tee_1QGIARI56X_rbsleeve",
+                        "LengthParam": {
+                            "fStart": 0.48473738744172656,
+                            "fEnd": 0.7246003232336575
+                        },
+                        "Direction": true
+                    },
+                    "Second": {
+                        "ShapeID": "tee_1QGIARI56X_rfsleeve",
+                        "LengthParam": {
+                            "fStart": 0.23986293579193085,
+                            "fEnd": 0.0
+                        },
+                        "Direction": false
+                    }
+                }
+            ],
+            "FoldData": {
+                "iAngle": 180,
+                "iStrength": 5
+            }
+        },
+        {
+            "Name": "tee_1QGIARI56X_SeamLineGroup_11",
+            "bIsTurned": false,
+            "PairList": [
+                {
+                    "First": {
+                        "ShapeID": "tee_1QGIARI56X_rbsleeve",
+                        "LengthParam": {
+                            "fStart": 0.0,
+                            "fEnd": 0.2540319238816156
+                        },
+                        "Direction": true
+                    },
+                    "Second": {
+                        "ShapeID": "tee_1QGIARI56X_rfsleeve",
+                        "LengthParam": {
+                            "fStart": 0.7246003232336575,
+                            "fEnd": 0.47056839935204187
+                        },
+                        "Direction": false
+                    }
+                }
+            ],
+            "FoldData": {
+                "iAngle": 180,
+                "iStrength": 5
+            }
+        }
+    ]
+}
