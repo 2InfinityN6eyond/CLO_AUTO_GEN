@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MetaData Version="1" ObjFileName="Custom_View_2__Dynamic.obj">
+    <PhysicalPropertyList>
+        <PhysicalProperty PhysicalPropertyName="Default_0" Stretch-Weft="100000" Stretch-Warp="100000" Shear="10000" Bending-Weft="314.159" Bending-Warp="1884.96" BucklingRatio-Weft="0" BucklingRatio-Warp="0" InternalDamping="0.0001" BucklingStiffness-Weft="0" BucklingStiffness-Warp="0" Density="0.0003" FrictionCoefficient="0.03"/>
+        <PhysicalProperty PhysicalPropertyName="V2_Cut_Sew_Knit_Tricot_3_0" Stretch-Weft="14506.1" Stretch-Warp="14413.8" Shear="7694.2" Bending-Weft="2598.53" Bending-Warp="568.34" BucklingRatio-Weft="0.3" BucklingRatio-Warp="0.3" InternalDamping="0.0001" BucklingStiffness-Weft="1" BucklingStiffness-Warp="1" Density="0.000104" FrictionCoefficient="0.03"/>
+    </PhysicalPropertyList>
+    <MeshList>
+        <Mesh MeshStartIndex="1" MeshEndIndex="4179" PhysicalPropertyName="V2_Cut_Sew_Knit_Tricot_3_0"/>
+        <Mesh MeshStartIndex="4180" MeshEndIndex="7119" PhysicalPropertyName="V2_Cut_Sew_Knit_Tricot_3_0"/>
+        <Mesh MeshStartIndex="7120" MeshEndIndex="8736" PhysicalPropertyName="V2_Cut_Sew_Knit_Tricot_3_0"/>
+        <Mesh MeshStartIndex="8737" MeshEndIndex="10515" PhysicalPropertyName="V2_Cut_Sew_Knit_Tricot_3_0"/>
+    </MeshList>
+    <SeamLinePairList>
+        <SeamLinePair FoldAngle="0" BKScale="1">
+            <SeamLine MeshPointIndexes ="7188/7189/7190/7191/7192/7193/7194/7195/7120"/>
+            <SeamLine MeshPointIndexes ="8761/8760/8759/8758/8757/8756/8755/8754/8753"/>
+        </SeamLinePair>
+        <SeamLinePair FoldAngle="0" BKScale="1">
+            <SeamLine MeshPointIndexes ="7169/7170/7171/7172/7173/7174/7175/7176/7177"/>
+            <SeamLine MeshPointIndexes ="8780/8779/8778/8777/8776/8775/8774/8773/8772"/>
+        </SeamLinePair>
+        <SeamLinePair FoldAngle="0" BKScale="1">
+            <SeamLine MeshPointIndexes ="7155/7156/7157/7158/7159/7160/7161/7162/7163"/>
+            <SeamLine MeshPointIndexes ="8814/8813/8812/8811/8810/8809/8808/8807/8806"/>
+        </SeamLinePair>
+        <SeamLinePair FoldAngle="0" BKScale="1">
+            <SeamLine MeshPointIndexes ="7136/7137/7138/7139/7140/7141/7142/7143/7144"/>
+            <SeamLine MeshPointIndexes ="8737/8832/8831/8830/8829/8828/8827/8826/8825"/>
+        </SeamLinePair>
+        <SeamLinePair FoldAngle="0" BKScale="1">
+            <SeamLine MeshPointIndexes ="74/75/76/77/78/79/80/81"/>
+            <SeamLine MeshPointIndexes ="4281/4280/4279/4278/4277/4276/4275/4274"/>
+        </SeamLinePair>
+        <SeamLinePair FoldAngle="0" BKScale="1">
+            <SeamLine MeshPointIndexes ="49/50/51/52/53/54/55/56/57/58/59/60/61/62/63/64/65/66/67/68/69/70/71/72/73/74"/>
+            <SeamLine MeshPointIndexes ="4180/4305/4304/4303/4302/4301/4300/4299/4298/4297/4296/4295/4294/4293/4292/4291/4290/4289/4288/4287/4286/4285/4284/4283/4282/4281"/>
+        </SeamLinePair>
+        <SeamLinePair FoldAngle="0" BKScale="1">
+            <SeamLine MeshPointIndexes ="104/105/106/107/108/109/110/111/112/113/114/115/116/117/118/119/120/121/122/123/124/125/126/127/128/1"/>
+            <SeamLine MeshPointIndexes ="4251/4250/4249/4248/4247/4246/4245/4244/4243/4242/4241/4240/4239/4238/4237/4236/4235/4234/4233/4232/4231/4230/4229/4228/4227/4226"/>
+        </SeamLinePair>
+        <SeamLinePair FoldAngle="0" BKScale="1">
+            <SeamLine MeshPointIndexes ="97/98/99/100/101/102/103/104"/>
+            <SeamLine MeshPointIndexes ="4258/4257/4256/4255/4254/4253/4252/4251"/>
+        </SeamLinePair>
+        <SeamLinePair FoldAngle="0" BKScale="1">
+            <SeamLine MeshPointIndexes ="4258/4259/4260/4261/4262/4263/4264/4265/4266/4267/4268/4269/4270/4271/4272/4273/4274"/>
+            <SeamLine MeshPointIndexes ="8753/8752/8751/8750/8749/8748/8747/8746/8745/8744/8743/8742/8741/8740/8739/8738/8737"/>
+        </SeamLinePair>
+        <SeamLinePair FoldAngle="0" BKScale="1">
+            <SeamLine MeshPointIndexes ="7120/7121/7122/7123/7124/7125/7126/7127/7128/7129/7130/7131/7132/7133/7134/7135/7136"/>
+            <SeamLine MeshPointIndexes ="97/96/95/94/93/92/91/90/89/88/87/86/85/84/83/82/81"/>
+        </SeamLinePair>
+    </SeamLinePairList>
+    <PBRMaterial Opacity="100" Name="V2_Cut_Sew_Knit_Tricot_3_FRONT_1749787">
+        <globalColor Name="(None)" R="255" G="255" B="255" Intensity="1"/>
+        <SpecularColor Shininess="28"/>
+        <globalMap FilePath="D:/VTO2025/DATASETs/Ours1/CLO_AUTO_GEN/SAMPLE_DATA/SEWFACTORY__01/dress_sleeveless_08TX6G6U1E__01/Cut _ Sew Knit_Tricot_3_BASE.png" Angle="0" AngleUnit="degree" Width="1688" WidthUnit="px" Height="680" HeightUnit="px" ScaleX="142.978" ScaleY="57.5818"/>
+        <NormalMap FilePath="D:/VTO2025/DATASETs/Ours1/CLO_AUTO_GEN/SAMPLE_DATA/SEWFACTORY__01/dress_sleeveless_08TX6G6U1E__01/Cut _ Sew Knit_Tricot_3_NRM.png" FilePathWithIntensity="D:/VTO2025/DATASETs/Ours1/CLO_AUTO_GEN/SAMPLE_DATA/SEWFACTORY__01/dress_sleeveless_08TX6G6U1E__01/Cut _ Sew Knit_Tricot_3_NRM_7.jpg" Angle="0" AngleUnit="degree" Width="1688" WidthUnit="px" Height="680" HeightUnit="px" NormalIntensityInPercentage="7"/>
+        <SpecularMap FilePath="D:/VTO2025/DATASETs/Ours1/CLO_AUTO_GEN/SAMPLE_DATA/SEWFACTORY__01/dress_sleeveless_08TX6G6U1E__01/Cut _ Sew Knit_Tricot_3_ROUGH_SPEC.png" Angle="0" AngleUnit="degree" Width="1688" WidthUnit="px" Height="680" HeightUnit="px"/>
+    </PBRMaterial>
+</MetaData>
