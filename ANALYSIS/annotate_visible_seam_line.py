@@ -384,11 +384,18 @@ import matplotlib.pyplot as plt
 from tqdm import tqdm
 # ================================
             
+# garment_dir_list = sorted(glob(os.path.join(
+#     "..", "SAMPLE_DATA", "GCD__GOOD", "*"
+# ))) + sorted(glob(os.path.join(
+#     "..", "SAMPLE_DATA", "SEWFACTORY__GOOD", "*"
+# )))
+
 garment_dir_list = sorted(glob(os.path.join(
-    "..", "SAMPLE_DATA", "GCD__GOOD", "*"
-))) + sorted(glob(os.path.join(
-    "..", "SAMPLE_DATA", "SEWFACTORY__GOOD", "*"
-)))
+    "..", "SAMPLE_DATA", "GCD__02", "*"
+))) 
+# + sorted(glob(os.path.join(
+#     "..", "SAMPLE_DATA", "SEWFACTORY__01", "*"
+# )))
 
 
 MIN_CONSEC_VERT_TO_BE_SEGMENT = 3
@@ -694,7 +701,7 @@ for garment_dir in tqdm(garment_dir_list) :
                     }
 
 
-        print(str(Path(scene.garment_dir) / f"{view_name}.pkl"), "wb")
+        # print(str(Path(scene.garment_dir) / f"{view_name}.pkl"), "wb")
         with open(
             str(Path(scene.garment_dir) / f"{view_name}.pkl"), "wb"
         ) as f :
