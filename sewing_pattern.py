@@ -494,17 +494,30 @@ class SewingPattern :
        
     def draw(
         self,
-        # ax : plt.Axes = None,
+        fig=None,
+        axs=None,
         FIGLEN : int = 5,
         N_SAMPLE_PER_EDGE : int = 80,
         invert_yaxis = True,
         plot_panel_name = True,
         plot_stitch_name = True,
-        show=False
+        show=False,
+        block=True
     ) :
         NROWS = int(np.ceil(len(self.panel_dict) ** 0.5))
         NCOLS = int(np.ceil(len(self.panel_dict) / NROWS))
-        plt.figure(figsize=(FIGLEN*NCOLS, FIGLEN*NROWS))
+        
+        # If no external figure/axes provided, create new ones
+        if fig is None and axs is None:
+            fig = plt.figure(figsize=(FIGLEN*NCOLS, FIGLEN*NROWS))
+            axs = fig.subplots(NROWS, NCOLS)
+            # Handle case where there's only one subplot
+            if len(self.panel_dict) == 1:
+                axs = np.array([[axs]])
+            elif NROWS == 1:
+                axs = axs.reshape(1, -1)
+            elif NCOLS == 1:
+                axs = axs.reshape(-1, 1)
         
         color_list = plt.cm.rainbow(np.linspace(0, 1, len(self.stitch_dict)))
         for panel_idx, (panel_name, panel) in enumerate(self.panel_dict.items()) :
@@ -523,10 +536,11 @@ class SewingPattern :
                 stitch_idx_list.append(stitch_idx)
                 edge_color_list.append(color_list[stitch_idx] if stitch_idx != -1 else "black")
             
-            # print(len(panel.svg_path), len(edge_color_list), len(stitch_idx_list))
+            # Get the appropriate subplot
+            row_idx = panel_idx // NCOLS
+            col_idx = panel_idx % NCOLS
+            ax = axs[row_idx, col_idx]
             
-            
-            ax = plt.subplot(NROWS, NCOLS, panel_idx + 1)
             panel.draw(
                 ax = ax,
                 panel_name = panel_name if plot_panel_name else None,
@@ -535,8 +549,81 @@ class SewingPattern :
                 edge_color_list = edge_color_list,
                 invert_yaxis = invert_yaxis
             )
+        
         if show :
-            plt.show()
+            plt.show(block=block)
+        
+        return fig, axs
+    
+    def save_figure(self, filename, fig=None, dpi=300, bbox_inches='tight', **kwargs):
+        """
+        Save the sewing pattern figure to a file.
+        
+        Args:
+            filename: Output filename (e.g., 'pattern.png', 'pattern.pdf')
+            fig: matplotlib figure to save (if None, creates new figure)
+            dpi: DPI for raster formats (default: 300)
+            bbox_inches: Bounding box setting (default: 'tight')
+            **kwargs: Additional arguments passed to fig.savefig()
+        """
+        if fig is None:
+            # Create a new figure and draw on it
+            fig, _ = self.draw(show=False)
+        
+        # Save the figure
+        fig.savefig(filename, dpi=dpi, bbox_inches=bbox_inches, **kwargs)
+        print(f"Figure saved to: {filename}")
+        
+        return fig
+    
+    def draw_on_axes(
+        self,
+        ax,
+        N_SAMPLE_PER_EDGE : int = 80,
+        invert_yaxis = True,
+        plot_panel_name = True,
+        plot_stitch_name = True,
+    ):
+        """
+        Draw a single sewing pattern on a specific matplotlib axes.
+        This is useful when you want to draw the pattern on a subplot.
+        
+        Args:
+            ax: matplotlib axes to draw on
+            N_SAMPLE_PER_EDGE: number of sample points per edge
+            invert_yaxis: whether to invert the y-axis
+            plot_panel_name: whether to plot panel names
+            plot_stitch_name: whether to plot stitch names
+        """
+        # For a single axes, we'll draw all panels on the same axes
+        # This might overlap, so it's better for simple patterns or single panels
+        
+        color_list = plt.cm.rainbow(np.linspace(0, 1, len(self.stitch_dict)))
+        
+        for panel_name, panel in self.panel_dict.items():
+            stitch_idx_list = []
+            edge_color_list = []
+            for edge_idx, edge in enumerate(panel.svg_path):
+                stitch_idx = -1
+                for stitch_id, stitch in self.stitch_dict.items():
+                    if (
+                        stitch.panel_0 == panel_name and stitch.edge_0 == edge_idx
+                    ) or (
+                        stitch.panel_1 == panel_name and stitch.edge_1 == edge_idx
+                    ):
+                        stitch_idx = stitch_id
+                        break
+                stitch_idx_list.append(stitch_idx)
+                edge_color_list.append(color_list[stitch_idx] if stitch_idx != -1 else "black")
+            
+            panel.draw(
+                ax=ax,
+                panel_name=panel_name if plot_panel_name else None,
+                N_SAMPLE_PER_EDGE=N_SAMPLE_PER_EDGE,
+                stitch_list=stitch_idx_list if plot_stitch_name else None,
+                edge_color_list=edge_color_list,
+                invert_yaxis=invert_yaxis
+            )
     
 @dataclass
 class ParameterizedSeamLine :
