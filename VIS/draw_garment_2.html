@@ -1,0 +1,740 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Garment Panel Visualizer</title>
+    <style>
+        body {
+            font-family: 'Monaco', 'Menlo', 'Ubuntu Mono', monospace;
+            margin: 0;
+            padding: 20px;
+            background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+            color: white;
+            min-height: 100vh;
+        }
+        
+        .container {
+            max-width: 1600px;
+            margin: 0 auto;
+            background: rgba(255, 255, 255, 0.08);
+            backdrop-filter: blur(15px);
+            border-radius: 20px;
+            padding: 30px;
+            box-shadow: 0 12px 40px rgba(0,0,0,0.3);
+        }
+        
+        h1 {
+            text-align: center;
+            margin-bottom: 30px;
+            text-shadow: 2px 2px 8px rgba(0,0,0,0.5);
+            font-size: 2.2em;
+        }
+        
+        .input-section {
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 15px;
+            padding: 25px;
+            margin-bottom: 30px;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+        }
+        
+        .input-section h3 {
+            margin-top: 0;
+            color: #fbbf24;
+        }
+        
+        textarea {
+            width: 100%;
+            height: 300px;
+            background: rgba(0, 0, 0, 0.3);
+            border: 1px solid rgba(255, 255, 255, 0.3);
+            border-radius: 8px;
+            padding: 15px;
+            color: white;
+            font-family: 'Monaco', monospace;
+            font-size: 12px;
+            resize: vertical;
+        }
+        
+        textarea::placeholder {
+            color: rgba(255, 255, 255, 0.5);
+        }
+        
+        .panels-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+            gap: 25px;
+            margin: 30px 0;
+        }
+        
+        .panel-card {
+            background: rgba(255, 255, 255, 0.12);
+            border-radius: 15px;
+            padding: 20px;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            transition: transform 0.3s ease;
+        }
+        
+        .panel-card:hover {
+            transform: translateY(-5px);
+        }
+        
+        .panel-title {
+            font-size: 1.3em;
+            margin-bottom: 15px;
+            text-align: center;
+            color: #fbbf24;
+            text-shadow: 1px 1px 3px rgba(0,0,0,0.5);
+        }
+        
+        .svg-container {
+            background: white;
+            border-radius: 12px;
+            padding: 15px;
+            margin: 15px 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 300px;
+            box-shadow: 0 6px 20px rgba(0,0,0,0.2);
+        }
+        
+        .controls {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 10px;
+            margin: 15px 0;
+        }
+        
+        .control-group {
+            background: rgba(255, 255, 255, 0.1);
+            padding: 12px;
+            border-radius: 8px;
+        }
+        
+        .control-group label {
+            display: block;
+            margin-bottom: 8px;
+            font-size: 0.9em;
+            font-weight: bold;
+        }
+        
+        input, select, button {
+            width: 100%;
+            padding: 8px;
+            border-radius: 5px;
+            border: 1px solid rgba(255, 255, 255, 0.3);
+            background: rgba(255, 255, 255, 0.9);
+            color: #333;
+            font-size: 0.85em;
+        }
+        
+        button {
+            background: linear-gradient(45deg, #f59e0b, #d97706);
+            color: white;
+            border: none;
+            padding: 12px;
+            font-weight: bold;
+            cursor: pointer;
+            margin-top: 10px;
+            transition: all 0.2s;
+        }
+        
+        button:hover {
+            transform: translateY(-1px);
+            box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+        }
+        
+        .save-btn {
+            background: linear-gradient(45deg, #16a34a, #15803d);
+            font-size: 1.1em;
+            padding: 15px;
+        }
+        
+        .parse-btn {
+            background: linear-gradient(45deg, #3b82f6, #1d4ed8);
+            font-size: 1.1em;
+            padding: 15px;
+        }
+        
+        .stats {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+            gap: 10px;
+            font-size: 0.8em;
+            margin-top: 10px;
+        }
+        
+        .stat {
+            background: rgba(0,0,0,0.2);
+            padding: 8px;
+            border-radius: 6px;
+            text-align: center;
+        }
+        
+        .global-controls {
+            background: rgba(255, 255, 255, 0.1);
+            padding: 20px;
+            border-radius: 15px;
+            margin-bottom: 30px;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+        }
+        
+        .loading {
+            text-align: center;
+            padding: 40px;
+            font-size: 1.2em;
+            color: #fbbf24;
+        }
+        
+        .status {
+            padding: 10px;
+            border-radius: 8px;
+            margin: 10px 0;
+            text-align: center;
+            font-weight: bold;
+        }
+        
+        .status.success {
+            background: rgba(34, 197, 94, 0.2);
+            border: 1px solid #22c55e;
+            color: #22c55e;
+        }
+        
+        .status.error {
+            background: rgba(239, 68, 68, 0.2);
+            border: 1px solid #ef4444;
+            color: #ef4444;
+        }
+        
+        .button-row {
+            display: flex;
+            gap: 15px;
+            margin-top: 20px;
+        }
+        
+        .button-row button {
+            flex: 1;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>👗 Garment Panel Visualizer</h1>
+        
+        <div class="input-section">
+            <h3>📝 Input Garment Panel Data</h3>
+            <textarea id="dataInput" placeholder="Paste your garment panel data here...
+
+Example format:
+right_btorso
+[1.0 0.39545121 0.20188241 1.0] QuadraticBezier(start=(23.83805+37.59469951191573j), control=(20.41580365836496+37.5946994801012j), end=(17.003876502111655+37.78793591779389j))
+[0.27647059 0.93898836 0.81974048 1.0] Line(start=(17.003876502111655+37.78793591779389j), end=(15.351116538478411+25.898214781239496j))
+..."></textarea>
+            
+            <div class="button-row">
+                <button class="parse-btn" onclick="parseInputData()">🔄 Parse Data</button>
+                <button class="save-btn" onclick="saveAllPanelsAsPNG()">💾 Save as PNG Images</button>
+            </div>
+            
+            <div id="status"></div>
+        </div>
+        
+        <div class="global-controls">
+            <h3>Global Settings</h3>
+            <div class="controls">
+                <div class="control-group">
+                    <label>Panel Size:</label>
+                    <input type="range" id="globalSize" min="200" max="800" value="400">
+                    <span id="sizeValue">400px</span>
+                </div>
+                <div class="control-group">
+                    <label>Fill Opacity:</label>
+                    <input type="range" id="fillOpacity" min="0" max="1" step="0.05" value="0.15">
+                    <span id="fillOpacityValue">0.15</span>
+                </div>
+                <div class="control-group">
+                    <label>Edge Opacity:</label>
+                    <input type="range" id="edgeOpacity" min="0.1" max="1" step="0.1" value="1">
+                    <span id="edgeOpacityValue">1.0</span>
+                </div>
+                <div class="control-group">
+                    <label>Show Grid:</label>
+                    <input type="checkbox" id="showGrid" checked>
+                </div>
+                <div class="control-group">
+                    <label>Show Points:</label>
+                    <input type="checkbox" id="showPoints" checked>
+                </div>
+                <div class="control-group">
+                    <label>Export Size:</label>
+                    <input type="number" id="exportSize" min="512" max="4096" step="256" value="1024">
+                    <small>PNG export resolution</small>
+                </div>
+            </div>
+            <button onclick="updateAllPanels()">🔄 Update All Panels</button>
+        </div>
+        
+        <div id="panelsContainer" class="panels-grid">
+            <div class="loading">Enter garment panel data above and click "Parse Data" to visualize...</div>
+        </div>
+    </div>
+
+    <script>
+        let garmentData = {};
+
+        function parseComplex(complexStr) {
+            // Parse complex number format like "23.83805+37.59469951191573j" or just "25.729724507588493j"
+            complexStr = complexStr.trim();
+            
+            if (complexStr === '0j') return [0, 0];
+            if (complexStr.endsWith('j')) {
+                if (complexStr.includes('+')) {
+                    const parts = complexStr.replace('j', '').split('+');
+                    return [parseFloat(parts[0]), parseFloat(parts[1])];
+                } else if (complexStr.includes('-') && complexStr.lastIndexOf('-') > 0) {
+                    const lastMinus = complexStr.lastIndexOf('-');
+                    const real = complexStr.substring(0, lastMinus);
+                    const imag = complexStr.substring(lastMinus + 1).replace('j', '');
+                    return [parseFloat(real), -parseFloat(imag)];
+                } else {
+                    // Pure imaginary like "25.729724507588493j"
+                    const imag = complexStr.replace('j', '');
+                    return [0, parseFloat(imag)];
+                }
+            }
+            
+            // If no 'j', treat as real number
+            return [parseFloat(complexStr), 0];
+        }
+
+        function parseInputData() {
+            const input = document.getElementById('dataInput').value.trim();
+            const statusDiv = document.getElementById('status');
+            
+            if (!input) {
+                showStatus('Please enter some data first!', 'error');
+                return;
+            }
+            
+            try {
+                garmentData = {};
+                const lines = input.split('\n').filter(line => line.trim());
+                let currentPanel = null;
+                
+                for (const line of lines) {
+                    const trimmedLine = line.trim();
+                    if (!trimmedLine) continue;
+                    
+                    // Check if it's a panel name (doesn't start with '[')
+                    if (!trimmedLine.startsWith('[')) {
+                        currentPanel = trimmedLine;
+                        garmentData[currentPanel] = [];
+                        continue;
+                    }
+                    
+                    if (!currentPanel) continue;
+                    
+                    // Parse color and geometry
+                    const colorMatch = trimmedLine.match(/\[([\d\.\s\-e]+)\]/);
+                    const geometryMatch = trimmedLine.match(/\]\s*(.+)$/);
+                    
+                    if (!colorMatch || !geometryMatch) continue;
+                    
+                    // Parse color values
+                    const colorStr = colorMatch[1];
+                    const colorValues = colorStr.split(/\s+/).filter(v => v.trim()).map(v => parseFloat(v));
+                    
+                    // Parse geometry
+                    const geometry = geometryMatch[1];
+                    let pathData = null;
+                    
+                    if (geometry.includes('Line(')) {
+                        const startMatch = geometry.match(/start=\(([^)]+)\)/);
+                        const endMatch = geometry.match(/end=\(([^)]+)\)/);
+                        if (startMatch && endMatch) {
+                            pathData = {
+                                type: 'line',
+                                start: parseComplex(startMatch[1]),
+                                end: parseComplex(endMatch[1])
+                            };
+                        }
+                    } else if (geometry.includes('QuadraticBezier(')) {
+                        const startMatch = geometry.match(/start=\(([^)]+)\)/);
+                        const controlMatch = geometry.match(/control=\(([^)]+)\)/);
+                        const endMatch = geometry.match(/end=\(([^)]+)\)/);
+                        if (startMatch && controlMatch && endMatch) {
+                            pathData = {
+                                type: 'quadratic',
+                                start: parseComplex(startMatch[1]),
+                                control: parseComplex(controlMatch[1]),
+                                end: parseComplex(endMatch[1])
+                            };
+                        }
+                    } else if (geometry.includes('CubicBezier(')) {
+                        const startMatch = geometry.match(/start=\(([^)]+)\)/);
+                        const control1Match = geometry.match(/control1=\(([^)]+)\)/);
+                        const control2Match = geometry.match(/control2=\(([^)]+)\)/);
+                        const endMatch = geometry.match(/end=\(([^)]+)\)/);
+                        if (startMatch && control1Match && control2Match && endMatch) {
+                            pathData = {
+                                type: 'cubic',
+                                start: parseComplex(startMatch[1]),
+                                control1: parseComplex(control1Match[1]),
+                                control2: parseComplex(control2Match[1]),
+                                end: parseComplex(endMatch[1])
+                            };
+                        }
+                    } else if (geometry.includes('Arc(')) {
+                        const startMatch = geometry.match(/start=\(([^)]+)\)/);
+                        const radiusMatch = geometry.match(/radius=\(([^)]+)\)/);
+                        const endMatch = geometry.match(/end=\(([^)]+)\)/);
+                        if (startMatch && radiusMatch && endMatch) {
+                            pathData = {
+                                type: 'arc',
+                                start: parseComplex(startMatch[1]),
+                                radius: parseComplex(radiusMatch[1]),
+                                end: parseComplex(endMatch[1])
+                            };
+                        }
+                    }
+                    
+                    if (pathData && colorValues.length >= 3) {
+                        garmentData[currentPanel].push({
+                            color: colorValues.length >= 4 ? colorValues : [...colorValues, 1.0],
+                            path: pathData
+                        });
+                    }
+                }
+                
+                const panelCount = Object.keys(garmentData).length;
+                const totalEdges = Object.values(garmentData).reduce((sum, panel) => sum + panel.length, 0);
+                
+                showStatus(`Successfully parsed ${panelCount} panels with ${totalEdges} total edges!`, 'success');
+                initializePanels();
+                
+            } catch (error) {
+                console.error('Parse error:', error);
+                showStatus(`Parse error: ${error.message}`, 'error');
+            }
+        }
+
+        function showStatus(message, type) {
+            const statusDiv = document.getElementById('status');
+            statusDiv.innerHTML = `<div class="status ${type}">${message}</div>`;
+            setTimeout(() => {
+                statusDiv.innerHTML = '';
+            }, 5000);
+        }
+
+        function rgbaToHex(r, g, b, a) {
+            const toHex = (n) => Math.round(n * 255).toString(16).padStart(2, '0');
+            return `#${toHex(r)}${toHex(g)}${toHex(b)}`;
+        }
+
+        function calculateBounds(panelData) {
+            let minX = Infinity, minY = Infinity, maxX = -Infinity, maxY = -Infinity;
+            
+            panelData.forEach(segment => {
+                const path = segment.path;
+                [path.start, path.end, path.control, path.control1, path.control2].forEach(point => {
+                    if (point && Array.isArray(point)) {
+                        minX = Math.min(minX, point[0]);
+                        minY = Math.min(minY, point[1]);
+                        maxX = Math.max(maxX, point[0]);
+                        maxY = Math.max(maxY, point[1]);
+                    }
+                });
+            });
+            
+            return { minX, minY, maxX, maxY };
+        }
+
+        function generateGarmentPanelSVG(panelData, panelName, options = {}) {
+            const {
+                size = 400,
+                showGrid = true,
+                showPoints = true,
+                edgeOpacity = 1.0,
+                fillOpacity = 0.15,
+                exportMode = false,
+                exportSize = 1024
+            } = options;
+
+            const bounds = calculateBounds(panelData);
+            const padding = Math.max((bounds.maxX - bounds.minX), (bounds.maxY - bounds.minY)) * 0.1;
+            const viewBox = `${bounds.minX - padding} ${bounds.minY - padding} ${bounds.maxX - bounds.minX + 2*padding} ${bounds.maxY - bounds.minY + 2*padding}`;
+            const actualSize = exportMode ? exportSize : size;
+
+            let pathString = "";
+            let individualPaths = "";
+            let controlElements = "";
+
+            panelData.forEach((segment, index) => {
+                const path = segment.path;
+                const color = segment.color;
+                const strokeColor = rgbaToHex(color[0], color[1], color[2], color[3]);
+                const strokeOpacity = color[3] * edgeOpacity;
+
+                if (index === 0) {
+                    pathString += `M ${path.start[0]} ${path.start[1]} `;
+                }
+
+                switch (path.type) {
+                    case 'line':
+                        pathString += `L ${path.end[0]} ${path.end[1]} `;
+                        individualPaths += `
+                            <path d="M ${path.start[0]} ${path.start[1]} L ${path.end[0]} ${path.end[1]}" 
+                                  stroke="${strokeColor}" 
+                                  stroke-opacity="${strokeOpacity}"
+                                  stroke-width="${exportMode ? 3 : 1}" 
+                                  fill="none" 
+                                  stroke-linecap="round"/>`;
+                        break;
+                    
+                    case 'quadratic':
+                        pathString += `Q ${path.control[0]} ${path.control[1]} ${path.end[0]} ${path.end[1]} `;
+                        individualPaths += `
+                            <path d="M ${path.start[0]} ${path.start[1]} Q ${path.control[0]} ${path.control[1]} ${path.end[0]} ${path.end[1]}" 
+                                  stroke="${strokeColor}" 
+                                  stroke-opacity="${strokeOpacity}"
+                                  stroke-width="${exportMode ? 3 : 1}" 
+                                  fill="none" 
+                                  stroke-linecap="round"/>`;
+                        
+                        if (showPoints && !exportMode) {
+                            controlElements += `
+                                <circle cx="${path.control[0]}" cy="${path.control[1]}" r="0.4" fill="#f59e0b" opacity="0.8"/>
+                                <line x1="${path.start[0]}" y1="${path.start[1]}" x2="${path.control[0]}" y2="${path.control[1]}" stroke="#f59e0b" stroke-width="0.2" stroke-dasharray="1,0.5" opacity="0.6"/>
+                                <line x1="${path.control[0]}" y1="${path.control[1]}" x2="${path.end[0]}" y2="${path.end[1]}" stroke="#f59e0b" stroke-width="0.2" stroke-dasharray="1,0.5" opacity="0.6"/>`;
+                        }
+                        break;
+                    
+                    case 'cubic':
+                        pathString += `C ${path.control1[0]} ${path.control1[1]} ${path.control2[0]} ${path.control2[1]} ${path.end[0]} ${path.end[1]} `;
+                        individualPaths += `
+                            <path d="M ${path.start[0]} ${path.start[1]} C ${path.control1[0]} ${path.control1[1]} ${path.control2[0]} ${path.control2[1]} ${path.end[0]} ${path.end[1]}" 
+                                  stroke="${strokeColor}" 
+                                  stroke-opacity="${strokeOpacity}"
+                                  stroke-width="${exportMode ? 3 : 1}" 
+                                  fill="none" 
+                                  stroke-linecap="round"/>`;
+                        
+                        if (showPoints && !exportMode) {
+                            controlElements += `
+                                <circle cx="${path.control1[0]}" cy="${path.control1[1]}" r="0.4" fill="#f59e0b" opacity="0.8"/>
+                                <circle cx="${path.control2[0]}" cy="${path.control2[1]}" r="0.4" fill="#f59e0b" opacity="0.8"/>
+                                <line x1="${path.start[0]}" y1="${path.start[1]}" x2="${path.control1[0]}" y2="${path.control1[1]}" stroke="#f59e0b" stroke-width="0.2" stroke-dasharray="1,0.5" opacity="0.6"/>
+                                <line x1="${path.control2[0]}" y1="${path.control2[1]}" x2="${path.end[0]}" y2="${path.end[1]}" stroke="#f59e0b" stroke-width="0.2" stroke-dasharray="1,0.5" opacity="0.6"/>`;
+                        }
+                        break;
+                    
+                    case 'arc':
+                        // Simplified arc representation
+                        pathString += `L ${path.end[0]} ${path.end[1]} `;
+                        individualPaths += `
+                            <path d="M ${path.start[0]} ${path.start[1]} L ${path.end[0]} ${path.end[1]}" 
+                                  stroke="${strokeColor}" 
+                                  stroke-opacity="${strokeOpacity}"
+                                  stroke-width="${exportMode ? 3 : 1}" 
+                                  fill="none" 
+                                  stroke-linecap="round"/>`;
+                        break;
+                }
+            });
+
+            pathString += "Z";
+
+            const gridPattern = showGrid && !exportMode ? `
+                <defs>
+                    <pattern id="grid-${panelName}" width="5" height="5" patternUnits="userSpaceOnUse">
+                        <path d="M 5 0 L 0 0 0 5" fill="none" stroke="#f3f4f6" stroke-width="0.2"/>
+                    </pattern>
+                </defs>
+                <rect width="100%" height="100%" fill="url(#grid-${panelName})"/>` : '';
+
+            return `
+                <svg xmlns="http://www.w3.org/2000/svg" 
+                     viewBox="${viewBox}" 
+                     width="${actualSize}" 
+                     height="${actualSize}">
+                    ${gridPattern}
+                    
+                    <!-- Overall fill -->
+                    <path d="${pathString}" 
+                          fill="rgba(100, 100, 100, ${fillOpacity})" 
+                          stroke="none"/>
+                    
+                    <!-- Control elements -->
+                    ${controlElements}
+                    
+                    <!-- Individual edge paths -->
+                    ${individualPaths}
+                    
+                    <!-- Start/end points -->
+                    ${showPoints && !exportMode ? `
+                        <circle cx="${panelData[0].path.start[0]}" cy="${panelData[0].path.start[1]}" r="0.6" fill="#dc2626"/>
+                        <circle cx="${panelData[panelData.length-1].path.end[0]}" cy="${panelData[panelData.length-1].path.end[1]}" r="0.6" fill="#16a34a"/>
+                    ` : ''}
+                </svg>
+            `;
+        }
+
+        function createPanelCard(panelName, panelData) {
+            const bounds = calculateBounds(panelData);
+            const lineCount = panelData.filter(s => s.path.type === 'line').length;
+            const curveCount = panelData.filter(s => s.path.type !== 'line').length;
+            
+            return `
+                <div class="panel-card" id="panel-${panelName}">
+                    <div class="panel-title">${panelName.replace(/_/g, ' ').toUpperCase()}</div>
+                    <div class="svg-container" id="svg-${panelName}">
+                        ${generateGarmentPanelSVG(panelData, panelName)}
+                    </div>
+                    <div class="stats">
+                        <div class="stat">
+                            <strong>${panelData.length}</strong><br>
+                            Total Edges
+                        </div>
+                        <div class="stat">
+                            <strong>${lineCount}</strong><br>
+                            Lines
+                        </div>
+                        <div class="stat">
+                            <strong>${curveCount}</strong><br>
+                            Curves
+                        </div>
+                        <div class="stat">
+                            <strong>${Math.round((bounds.maxX - bounds.minX) * 100) / 100}</strong><br>
+                            Width
+                        </div>
+                    </div>
+                </div>
+            `;
+        }
+
+        function updateAllPanels() {
+            const size = parseInt(document.getElementById('globalSize').value);
+            const showGrid = document.getElementById('showGrid').checked;
+            const showPoints = document.getElementById('showPoints').checked;
+            const edgeOpacity = parseFloat(document.getElementById('edgeOpacity').value);
+            const fillOpacity = parseFloat(document.getElementById('fillOpacity').value);
+            
+            document.getElementById('sizeValue').textContent = size + 'px';
+            document.getElementById('edgeOpacityValue').textContent = edgeOpacity.toFixed(1);
+            document.getElementById('fillOpacityValue').textContent = fillOpacity.toFixed(2);
+            
+            const options = { size, showGrid, showPoints, edgeOpacity, fillOpacity };
+            
+            Object.keys(garmentData).forEach(panelName => {
+                const container = document.getElementById(`svg-${panelName}`);
+                if (container) {
+                    container.innerHTML = generateGarmentPanelSVG(garmentData[panelName], panelName, options);
+                }
+            });
+        }
+
+        function initializePanels() {
+            const container = document.getElementById('panelsContainer');
+            container.innerHTML = '';
+            
+            if (Object.keys(garmentData).length === 0) {
+                container.innerHTML = '<div class="loading">No panels loaded. Enter data above and click "Parse Data".</div>';
+                return;
+            }
+            
+            Object.keys(garmentData).forEach(panelName => {
+                container.innerHTML += createPanelCard(panelName, garmentData[panelName]);
+            });
+        }
+
+        async function saveAllPanelsAsPNG() {
+            if (Object.keys(garmentData).length === 0) {
+                showStatus('No panels to save! Please parse some data first.', 'error');
+                return;
+            }
+            
+            const exportSize = parseInt(document.getElementById('exportSize').value);
+            const fillOpacity = parseFloat(document.getElementById('fillOpacity').value);
+            const timestamp = new Date().toISOString().replace(/[:.]/g, '-').split('T')[0] + '_' + 
+                             new Date().toTimeString().split(' ')[0].replace(/:/g, '-');
+            
+            showStatus('Generating PNG files...', 'success');
+            
+            try {
+                for (const [panelName, panelData] of Object.entries(garmentData)) {
+                    const svgString = generateGarmentPanelSVG(panelData, panelName, {
+                        size: exportSize,
+                        exportSize: exportSize,
+                        showGrid: false,
+                        showPoints: false,
+                        edgeOpacity: 1.0,
+                        fillOpacity: fillOpacity,
+                        exportMode: true
+                    });
+                    
+                    // Create canvas and convert to PNG
+                    const canvas = document.createElement('canvas');
+                    const ctx = canvas.getContext('2d');
+                    canvas.width = exportSize;
+                    canvas.height = exportSize;
+                    
+                    const img = new Image();
+                    const svgBlob = new Blob([svgString], { type: 'image/svg+xml;charset=utf-8' });
+                    const url = URL.createObjectURL(svgBlob);
+                    
+                    await new Promise((resolve) => {
+                        img.onload = () => {
+                            ctx.drawImage(img, 0, 0, exportSize, exportSize);
+                            
+                            canvas.toBlob((blob) => {
+                                const link = document.createElement('a');
+                                link.download = `${timestamp}_${panelName}.png`;
+                                link.href = URL.createObjectURL(blob);
+                                link.click();
+                                
+                                URL.revokeObjectURL(url);
+                                resolve();
+                            }, 'image/png');
+                        };
+                        img.src = url;
+                    });
+                }
+                
+                const panelCount = Object.keys(garmentData).length;
+                showStatus(`Successfully saved ${panelCount} PNG files with timestamp: ${timestamp}`, 'success');
+                
+            } catch (error) {
+                console.error('Export error:', error);
+                showStatus(`Export error: ${error.message}`, 'error');
+            }
+        }
+
+        // Event listeners
+        document.getElementById('globalSize').addEventListener('input', updateAllPanels);
+        document.getElementById('fillOpacity').addEventListener('input', updateAllPanels);
+        document.getElementById('showGrid').addEventListener('change', updateAllPanels);
+        document.getElementById('showPoints').addEventListener('change', updateAllPanels);
+        document.getElementById('edgeOpacity').addEventListener('input', updateAllPanels);
+
+        // Initialize
+        initializePanels();
+        
+        // Load sample data on page load for demonstration
+        document.getElementById('dataInput').value = `right_btorso
+[1.         0.39545121 0.20188241 1.        ] QuadraticBezier(start=(23.83805+37.59469951191573j), control=(20.41580365836496+37.5946994801012j), end=(17.003876502111655+37.78793591779389j))
+[0.27647059 0.93898836 0.81974048 1.        ] Line(start=(17.003876502111655+37.78793591779389j), end=(15.351116538478411+25.898214781239496j))
+[0.27647059 0.93898836 0.81974048 1.        ] Line(start=(15.351116538478411+25.898214781239496j), end=(15.22828367162682+37.90163080707307j))
+[1.         0.29138975 0.1473017  1.        ] QuadraticBezier(start=(15.22828367162682+37.90163080707307j), control=(12.956118484883692+38.06394157390916j), end=(10.688536931043377+38.312085184585534j))
+[0.20588235 0.89516329 0.85021714 1.        ] Line(start=(10.688536931043377+38.312085184585534j), end=(8.555268374597688+27.721154938849892j))
+[0.20588235 0.89516329 0.85021714 1.        ] Line(start=(8.555268374597688+27.721154938849892j), end=(8.92133247524254+38.51859145304978j))
+
+wb_back
+[0.66078431 0.96827604 0.6124202  1.        ] Line(start=4.69674j, end=0j)
+[1.         0.19584547 0.09840028 1.        ] Line(start=0j, end=(8.304992253518073+0j))
+[1.         0.29138975 0.1473017  1.        ] Line(start=(8.304992253518073+0j), end=(12.845632502177686+0j))
+[1.         0.39545121 0.20188241 1.        ] Line(start=(12.845632502177686+0j), end=(19.65660875653159+0j))`;
+    </script>
+</body>
+</html>

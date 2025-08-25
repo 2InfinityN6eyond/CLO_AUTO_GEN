@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SVG Path Generator</title>
+    <style>
+        body {
+            font-family: 'Monaco', 'Menlo', 'Ubuntu Mono', monospace;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            min-height: 100vh;
+        }
+        
+        .container {
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            border-radius: 15px;
+            padding: 30px;
+            box-shadow: 0 8px 32px rgba(31, 38, 135, 0.37);
+            border: 1px solid rgba(255, 255, 255, 0.18);
+        }
+        
+        h1 {
+            text-align: center;
+            margin-bottom: 30px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+        
+        .demo-section {
+            margin: 30px 0;
+            padding: 20px;
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 10px;
+        }
+        
+        .controls {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 15px;
+            margin: 20px 0;
+        }
+        
+        .control-group {
+            background: rgba(255, 255, 255, 0.1);
+            padding: 15px;
+            border-radius: 8px;
+        }
+        
+        .control-group label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: bold;
+        }
+        
+        input, select, button {
+            width: 100%;
+            padding: 8px;
+            border-radius: 5px;
+            border: 1px solid rgba(255, 255, 255, 0.3);
+            background: rgba(255, 255, 255, 0.9);
+            color: #333;
+            margin-bottom: 10px;
+        }
+        
+        button {
+            background: linear-gradient(45deg, #667eea, #764ba2);
+            color: white;
+            border: none;
+            padding: 12px;
+            font-weight: bold;
+            cursor: pointer;
+            transition: transform 0.2s;
+        }
+        
+        button:hover {
+            transform: translateY(-2px);
+        }
+        
+        .svg-container {
+            background: white;
+            border-radius: 10px;
+            padding: 20px;
+            margin: 20px 0;
+            display: flex;
+            justify-content: center;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+        }
+        
+        pre {
+            background: rgba(0, 0, 0, 0.3);
+            padding: 15px;
+            border-radius: 8px;
+            overflow-x: auto;
+            font-size: 12px;
+            line-height: 1.4;
+        }
+        
+        .edge-controls {
+            display: none;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 10px;
+            margin-top: 15px;
+        }
+        
+        .edge-control {
+            background: rgba(255, 255, 255, 0.05);
+            padding: 10px;
+            border-radius: 5px;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+        
+        .edge-control h4 {
+            margin: 0 0 10px 0;
+            font-size: 12px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🎨 Customizable SVG Path Generator</h1>
+        
+        <div class="demo-section">
+            <h3>Quick Demo</h3>
+            <div class="controls">
+                <div class="control-group">
+                    <label>Overall Fill Color:</label>
+                    <input type="color" id="fillColor" value="#2563eb">
+                    <label>Fill Opacity:</label>
+                    <input type="range" id="fillOpacity" min="0" max="1" step="0.1" value="0.2">
+                </div>
+                
+                <div class="control-group">
+                    <label>Default Stroke Color:</label>
+                    <input type="color" id="strokeColor" value="#1d4ed8">
+                    <label>Default Line Width:</label>
+                    <input type="number" id="lineWidth" min="0.1" max="5" step="0.1" value="1">
+                </div>
+                
+                <div class="control-group">
+                    <label>SVG Size:</label>
+                    <input type="number" id="svgSize" min="200" max="1000" step="50" value="600">
+                    <button onclick="toggleEdgeControls()">🎛️ Advanced Edge Controls</button>
+                </div>
+            </div>
+            
+            <div id="edgeControls" class="edge-controls"></div>
+            
+            <button onclick="updateDemo()">🚀 Generate SVG</button>
+            
+            <div class="svg-container">
+                <div id="svgOutput"></div>
+            </div>
+            
+            <details>
+                <summary style="cursor: pointer; margin: 20px 0;">📋 View Generated Code</summary>
+                <pre id="codeOutput"></pre>
+            </details>
+        </div>
+        
+        <div class="demo-section">
+            <h3>📖 API Documentation</h3>
+            <pre id="apiDoc">
+// Main function signature
+function generateCustomSVG(pathData, options = {}) {
+    // pathData: Array of path segments (lines, curves)
+    // options: Customization object
+}
+
+// Options object structure:
+{
+    size: 600,                    // SVG dimensions
+    viewBox: "0 0 50 50",        // SVG viewBox
+    fill: "#2563eb",             // Overall fill color
+    fillOpacity: 0.2,            // Fill transparency
+    defaultStroke: "#1d4ed8",    // Default edge color
+    defaultStrokeWidth: 1,       // Default line width
+    showGrid: true,              // Background grid
+    showPoints: true,            // Control points
+    edgeStyles: {                // Per-edge customization
+        0: { stroke: "#ff0000", strokeWidth: 2 },
+        1: { stroke: "#00ff00", strokeWidth: 1.5 },
+        // ... more edges
+    }
+}
+
+// Usage example:
+const svg = generateCustomSVG(myPathData, {
+    size: 800,
+    fill: "#ff6b6b",
+    fillOpacity: 0.3,
+    edgeStyles: {
+        0: { stroke: "#ff0000", strokeWidth: 3 },
+        2: { stroke: "#00ff00", strokeWidth: 1.5 }
+    }
+});
+            </pre>
+        </div>
+    </div>
+
+    <script>
+        // Sample path data (your original path)
+        const samplePathData = [
+            { type: 'line', start: [0, 43.633], end: [8.208, 43.557] },
+            { type: 'line', start: [8.208, 43.557], end: [9.316, 31.207] },
+            { type: 'line', start: [9.316, 31.207], end: [10.294, 44.024] },
+            { type: 'line', start: [10.294, 44.024], end: [24.749, 43.992] },
+            { type: 'line', start: [24.749, 43.992], end: [26.132, 29.621] },
+            { type: 'line', start: [26.132, 29.621], end: [13.433, 27.135] },
+            { type: 'line', start: [13.433, 27.135], end: [26.5, 25.293] },
+            { type: 'line', start: [26.5, 25.293], end: [24.499, 20.937] },
+            { type: 'cubic', start: [24.499, 20.937], control1: [15.889, 19.201], control2: [17.738, 13.959], end: [16.245, 3.070] },
+            { type: 'line', start: [16.245, 3.070], end: [10.710, 0.056] },
+            { type: 'cubic', start: [10.710, 0.056], control1: [11.968, 6.179], control2: [6.871, 11.441], end: [0.070, 12.744] },
+            { type: 'line', start: [0.070, 12.744], end: [0, 43.633] }
+        ];
+
+        function generateCustomSVG(pathData, options = {}) {
+            const {
+                size = 600,
+                viewBox = "0 0 50 50",
+                fill = "#2563eb",
+                fillOpacity = 0.2,
+                defaultStroke = "#1d4ed8",
+                defaultStrokeWidth = 1,
+                showGrid = true,
+                showPoints = true,
+                edgeStyles = {}
+            } = options;
+
+            let pathString = "";
+            let individualPaths = "";
+            let controlPoints = "";
+            let controlLines = "";
+
+            // Build path string and individual segments
+            pathData.forEach((segment, index) => {
+                const style = edgeStyles[index] || {};
+                const strokeColor = style.stroke || defaultStroke;
+                const strokeWidth = style.strokeWidth || defaultStrokeWidth;
+
+                if (index === 0) {
+                    pathString += `M ${segment.start[0]} ${segment.start[1]} `;
+                }
+
+                if (segment.type === 'line') {
+                    pathString += `L ${segment.end[0]} ${segment.end[1]} `;
+                    
+                    individualPaths += `
+                        <path d="M ${segment.start[0]} ${segment.start[1]} L ${segment.end[0]} ${segment.end[1]}" 
+                              stroke="${strokeColor}" 
+                              stroke-width="${strokeWidth}" 
+                              fill="none" 
+                              stroke-linecap="round"/>`;
+                } else if (segment.type === 'cubic') {
+                    pathString += `C ${segment.control1[0]} ${segment.control1[1]} ${segment.control2[0]} ${segment.control2[1]} ${segment.end[0]} ${segment.end[1]} `;
+                    
+                    individualPaths += `
+                        <path d="M ${segment.start[0]} ${segment.start[1]} C ${segment.control1[0]} ${segment.control1[1]} ${segment.control2[0]} ${segment.control2[1]} ${segment.end[0]} ${segment.end[1]}" 
+                              stroke="${strokeColor}" 
+                              stroke-width="${strokeWidth}" 
+                              fill="none" 
+                              stroke-linecap="round"/>`;
+
+                    if (showPoints) {
+                        controlPoints += `
+                            <circle cx="${segment.control1[0]}" cy="${segment.control1[1]}" r="0.3" fill="#f59e0b"/>
+                            <circle cx="${segment.control2[0]}" cy="${segment.control2[1]}" r="0.3" fill="#f59e0b"/>`;
+                        
+                        controlLines += `
+                            <line x1="${segment.start[0]}" y1="${segment.start[1]}" x2="${segment.control1[0]}" y2="${segment.control1[1]}" stroke="#f59e0b" stroke-width="0.2" stroke-dasharray="1,0.5" opacity="0.7"/>
+                            <line x1="${segment.control2[0]}" y1="${segment.control2[1]}" x2="${segment.end[0]}" y2="${segment.end[1]}" stroke="#f59e0b" stroke-width="0.2" stroke-dasharray="1,0.5" opacity="0.7"/>`;
+                    }
+                }
+            });
+
+            pathString += "Z";
+
+            const gridPattern = showGrid ? `
+                <defs>
+                    <pattern id="grid" width="5" height="5" patternUnits="userSpaceOnUse">
+                        <path d="M 5 0 L 0 0 0 5" fill="none" stroke="#f3f4f6" stroke-width="0.1"/>
+                    </pattern>
+                </defs>
+                <rect width="100%" height="100%" fill="url(#grid)"/>` : '';
+
+            return `
+                <svg xmlns="http://www.w3.org/2000/svg" 
+                     viewBox="${viewBox}" 
+                     width="${size}" 
+                     height="${size}">
+                    ${gridPattern}
+                    
+                    <!-- Overall fill -->
+                    <path d="${pathString}" 
+                          fill="${fill}" 
+                          fill-opacity="${fillOpacity}" 
+                          stroke="none"/>
+                    
+                    <!-- Control lines -->
+                    ${controlLines}
+                    
+                    <!-- Individual edge paths -->
+                    ${individualPaths}
+                    
+                    <!-- Control points -->
+                    ${controlPoints}
+                    
+                    <!-- Start/end points -->
+                    ${showPoints ? `
+                        <circle cx="${pathData[0].start[0]}" cy="${pathData[0].start[1]}" r="0.4" fill="#dc2626"/>
+                        <circle cx="${pathData[pathData.length-1].end[0]}" cy="${pathData[pathData.length-1].end[1]}" r="0.4" fill="#16a34a"/>
+                    ` : ''}
+                </svg>
+            `;
+        }
+
+        function toggleEdgeControls() {
+            const controls = document.getElementById('edgeControls');
+            const isVisible = controls.style.display === 'grid';
+            
+            if (!isVisible) {
+                // Create edge controls
+                controls.innerHTML = '';
+                samplePathData.forEach((segment, index) => {
+                    const edgeType = segment.type === 'cubic' ? 'Curve' : 'Line';
+                    controls.innerHTML += `
+                        <div class="edge-control">
+                            <h4>Edge ${index + 1} (${edgeType})</h4>
+                            <label>Color:</label>
+                            <input type="color" id="edge${index}Color" value="#1d4ed8">
+                            <label>Width:</label>
+                            <input type="number" id="edge${index}Width" min="0.1" max="5" step="0.1" value="1">
+                        </div>
+                    `;
+                });
+                controls.style.display = 'grid';
+            } else {
+                controls.style.display = 'none';
+            }
+        }
+
+        function updateDemo() {
+            const size = parseInt(document.getElementById('svgSize').value);
+            const fillColor = document.getElementById('fillColor').value;
+            const fillOpacity = parseFloat(document.getElementById('fillOpacity').value);
+            const strokeColor = document.getElementById('strokeColor').value;
+            const lineWidth = parseFloat(document.getElementById('lineWidth').value);
+            
+            // Collect edge styles
+            const edgeStyles = {};
+            samplePathData.forEach((segment, index) => {
+                const colorInput = document.getElementById(`edge${index}Color`);
+                const widthInput = document.getElementById(`edge${index}Width`);
+                
+                if (colorInput && widthInput) {
+                    edgeStyles[index] = {
+                        stroke: colorInput.value,
+                        strokeWidth: parseFloat(widthInput.value)
+                    };
+                }
+            });
+            
+            const options = {
+                size,
+                fill: fillColor,
+                fillOpacity,
+                defaultStroke: strokeColor,
+                defaultStrokeWidth: lineWidth,
+                edgeStyles
+            };
+            
+            const svg = generateCustomSVG(samplePathData, options);
+            document.getElementById('svgOutput').innerHTML = svg;
+            document.getElementById('codeOutput').textContent = svg;
+        }
+
+        // Initialize with default settings
+        updateDemo();
+    </script>
+</body>
+</html>

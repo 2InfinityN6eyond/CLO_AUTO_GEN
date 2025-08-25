@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Garment Panel Visualizer</title>
+    <style>
+        body {
+            font-family: 'Monaco', 'Menlo', 'Ubuntu Mono', monospace;
+            margin: 0;
+            padding: 20px;
+            background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+            color: white;
+            min-height: 100vh;
+        }
+        
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            background: rgba(255, 255, 255, 0.08);
+            backdrop-filter: blur(15px);
+            border-radius: 20px;
+            padding: 30px;
+            box-shadow: 0 12px 40px rgba(0,0,0,0.3);
+        }
+        
+        h1 {
+            text-align: center;
+            margin-bottom: 30px;
+            text-shadow: 2px 2px 8px rgba(0,0,0,0.5);
+            font-size: 2.2em;
+        }
+        
+        .panels-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+            gap: 25px;
+            margin: 30px 0;
+        }
+        
+        .panel-card {
+            background: rgba(255, 255, 255, 0.12);
+            border-radius: 15px;
+            padding: 20px;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            transition: transform 0.3s ease;
+        }
+        
+        .panel-card:hover {
+            transform: translateY(-5px);
+        }
+        
+        .panel-title {
+            font-size: 1.3em;
+            margin-bottom: 15px;
+            text-align: center;
+            color: #fbbf24;
+            text-shadow: 1px 1px 3px rgba(0,0,0,0.5);
+        }
+        
+        .svg-container {
+            background: white;
+            border-radius: 12px;
+            padding: 15px;
+            margin: 15px 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 300px;
+            box-shadow: 0 6px 20px rgba(0,0,0,0.2);
+        }
+        
+        .controls {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 10px;
+            margin: 15px 0;
+        }
+        
+        .control-group {
+            background: rgba(255, 255, 255, 0.1);
+            padding: 12px;
+            border-radius: 8px;
+        }
+        
+        .control-group label {
+            display: block;
+            margin-bottom: 8px;
+            font-size: 0.9em;
+            font-weight: bold;
+        }
+        
+        input, select, button {
+            width: 100%;
+            padding: 6px;
+            border-radius: 5px;
+            border: 1px solid rgba(255, 255, 255, 0.3);
+            background: rgba(255, 255, 255, 0.9);
+            color: #333;
+            font-size: 0.85em;
+        }
+        
+        button {
+            background: linear-gradient(45deg, #f59e0b, #d97706);
+            color: white;
+            border: none;
+            padding: 10px;
+            font-weight: bold;
+            cursor: pointer;
+            margin-top: 10px;
+            transition: all 0.2s;
+        }
+        
+        button:hover {
+            transform: translateY(-1px);
+            box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+        }
+        
+        .stats {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+            gap: 10px;
+            font-size: 0.8em;
+            margin-top: 10px;
+        }
+        
+        .stat {
+            background: rgba(0,0,0,0.2);
+            padding: 8px;
+            border-radius: 6px;
+            text-align: center;
+        }
+        
+        .global-controls {
+            background: rgba(255, 255, 255, 0.1);
+            padding: 20px;
+            border-radius: 15px;
+            margin-bottom: 30px;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+        }
+        
+        .loading {
+            text-align: center;
+            padding: 40px;
+            font-size: 1.2em;
+            color: #fbbf24;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>👗 Garment Panel Visualizer</h1>
+        
+        <div class="global-controls">
+            <h3>Global Settings</h3>
+            <div class="controls">
+                <div class="control-group">
+                    <label>Panel Size:</label>
+                    <input type="range" id="globalSize" min="200" max="600" value="350">
+                    <span id="sizeValue">350px</span>
+                </div>
+                <div class="control-group">
+                    <label>Show Grid:</label>
+                    <input type="checkbox" id="showGrid" checked>
+                </div>
+                <div class="control-group">
+                    <label>Show Points:</label>
+                    <input type="checkbox" id="showPoints" checked>
+                </div>
+                <div class="control-group">
+                    <label>Edge Opacity:</label>
+                    <input type="range" id="edgeOpacity" min="0.1" max="1" step="0.1" value="1">
+                    <span id="opacityValue">1.0</span>
+                </div>
+            </div>
+            <button onclick="updateAllPanels()">🔄 Update All Panels</button>
+        </div>
+        
+        <div id="panelsContainer" class="panels-grid">
+            <div class="loading">Loading garment panels...</div>
+        </div>
+    </div>
+
+    <script>
+        // Parse your garment data
+        const garmentData = {
+            "right_btorso": [
+                {color: [1.0, 0.39545121, 0.20188241, 1.0], path: {type: 'quadratic', start: [23.83805, 37.59469951191573], control: [20.41580365836496, 37.5946994801012], end: [17.003876502111655, 37.78793591779389]}},
+                {color: [0.27647059, 0.93898836, 0.81974048, 1.0], path: {type: 'line', start: [17.003876502111655, 37.78793591779389], end: [15.351116538478411, 25.898214781239496]}},
+                {color: [0.27647059, 0.93898836, 0.81974048, 1.0], path: {type: 'line', start: [15.351116538478411, 25.898214781239496], end: [15.22828367162682, 37.90163080707307]}},
+                {color: [1.0, 0.29138975, 0.1473017, 1.0], path: {type: 'quadratic', start: [15.22828367162682, 37.90163080707307], control: [12.956118484883692, 38.06394157390916], end: [10.688536931043377, 38.312085184585534]}},
+                {color: [0.20588235, 0.89516329, 0.85021714, 1.0], path: {type: 'line', start: [10.688536931043377, 38.312085184585534], end: [8.555268374597688, 27.721154938849892]}},
+                {color: [0.20588235, 0.89516329, 0.85021714, 1.0], path: {type: 'line', start: [8.555268374597688, 27.721154938849892], end: [8.92133247524254, 38.51859145304978]}},
+                {color: [1.0, 0.19584547, 0.09840028, 1.0], path: {type: 'quadratic', start: [8.92133247524254, 38.51859145304978], control: [4.806184540271747, 39.08718524890132], end: [0.7116916666666668, 39.96359117425516]}},
+                {color: [0.40196078, 0.98816547, 0.75940492, 1.0], path: {type: 'line', start: [0.7116916666666668, 39.96359117425516], end: [0, 25.729724507588493]}},
+                {color: [0.46470588, 0.9984636, 0.72643357, 1.0], path: {type: 'line', start: [0, 25.729724507588493], end: [0, 21.1162737936007]}},
+                {color: [0.0, 0.0, 0.0, 1.0], path: {type: 'cubic', start: [0, 21.1162737936007], control1: [7.776448, 19.741355293600698], control2: [6.993121, 13.2174637936007], end: [6.6096499999999985, 2.674793793600699]}},
+                {color: [0.33921569, 0.96827604, 0.79053241, 1.0], path: {type: 'line', start: [6.6096499999999985, 2.674793793600699], end: [13.338731656574232, 0]}},
+                {color: [0.0, 0.0, 0.0, 1.0], path: {type: 'arc', start: [13.338731656574232, 0], radius: [12.966656160130324, 12.966656160130324], end: [23.83805, 20.575761646220585]}},
+                {color: [0.59803922, 0.98816547, 0.6506183, 1.0], path: {type: 'line', start: [23.83805, 20.575761646220585], end: [23.83805, 37.59469951191573]}}
+            ],
+            "right_ftorso": [
+                {color: [0.53529412, 0.9984636, 0.68723669, 1.0], path: {type: 'line', start: [26.082300000000004, 43.63259096413032], end: [26.082300000000004, 12.135264413148864]}},
+                {color: [0.0, 0.0, 0.0, 1.0], path: {type: 'arc', start: [26.082300000000004, 12.135264413148864], radius: [10.609588686614277, 10.609588686614277], end: [15.582981656574237, 0]}},
+                {color: [0.33921569, 0.96827604, 0.79053241, 1.0], path: {type: 'line', start: [15.582981656574237, 0], end: [9.01370668014938, 2.6112704258451274]}},
+                {color: [0.0, 0.0, 0.0, 1.0], path: {type: 'cubic', start: [9.01370668014938, 2.6112704258451274], control1: [9.005754952441873, 13.310509516928132], control2: [9.554228315817365, 19.951827835240387], end: [1.6212112247343633, 21.05275042584513]}},
+                {color: [0.46470588, 0.9984636, 0.72643357, 1.0], path: {type: 'line', start: [1.6212112247343633, 21.05275042584513], end: [0, 25.729724322070332]}},
+                {color: [0.08039216, 0.79053241, 0.89789203, 1.0], path: {type: 'line', start: [0, 25.729724322070332], end: [13.078831249156261, 27.564224322070334]}},
+                {color: [0.08039216, 0.79053241, 0.89789203, 1.0], path: {type: 'line', start: [13.078831249156261, 27.564224322070334], end: [0, 29.39872432207033]}},
+                {color: [0.40196078, 0.98816547, 0.75940492, 1.0], path: {type: 'line', start: [0, 29.39872432207033], end: [1.1611000000000011, 43.63259096413032]}},
+                {color: [0.79411765, 0.89516329, 0.52643216, 1.0], path: {type: 'line', start: [1.1611000000000011, 43.63259096413032], end: [15.286949868626346, 43.63259096413032]}},
+                {color: [0.14313725, 0.84695821, 0.87511698, 1.0], path: {type: 'line', start: [15.286949868626346, 43.63259096413032], end: [16.44804986862635, 30.874838629945437]}},
+                {color: [0.14313725, 0.84695821, 0.87511698, 1.0], path: {type: 'line', start: [16.44804986862635, 30.874838629945437], end: [17.60914986862635, 43.63259096413032]}},
+                {color: [0.85686275, 0.84695821, 0.48391142, 1.0], path: {type: 'line', start: [17.60914986862635, 43.63259096413032], end: [26.082300000000004, 43.63259096413032]}}
+            ],
+            "wb_back": [
+                {color: [0.66078431, 0.96827604, 0.6124202, 1.0], path: {type: 'line', start: [0, 4.69674], end: [0, 0]}},
+                {color: [1.0, 0.19584547, 0.09840028, 1.0], path: {type: 'line', start: [0, 0], end: [8.304992253518073, 0]}},
+                {color: [1.0, 0.29138975, 0.1473017, 1.0], path: {type: 'line', start: [8.304992253518073, 0], end: [12.845632502177686, 0]}},
+                {color: [1.0, 0.39545121, 0.20188241, 1.0], path: {type: 'line', start: [12.845632502177686, 0], end: [19.65660875653159, 0]}},
+                {color: [1.0, 0.48391142, 0.24988299, 1.0], path: {type: 'line', start: [19.65660875653159, 0], end: [26.467585010885493, 0]}},
+                {color: [1.0, 0.56767472, 0.29727685, 1.0], path: {type: 'line', start: [26.467585010885493, 0], end: [31.0082252595451, 0]}},
+                {color: [1.0, 0.64592806, 0.34394892, 1.0], path: {type: 'line', start: [31.0082252595451, 0], end: [39.1358, 0]}},
+                {color: [0.72352941, 0.93898836, 0.57273514, 1.0], path: {type: 'line', start: [39.1358, 0], end: [39.1358, 4.69674]}},
+                {color: [1.0, 0.0, 0.0, 1.0], path: {type: 'line', start: [39.1358, 4.69674], end: [0, 4.69674]}}
+            ]
+        };
+
+        function rgbaToHex(r, g, b, a) {
+            const toHex = (n) => Math.round(n * 255).toString(16).padStart(2, '0');
+            return `#${toHex(r)}${toHex(g)}${toHex(b)}`;
+        }
+
+        function calculateBounds(panelData) {
+            let minX = Infinity, minY = Infinity, maxX = -Infinity, maxY = -Infinity;
+            
+            panelData.forEach(segment => {
+                const path = segment.path;
+                [path.start, path.end, path.control, path.control1, path.control2].forEach(point => {
+                    if (point && Array.isArray(point)) {
+                        minX = Math.min(minX, point[0]);
+                        minY = Math.min(minY, point[1]);
+                        maxX = Math.max(maxX, point[0]);
+                        maxY = Math.max(maxY, point[1]);
+                    }
+                });
+            });
+            
+            return { minX, minY, maxX, maxY };
+        }
+
+        function generateGarmentPanelSVG(panelData, panelName, options = {}) {
+            const {
+                size = 350,
+                showGrid = true,
+                showPoints = true,
+                edgeOpacity = 1.0
+            } = options;
+
+            const bounds = calculateBounds(panelData);
+            const padding = Math.max((bounds.maxX - bounds.minX), (bounds.maxY - bounds.minY)) * 0.1;
+            const viewBox = `${bounds.minX - padding} ${bounds.minY - padding} ${bounds.maxX - bounds.minX + 2*padding} ${bounds.maxY - bounds.minY + 2*padding}`;
+
+            let pathString = "";
+            let individualPaths = "";
+            let controlElements = "";
+
+            panelData.forEach((segment, index) => {
+                const path = segment.path;
+                const color = segment.color;
+                const strokeColor = rgbaToHex(color[0], color[1], color[2], color[3]);
+                const strokeOpacity = color[3] * edgeOpacity;
+
+                if (index === 0) {
+                    pathString += `M ${path.start[0]} ${path.start[1]} `;
+                }
+
+                switch (path.type) {
+                    case 'line':
+                        pathString += `L ${path.end[0]} ${path.end[1]} `;
+                        individualPaths += `
+                            <path d="M ${path.start[0]} ${path.start[1]} L ${path.end[0]} ${path.end[1]}" 
+                                  stroke="${strokeColor}" 
+                                  stroke-opacity="${strokeOpacity}"
+                                  stroke-width="0.8" 
+                                  fill="none" 
+                                  stroke-linecap="round"/>`;
+                        break;
+                    
+                    case 'quadratic':
+                        pathString += `Q ${path.control[0]} ${path.control[1]} ${path.end[0]} ${path.end[1]} `;
+                        individualPaths += `
+                            <path d="M ${path.start[0]} ${path.start[1]} Q ${path.control[0]} ${path.control[1]} ${path.end[0]} ${path.end[1]}" 
+                                  stroke="${strokeColor}" 
+                                  stroke-opacity="${strokeOpacity}"
+                                  stroke-width="0.8" 
+                                  fill="none" 
+                                  stroke-linecap="round"/>`;
+                        
+                        if (showPoints) {
+                            controlElements += `
+                                <circle cx="${path.control[0]}" cy="${path.control[1]}" r="0.4" fill="#f59e0b" opacity="0.8"/>
+                                <line x1="${path.start[0]}" y1="${path.start[1]}" x2="${path.control[0]}" y2="${path.control[1]}" stroke="#f59e0b" stroke-width="0.2" stroke-dasharray="1,0.5" opacity="0.6"/>
+                                <line x1="${path.control[0]}" y1="${path.control[1]}" x2="${path.end[0]}" y2="${path.end[1]}" stroke="#f59e0b" stroke-width="0.2" stroke-dasharray="1,0.5" opacity="0.6"/>`;
+                        }
+                        break;
+                    
+                    case 'cubic':
+                        pathString += `C ${path.control1[0]} ${path.control1[1]} ${path.control2[0]} ${path.control2[1]} ${path.end[0]} ${path.end[1]} `;
+                        individualPaths += `
+                            <path d="M ${path.start[0]} ${path.start[1]} C ${path.control1[0]} ${path.control1[1]} ${path.control2[0]} ${path.control2[1]} ${path.end[0]} ${path.end[1]}" 
+                                  stroke="${strokeColor}" 
+                                  stroke-opacity="${strokeOpacity}"
+                                  stroke-width="0.8" 
+                                  fill="none" 
+                                  stroke-linecap="round"/>`;
+                        
+                        if (showPoints) {
+                            controlElements += `
+                                <circle cx="${path.control1[0]}" cy="${path.control1[1]}" r="0.4" fill="#f59e0b" opacity="0.8"/>
+                                <circle cx="${path.control2[0]}" cy="${path.control2[1]}" r="0.4" fill="#f59e0b" opacity="0.8"/>
+                                <line x1="${path.start[0]}" y1="${path.start[1]}" x2="${path.control1[0]}" y2="${path.control1[1]}" stroke="#f59e0b" stroke-width="0.2" stroke-dasharray="1,0.5" opacity="0.6"/>
+                                <line x1="${path.control2[0]}" y1="${path.control2[1]}" x2="${path.end[0]}" y2="${path.end[1]}" stroke="#f59e0b" stroke-width="0.2" stroke-dasharray="1,0.5" opacity="0.6"/>`;
+                        }
+                        break;
+                    
+                    case 'arc':
+                        // Simplified arc representation - you might want to enhance this
+                        pathString += `L ${path.end[0]} ${path.end[1]} `;
+                        individualPaths += `
+                            <path d="M ${path.start[0]} ${path.start[1]} L ${path.end[0]} ${path.end[1]}" 
+                                  stroke="${strokeColor}" 
+                                  stroke-opacity="${strokeOpacity}"
+                                  stroke-width="0.8" 
+                                  fill="none" 
+                                  stroke-linecap="round"/>`;
+                        break;
+                }
+            });
+
+            pathString += "Z";
+
+            const gridPattern = showGrid ? `
+                <defs>
+                    <pattern id="grid-${panelName}" width="5" height="5" patternUnits="userSpaceOnUse">
+                        <path d="M 5 0 L 0 0 0 5" fill="none" stroke="#f3f4f6" stroke-width="0.2"/>
+                    </pattern>
+                </defs>
+                <rect width="100%" height="100%" fill="url(#grid-${panelName})"/>` : '';
+
+            return `
+                <svg xmlns="http://www.w3.org/2000/svg" 
+                     viewBox="${viewBox}" 
+                     width="${size}" 
+                     height="${size}">
+                    ${gridPattern}
+                    
+                    <!-- Overall fill -->
+                    <path d="${pathString}" 
+                          fill="rgba(100, 100, 100, 0.1)" 
+                          stroke="none"/>
+                    
+                    <!-- Control elements -->
+                    ${controlElements}
+                    
+                    <!-- Individual edge paths -->
+                    ${individualPaths}
+                    
+                    <!-- Start/end points -->
+                    ${showPoints ? `
+                        <circle cx="${panelData[0].path.start[0]}" cy="${panelData[0].path.start[1]}" r="0.6" fill="#dc2626"/>
+                        <circle cx="${panelData[panelData.length-1].path.end[0]}" cy="${panelData[panelData.length-1].path.end[1]}" r="0.6" fill="#16a34a"/>
+                    ` : ''}
+                </svg>
+            `;
+        }
+
+        function createPanelCard(panelName, panelData) {
+            const bounds = calculateBounds(panelData);
+            const lineCount = panelData.filter(s => s.path.type === 'line').length;
+            const curveCount = panelData.filter(s => s.path.type !== 'line').length;
+            
+            return `
+                <div class="panel-card" id="panel-${panelName}">
+                    <div class="panel-title">${panelName.replace('_', ' ').toUpperCase()}</div>
+                    <div class="svg-container" id="svg-${panelName}">
+                        ${generateGarmentPanelSVG(panelData, panelName)}
+                    </div>
+                    <div class="stats">
+                        <div class="stat">
+                            <strong>${panelData.length}</strong><br>
+                            Total Edges
+                        </div>
+                        <div class="stat">
+                            <strong>${lineCount}</strong><br>
+                            Lines
+                        </div>
+                        <div class="stat">
+                            <strong>${curveCount}</strong><br>
+                            Curves
+                        </div>
+                        <div class="stat">
+                            <strong>${Math.round((bounds.maxX - bounds.minX) * 100) / 100}</strong><br>
+                            Width
+                        </div>
+                    </div>
+                </div>
+            `;
+        }
+
+        function updateAllPanels() {
+            const size = document.getElementById('globalSize').value;
+            const showGrid = document.getElementById('showGrid').checked;
+            const showPoints = document.getElementById('showPoints').checked;
+            const edgeOpacity = document.getElementById('edgeOpacity').value;
+            
+            document.getElementById('sizeValue').textContent = size + 'px';
+            document.getElementById('opacityValue').textContent = edgeOpacity;
+            
+            const options = { size: parseInt(size), showGrid, showPoints, edgeOpacity: parseFloat(edgeOpacity) };
+            
+            Object.keys(garmentData).forEach(panelName => {
+                const container = document.getElementById(`svg-${panelName}`);
+                if (container) {
+                    container.innerHTML = generateGarmentPanelSVG(garmentData[panelName], panelName, options);
+                }
+            });
+        }
+
+        // Initialize panels
+        function initializePanels() {
+            const container = document.getElementById('panelsContainer');
+            container.innerHTML = '';
+            
+            Object.keys(garmentData).forEach(panelName => {
+                container.innerHTML += createPanelCard(panelName, garmentData[panelName]);
+            });
+        }
+
+        // Event listeners
+        document.getElementById('globalSize').addEventListener('input', updateAllPanels);
+        document.getElementById('showGrid').addEventListener('change', updateAllPanels);
+        document.getElementById('showPoints').addEventListener('change', updateAllPanels);
+        document.getElementById('edgeOpacity').addEventListener('input', updateAllPanels);
+
+        // Initialize
+        initializePanels();
+    </script>
+</body>
+</html>

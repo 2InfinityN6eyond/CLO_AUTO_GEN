@@ -1,0 +1,917 @@
+
+
+pasted
+
+
+
+pasted
+
+I attached 2 files. First one is garment blueprint, and second is it's visualization code.
+
+Garment is consisted of some panels, where each panels are SVG path. Garment bluprint data contains panel name, SVG path data where edge color and geometry data is enumerated. 
+
+Current visualization code has flaw, which is it't parsing code misses few edges of each panel. 
+
+ I want this parsing code works fine.
+
+I can see the issue with the parsing code. Looking at your garment blueprint data, I notice that some geometry entries don't have parentheses around the complex numbers (like end=25.729724507588493j instead of end=(25.729724507588493j)), and the current parsing code expects parentheses for all complex number extractions.
+
+Let me fix the parsing logic to handle both formats:
+
+
+Untitled
+Text 
+Now let me also improve the complex number parsing function to handle more edge cases:
+
+
+Untitled
+Text ∙ Version 2 
+Now let me also load your full garment data as the default sample so you can see it working immediately:
+
+
+Making edits...
+Text ∙ Version 3 
+
+
+
+Continue
+
+
+Fixed Garment Panel Visualizer
+Interactive artifact 
+
+
+
+Uncaught Error: Uncaught ReferenceError: parseInputData is not defined
+I see the issue - the script was cut off. Let me create the complete fixed version:
+
+
+Making edits...
+Interactive artifact ∙ Version 2 
+
+
+
+Continue
+
+
+Fixed Garment Panel Visualizer
+Interactive artifact 
+Perfect! The fixed garment panel visualizer is now complete. Here are the key improvements I made to fix the parsing issues:
+
+Main Fixes:
+Enhanced Complex Number Parsing: The parseComplex() function now handles both formats:
+With parentheses: start=(23.83805+37.59469951191573j)
+Without parentheses: end=25.729724507588493j
+Flexible Geometry Parsing: Updated all geometry parsing (Line, QuadraticBezier, CubicBezier, Arc) to use regex patterns that match both formats:
+javascript
+/start=(?:\(([^)]+)\)|([^\s,)]+))/
+This captures values with or without parentheses.
+Robust Complex Number Handling: The parser now correctly handles:
+Pure imaginary numbers: 25.729724507588493j
+Complex numbers: 23.83805+37.59469951191573j
+Negative imaginary parts: 16.844929-13.2174637936007j
+Zero values: 0j, 0
+Complete Data Loading: I'v
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Garment Panel Visualizer</title>
+    <style>
+        body {
+            font-family: 'Monaco', 'Menlo', 'Ubuntu Mono', monospace;
+            margin: 0;
+            padding: 20px;
+            background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+            color: white;
+            min-height: 100vh;
+        }
+        
+        .container {
+            max-width: 1600px;
+            margin: 0 auto;
+            background: rgba(255, 255, 255, 0.08);
+            backdrop-filter: blur(15px);
+            border-radius: 20px;
+            padding: 30px;
+            box-shadow: 0 12px 40px rgba(0,0,0,0.3);
+        }
+        
+        h1 {
+            text-align: center;
+            margin-bottom: 30px;
+            text-shadow: 2px 2px 8px rgba(0,0,0,0.5);
+            font-size: 2.2em;
+        }
+        
+        .input-section {
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 15px;
+            padding: 25px;
+            margin-bottom: 30px;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+        }
+        
+        .input-section h3 {
+            margin-top: 0;
+            color: #fbbf24;
+        }
+        
+        textarea {
+            width: 100%;
+            height: 300px;
+            background: rgba(0, 0, 0, 0.3);
+            border: 1px solid rgba(255, 255, 255, 0.3);
+            border-radius: 8px;
+            padding: 15px;
+            color: white;
+            font-family: 'Monaco', monospace;
+            font-size: 12px;
+            resize: vertical;
+        }
+        
+        textarea::placeholder {
+            color: rgba(255, 255, 255, 0.5);
+        }
+        
+        .panels-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+            gap: 25px;
+            margin: 30px 0;
+        }
+        
+        .panel-card {
+            background: rgba(255, 255, 255, 0.12);
+            border-radius: 15px;
+            padding: 20px;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            transition: transform 0.3s ease;
+        }
+        
+        .panel-card:hover {
+            transform: translateY(-5px);
+        }
+        
+        .panel-title {
+            font-size: 1.3em;
+            margin-bottom: 15px;
+            text-align: center;
+            color: #fbbf24;
+            text-shadow: 1px 1px 3px rgba(0,0,0,0.5);
+        }
+        
+        .svg-container {
+            background: white;
+            border-radius: 12px;
+            padding: 15px;
+            margin: 15px 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 300px;
+            box-shadow: 0 6px 20px rgba(0,0,0,0.2);
+        }
+        
+        .controls {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 10px;
+            margin: 15px 0;
+        }
+        
+        .control-group {
+            background: rgba(255, 255, 255, 0.1);
+            padding: 12px;
+            border-radius: 8px;
+        }
+        
+        .control-group label {
+            display: block;
+            margin-bottom: 8px;
+            font-size: 0.9em;
+            font-weight: bold;
+        }
+        
+        input, select, button {
+            width: 100%;
+            padding: 8px;
+            border-radius: 5px;
+            border: 1px solid rgba(255, 255, 255, 0.3);
+            background: rgba(255, 255, 255, 0.9);
+            color: #333;
+            font-size: 0.85em;
+        }
+        
+        button {
+            background: linear-gradient(45deg, #f59e0b, #d97706);
+            color: white;
+            border: none;
+            padding: 12px;
+            font-weight: bold;
+            cursor: pointer;
+            margin-top: 10px;
+            transition: all 0.2s;
+        }
+        
+        button:hover {
+            transform: translateY(-1px);
+            box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+        }
+        
+        .save-btn {
+            background: linear-gradient(45deg, #16a34a, #15803d);
+            font-size: 1.1em;
+            padding: 15px;
+        }
+        
+        .parse-btn {
+            background: linear-gradient(45deg, #3b82f6, #1d4ed8);
+            font-size: 1.1em;
+            padding: 15px;
+        }
+        
+        .stats {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+            gap: 10px;
+            font-size: 0.8em;
+            margin-top: 10px;
+        }
+        
+        .stat {
+            background: rgba(0,0,0,0.2);
+            padding: 8px;
+            border-radius: 6px;
+            text-align: center;
+        }
+        
+        .global-controls {
+            background: rgba(255, 255, 255, 0.1);
+            padding: 20px;
+            border-radius: 15px;
+            margin-bottom: 30px;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+        }
+        
+        .loading {
+            text-align: center;
+            padding: 40px;
+            font-size: 1.2em;
+            color: #fbbf24;
+        }
+        
+        .status {
+            padding: 10px;
+            border-radius: 8px;
+            margin: 10px 0;
+            text-align: center;
+            font-weight: bold;
+        }
+        
+        .status.success {
+            background: rgba(34, 197, 94, 0.2);
+            border: 1px solid #22c55e;
+            color: #22c55e;
+        }
+        
+        .status.error {
+            background: rgba(239, 68, 68, 0.2);
+            border: 1px solid #ef4444;
+            color: #ef4444;
+        }
+        
+        .button-row {
+            display: flex;
+            gap: 15px;
+            margin-top: 20px;
+        }
+        
+        .button-row button {
+            flex: 1;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>👗 Garment Panel Visualizer</h1>
+        
+        <div class="input-section">
+            <h3>📝 Input Garment Panel Data</h3>
+            <textarea id="dataInput" placeholder="Paste your garment panel data here...
+
+Example format:
+right_btorso
+[1.0 0.39545121 0.20188241 1.0] QuadraticBezier(start=(23.83805+37.59469951191573j), control=(20.41580365836496+37.5946994801012j), end=(17.003876502111655+37.78793591779389j))
+[0.27647059 0.93898836 0.81974048 1.0] Line(start=(17.003876502111655+37.78793591779389j), end=(15.351116538478411+25.898214781239496j))
+..."></textarea>
+            
+            <div class="button-row">
+                <button class="parse-btn" onclick="parseInputData()">🔄 Parse Data</button>
+                <button class="save-btn" onclick="saveAllPanelsAsPNG()">💾 Save as PNG Images</button>
+            </div>
+            
+            <div id="status"></div>
+        </div>
+        
+        <div class="global-controls">
+            <h3>Global Settings</h3>
+            <div class="controls">
+                <div class="control-group">
+                    <label>Panel Size:</label>
+                    <input type="range" id="globalSize" min="200" max="800" value="400">
+                    <span id="sizeValue">400px</span>
+                </div>
+                <div class="control-group">
+                    <label>Fill Opacity:</label>
+                    <input type="range" id="fillOpacity" min="0" max="1" step="0.05" value="0.15">
+                    <span id="fillOpacityValue">0.15</span>
+                </div>
+                <div class="control-group">
+                    <label>Edge Opacity:</label>
+                    <input type="range" id="edgeOpacity" min="0.1" max="1" step="0.1" value="1">
+                    <span id="edgeOpacityValue">1.0</span>
+                </div>
+                <div class="control-group">
+                    <label>Show Grid:</label>
+                    <input type="checkbox" id="showGrid" checked>
+                </div>
+                <div class="control-group">
+                    <label>Show Points:</label>
+                    <input type="checkbox" id="showPoints" checked>
+                </div>
+                <div class="control-group">
+                    <label>Export Size:</label>
+                    <input type="number" id="exportSize" min="512" max="4096" step="256" value="1024">
+                    <small>PNG export resolution</small>
+                </div>
+            </div>
+            <button onclick="updateAllPanels()">🔄 Update All Panels</button>
+        </div>
+        
+        <div id="panelsContainer" class="panels-grid">
+            <div class="loading">Enter garment panel data above and click "Parse Data" to visualize...</div>
+        </div>
+    </div>
+
+    <script>
+        let garmentData = {};
+
+        function parseComplex(complexStr) {
+            // Parse complex number format like "23.83805+37.59469951191573j" or just "25.729724507588493j"
+            if (!complexStr) return [0, 0];
+            complexStr = complexStr.trim();
+            
+            // Handle special cases
+            if (complexStr === '0j' || complexStr === '0') return [0, 0];
+            if (complexStr === 'j') return [0, 1];
+            
+            // If it ends with 'j', it's a complex number
+            if (complexStr.endsWith('j')) {
+                // Remove the 'j' at the end
+                const numStr = complexStr.slice(0, -1);
+                
+                if (numStr === '' || numStr === '+') return [0, 1];
+                if (numStr === '-') return [0, -1];
+                
+                // Check for addition or subtraction
+                const plusIndex = numStr.lastIndexOf('+');
+                const minusIndex = numStr.lastIndexOf('-');
+                
+                // Find the last operator (+ or -)
+                const lastOpIndex = Math.max(plusIndex, minusIndex);
+                
+                if (lastOpIndex > 0) {
+                    // Has both real and imaginary parts
+                    const realPart = numStr.substring(0, lastOpIndex);
+                    const imagPart = numStr.substring(lastOpIndex);
+                    
+                    const real = parseFloat(realPart) || 0;
+                    let imag = parseFloat(imagPart) || 0;
+                    
+                    return [real, imag];
+                } else {
+                    // Pure imaginary number like "25.729724507588493j" or "-5j"
+                    const imag = parseFloat(numStr) || 0;
+                    return [0, imag];
+                }
+            } else {
+                // Pure real number
+                return [parseFloat(complexStr) || 0, 0];
+            }
+        }
+
+        function parseInputData() {
+            const input = document.getElementById('dataInput').value.trim();
+            const statusDiv = document.getElementById('status');
+            
+            if (!input) {
+                showStatus('Please enter some data first!', 'error');
+                return;
+            }
+            
+            try {
+                garmentData = {};
+                const lines = input.split('\n').filter(line => line.trim());
+                let currentPanel = null;
+                
+                for (const line of lines) {
+                    const trimmedLine = line.trim();
+                    if (!trimmedLine) continue;
+                    
+                    // Check if it's a panel name (doesn't start with '[')
+                    if (!trimmedLine.startsWith('[')) {
+                        currentPanel = trimmedLine;
+                        garmentData[currentPanel] = [];
+                        continue;
+                    }
+                    
+                    if (!currentPanel) continue;
+                    
+                    // Parse color and geometry
+                    const colorMatch = trimmedLine.match(/\[([\d\.\s\-e]+)\]/);
+                    const geometryMatch = trimmedLine.match(/\]\s*(.+)$/);
+                    
+                    if (!colorMatch || !geometryMatch) continue;
+                    
+                    // Parse color values
+                    const colorStr = colorMatch[1];
+                    const colorValues = colorStr.split(/\s+/).filter(v => v.trim()).map(v => parseFloat(v));
+                    
+                    // Parse geometry
+                    const geometry = geometryMatch[1];
+                    let pathData = null;
+                    
+                    if (geometry.includes('Line(')) {
+                        // Handle both formats: start=(x+yj) and start=xj
+                        const startMatch = geometry.match(/start=(?:\(([^)]+)\)|([^\s,)]+))/);
+                        const endMatch = geometry.match(/end=(?:\(([^)]+)\)|([^\s,)]+))/);
+                        if (startMatch && endMatch) {
+                            pathData = {
+                                type: 'line',
+                                start: parseComplex(startMatch[1] || startMatch[2]),
+                                end: parseComplex(endMatch[1] || endMatch[2])
+                            };
+                        }
+                    } else if (geometry.includes('QuadraticBezier(')) {
+                        const startMatch = geometry.match(/start=(?:\(([^)]+)\)|([^\s,)]+))/);
+                        const controlMatch = geometry.match(/control=(?:\(([^)]+)\)|([^\s,)]+))/);
+                        const endMatch = geometry.match(/end=(?:\(([^)]+)\)|([^\s,)]+))/);
+                        if (startMatch && controlMatch && endMatch) {
+                            pathData = {
+                                type: 'quadratic',
+                                start: parseComplex(startMatch[1] || startMatch[2]),
+                                control: parseComplex(controlMatch[1] || controlMatch[2]),
+                                end: parseComplex(endMatch[1] || endMatch[2])
+                            };
+                        }
+                    } else if (geometry.includes('CubicBezier(')) {
+                        const startMatch = geometry.match(/start=(?:\(([^)]+)\)|([^\s,)]+))/);
+                        const control1Match = geometry.match(/control1=(?:\(([^)]+)\)|([^\s,)]+))/);
+                        const control2Match = geometry.match(/control2=(?:\(([^)]+)\)|([^\s,)]+))/);
+                        const endMatch = geometry.match(/end=(?:\(([^)]+)\)|([^\s,)]+))/);
+                        if (startMatch && control1Match && control2Match && endMatch) {
+                            pathData = {
+                                type: 'cubic',
+                                start: parseComplex(startMatch[1] || startMatch[2]),
+                                control1: parseComplex(control1Match[1] || control1Match[2]),
+                                control2: parseComplex(control2Match[1] || control2Match[2]),
+                                end: parseComplex(endMatch[1] || endMatch[2])
+                            };
+                        }
+                    } else if (geometry.includes('Arc(')) {
+                        const startMatch = geometry.match(/start=(?:\(([^)]+)\)|([^\s,)]+))/);
+                        const radiusMatch = geometry.match(/radius=(?:\(([^)]+)\)|([^\s,)]+))/);
+                        const endMatch = geometry.match(/end=(?:\(([^)]+)\)|([^\s,)]+))/);
+                        if (startMatch && radiusMatch && endMatch) {
+                            pathData = {
+                                type: 'arc',
+                                start: parseComplex(startMatch[1] || startMatch[2]),
+                                radius: parseComplex(radiusMatch[1] || radiusMatch[2]),
+                                end: parseComplex(endMatch[1] || endMatch[2])
+                            };
+                        }
+                    }
+                    
+                    if (pathData && colorValues.length >= 3) {
+                        garmentData[currentPanel].push({
+                            color: colorValues.length >= 4 ? colorValues : [...colorValues, 1.0],
+                            path: pathData
+                        });
+                    }
+                }
+                
+                const panelCount = Object.keys(garmentData).length;
+                const totalEdges = Object.values(garmentData).reduce((sum, panel) => sum + panel.length, 0);
+                
+                showStatus(`Successfully parsed ${panelCount} panels with ${totalEdges} total edges!`, 'success');
+                initializePanels();
+                
+            } catch (error) {
+                console.error('Parse error:', error);
+                showStatus(`Parse error: ${error.message}`, 'error');
+            }
+        }
+
+        function showStatus(message, type) {
+            const statusDiv = document.getElementById('status');
+            statusDiv.innerHTML = `<div class="status ${type}">${message}</div>`;
+            setTimeout(() => {
+                statusDiv.innerHTML = '';
+            }, 5000);
+        }
+
+        function rgbaToHex(r, g, b, a) {
+            const toHex = (n) => Math.round(n * 255).toString(16).padStart(2, '0');
+            return `#${toHex(r)}${toHex(g)}${toHex(b)}`;
+        }
+
+        function calculateBounds(panelData) {
+            let minX = Infinity, minY = Infinity, maxX = -Infinity, maxY = -Infinity;
+            
+            panelData.forEach(segment => {
+                const path = segment.path;
+                [path.start, path.end, path.control, path.control1, path.control2].forEach(point => {
+                    if (point && Array.isArray(point)) {
+                        minX = Math.min(minX, point[0]);
+                        minY = Math.min(minY, point[1]);
+                        maxX = Math.max(maxX, point[0]);
+                        maxY = Math.max(maxY, point[1]);
+                    }
+                });
+            });
+            
+            return { minX, minY, maxX, maxY };
+        }
+
+        function generateGarmentPanelSVG(panelData, panelName, options = {}) {
+            const {
+                size = 400,
+                showGrid = true,
+                showPoints = true,
+                edgeOpacity = 1.0,
+                fillOpacity = 0.15,
+                exportMode = false,
+                exportSize = 1024
+            } = options;
+
+            const bounds = calculateBounds(panelData);
+            const padding = Math.max((bounds.maxX - bounds.minX), (bounds.maxY - bounds.minY)) * 0.1;
+            const viewBox = `${bounds.minX - padding} ${bounds.minY - padding} ${bounds.maxX - bounds.minX + 2*padding} ${bounds.maxY - bounds.minY + 2*padding}`;
+            const actualSize = exportMode ? exportSize : size;
+
+            let pathString = "";
+            let individualPaths = "";
+            let controlElements = "";
+
+            panelData.forEach((segment, index) => {
+                const path = segment.path;
+                const color = segment.color;
+                const strokeColor = rgbaToHex(color[0], color[1], color[2], color[3]);
+                const strokeOpacity = color[3] * edgeOpacity;
+
+                if (index === 0) {
+                    pathString += `M ${path.start[0]} ${path.start[1]} `;
+                }
+
+                switch (path.type) {
+                    case 'line':
+                        pathString += `L ${path.end[0]} ${path.end[1]} `;
+                        individualPaths += `
+                            <path d="M ${path.start[0]} ${path.start[1]} L ${path.end[0]} ${path.end[1]}" 
+                                  stroke="${strokeColor}" 
+                                  stroke-opacity="${strokeOpacity}"
+                                  stroke-width="${exportMode ? 3 : 1}" 
+                                  fill="none" 
+                                  stroke-linecap="round"/>`;
+                        break;
+                    
+                    case 'quadratic':
+                        pathString += `Q ${path.control[0]} ${path.control[1]} ${path.end[0]} ${path.end[1]} `;
+                        individualPaths += `
+                            <path d="M ${path.start[0]} ${path.start[1]} Q ${path.control[0]} ${path.control[1]} ${path.end[0]} ${path.end[1]}" 
+                                  stroke="${strokeColor}" 
+                                  stroke-opacity="${strokeOpacity}"
+                                  stroke-width="${exportMode ? 3 : 1}" 
+                                  fill="none" 
+                                  stroke-linecap="round"/>`;
+                        
+                        if (showPoints && !exportMode) {
+                            controlElements += `
+                                <circle cx="${path.control[0]}" cy="${path.control[1]}" r="0.4" fill="#f59e0b" opacity="0.8"/>
+                                <line x1="${path.start[0]}" y1="${path.start[1]}" x2="${path.control[0]}" y2="${path.control[1]}" stroke="#f59e0b" stroke-width="0.2" stroke-dasharray="1,0.5" opacity="0.6"/>
+                                <line x1="${path.control[0]}" y1="${path.control[1]}" x2="${path.end[0]}" y2="${path.end[1]}" stroke="#f59e0b" stroke-width="0.2" stroke-dasharray="1,0.5" opacity="0.6"/>`;
+                        }
+                        break;
+                    
+                    case 'cubic':
+                        pathString += `C ${path.control1[0]} ${path.control1[1]} ${path.control2[0]} ${path.control2[1]} ${path.end[0]} ${path.end[1]} `;
+                        individualPaths += `
+                            <path d="M ${path.start[0]} ${path.start[1]} C ${path.control1[0]} ${path.control1[1]} ${path.control2[0]} ${path.control2[1]} ${path.end[0]} ${path.end[1]}" 
+                                  stroke="${strokeColor}" 
+                                  stroke-opacity="${strokeOpacity}"
+                                  stroke-width="${exportMode ? 3 : 1}" 
+                                  fill="none" 
+                                  stroke-linecap="round"/>`;
+                        
+                        if (showPoints && !exportMode) {
+                            controlElements += `
+                                <circle cx="${path.control1[0]}" cy="${path.control1[1]}" r="0.4" fill="#f59e0b" opacity="0.8"/>
+                                <circle cx="${path.control2[0]}" cy="${path.control2[1]}" r="0.4" fill="#f59e0b" opacity="0.8"/>
+                                <line x1="${path.start[0]}" y1="${path.start[1]}" x2="${path.control1[0]}" y2="${path.control1[1]}" stroke="#f59e0b" stroke-width="0.2" stroke-dasharray="1,0.5" opacity="0.6"/>
+                                <line x1="${path.control2[0]}" y1="${path.control2[1]}" x2="${path.end[0]}" y2="${path.end[1]}" stroke="#f59e0b" stroke-width="0.2" stroke-dasharray="1,0.5" opacity="0.6"/>`;
+                        }
+                        break;
+                    
+                    case 'arc':
+                        // Simplified arc representation as straight line for now
+                        pathString += `L ${path.end[0]} ${path.end[1]} `;
+                        individualPaths += `
+                            <path d="M ${path.start[0]} ${path.start[1]} L ${path.end[0]} ${path.end[1]}" 
+                                  stroke="${strokeColor}" 
+                                  stroke-opacity="${strokeOpacity}"
+                                  stroke-width="${exportMode ? 3 : 1}" 
+                                  fill="none" 
+                                  stroke-linecap="round"/>`;
+                        break;
+                }
+            });
+
+            pathString += "Z";
+
+            const gridPattern = showGrid && !exportMode ? `
+                <defs>
+                    <pattern id="grid-${panelName}" width="5" height="5" patternUnits="userSpaceOnUse">
+                        <path d="M 5 0 L 0 0 0 5" fill="none" stroke="#f3f4f6" stroke-width="0.2"/>
+                    </pattern>
+                </defs>
+                <rect width="100%" height="100%" fill="url(#grid-${panelName})"/>` : '';
+
+            return `
+                <svg xmlns="http://www.w3.org/2000/svg" 
+                     viewBox="${viewBox}" 
+                     width="${actualSize}" 
+                     height="${actualSize}">
+                    ${gridPattern}
+                    
+                    <!-- Overall fill -->
+                    <path d="${pathString}" 
+                          fill="rgba(100, 100, 100, ${fillOpacity})" 
+                          stroke="none"/>
+                    
+                    <!-- Control elements -->
+                    ${controlElements}
+                    
+                    <!-- Individual edge paths -->
+                    ${individualPaths}
+                    
+                    <!-- Start/end points -->
+                    ${showPoints && !exportMode ? `
+                        <circle cx="${panelData[0].path.start[0]}" cy="${panelData[0].path.start[1]}" r="0.6" fill="#dc2626"/>
+                        <circle cx="${panelData[panelData.length-1].path.end[0]}" cy="${panelData[panelData.length-1].path.end[1]}" r="0.6" fill="#16a34a"/>
+                    ` : ''}
+                </svg>
+            `;
+        }
+
+        function createPanelCard(panelName, panelData) {
+            const bounds = calculateBounds(panelData);
+            const lineCount = panelData.filter(s => s.path.type === 'line').length;
+            const curveCount = panelData.filter(s => s.path.type !== 'line').length;
+            
+            return `
+                <div class="panel-card" id="panel-${panelName}">
+                    <div class="panel-title">${panelName.replace(/_/g, ' ').toUpperCase()}</div>
+                    <div class="svg-container" id="svg-${panelName}">
+                        ${generateGarmentPanelSVG(panelData, panelName)}
+                    </div>
+                    <div class="stats">
+                        <div class="stat">
+                            <strong>${panelData.length}</strong><br>
+                            Total Edges
+                        </div>
+                        <div class="stat">
+                            <strong>${lineCount}</strong><br>
+                            Lines
+                        </div>
+                        <div class="stat">
+                            <strong>${curveCount}</strong><br>
+                            Curves
+                        </div>
+                        <div class="stat">
+                            <strong>${Math.round((bounds.maxX - bounds.minX) * 100) / 100}</strong><br>
+                            Width
+                        </div>
+                    </div>
+                </div>
+            `;
+        }
+
+        function updateAllPanels() {
+            const size = parseInt(document.getElementById('globalSize').value);
+            const showGrid = document.getElementById('showGrid').checked;
+            const showPoints = document.getElementById('showPoints').checked;
+            const edgeOpacity = parseFloat(document.getElementById('edgeOpacity').value);
+            const fillOpacity = parseFloat(document.getElementById('fillOpacity').value);
+            
+            document.getElementById('sizeValue').textContent = size + 'px';
+            document.getElementById('edgeOpacityValue').textContent = edgeOpacity.toFixed(1);
+            document.getElementById('fillOpacityValue').textContent = fillOpacity.toFixed(2);
+            
+            const options = { size, showGrid, showPoints, edgeOpacity, fillOpacity };
+            
+            Object.keys(garmentData).forEach(panelName => {
+                const container = document.getElementById(`svg-${panelName}`);
+                if (container) {
+                    container.innerHTML = generateGarmentPanelSVG(garmentData[panelName], panelName, options);
+                }
+            });
+        }
+
+        function initializePanels() {
+            const container = document.getElementById('panelsContainer');
+            container.innerHTML = '';
+            
+            if (Object.keys(garmentData).length === 0) {
+                container.innerHTML = '<div class="loading">No panels loaded. Enter data above and click "Parse Data".</div>';
+                return;
+            }
+            
+            Object.keys(garmentData).forEach(panelName => {
+                container.innerHTML += createPanelCard(panelName, garmentData[panelName]);
+            });
+        }
+
+        async function saveAllPanelsAsPNG() {
+            if (Object.keys(garmentData).length === 0) {
+                showStatus('No panels to save! Please parse some data first.', 'error');
+                return;
+            }
+            
+            const exportSize = parseInt(document.getElementById('exportSize').value);
+            const fillOpacity = parseFloat(document.getElementById('fillOpacity').value);
+            const timestamp = new Date().toISOString().replace(/[:.]/g, '-').split('T')[0] + '_' + 
+                             new Date().toTimeString().split(' ')[0].replace(/:/g, '-');
+            
+            showStatus('Generating PNG files...', 'success');
+            
+            try {
+                for (const [panelName, panelData] of Object.entries(garmentData)) {
+                    const svgString = generateGarmentPanelSVG(panelData, panelName, {
+                        size: exportSize,
+                        exportSize: exportSize,
+                        showGrid: false,
+                        showPoints: false,
+                        edgeOpacity: 1.0,
+                        fillOpacity: fillOpacity,
+                        exportMode: true
+                    });
+                    
+                    // Create canvas and convert to PNG
+                    const canvas = document.createElement('canvas');
+                    const ctx = canvas.getContext('2d');
+                    canvas.width = exportSize;
+                    canvas.height = exportSize;
+                    
+                    const img = new Image();
+                    const svgBlob = new Blob([svgString], { type: 'image/svg+xml;charset=utf-8' });
+                    const url = URL.createObjectURL(svgBlob);
+                    
+                    await new Promise((resolve) => {
+                        img.onload = () => {
+                            ctx.drawImage(img, 0, 0, exportSize, exportSize);
+                            
+                            canvas.toBlob((blob) => {
+                                const link = document.createElement('a');
+                                link.download = `${timestamp}_${panelName}.png`;
+                                link.href = URL.createObjectURL(blob);
+                                link.click();
+                                
+                                URL.revokeObjectURL(url);
+                                resolve();
+                            }, 'image/png');
+                        };
+                        img.src = url;
+                    });
+                }
+                
+                const panelCount = Object.keys(garmentData).length;
+                showStatus(`Successfully saved ${panelCount} PNG files with timestamp: ${timestamp}`, 'success');
+                
+            } catch (error) {
+                console.error('Export error:', error);
+                showStatus(`Export error: ${error.message}`, 'error');
+            }
+        }
+
+        // Event listeners
+        document.getElementById('globalSize').addEventListener('input', updateAllPanels);
+        document.getElementById('fillOpacity').addEventListener('input', updateAllPanels);
+        document.getElementById('showGrid').addEventListener('change', updateAllPanels);
+        document.getElementById('showPoints').addEventListener('change', updateAllPanels);
+        document.getElementById('edgeOpacity').addEventListener('input', updateAllPanels);
+
+        // Initialize
+        initializePanels();
+        
+        // Load sample data on page load for demonstration
+        document.getElementById('dataInput').value = `right_btorso
+[1.         0.39545121 0.20188241 1.        ] QuadraticBezier(start=(23.83805+37.59469951191573j), control=(20.41580365836496+37.5946994801012j), end=(17.003876502111655+37.78793591779389j))
+[0.27647059 0.93898836 0.81974048 1.        ] Line(start=(17.003876502111655+37.78793591779389j), end=(15.351116538478411+25.898214781239496j))
+[0.27647059 0.93898836 0.81974048 1.        ] Line(start=(15.351116538478411+25.898214781239496j), end=(15.22828367162682+37.90163080707307j))
+[1.         0.29138975 0.1473017  1.        ] QuadraticBezier(start=(15.22828367162682+37.90163080707307j), control=(12.956118484883692+38.06394157390916j), end=(10.688536931043377+38.312085184585534j))
+[0.20588235 0.89516329 0.85021714 1.        ] Line(start=(10.688536931043377+38.312085184585534j), end=(8.555268374597688+27.721154938849892j))
+[0.20588235 0.89516329 0.85021714 1.        ] Line(start=(8.555268374597688+27.721154938849892j), end=(8.92133247524254+38.51859145304978j))
+[1.         0.19584547 0.09840028 1.        ] QuadraticBezier(start=(8.92133247524254+38.51859145304978j), control=(4.806184540271747+39.08718524890132j), end=(0.7116916666666668+39.96359117425516j))
+[0.40196078 0.98816547 0.75940492 1.        ] Line(start=(0.7116916666666668+39.96359117425516j), end=25.729724507588493j)
+[0.46470588 0.9984636  0.72643357 1.        ] Line(start=25.729724507588493j, end=21.1162737936007j)
+[0. 0. 0. 1.] CubicBezier(start=21.1162737936007j, control1=(7.776447999999999+19.741355293600698j), control2=(6.993121+13.2174637936007j), end=(6.6096499999999985+2.674793793600699j))
+[0.33921569 0.96827604 0.79053241 1.        ] Line(start=(6.6096499999999985+2.674793793600699j), end=(13.338731656574232+0j))
+[0. 0. 0. 1.] Arc(start=(13.338731656574232+0j), radius=(12.966656160130324+12.966656160130324j), rotation=0, large_arc=False, sweep=False, end=(23.83805+20.575761646220585j))
+[0.59803922 0.98816547 0.6506183  1.        ] Line(start=(23.83805+20.575761646220585j), end=(23.83805+37.59469951191573j))
+
+right_ftorso
+[0.53529412 0.9984636  0.68723669 1.        ] Line(start=(26.082300000000004+43.63259096413032j), end=(26.082300000000004+12.135264413148864j))
+[0. 0. 0. 1.] Arc(start=(26.082300000000004+12.135264413148864j), radius=(10.609588686614277+10.609588686614277j), rotation=0, large_arc=False, sweep=True, end=(15.582981656574237+0j))
+[0.33921569 0.96827604 0.79053241 1.        ] Line(start=(15.582981656574237+0j), end=(9.01370668014938+2.6112704258451274j))
+[0. 0. 0. 1.] CubicBezier(start=(9.01370668014938+2.6112704258451274j), control1=(9.005754952441873+13.310509516928132j), control2=(9.554228315817365+19.951827835240387j), end=(1.6212112247343633+21.05275042584513j))
+[0.46470588 0.9984636  0.72643357 1.        ] Line(start=(1.6212112247343633+21.05275042584513j), end=25.729724322070332j)
+[0.08039216 0.79053241 0.89789203 1.        ] Line(start=25.729724322070332j, end=(13.078831249156261+27.564224322070334j))
+[0.08039216 0.79053241 0.89789203 1.        ] Line(start=(13.078831249156261+27.564224322070334j), end=29.39872432207033j)
+[0.40196078 0.98816547 0.75940492 1.        ] Line(start=29.39872432207033j, end=(1.1611000000000011+43.63259096413032j))
+[0.79411765 0.89516329 0.52643216 1.        ] Line(start=(1.1611000000000011+43.63259096413032j), end=(15.286949868626346+43.63259096413032j))
+[0.14313725 0.84695821 0.87511698 1.        ] Line(start=(15.286949868626346+43.63259096413032j), end=(16.44804986862635+30.874838629945437j))
+[0.14313725 0.84695821 0.87511698 1.        ] Line(start=(16.44804986862635+30.874838629945437j), end=(17.60914986862635+43.63259096413032j))
+[0.85686275 0.84695821 0.48391142 1.        ] Line(start=(17.60914986862635+43.63259096413032j), end=(26.082300000000004+43.63259096413032j))
+
+wb_back
+[0.66078431 0.96827604 0.6124202  1.        ] Line(start=4.69674j, end=0j)
+[1.         0.19584547 0.09840028 1.        ] Line(start=0j, end=(8.304992253518073+0j))
+[1.         0.29138975 0.1473017  1.        ] Line(start=(8.304992253518073+0j), end=(12.845632502177686+0j))
+[1.         0.39545121 0.20188241 1.        ] Line(start=(12.845632502177686+0j), end=(19.65660875653159+0j))
+[1.         0.48391142 0.24988299 1.        ] Line(start=(19.65660875653159+0j), end=(26.467585010885493+0j))
+[1.         0.56767472 0.29727685 1.        ] Line(start=(26.467585010885493+0j), end=(31.0082252595451+0j))
+[1.         0.64592806 0.34394892 1.        ] Line(start=(31.0082252595451+0j), end=(39.1358+0j))
+[0.72352941 0.93898836 0.57273514 1.        ] Line(start=(39.1358+0j), end=(39.1358+4.69674j))
+[1.0000000e+00 1.2246468e-16 6.1232340e-17 1.0000000e+00] Line(start=(39.1358+4.69674j), end=4.69674j)
+
+skirt_back
+[1.0000000e+00 1.2246468e-16 6.1232340e-17 1.0000000e+00] Arc(start=(16.76602796880758+0j), radius=(46.69211572928387+46.69211572928387j), rotation=0, large_arc=False, sweep=False, end=(57.51456238220467+0j))
+[0.4372549  0.09840028 0.99878599 1.        ] Line(start=(57.51456238220467+0j), end=(74.28059035101225+34.57210492125656j))
+[0. 0. 0. 1.] Arc(start=(74.28059035101225+34.57210492125656j), radius=(85.11515741701537+85.11515741701537j), rotation=0, large_arc=False, sweep=True, end=(61.98852337926543+39.39492978361003j))
+[0. 0. 0. 1.] Line(start=(61.98852337926543+39.39492978361003j), end=(53.2396317346724+21.788873744058826j))
+[0. 0. 0. 1.] Line(start=(53.2396317346724+21.788873744058826j), end=(53.891569426156224+41.438079619184414j))
+[0. 0. 0. 1.] Arc(start=(53.891569426156224+41.438079619184414j), radius=(85.11515629635488+85.11515629635488j), rotation=0, large_arc=False, sweep=True, end=34.57210492125656j)
+[0.5 0.  1.  1. ] Line(start=34.57210492125656j, end=(16.76602796880758+0j))
+
+skirt_front
+[0.5 0.  1.  1. ] Line(start=(16.76602796880758+0j), end=34.57210492125656j)
+[0. 0. 0. 1.] Arc(start=34.57210492125656j, radius=(85.11515741701608+85.11515741701608j), rotation=0, large_arc=False, sweep=False, end=(74.28059035101225+34.57210492125656j))
+[0.4372549  0.09840028 0.99878599 1.        ] Line(start=(74.28059035101225+34.57210492125656j), end=(57.51456238220467+0j))
+[1.         0.09840028 0.04925994 1.        ] Arc(start=(57.51456238220467+0j), radius=(46.69211572928387+46.69211572928387j), rotation=0, large_arc=False, sweep=True, end=(16.76602796880758+0j))
+
+wb_front
+[1.         0.09840028 0.04925994 1.        ] Line(start=4.69674j, end=(45.19799999999999+4.69674j))
+[0.72352941 0.93898836 0.57273514 1.        ] Line(start=(45.19799999999999+4.69674j), end=(45.19799999999999+0j))
+[0.98235294 0.72643357 0.39545121 1.        ] Line(start=(45.19799999999999+0j), end=(30.950181380503388+0j))
+[0.91960784 0.79053241 0.44021574 1.        ] Line(start=(30.950181380503388+0j), end=(22.51029124346841+0j))
+[0.85686275 0.84695821 0.48391142 1.        ] Line(start=(22.51029124346841+0j), end=(14.07040110643343+0j))
+[0.79411765 0.89516329 0.52643216 1.        ] Line(start=(14.07040110643343+0j), end=0j)
+[0.66078431 0.96827604 0.6124202  1.        ] Line(start=0j, end=4.69674j)
+
+left_btorso
+[0.59803922 0.98816547 0.6506183  1.        ] Line(start=37.59469951191573j, end=20.575761646220585j)
+[0. 0. 0. 1.] Arc(start=20.575761646220585j, radius=(12.966656160130324+12.966656160130324j), rotation=0, large_arc=False, sweep=False, end=(10.499318343425767+0j))
+[0.11568627 0.56767472 0.95479132 1.        ] Line(start=(10.499318343425767+0j), end=(17.2284+2.674793793600699j))
+[0. 0. 0. 1.] CubicBezier(start=(17.2284+2.674793793600699j), control1=(16.844929+13.2174637936007j), control2=(16.061602+19.7413552936007j), end=(23.83805+21.1162737936007j))
+[0.01764706 0.72643357 0.91848699 1.        ] Line(start=(23.83805+21.1162737936007j), end=(23.83805+25.729724507588493j))
+[0.05294118 0.64592806 0.93898836 1.        ] Line(start=(23.83805+25.729724507588493j), end=(23.126358333333332+39.96359117425516j))
+[1.         0.64592806 0.34394892 1.        ] QuadraticBezier(start=(23.126358333333332+39.96359117425516j), control=(19.03186545972825+39.08718524890132j), end=(14.916717524757459+38.51859145304978j))
+[0.24117647 0.39545121 0.97940977 1.        ] Line(start=(14.916717524757459+38.51859145304978j), end=(15.282781625402311+27.721154938849892j))
+[0.24117647 0.39545121 0.97940977 1.        ] Line(start=(15.282781625402311+27.721154938849892j), end=(13.149513068956622+38.312085184585534j))
+[1.         0.56767472 0.29727685 1.        ] QuadraticBezier(start=(13.149513068956622+38.312085184585534j), control=(10.881931515116307+38.06394157390916j), end=(8.60976632837318+37.90163080707307j))
+[0.17843137 0.48391142 0.96827604 1.        ] Line(start=(8.60976632837318+37.90163080707307j), end=(8.486933461521588+25.898214781239496j))
+[0.17843137 0.48391142 0.96827604 1.        ] Line(start=(8.486933461521588+25.898214781239496j), end=(6.834173497888344+37.78793591779389j))
+[1.         0.48391142 0.24988299 1.        ] QuadraticBezier(start=(6.834173497888344+37.78793591779389j), control=(3.422246341635039+37.5946994801012j), end=37.59469951191573j)
+
+left_ftorso
+[0.91960784 0.79053241 0.44021574 1.        ] Line(start=43.63259096413032j, end=(8.473150131373654+43.63259096413032j))
+[0.31176471 0.29138975 0.98909161 1.        ] Line(start=(8.473150131373654+43.63259096413032j), end=(9.634250131373655+30.874838629945437j))
+[0.31176471 0.29138975 0.98909161 1.        ] Line(start=(9.634250131373655+30.874838629945437j), end=(10.795350131373658+43.63259096413032j))
+[0.98235294 0.72643357 0.39545121 1.        ] Line(start=(10.795350131373658+43.63259096413032j), end=(24.921200000000002+43.63259096413032j))
+[0.05294118 0.64592806 0.93898836 1.        ] Line(start=(24.921200000000002+43.63259096413032j), end=(26.082300000000004+29.39872432207033j))
+[0.3745098  0.19584547 0.99514692 1.        ] Line(start=(26.082300000000004+29.39872432207033j), end=(13.003468750843743+27.564224322070334j))
+[0.3745098  0.19584547 0.99514692 1.        ] Line(start=(13.003468750843743+27.564224322070334j), end=(26.082300000000004+25.729724322070332j))
+[0.01764706 0.72643357 0.91848699 1.        ] Line(start=(26.082300000000004+25.729724322070332j), end=(24.46108877526564+21.05275042584513j))
+[0. 0. 0. 1.] CubicBezier(start=(24.46108877526564+21.05275042584513j), control1=(16.52807168418264+19.951827835240383j), control2=(17.07654504755813+13.310509516928132j), end=(17.068593319850624+2.6112704258451274j))
+[0.11568627 0.56767472 0.95479132 1.        ] Line(start=(17.068593319850624+2.6112704258451274j), end=(10.499318343425767+0j))
+[0. 0. 0. 1.] Arc(start=(10.499318343425767+0j), radius=(10.609588686614277+10.609588686614277j), rotation=0, large_arc=False, sweep=True, end=12.135264413148864j)
+[0.53529412 0.9984636  0.68723669 1.        ] Line(start=12.135264413148864j, end=43.63259096413032j)`;
+
+    </script>
+</body>
+</html>

@@ -180,6 +180,9 @@ class SVGPanel:
         stitch_list : List[int] = None,
         edge_color_list : List[Tuple[float, float, float]] = None,
         invert_yaxis = True,
+        plot_arrow = True,
+        width = None,
+        height = None,
     ) -> None:
         if stitch_list is not None :
             assert len(stitch_list) == len(self.svg_path), "stitch_list must be the same length as the number of edges"
@@ -191,30 +194,35 @@ class SVGPanel:
             edge_color_list = plt.cm.rainbow(np.linspace(0, 1, len(self.svg_path)))
          
         path_start_pos = np.array([self.svg_path[0].start.real, self.svg_path[0].start.imag])   
-        for dx, dy in [(-1, -1), (-1, 1), (1, -1), (1, 1)]:
-            ax.annotate(
-                "0",
-                path_start_pos + np.array([dx, dy]),
-                color = "white", fontweight = "bold",
-                fontsize = 9
-            )
-        ax.annotate(
-            "0",
-            path_start_pos,
-            color = "black", # fontweight = "bold",
-            fontsize = 9
-        )
+        # for dx, dy in [(-1, -1), (-1, 1), (1, -1), (1, 1)]:
+        #     ax.annotate(
+        #         "0",
+        #         path_start_pos + np.array([dx, dy]),
+        #         color = "white", fontweight = "bold",
+        #         fontsize = 9
+        #     )
+        # ax.annotate(
+        #     "0",
+        #     path_start_pos,
+        #     color = "black", # fontweight = "bold",
+        #     fontsize = 9
+        # )
+        if width is not None and height is not None :
+            ax.set_xlim(0, width)
+            ax.set_ylim(0, height)
+        
         for edge_idx, (edge, edge_color) in enumerate(zip(self.svg_path, edge_color_list)) :
-            ax.add_patch(
-                FancyArrowPatch(
-                    [edge.start.real, edge.start.imag],
-                    [edge.end.real, edge.end.imag],
-                    arrowstyle='-|>',
-                    mutation_scale=15,
-                    color = "black",
-                    linewidth = 0.5
+            if plot_arrow :
+                ax.add_patch(
+                    FancyArrowPatch(
+                        [edge.start.real, edge.start.imag],
+                        [edge.end.real, edge.end.imag],
+                        arrowstyle='-|>',
+                        mutation_scale=15,
+                        color = "black",
+                        linewidth = 0.5
+                    )
                 )
-            )
             ax.scatter(
                 list(map(lambda t : edge.point(t).real, np.linspace(0, 1, N_SAMPLE_PER_EDGE))),
                 list(map(lambda t : edge.point(t).imag, np.linspace(0, 1, N_SAMPLE_PER_EDGE))),
@@ -459,6 +467,11 @@ class SewingPattern :
         for panel_name in self.panel_name_list :
             self.panel_dict[panel_name_refine_map[panel_name]] = self.panel_dict[panel_name]
             del self.panel_dict[panel_name]
+            
+        for stitch_id, stitch in self.stitch_dict.items() :
+            stitch.panel_0 = panel_name_refine_map[stitch.panel_0]
+            stitch.panel_1 = panel_name_refine_map[stitch.panel_1]
+            
     @property
     def panel_name_list(self) :
         return list(self.panel_dict.keys())
@@ -502,7 +515,10 @@ class SewingPattern :
         plot_panel_name = True,
         plot_stitch_name = True,
         show=False,
-        block=True
+        block=True,
+        color_list = None,
+        plot_arrow = False,
+        unify_plot_scale = False,
     ) :
         NROWS = int(np.ceil(len(self.panel_dict) ** 0.5))
         NCOLS = int(np.ceil(len(self.panel_dict) / NROWS))
@@ -519,7 +535,18 @@ class SewingPattern :
             elif NCOLS == 1:
                 axs = axs.reshape(-1, 1)
         
-        color_list = plt.cm.rainbow(np.linspace(0, 1, len(self.stitch_dict)))
+        if color_list is None :
+            color_list = plt.cm.rainbow(np.linspace(0, 1, len(self.stitch_dict)))
+        
+        width_max = 0
+        height_max = 0
+        for panel_name, panel in self.panel_dict.items() :
+            x1, y1, x2, y2 = panel.bbox()
+            width = x2 - x1
+            height = y2 - y1
+            width_max = max(width_max, width)
+            height_max = max(height_max, height)
+        
         for panel_idx, (panel_name, panel) in enumerate(self.panel_dict.items()) :
             stitch_idx_list = []
             edge_color_list = []
@@ -547,7 +574,10 @@ class SewingPattern :
                 N_SAMPLE_PER_EDGE = N_SAMPLE_PER_EDGE,
                 stitch_list = stitch_idx_list if plot_stitch_name else None,
                 edge_color_list = edge_color_list,
-                invert_yaxis = invert_yaxis
+                invert_yaxis = invert_yaxis,
+                plot_arrow = plot_arrow,
+                width = width_max if unify_plot_scale else None,
+                height = height_max if unify_plot_scale else None,
             )
         
         if show :
